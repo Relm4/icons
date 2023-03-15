@@ -36,10 +36,10 @@ jobs:
         run: cargo clippy --all-features -- --deny warnings
 
       - name: "build"
-        run: cargo clippy -- --deny warnings
+        run: cargo build
 
       - name: "build all targets"
-        run: cargo build --all-features -- --deny warnings
+        run: cargo build
 
   fmt:
     name: rustfmt
