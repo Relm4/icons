@@ -18,7 +18,7 @@ For each icon you want to use, you can add a feature flag.
 Only the icons you specify will be compiled into your application.
 
 ```toml
-relm4-icons = { version = "0.6.0-beta.1", features = ["<icon1>", "<icon2>", ...] }
+relm4-icons = { version = "0.6.0-beta.1", features = ["<icon1>", "<icon2>", "<icon3>..."] }
 ```
 
 #### Example
