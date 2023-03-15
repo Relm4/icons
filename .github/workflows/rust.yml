@@ -1,0 +1,62 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, stable, next ]
+  pull_request:
+    branches: [ main, stable, next ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/relm4/relm4/docs:latest
+    strategy:
+      matrix:
+        rust:
+          - stable
+          - beta
+          - "1.64.0"
+    env:
+        DISPLAY: ":99.0"
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ matrix.rust }}
+          components: clippy
+
+      - name: "clippy"
+        run: cargo clippy -- --deny warnings
+
+      - name: "clippy all targets"
+        run: cargo clippy --all-features -- --deny warnings
+
+      - name: "build"
+        run: cargo clippy -- --deny warnings
+
+      - name: "build all targets"
+        run: cargo build --all-features -- --deny warnings
+
+  fmt:
+    name: rustfmt
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
+      - name: "Check if the formatting is correct"
+        run: cargo fmt --all -- --check
+
+  codespell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: codespell-project/actions-codespell@master
+        with:
+          check_filenames: true
+          ignore_words_list: crate,statics,relm
