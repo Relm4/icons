@@ -2,7 +2,8 @@
 
 [![CI](https://github.com/Relm4/icons/actions/workflows/rust.yml/badge.svg)](https://github.com/Relm4/icons/actions/workflows/rust.yml)
 [![Matrix](https://img.shields.io/matrix/relm4:matrix.org?label=matrix%20chat)](https://matrix.to/#/#relm4:matrix.org)
-[![Relm4 on crates.io](https://img.shields.io/crates/v/relm4-icons.svg)](https://crates.io/crates/relm4-icons)
+[![Relm4 icons on crates.io](https://img.shields.io/crates/v/relm4-icons.svg)](https://crates.io/crates/relm4-icons)
+[![Relm4 icons docs](https://img.shields.io/badge/rust-documentation-blue)](https://docs.rs/relm4_icons/)
 ![Minimum Rust version 1.65](https://img.shields.io/badge/rustc-1.65+-06a096.svg)
 [![dependency status](https://deps.rs/repo/github/Relm4/icons/status.svg)](https://deps.rs/repo/github/Relm4/icons)
 
