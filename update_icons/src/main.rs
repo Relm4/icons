@@ -45,9 +45,9 @@ fn main() {
         end_seq: RUST_END_SEQ,
     };
     lib_rs_generator.generate_features(&icon_list, |icon_name| {
-        let name = icon_name.to_uppercase().replace('-', "_");
+        let const_name = icon_name.to_uppercase().replace('-', "_");
 
-        let alias = if icon_name == name {
+        let alias = if icon_name == const_name {
             "".into()
         } else {
             format!("#[doc(alias = \"{icon_name}\")]")
@@ -58,7 +58,9 @@ fn main() {
 #[cfg_attr(docsrs, doc(cfg(feature = \"{icon_name}\")))]
 #[cfg(feature = \"{icon_name}\")]
 /// Icon name constant for the `{icon_name}` icon.
-pub const {name}: &str = \"{icon_name}\";"
+///
+/// <img alt-name=\"Icon preview\" src=\"https://raw.githubusercontent.com/Relm4/icons/main/icons/{icon_name}-symbolic.svg\" width=\"64\" style=\"color: #fff;background: #fff;border-radius: 5px;padding: 5px;\"/>
+pub const {const_name}: &str = \"{icon_name}\";"
         )
     });
 
