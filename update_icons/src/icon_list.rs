@@ -4,7 +4,7 @@ const FILE_ENDING: &str = "-symbolic.svg";
 pub fn get_icons() -> Vec<String> {
     let read_dir = std::fs::read_dir(ICON_PATH).unwrap();
 
-    read_dir
+    let mut list: Vec<String> = read_dir
         .filter_map(|info| {
             let info = info.unwrap();
             if info.file_type().unwrap().is_file() {
@@ -18,5 +18,8 @@ pub fn get_icons() -> Vec<String> {
                 None
             }
         })
-        .collect()
+        .collect();
+
+    list.sort_unstable();
+    list
 }
