@@ -24,7 +24,7 @@ For each icon you want to use, you can add a feature flag.
 Only the icons you specify will be compiled into your application.
 
 ```toml
-relm4-icons = { version = "0.6.0-beta.1", features = ["<icon1>", "<icon2>", "<icon3>..."] }
+relm4-icons = { version = "0.6.0-beta.2", features = ["<icon1>", "<icon2>", "<icon3>..."] }
 ```
 
 #### Example
@@ -32,7 +32,7 @@ relm4-icons = { version = "0.6.0-beta.1", features = ["<icon1>", "<icon2>", "<ic
 To enable the `plus` and `minus` icons use:
 
 ```toml
-relm4-icons = { version = "0.6.0-beta.1", features = ["plus", "minus"] }
+relm4-icons = { version = "0.6.0-beta.2", features = ["plus", "minus"] }
 ```
 
 > The file ending `-symbolic.svg` isn't part of the icon name.
@@ -58,6 +58,15 @@ Use `set_icon_name` and similar methods to use your icons, for example with
 ```rust
 let button = gtk::Button::default();
 button.set_icon_name("plus");
+```
+
+You can also use the `icon_name` module for extra compile-time checking of icon names.
+
+```rust
+use relm4_icons::icon_name;
+
+let button = gtk::Button::default();
+button.set_icon_name(icon_name::PLUS);
 ```
 
 ## How it works
