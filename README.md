@@ -24,7 +24,7 @@ For each icon you want to use, you can add a feature flag.
 Only the icons you specify will be compiled into your application.
 
 ```toml
-relm4-icons = { version = "0.6.0-beta.2", features = ["<icon1>", "<icon2>", "<icon3>..."] }
+relm4-icons = { version = "0.6.0-beta.3", features = ["<icon1>", "<icon2>", "<icon3>..."] }
 ```
 
 #### Example
@@ -32,7 +32,7 @@ relm4-icons = { version = "0.6.0-beta.2", features = ["<icon1>", "<icon2>", "<ic
 To enable the `plus` and `minus` icons use:
 
 ```toml
-relm4-icons = { version = "0.6.0-beta.2", features = ["plus", "minus"] }
+relm4-icons = { version = "0.6.0-beta.3", features = ["plus", "minus"] }
 ```
 
 > The file ending `-symbolic.svg` isn't part of the icon name.
