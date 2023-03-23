@@ -97,3 +97,9 @@ cargo run
 + GNOME contributors for providing so many outstanding icons
 + [gvdb-rs](https://github.com/felinira/gvdb-rs) for providing a great crate for interacting with gresources in pure Rust
 + [gtk-rs](https://gtk-rs.org) for outstanding Rust bindings for GTK4
+
+## Legal
+
+The source code of Relm4 icons is licensed under the terms of both the MIT license and the Apache License (Version 2.0).
+
+The icons included in this library are licensed under the terms of the [CC0 license](https://creativecommons.org/share-your-work/public-domain/cc0/) and therefore are public domain.
