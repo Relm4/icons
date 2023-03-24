@@ -19,7 +19,7 @@ For icons from the GNOME [icon-development-kit](https://gitlab.gnome.org/Teams/D
 + Install [Icon library](https://flathub.org/apps/details/org.gnome.design.IconLibrary)
 + Browse the [GNOME icon resource](https://teams.pages.gitlab.gnome.org/Design/icon-development-kit-www/)
 
-For icons from [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons)
+For icons from [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons):
 + Browse the [fluent icon library catalog](https://aka.ms/fluentui-system-icons)
 
 For browsing all icons:
