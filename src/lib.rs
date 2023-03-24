@@ -32,7 +32,7 @@ pub fn initialize_icons() {
     theme.add_resource_path("/relm4/icons/");
 }
 
-#[cfg(all(test, feature = "relm4", feature = "work-week"))]
+#[cfg(all(test, feature = "arrow-circle-right-filled", feature = "work-week"))]
 mod test {
     use super::*;
 
@@ -44,7 +44,7 @@ mod test {
 
         let display = gdk::Display::default().unwrap();
         let theme = gtk::IconTheme::for_display(&display);
-        assert!(theme.has_icon("relm4-symbolic"));
+        assert!(theme.has_icon("arrow-circle-right-filled-symbolic"));
         assert!(theme.has_icon("work-week-symbolic"));
     }
 }
