@@ -6,7 +6,7 @@
 ![Minimum Rust version 1.65](https://img.shields.io/badge/rustc-1.65+-06a096.svg)
 [![dependency status](https://deps.rs/repo/github/Relm4/icons/status.svg)](https://deps.rs/repo/github/Relm4/icons)
 
-More than 800 icons, ready for use in your app!
+More than 2500 icons, ready for use in your app!
 
 ## Usage
 
@@ -14,9 +14,16 @@ More than 800 icons, ready for use in your app!
 
 Use one of the following methods:
 
+For icons from the GNOME [icon-development-kit](https://gitlab.gnome.org/Teams/Design/icon-development-kit):
 + Install [Icon library](https://flathub.org/apps/details/org.gnome.design.IconLibrary)
 + Browse the [GNOME icon resource](https://teams.pages.gitlab.gnome.org/Design/icon-development-kit-www/)
+
+For icons from [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons)
++ Browse the [fluent icon library catalog](https://aka.ms/fluentui-system-icons)
+
+For browsing all icons:
 + Use the icon previews provided by in this repo: [16x16](icons16.md), [32x32](icons32.md) and [64x64](icons64.md)
++ Search the Rust documentation which also includes icon previews
 
 ### 2. Get relm4-icons ✍
 

@@ -1,3 +1,5 @@
+use crate::IconInfo;
+
 pub struct Generator {
     pub path: &'static str,
     pub start_seq: &'static str,
@@ -5,7 +7,7 @@ pub struct Generator {
 }
 
 impl Generator {
-    pub fn generate_features<F: Fn(&str) -> String>(&self, icon_list: &[String], f: F) {
+    pub fn generate_features<F: Fn(&IconInfo) -> String>(&self, icon_list: &[IconInfo], f: F) {
         let content = std::fs::read_to_string(self.path).unwrap();
         let mut result = String::new();
         let mut inserting = false;
@@ -26,7 +28,7 @@ impl Generator {
                 inserting = true;
 
                 for icon in icon_list {
-                    result.push_str(&f(icon.as_str()));
+                    result.push_str(&f(icon));
                     result.push('\n');
                 }
             }
