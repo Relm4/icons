@@ -58,7 +58,7 @@ fn main() {
     build_rs_generator.generate_features(&icon_list, |icon| {
         let name = &icon.name;
         let path = icon.file_path();
-        format!("#[cfg(feature = \"{name}\")]\n(\"{name}\", \"{path}\"),")
+        format!("#[cfg(feature = \"{name}\")]\n(\"{name}-symbolic.svg\", \"{path}\"),")
     });
 
     let lib_rs_generator = Generator {
