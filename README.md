@@ -24,7 +24,7 @@ For icons from [Fluent UI System Icons](https://github.com/microsoft/fluentui-sy
 
 For browsing all icons:
 + Use the icon previews provided by in this repo: [16x16](icons16.md), [32x32](icons32.md) and [64x64](icons64.md)
-+ Search the Rust documentation which also includes icon previews
++ Search the [Rust documentation](https://docs.rs/relm4_icons/) which also includes icon previews
 
 ### 2. Get relm4-icons ✍
 
@@ -110,4 +110,9 @@ cargo run
 
 The source code of Relm4 icons is licensed under the terms of both the MIT license and the Apache License (Version 2.0).
 
-The icons included in this library are licensed under the terms of the [CC0 license](https://creativecommons.org/share-your-work/public-domain/cc0/) and therefore are public domain.
+### Icons
+
++ The icons in the `icons/icon-development-kit` folder are licensed under the terms of the [CC0 license](https://creativecommons.org/share-your-work/public-domain/cc0/) and therefore public domain.
++ The icons in the `icons/fluentui-system-icons` folder are licensed under the terms of the [MIT license](https://opensource.org/license/MIT/).
+
+Both licenses should work for both open source and proprietary applications (without warranty).
