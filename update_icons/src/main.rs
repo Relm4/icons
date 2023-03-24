@@ -1,3 +1,5 @@
+use std::path::PathBuf;
+
 use crate::code_generator::Generator;
 
 mod code_generator;
@@ -18,16 +20,34 @@ const ICONS16: &str = "../icons16.md";
 const ICONS32: &str = "../icons32.md";
 const ICONS64: &str = "../icons64.md";
 
+pub struct IconInfo {
+    pub name: String,
+    pub path: PathBuf,
+    pub source: String,
+}
+
+impl IconInfo {
+    fn file_path(&self) -> String {
+        format!(
+            "icons/{}/{}",
+            self.source,
+            self.path.file_name().unwrap().to_str().unwrap()
+        )
+    }
+}
+
 fn main() {
-    let icon_list = icon_list::get_icons();
+    let icon_list = icon_list::get_icons(&["icon-development-kit", "fluentui-system-icons"]);
 
     let toml_generator = Generator {
         path: TOML_PATH,
         start_seq: TOML_START_SEQ,
         end_seq: TOML_END_SEQ,
     };
-    toml_generator.generate_features(&icon_list, |icon_name| {
-        [icon_name, " = []"].into_iter().collect::<String>()
+    toml_generator.generate_features(&icon_list, |icon| {
+        [icon.name.as_str(), " = []"]
+            .into_iter()
+            .collect::<String>()
     });
 
     let build_rs_generator = Generator {
@@ -35,8 +55,10 @@ fn main() {
         start_seq: RUST_START_SEQ,
         end_seq: RUST_END_SEQ,
     };
-    build_rs_generator.generate_features(&icon_list, |icon_name| {
-        format!("#[cfg(feature = \"{icon_name}\")]\n\"{icon_name}-symbolic.svg\",")
+    build_rs_generator.generate_features(&icon_list, |icon| {
+        let name = &icon.name;
+        let path = icon.file_path();
+        format!("#[cfg(feature = \"{name}\")]\n(\"{name}\", \"{path}\"),")
     });
 
     let lib_rs_generator = Generator {
@@ -44,23 +66,27 @@ fn main() {
         start_seq: RUST_START_SEQ,
         end_seq: RUST_END_SEQ,
     };
-    lib_rs_generator.generate_features(&icon_list, |icon_name| {
-        let const_name = icon_name.to_uppercase().replace('-', "_");
+    lib_rs_generator.generate_features(&icon_list, |icon| {
+        let IconInfo { name, source ,.. }= icon;
+        let icon_path = icon.file_path();
+        let const_name = name.to_uppercase().replace('-', "_");
 
-        let alias = if icon_name == const_name {
+        let alias = if name == &const_name {
             "".into()
         } else {
-            format!("#[doc(alias = \"{icon_name}\")]")
+            format!("#[doc(alias = \"{name}\")]")
         };
 
         format!(
             "{alias}
-#[cfg_attr(docsrs, doc(cfg(feature = \"{icon_name}\")))]
-#[cfg(feature = \"{icon_name}\")]
-/// Icon name constant for the `{icon_name}` icon.
+#[cfg_attr(docsrs, doc(cfg(feature = \"{name}\")))]
+#[cfg(feature = \"{name}\")]
+/// Icon name constant for the `{name}` icon.
 ///
-/// <img alt-name=\"Icon preview\" src=\"https://raw.githubusercontent.com/Relm4/icons/main/icons/{icon_name}-symbolic.svg\" width=\"64\" style=\"color: #fff;background: #fff;border-radius: 5px;padding: 5px;\"/>
-pub const {const_name}: &str = \"{icon_name}\";"
+/// Source: `{source}`
+///
+/// <img alt-name=\"Icon preview\" src=\"https://raw.githubusercontent.com/Relm4/icons/main/icons/{icon_path}\" width=\"64\" style=\"color: #fff;background: #fff;border-radius: 5px;padding: 5px;\"/>
+pub const {const_name}: &str = \"{name}\";"
         )
     });
 
@@ -69,11 +95,12 @@ pub const {const_name}: &str = \"{icon_name}\";"
         start_seq: HTML_START_SEQ,
         end_seq: HTML_END_SEQ,
     };
-    icons16_generator.generate_features(&icon_list, |icon_name| {
-        let icon_path = format!("icons/{icon_name}-symbolic.svg");
+    icons16_generator.generate_features(&icon_list, |icon| {
+        let name = &icon.name;
+        let icon_path = icon.file_path();
         format!(
             "  <a href=\"{icon_path}\">
-    <img src=\"{icon_path}\" width=\"16\" alt=\"{icon_name}\">
+    <img src=\"{icon_path}\" width=\"16\" alt=\"{name}\">
   </a>"
         )
     });
@@ -83,11 +110,12 @@ pub const {const_name}: &str = \"{icon_name}\";"
         start_seq: HTML_START_SEQ,
         end_seq: HTML_END_SEQ,
     };
-    icons32_generator.generate_features(&icon_list, |icon_name| {
-        let icon_path = format!("icons/{icon_name}-symbolic.svg");
+    icons32_generator.generate_features(&icon_list, |icon| {
+        let name = &icon.name;
+        let icon_path = icon.file_path();
         format!(
             "  <a href=\"{icon_path}\">
-    <img src=\"{icon_path}\" width=\"32\" alt=\"{icon_name}\">
+    <img src=\"{icon_path}\" width=\"32\" alt=\"{name}\">
   </a>"
         )
     });
@@ -97,11 +125,12 @@ pub const {const_name}: &str = \"{icon_name}\";"
         start_seq: HTML_START_SEQ,
         end_seq: HTML_END_SEQ,
     };
-    icons64_generator.generate_features(&icon_list, |icon_name| {
-        let icon_path = format!("icons/{icon_name}-symbolic.svg");
+    icons64_generator.generate_features(&icon_list, |icon| {
+        let name = &icon.name;
+        let icon_path = icon.file_path();
         format!(
             "  <a href=\"{icon_path}\">
-    <img src=\"{icon_path}\" width=\"64\" alt=\"{icon_name}\">
+    <img src=\"{icon_path}\" width=\"64\" alt=\"{name}\">
   </a>"
         )
     });
