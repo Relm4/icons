@@ -85,7 +85,7 @@ fn main() {
 ///
 /// Source: `{source}`
 ///
-/// <img alt-name=\"Icon preview\" src=\"https://raw.githubusercontent.com/Relm4/icons/main/icons/{icon_path}\" width=\"64\" style=\"color: #fff;background: #fff;border-radius: 5px;padding: 5px;\"/>
+/// <img alt-name=\"Icon preview\" src=\"https://raw.githubusercontent.com/Relm4/icons/main/{icon_path}\" width=\"64\" style=\"color: #fff;background: #fff;border-radius: 5px;padding: 5px;\"/>
 pub const {const_name}: &str = \"{name}\";"
         )
     });
