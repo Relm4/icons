@@ -3,6 +3,7 @@ name = "update_icons"
 version = "0.1.0"
 edition = "2021"
 publish = false
+default-run = "update_icons"
 
 [[bin]]
 name = "fetch_icons"

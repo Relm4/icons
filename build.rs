@@ -83,6 +83,16 @@ fn main() {
             "airbrush-tool-symbolic.svg",
             "icons/icon-development-kit/airbrush-tool-symbolic.svg",
         ),
+        #[cfg(feature = "airplane-landing-filled")]
+        (
+            "airplane-landing-filled-symbolic.svg",
+            "icons/fluentui-system-icons/airplane-landing-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "airplane-landing-regular")]
+        (
+            "airplane-landing-regular-symbolic.svg",
+            "icons/fluentui-system-icons/airplane-landing-regular-symbolic.svg",
+        ),
         #[cfg(feature = "airplane-take-off-filled")]
         (
             "airplane-take-off-filled-symbolic.svg",
@@ -273,6 +283,11 @@ fn main() {
             "align-top-regular-symbolic.svg",
             "icons/fluentui-system-icons/align-top-regular-symbolic.svg",
         ),
+        #[cfg(feature = "ambulance")]
+        (
+            "ambulance-symbolic.svg",
+            "icons/icon-development-kit/ambulance-symbolic.svg",
+        ),
         #[cfg(feature = "animal-cat-filled")]
         (
             "animal-cat-filled-symbolic.svg",
@@ -338,6 +353,11 @@ fn main() {
             "app-icon-design-symbolic.svg",
             "icons/icon-development-kit/app-icon-design-symbolic.svg",
         ),
+        #[cfg(feature = "applause")]
+        (
+            "applause-symbolic.svg",
+            "icons/icon-development-kit/applause-symbolic.svg",
+        ),
         #[cfg(feature = "application-x-firmware")]
         (
             "application-x-firmware-symbolic.svg",
@@ -387,6 +407,11 @@ fn main() {
         (
             "archive-arrow-back-regular-symbolic.svg",
             "icons/fluentui-system-icons/archive-arrow-back-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "archive-extract")]
+        (
+            "archive-extract-symbolic.svg",
+            "icons/icon-development-kit/archive-extract-symbolic.svg",
         ),
         #[cfg(feature = "archive-filled")]
         (
@@ -548,6 +573,16 @@ fn main() {
             "arrow-download-regular-symbolic.svg",
             "icons/fluentui-system-icons/arrow-download-regular-symbolic.svg",
         ),
+        #[cfg(feature = "arrow-enter-filled")]
+        (
+            "arrow-enter-filled-symbolic.svg",
+            "icons/fluentui-system-icons/arrow-enter-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "arrow-enter-regular")]
+        (
+            "arrow-enter-regular-symbolic.svg",
+            "icons/fluentui-system-icons/arrow-enter-regular-symbolic.svg",
+        ),
         #[cfg(feature = "arrow-fit-filled")]
         (
             "arrow-fit-filled-symbolic.svg",
@@ -567,6 +602,26 @@ fn main() {
         (
             "arrow-fit-regular-symbolic.svg",
             "icons/fluentui-system-icons/arrow-fit-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "arrow-flow-diagonal-up-right-filled")]
+        (
+            "arrow-flow-diagonal-up-right-filled-symbolic.svg",
+            "icons/fluentui-system-icons/arrow-flow-diagonal-up-right-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "arrow-flow-diagonal-up-right-regular")]
+        (
+            "arrow-flow-diagonal-up-right-regular-symbolic.svg",
+            "icons/fluentui-system-icons/arrow-flow-diagonal-up-right-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "arrow-flow-up-right-filled")]
+        (
+            "arrow-flow-up-right-filled-symbolic.svg",
+            "icons/fluentui-system-icons/arrow-flow-up-right-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "arrow-flow-up-right-regular")]
+        (
+            "arrow-flow-up-right-regular-symbolic.svg",
+            "icons/fluentui-system-icons/arrow-flow-up-right-regular-symbolic.svg",
         ),
         #[cfg(feature = "arrow-forward-filled")]
         (
@@ -842,6 +897,16 @@ fn main() {
         (
             "arrow-split-regular-symbolic.svg",
             "icons/fluentui-system-icons/arrow-split-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "arrow-sprint-filled")]
+        (
+            "arrow-sprint-filled-symbolic.svg",
+            "icons/fluentui-system-icons/arrow-sprint-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "arrow-sprint-regular")]
+        (
+            "arrow-sprint-regular-symbolic.svg",
+            "icons/fluentui-system-icons/arrow-sprint-regular-symbolic.svg",
         ),
         #[cfg(feature = "arrow-step-back-filled")]
         (
@@ -1183,6 +1248,16 @@ fn main() {
             "backpack-regular-symbolic.svg",
             "icons/fluentui-system-icons/backpack-regular-symbolic.svg",
         ),
+        #[cfg(feature = "backspace-filled")]
+        (
+            "backspace-filled-symbolic.svg",
+            "icons/fluentui-system-icons/backspace-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "backspace-regular")]
+        (
+            "backspace-regular-symbolic.svg",
+            "icons/fluentui-system-icons/backspace-regular-symbolic.svg",
+        ),
         #[cfg(feature = "balloon-filled")]
         (
             "balloon-filled-symbolic.svg",
@@ -1237,6 +1312,16 @@ fn main() {
         (
             "beaker-regular-symbolic.svg",
             "icons/fluentui-system-icons/beaker-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "beaker-settings-filled")]
+        (
+            "beaker-settings-filled-symbolic.svg",
+            "icons/fluentui-system-icons/beaker-settings-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "beaker-settings-regular")]
+        (
+            "beaker-settings-regular-symbolic.svg",
+            "icons/fluentui-system-icons/beaker-settings-regular-symbolic.svg",
         ),
         #[cfg(feature = "bear")]
         (
@@ -1302,6 +1387,16 @@ fn main() {
         (
             "big-x-symbolic.svg",
             "icons/icon-development-kit/big-x-symbolic.svg",
+        ),
+        #[cfg(feature = "binder-triangle-filled")]
+        (
+            "binder-triangle-filled-symbolic.svg",
+            "icons/fluentui-system-icons/binder-triangle-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "binder-triangle-regular")]
+        (
+            "binder-triangle-regular-symbolic.svg",
+            "icons/fluentui-system-icons/binder-triangle-regular-symbolic.svg",
         ),
         #[cfg(feature = "birthday")]
         (
@@ -1392,6 +1487,16 @@ fn main() {
         (
             "body-symbolic.svg",
             "icons/icon-development-kit/body-symbolic.svg",
+        ),
+        #[cfg(feature = "book-dismiss-filled")]
+        (
+            "book-dismiss-filled-symbolic.svg",
+            "icons/fluentui-system-icons/book-dismiss-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "book-dismiss-regular")]
+        (
+            "book-dismiss-regular-symbolic.svg",
+            "icons/fluentui-system-icons/book-dismiss-regular-symbolic.svg",
         ),
         #[cfg(feature = "book-number-filled")]
         (
@@ -1532,6 +1637,16 @@ fn main() {
         (
             "braces-regular-symbolic.svg",
             "icons/fluentui-system-icons/braces-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "brain")]
+        (
+            "brain-symbolic.svg",
+            "icons/icon-development-kit/brain-symbolic.svg",
+        ),
+        #[cfg(feature = "brain-augemnted")]
+        (
+            "brain-augemnted-symbolic.svg",
+            "icons/icon-development-kit/brain-augemnted-symbolic.svg",
         ),
         #[cfg(feature = "branch")]
         (
@@ -1812,6 +1927,21 @@ fn main() {
         (
             "bus-symbolic.svg",
             "icons/icon-development-kit/bus-symbolic.svg",
+        ),
+        #[cfg(feature = "button-filled")]
+        (
+            "button-filled-symbolic.svg",
+            "icons/fluentui-system-icons/button-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "button-regular")]
+        (
+            "button-regular-symbolic.svg",
+            "icons/fluentui-system-icons/button-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "cablecar")]
+        (
+            "cablecar-symbolic.svg",
+            "icons/icon-development-kit/cablecar-symbolic.svg",
         ),
         #[cfg(feature = "cafe")]
         (
@@ -2168,6 +2298,11 @@ fn main() {
             "call-dismiss-regular-symbolic.svg",
             "icons/fluentui-system-icons/call-dismiss-regular-symbolic.svg",
         ),
+        #[cfg(feature = "call-emergency")]
+        (
+            "call-emergency-symbolic.svg",
+            "icons/icon-development-kit/call-emergency-symbolic.svg",
+        ),
         #[cfg(feature = "call-end-filled")]
         (
             "call-end-filled-symbolic.svg",
@@ -2438,6 +2573,11 @@ fn main() {
             "camera-static-inverse-symbolic.svg",
             "icons/icon-development-kit/camera-static-inverse-symbolic.svg",
         ),
+        #[cfg(feature = "camera-timer")]
+        (
+            "camera-timer-symbolic.svg",
+            "icons/icon-development-kit/camera-timer-symbolic.svg",
+        ),
         #[cfg(feature = "camera-toggle")]
         (
             "camera-toggle-symbolic.svg",
@@ -2552,6 +2692,16 @@ fn main() {
         (
             "center-symbolic.svg",
             "icons/icon-development-kit/center-symbolic.svg",
+        ),
+        #[cfg(feature = "center-on-page-horizontal")]
+        (
+            "center-on-page-horizontal-symbolic.svg",
+            "icons/icon-development-kit/center-on-page-horizontal-symbolic.svg",
+        ),
+        #[cfg(feature = "center-on-page-vertical")]
+        (
+            "center-on-page-vertical-symbolic.svg",
+            "icons/icon-development-kit/center-on-page-vertical-symbolic.svg",
         ),
         #[cfg(feature = "certificate-filled")]
         (
@@ -3053,6 +3203,16 @@ fn main() {
             "chevron-down-regular-symbolic.svg",
             "icons/fluentui-system-icons/chevron-down-regular-symbolic.svg",
         ),
+        #[cfg(feature = "chevron-down-up-filled")]
+        (
+            "chevron-down-up-filled-symbolic.svg",
+            "icons/fluentui-system-icons/chevron-down-up-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "chevron-down-up-regular")]
+        (
+            "chevron-down-up-regular-symbolic.svg",
+            "icons/fluentui-system-icons/chevron-down-up-regular-symbolic.svg",
+        ),
         #[cfg(feature = "chevron-left-filled")]
         (
             "chevron-left-filled-symbolic.svg",
@@ -3128,6 +3288,16 @@ fn main() {
             "circle-half-fill-regular-symbolic.svg",
             "icons/fluentui-system-icons/circle-half-fill-regular-symbolic.svg",
         ),
+        #[cfg(feature = "circle-hint-filled")]
+        (
+            "circle-hint-filled-symbolic.svg",
+            "icons/fluentui-system-icons/circle-hint-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "circle-hint-regular")]
+        (
+            "circle-hint-regular-symbolic.svg",
+            "icons/fluentui-system-icons/circle-hint-regular-symbolic.svg",
+        ),
         #[cfg(feature = "circle-image-filled")]
         (
             "circle-image-filled-symbolic.svg",
@@ -3137,6 +3307,16 @@ fn main() {
         (
             "circle-image-regular-symbolic.svg",
             "icons/fluentui-system-icons/circle-image-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "circle-line-filled")]
+        (
+            "circle-line-filled-symbolic.svg",
+            "icons/fluentui-system-icons/circle-line-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "circle-line-regular")]
+        (
+            "circle-line-regular-symbolic.svg",
+            "icons/fluentui-system-icons/circle-line-regular-symbolic.svg",
         ),
         #[cfg(feature = "circle-off-filled")]
         (
@@ -3828,6 +4008,26 @@ fn main() {
             "colorimeter-colorhug-symbolic.svg",
             "icons/icon-development-kit/colorimeter-colorhug-symbolic.svg",
         ),
+        #[cfg(feature = "column-single-compare-filled")]
+        (
+            "column-single-compare-filled-symbolic.svg",
+            "icons/fluentui-system-icons/column-single-compare-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "column-single-compare-regular")]
+        (
+            "column-single-compare-regular-symbolic.svg",
+            "icons/fluentui-system-icons/column-single-compare-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "column-single-filled")]
+        (
+            "column-single-filled-symbolic.svg",
+            "icons/fluentui-system-icons/column-single-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "column-single-regular")]
+        (
+            "column-single-regular-symbolic.svg",
+            "icons/fluentui-system-icons/column-single-regular-symbolic.svg",
+        ),
         #[cfg(feature = "columns")]
         (
             "columns-symbolic.svg",
@@ -3987,6 +4187,11 @@ fn main() {
         (
             "compass-wind-symbolic.svg",
             "icons/icon-development-kit/compass-wind-symbolic.svg",
+        ),
+        #[cfg(feature = "compass2")]
+        (
+            "compass2-symbolic.svg",
+            "icons/icon-development-kit/compass2-symbolic.svg",
         ),
         #[cfg(feature = "compose-filled")]
         (
@@ -4258,6 +4463,11 @@ fn main() {
             "currency-dollar-rupee-regular-symbolic.svg",
             "icons/fluentui-system-icons/currency-dollar-rupee-regular-symbolic.svg",
         ),
+        #[cfg(feature = "cursor-filled")]
+        (
+            "cursor-filled-symbolic.svg",
+            "icons/fluentui-system-icons/cursor-filled-symbolic.svg",
+        ),
         #[cfg(feature = "cursor-hover-filled")]
         (
             "cursor-hover-filled-symbolic.svg",
@@ -4277,6 +4487,21 @@ fn main() {
         (
             "cursor-hover-regular-symbolic.svg",
             "icons/fluentui-system-icons/cursor-hover-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "cursor-prohibited-filled")]
+        (
+            "cursor-prohibited-filled-symbolic.svg",
+            "icons/fluentui-system-icons/cursor-prohibited-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "cursor-prohibited-regular")]
+        (
+            "cursor-prohibited-regular-symbolic.svg",
+            "icons/fluentui-system-icons/cursor-prohibited-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "cursor-regular")]
+        (
+            "cursor-regular-symbolic.svg",
+            "icons/fluentui-system-icons/cursor-regular-symbolic.svg",
         ),
         #[cfg(feature = "cut")]
         (
@@ -4333,6 +4558,16 @@ fn main() {
             "data-bar-vertical-star-regular-symbolic.svg",
             "icons/fluentui-system-icons/data-bar-vertical-star-regular-symbolic.svg",
         ),
+        #[cfg(feature = "data-histogram-filled")]
+        (
+            "data-histogram-filled-symbolic.svg",
+            "icons/fluentui-system-icons/data-histogram-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "data-histogram-regular")]
+        (
+            "data-histogram-regular-symbolic.svg",
+            "icons/fluentui-system-icons/data-histogram-regular-symbolic.svg",
+        ),
         #[cfg(feature = "data-trending-filled")]
         (
             "data-trending-filled-symbolic.svg",
@@ -4362,6 +4597,16 @@ fn main() {
         (
             "database-stack-regular-symbolic.svg",
             "icons/fluentui-system-icons/database-stack-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "daytime-sunrise")]
+        (
+            "daytime-sunrise-symbolic.svg",
+            "icons/icon-development-kit/daytime-sunrise-symbolic.svg",
+        ),
+        #[cfg(feature = "daytime-sunset")]
+        (
+            "daytime-sunset-symbolic.svg",
+            "icons/icon-development-kit/daytime-sunset-symbolic.svg",
         ),
         #[cfg(feature = "deaf")]
         (
@@ -4427,6 +4672,16 @@ fn main() {
         (
             "design-ideas-regular-symbolic.svg",
             "icons/fluentui-system-icons/design-ideas-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "desktop-arrow-down-filled")]
+        (
+            "desktop-arrow-down-filled-symbolic.svg",
+            "icons/fluentui-system-icons/desktop-arrow-down-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "desktop-arrow-down-regular")]
+        (
+            "desktop-arrow-down-regular-symbolic.svg",
+            "icons/fluentui-system-icons/desktop-arrow-down-regular-symbolic.svg",
         ),
         #[cfg(feature = "desktop-arrow-right-filled")]
         (
@@ -4688,6 +4943,11 @@ fn main() {
             "display-with-window-symbolic.svg",
             "icons/icon-development-kit/display-with-window-symbolic.svg",
         ),
+        #[cfg(feature = "distance")]
+        (
+            "distance-symbolic.svg",
+            "icons/icon-development-kit/distance-symbolic.svg",
+        ),
         #[cfg(feature = "divider-short-filled")]
         (
             "divider-short-filled-symbolic.svg",
@@ -4842,6 +5102,16 @@ fn main() {
         (
             "document-catch-up-regular-symbolic.svg",
             "icons/fluentui-system-icons/document-catch-up-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "document-checkmark-filled")]
+        (
+            "document-checkmark-filled-symbolic.svg",
+            "icons/fluentui-system-icons/document-checkmark-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "document-checkmark-regular")]
+        (
+            "document-checkmark-regular-symbolic.svg",
+            "icons/fluentui-system-icons/document-checkmark-regular-symbolic.svg",
         ),
         #[cfg(feature = "document-contract-filled")]
         (
@@ -5008,6 +5278,26 @@ fn main() {
             "document-header-regular-symbolic.svg",
             "icons/fluentui-system-icons/document-header-regular-symbolic.svg",
         ),
+        #[cfg(feature = "document-image-filled")]
+        (
+            "document-image-filled-symbolic.svg",
+            "icons/fluentui-system-icons/document-image-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "document-image-regular")]
+        (
+            "document-image-regular-symbolic.svg",
+            "icons/fluentui-system-icons/document-image-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "document-java-filled")]
+        (
+            "document-java-filled-symbolic.svg",
+            "icons/fluentui-system-icons/document-java-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "document-java-regular")]
+        (
+            "document-java-regular-symbolic.svg",
+            "icons/fluentui-system-icons/document-java-regular-symbolic.svg",
+        ),
         #[cfg(feature = "document-js-filled")]
         (
             "document-js-filled-symbolic.svg",
@@ -5078,6 +5368,16 @@ fn main() {
             "document-one-page-add-regular-symbolic.svg",
             "icons/fluentui-system-icons/document-one-page-add-regular-symbolic.svg",
         ),
+        #[cfg(feature = "document-one-page-beaker-filled")]
+        (
+            "document-one-page-beaker-filled-symbolic.svg",
+            "icons/fluentui-system-icons/document-one-page-beaker-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "document-one-page-beaker-regular")]
+        (
+            "document-one-page-beaker-regular-symbolic.svg",
+            "icons/fluentui-system-icons/document-one-page-beaker-regular-symbolic.svg",
+        ),
         #[cfg(feature = "document-one-page-filled")]
         (
             "document-one-page-filled-symbolic.svg",
@@ -5093,10 +5393,30 @@ fn main() {
             "document-one-page-link-regular-symbolic.svg",
             "icons/fluentui-system-icons/document-one-page-link-regular-symbolic.svg",
         ),
+        #[cfg(feature = "document-one-page-multiple-filled")]
+        (
+            "document-one-page-multiple-filled-symbolic.svg",
+            "icons/fluentui-system-icons/document-one-page-multiple-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "document-one-page-multiple-regular")]
+        (
+            "document-one-page-multiple-regular-symbolic.svg",
+            "icons/fluentui-system-icons/document-one-page-multiple-regular-symbolic.svg",
+        ),
         #[cfg(feature = "document-one-page-regular")]
         (
             "document-one-page-regular-symbolic.svg",
             "icons/fluentui-system-icons/document-one-page-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "document-one-page-sparkle-filled")]
+        (
+            "document-one-page-sparkle-filled-symbolic.svg",
+            "icons/fluentui-system-icons/document-one-page-sparkle-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "document-one-page-sparkle-regular")]
+        (
+            "document-one-page-sparkle-regular-symbolic.svg",
+            "icons/fluentui-system-icons/document-one-page-sparkle-regular-symbolic.svg",
         ),
         #[cfg(feature = "document-pdf-filled")]
         (
@@ -5162,6 +5482,16 @@ fn main() {
         (
             "document-ribbon-regular-symbolic.svg",
             "icons/fluentui-system-icons/document-ribbon-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "document-sass-filled")]
+        (
+            "document-sass-filled-symbolic.svg",
+            "icons/fluentui-system-icons/document-sass-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "document-sass-regular")]
+        (
+            "document-sass-regular-symbolic.svg",
+            "icons/fluentui-system-icons/document-sass-regular-symbolic.svg",
         ),
         #[cfg(feature = "document-search-filled")]
         (
@@ -5262,6 +5592,16 @@ fn main() {
         (
             "document-vb-regular-symbolic.svg",
             "icons/fluentui-system-icons/document-vb-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "document-yml-filled")]
+        (
+            "document-yml-filled-symbolic.svg",
+            "icons/fluentui-system-icons/document-yml-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "document-yml-regular")]
+        (
+            "document-yml-regular-symbolic.svg",
+            "icons/fluentui-system-icons/document-yml-regular-symbolic.svg",
         ),
         #[cfg(feature = "dog")]
         (
@@ -5528,6 +5868,11 @@ fn main() {
             "electric-car-symbolic.svg",
             "icons/icon-development-kit/electric-car-symbolic.svg",
         ),
+        #[cfg(feature = "emergency-number")]
+        (
+            "emergency-number-symbolic.svg",
+            "icons/icon-development-kit/emergency-number-symbolic.svg",
+        ),
         #[cfg(feature = "emoji-add-filled")]
         (
             "emoji-add-filled-symbolic.svg",
@@ -5573,6 +5918,16 @@ fn main() {
             "emoji-hand-regular-symbolic.svg",
             "icons/fluentui-system-icons/emoji-hand-regular-symbolic.svg",
         ),
+        #[cfg(feature = "emoji-hint-filled")]
+        (
+            "emoji-hint-filled-symbolic.svg",
+            "icons/fluentui-system-icons/emoji-hint-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "emoji-hint-regular")]
+        (
+            "emoji-hint-regular-symbolic.svg",
+            "icons/fluentui-system-icons/emoji-hint-regular-symbolic.svg",
+        ),
         #[cfg(feature = "emoji-laugh-filled")]
         (
             "emoji-laugh-filled-symbolic.svg",
@@ -5617,6 +5972,16 @@ fn main() {
         (
             "emoji-sparkle-regular-symbolic.svg",
             "icons/fluentui-system-icons/emoji-sparkle-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "empty-trash")]
+        (
+            "empty-trash-symbolic.svg",
+            "icons/icon-development-kit/empty-trash-symbolic.svg",
+        ),
+        #[cfg(feature = "empty-trash-bin")]
+        (
+            "empty-trash-bin-symbolic.svg",
+            "icons/icon-development-kit/empty-trash-bin-symbolic.svg",
         ),
         #[cfg(feature = "encode")]
         (
@@ -5693,6 +6058,11 @@ fn main() {
             "error-circle-settings-regular-symbolic.svg",
             "icons/fluentui-system-icons/error-circle-settings-regular-symbolic.svg",
         ),
+        #[cfg(feature = "ev")]
+        (
+            "ev-symbolic.svg",
+            "icons/icon-development-kit/ev-symbolic.svg",
+        ),
         #[cfg(feature = "execute-from")]
         (
             "execute-from-symbolic.svg",
@@ -5743,10 +6113,25 @@ fn main() {
             "external-devices-symbolic.svg",
             "icons/icon-development-kit/external-devices-symbolic.svg",
         ),
+        #[cfg(feature = "external-display")]
+        (
+            "external-display-symbolic.svg",
+            "icons/icon-development-kit/external-display-symbolic.svg",
+        ),
+        #[cfg(feature = "external-display2")]
+        (
+            "external-display2-symbolic.svg",
+            "icons/icon-development-kit/external-display2-symbolic.svg",
+        ),
         #[cfg(feature = "external-link")]
         (
             "external-link-symbolic.svg",
             "icons/icon-development-kit/external-link-symbolic.svg",
+        ),
+        #[cfg(feature = "extract")]
+        (
+            "extract-symbolic.svg",
+            "icons/icon-development-kit/extract-symbolic.svg",
         ),
         #[cfg(feature = "eye-closed")]
         (
@@ -5893,6 +6278,11 @@ fn main() {
             "feet-symbolic.svg",
             "icons/icon-development-kit/feet-symbolic.svg",
         ),
+        #[cfg(feature = "ferry")]
+        (
+            "ferry-symbolic.svg",
+            "icons/icon-development-kit/ferry-symbolic.svg",
+        ),
         #[cfg(feature = "few-clouds")]
         (
             "few-clouds-symbolic.svg",
@@ -5923,6 +6313,16 @@ fn main() {
             "fill-tool-symbolic.svg",
             "icons/icon-development-kit/fill-tool-symbolic.svg",
         ),
+        #[cfg(feature = "film-camera")]
+        (
+            "film-camera-symbolic.svg",
+            "icons/icon-development-kit/film-camera-symbolic.svg",
+        ),
+        #[cfg(feature = "film-camera-disabled")]
+        (
+            "film-camera-disabled-symbolic.svg",
+            "icons/icon-development-kit/film-camera-disabled-symbolic.svg",
+        ),
         #[cfg(feature = "filmstrip-filled")]
         (
             "filmstrip-filled-symbolic.svg",
@@ -5942,6 +6342,16 @@ fn main() {
         (
             "filmstrip-regular-symbolic.svg",
             "icons/fluentui-system-icons/filmstrip-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "filmstrip-split-filled")]
+        (
+            "filmstrip-split-filled-symbolic.svg",
+            "icons/fluentui-system-icons/filmstrip-split-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "filmstrip-split-regular")]
+        (
+            "filmstrip-split-regular-symbolic.svg",
+            "icons/fluentui-system-icons/filmstrip-split-regular-symbolic.svg",
         ),
         #[cfg(feature = "filter-dismiss-filled")]
         (
@@ -5997,6 +6407,16 @@ fn main() {
         (
             "fire2-symbolic.svg",
             "icons/icon-development-kit/fire2-symbolic.svg",
+        ),
+        #[cfg(feature = "fire2-alt")]
+        (
+            "fire2-alt-symbolic.svg",
+            "icons/icon-development-kit/fire2-alt-symbolic.svg",
+        ),
+        #[cfg(feature = "firefighter")]
+        (
+            "firefighter-symbolic.svg",
+            "icons/icon-development-kit/firefighter-symbolic.svg",
         ),
         #[cfg(feature = "firmware-update")]
         (
@@ -6248,6 +6668,16 @@ fn main() {
             "folder-globe-regular-symbolic.svg",
             "icons/fluentui-system-icons/folder-globe-regular-symbolic.svg",
         ),
+        #[cfg(feature = "folder-list-filled")]
+        (
+            "folder-list-filled-symbolic.svg",
+            "icons/fluentui-system-icons/folder-list-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "folder-list-regular")]
+        (
+            "folder-list-regular-symbolic.svg",
+            "icons/fluentui-system-icons/folder-list-regular-symbolic.svg",
+        ),
         #[cfg(feature = "folder-mail-filled")]
         (
             "folder-mail-filled-symbolic.svg",
@@ -6448,6 +6878,16 @@ fn main() {
             "fps-60-regular-symbolic.svg",
             "icons/fluentui-system-icons/fps-60-regular-symbolic.svg",
         ),
+        #[cfg(feature = "frame-filled")]
+        (
+            "frame-filled-symbolic.svg",
+            "icons/fluentui-system-icons/frame-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "frame-regular")]
+        (
+            "frame-regular-symbolic.svg",
+            "icons/fluentui-system-icons/frame-regular-symbolic.svg",
+        ),
         #[cfg(feature = "fuel")]
         (
             "fuel-symbolic.svg",
@@ -6503,6 +6943,11 @@ fn main() {
             "function-third-order-horizontal-symbolic.svg",
             "icons/icon-development-kit/function-third-order-horizontal-symbolic.svg",
         ),
+        #[cfg(feature = "funicular")]
+        (
+            "funicular-symbolic.svg",
+            "icons/icon-development-kit/funicular-symbolic.svg",
+        ),
         #[cfg(feature = "funnel")]
         (
             "funnel-symbolic.svg",
@@ -6548,6 +6993,26 @@ fn main() {
             "garlic-symbolic.svg",
             "icons/icon-development-kit/garlic-symbolic.svg",
         ),
+        #[cfg(feature = "gavel-filled")]
+        (
+            "gavel-filled-symbolic.svg",
+            "icons/fluentui-system-icons/gavel-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "gavel-prohibited-filled")]
+        (
+            "gavel-prohibited-filled-symbolic.svg",
+            "icons/fluentui-system-icons/gavel-prohibited-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "gavel-prohibited-regular")]
+        (
+            "gavel-prohibited-regular-symbolic.svg",
+            "icons/fluentui-system-icons/gavel-prohibited-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "gavel-regular")]
+        (
+            "gavel-regular-symbolic.svg",
+            "icons/fluentui-system-icons/gavel-regular-symbolic.svg",
+        ),
         #[cfg(feature = "gear")]
         (
             "gear-symbolic.svg",
@@ -6582,6 +7047,16 @@ fn main() {
         (
             "gift-filled-symbolic.svg",
             "icons/fluentui-system-icons/gift-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "gift-open-filled")]
+        (
+            "gift-open-filled-symbolic.svg",
+            "icons/fluentui-system-icons/gift-open-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "gift-open-regular")]
+        (
+            "gift-open-regular-symbolic.svg",
+            "icons/fluentui-system-icons/gift-open-regular-symbolic.svg",
         ),
         #[cfg(feature = "gift-regular")]
         (
@@ -6678,6 +7153,11 @@ fn main() {
             "globe-regular-symbolic.svg",
             "icons/fluentui-system-icons/globe-regular-symbolic.svg",
         ),
+        #[cfg(feature = "globe-small")]
+        (
+            "globe-small-symbolic.svg",
+            "icons/icon-development-kit/globe-small-symbolic.svg",
+        ),
         #[cfg(feature = "globe-star-filled")]
         (
             "globe-star-filled-symbolic.svg",
@@ -6687,6 +7167,11 @@ fn main() {
         (
             "globe-star-regular-symbolic.svg",
             "icons/fluentui-system-icons/globe-star-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "goldola")]
+        (
+            "goldola-symbolic.svg",
+            "icons/icon-development-kit/goldola-symbolic.svg",
         ),
         #[cfg(feature = "golf")]
         (
@@ -6722,6 +7207,16 @@ fn main() {
         (
             "grid-filled-alt-symbolic.svg",
             "icons/fluentui-system-icons/grid-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "grid-kanban-filled")]
+        (
+            "grid-kanban-filled-symbolic.svg",
+            "icons/fluentui-system-icons/grid-kanban-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "grid-kanban-regular")]
+        (
+            "grid-kanban-regular-symbolic.svg",
+            "icons/fluentui-system-icons/grid-kanban-regular-symbolic.svg",
         ),
         #[cfg(feature = "grid-large")]
         (
@@ -6812,6 +7307,11 @@ fn main() {
         (
             "hand-open-symbolic.svg",
             "icons/icon-development-kit/hand-open-symbolic.svg",
+        ),
+        #[cfg(feature = "hand-openyay")]
+        (
+            "hand-openyay-symbolic.svg",
+            "icons/icon-development-kit/hand-openyay-symbolic.svg",
         ),
         #[cfg(feature = "hand-point-horizontal")]
         (
@@ -6933,6 +7433,11 @@ fn main() {
             "heal-symbolic.svg",
             "icons/icon-development-kit/heal-symbolic.svg",
         ),
+        #[cfg(feature = "health-emergency")]
+        (
+            "health-emergency-symbolic.svg",
+            "icons/icon-development-kit/health-emergency-symbolic.svg",
+        ),
         #[cfg(feature = "heart-broken")]
         (
             "heart-broken-symbolic.svg",
@@ -7048,6 +7553,16 @@ fn main() {
             "home-filled-symbolic.svg",
             "icons/fluentui-system-icons/home-filled-symbolic.svg",
         ),
+        #[cfg(feature = "home-heart-filled")]
+        (
+            "home-heart-filled-symbolic.svg",
+            "icons/fluentui-system-icons/home-heart-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "home-heart-regular")]
+        (
+            "home-heart-regular-symbolic.svg",
+            "icons/fluentui-system-icons/home-heart-regular-symbolic.svg",
+        ),
         #[cfg(feature = "home-regular")]
         (
             "home-regular-symbolic.svg",
@@ -7092,6 +7607,16 @@ fn main() {
         (
             "hospital-sign-symbolic.svg",
             "icons/icon-development-kit/hospital-sign-symbolic.svg",
+        ),
+        #[cfg(feature = "hotel-tag")]
+        (
+            "hotel-tag-symbolic.svg",
+            "icons/icon-development-kit/hotel-tag-symbolic.svg",
+        ),
+        #[cfg(feature = "hotel-tag-outline")]
+        (
+            "hotel-tag-outline-symbolic.svg",
+            "icons/icon-development-kit/hotel-tag-outline-symbolic.svg",
         ),
         #[cfg(feature = "hourglass")]
         (
@@ -7258,6 +7783,16 @@ fn main() {
             "image-round-symbolic.svg",
             "icons/icon-development-kit/image-round-symbolic.svg",
         ),
+        #[cfg(feature = "image-stack-filled")]
+        (
+            "image-stack-filled-symbolic.svg",
+            "icons/fluentui-system-icons/image-stack-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "image-stack-regular")]
+        (
+            "image-stack-regular-symbolic.svg",
+            "icons/fluentui-system-icons/image-stack-regular-symbolic.svg",
+        ),
         #[cfg(feature = "image-table-filled")]
         (
             "image-table-filled-symbolic.svg",
@@ -7287,6 +7822,11 @@ fn main() {
         (
             "important-regular-symbolic.svg",
             "icons/fluentui-system-icons/important-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "important-small")]
+        (
+            "important-small-symbolic.svg",
+            "icons/icon-development-kit/important-small-symbolic.svg",
         ),
         #[cfg(feature = "inbox")]
         (
@@ -7613,6 +8153,16 @@ fn main() {
             "laptop-regular-symbolic.svg",
             "icons/fluentui-system-icons/laptop-regular-symbolic.svg",
         ),
+        #[cfg(feature = "laptop-shield-filled")]
+        (
+            "laptop-shield-filled-symbolic.svg",
+            "icons/fluentui-system-icons/laptop-shield-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "laptop-shield-regular")]
+        (
+            "laptop-shield-regular-symbolic.svg",
+            "icons/fluentui-system-icons/laptop-shield-regular-symbolic.svg",
+        ),
         #[cfg(feature = "large-brush")]
         (
             "large-brush-symbolic.svg",
@@ -7748,6 +8298,26 @@ fn main() {
             "likert-regular-symbolic.svg",
             "icons/fluentui-system-icons/likert-regular-symbolic.svg",
         ),
+        #[cfg(feature = "line-horizontal-4-filled")]
+        (
+            "line-horizontal-4-filled-symbolic.svg",
+            "icons/fluentui-system-icons/line-horizontal-4-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "line-horizontal-4-regular")]
+        (
+            "line-horizontal-4-regular-symbolic.svg",
+            "icons/fluentui-system-icons/line-horizontal-4-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "line-horizontal-4-search-filled")]
+        (
+            "line-horizontal-4-search-filled-symbolic.svg",
+            "icons/fluentui-system-icons/line-horizontal-4-search-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "line-horizontal-4-search-regular")]
+        (
+            "line-horizontal-4-search-regular-symbolic.svg",
+            "icons/fluentui-system-icons/line-horizontal-4-search-regular-symbolic.svg",
+        ),
         #[cfg(feature = "link-dismiss-filled")]
         (
             "link-dismiss-filled-symbolic.svg",
@@ -7797,6 +8367,36 @@ fn main() {
         (
             "list-alt-symbolic.svg",
             "icons/icon-development-kit/list-alt-symbolic.svg",
+        ),
+        #[cfg(feature = "list-bar-filled")]
+        (
+            "list-bar-filled-symbolic.svg",
+            "icons/fluentui-system-icons/list-bar-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "list-bar-regular")]
+        (
+            "list-bar-regular-symbolic.svg",
+            "icons/fluentui-system-icons/list-bar-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "list-bar-tree-filled")]
+        (
+            "list-bar-tree-filled-symbolic.svg",
+            "icons/fluentui-system-icons/list-bar-tree-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "list-bar-tree-offset-filled")]
+        (
+            "list-bar-tree-offset-filled-symbolic.svg",
+            "icons/fluentui-system-icons/list-bar-tree-offset-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "list-bar-tree-offset-regular")]
+        (
+            "list-bar-tree-offset-regular-symbolic.svg",
+            "icons/fluentui-system-icons/list-bar-tree-offset-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "list-bar-tree-regular")]
+        (
+            "list-bar-tree-regular-symbolic.svg",
+            "icons/fluentui-system-icons/list-bar-tree-regular-symbolic.svg",
         ),
         #[cfg(feature = "list-compact")]
         (
@@ -7913,6 +8513,16 @@ fn main() {
             "lock-closed-filled-symbolic.svg",
             "icons/fluentui-system-icons/lock-closed-filled-symbolic.svg",
         ),
+        #[cfg(feature = "lock-closed-key-filled")]
+        (
+            "lock-closed-key-filled-symbolic.svg",
+            "icons/fluentui-system-icons/lock-closed-key-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "lock-closed-key-regular")]
+        (
+            "lock-closed-key-regular-symbolic.svg",
+            "icons/fluentui-system-icons/lock-closed-key-regular-symbolic.svg",
+        ),
         #[cfg(feature = "lock-closed-regular")]
         (
             "lock-closed-regular-symbolic.svg",
@@ -7947,6 +8557,11 @@ fn main() {
         (
             "loupe-large-symbolic.svg",
             "icons/icon-development-kit/loupe-large-symbolic.svg",
+        ),
+        #[cfg(feature = "loupe-plus")]
+        (
+            "loupe-plus-symbolic.svg",
+            "icons/icon-development-kit/loupe-plus-symbolic.svg",
         ),
         #[cfg(feature = "loupe-with-arrow")]
         (
@@ -8268,6 +8883,11 @@ fn main() {
             "mail-shield-regular-symbolic.svg",
             "icons/fluentui-system-icons/mail-shield-regular-symbolic.svg",
         ),
+        #[cfg(feature = "mail-small")]
+        (
+            "mail-small-symbolic.svg",
+            "icons/icon-development-kit/mail-small-symbolic.svg",
+        ),
         #[cfg(feature = "mail-template-filled")]
         (
             "mail-template-filled-symbolic.svg",
@@ -8347,6 +8967,16 @@ fn main() {
         (
             "marker-symbolic.svg",
             "icons/icon-development-kit/marker-symbolic.svg",
+        ),
+        #[cfg(feature = "math-format-professional-filled")]
+        (
+            "math-format-professional-filled-symbolic.svg",
+            "icons/fluentui-system-icons/math-format-professional-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "math-format-professional-regular")]
+        (
+            "math-format-professional-regular-symbolic.svg",
+            "icons/fluentui-system-icons/math-format-professional-regular-symbolic.svg",
         ),
         #[cfg(feature = "math-formula-filled")]
         (
@@ -8558,6 +9188,11 @@ fn main() {
             "minus-large-symbolic.svg",
             "icons/icon-development-kit/minus-large-symbolic.svg",
         ),
+        #[cfg(feature = "mitten")]
+        (
+            "mitten-symbolic.svg",
+            "icons/icon-development-kit/mitten-symbolic.svg",
+        ),
         #[cfg(feature = "mobile-network")]
         (
             "mobile-network-symbolic.svg",
@@ -8593,6 +9228,16 @@ fn main() {
             "money-filled-symbolic.svg",
             "icons/fluentui-system-icons/money-filled-symbolic.svg",
         ),
+        #[cfg(feature = "money-hand-filled")]
+        (
+            "money-hand-filled-symbolic.svg",
+            "icons/fluentui-system-icons/money-hand-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "money-hand-regular")]
+        (
+            "money-hand-regular-symbolic.svg",
+            "icons/fluentui-system-icons/money-hand-regular-symbolic.svg",
+        ),
         #[cfg(feature = "money-none")]
         (
             "money-none-symbolic.svg",
@@ -8602,6 +9247,16 @@ fn main() {
         (
             "money-regular-symbolic.svg",
             "icons/fluentui-system-icons/money-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "money-settings-filled")]
+        (
+            "money-settings-filled-symbolic.svg",
+            "icons/fluentui-system-icons/money-settings-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "money-settings-regular")]
+        (
+            "money-settings-regular-symbolic.svg",
+            "icons/fluentui-system-icons/money-settings-regular-symbolic.svg",
         ),
         #[cfg(feature = "monitor-pick")]
         (
@@ -8797,6 +9452,46 @@ fn main() {
         (
             "navigate-symbolic.svg",
             "icons/icon-development-kit/navigate-symbolic.svg",
+        ),
+        #[cfg(feature = "navigate-east")]
+        (
+            "navigate-east-symbolic.svg",
+            "icons/icon-development-kit/navigate-east-symbolic.svg",
+        ),
+        #[cfg(feature = "navigate-north")]
+        (
+            "navigate-north-symbolic.svg",
+            "icons/icon-development-kit/navigate-north-symbolic.svg",
+        ),
+        #[cfg(feature = "navigate-north-east")]
+        (
+            "navigate-north-east-symbolic.svg",
+            "icons/icon-development-kit/navigate-north-east-symbolic.svg",
+        ),
+        #[cfg(feature = "navigate-north-west")]
+        (
+            "navigate-north-west-symbolic.svg",
+            "icons/icon-development-kit/navigate-north-west-symbolic.svg",
+        ),
+        #[cfg(feature = "navigate-south")]
+        (
+            "navigate-south-symbolic.svg",
+            "icons/icon-development-kit/navigate-south-symbolic.svg",
+        ),
+        #[cfg(feature = "navigate-south-east")]
+        (
+            "navigate-south-east-symbolic.svg",
+            "icons/icon-development-kit/navigate-south-east-symbolic.svg",
+        ),
+        #[cfg(feature = "navigate-south-west")]
+        (
+            "navigate-south-west-symbolic.svg",
+            "icons/icon-development-kit/navigate-south-west-symbolic.svg",
+        ),
+        #[cfg(feature = "navigate-west")]
+        (
+            "navigate-west-symbolic.svg",
+            "icons/icon-development-kit/navigate-west-symbolic.svg",
         ),
         #[cfg(feature = "navigation-filled")]
         (
@@ -9093,6 +9788,16 @@ fn main() {
             "object-packing-symbolic.svg",
             "icons/icon-development-kit/object-packing-symbolic.svg",
         ),
+        #[cfg(feature = "object-scale-1to1")]
+        (
+            "object-scale-1to1-symbolic.svg",
+            "icons/icon-development-kit/object-scale-1to1-symbolic.svg",
+        ),
+        #[cfg(feature = "object-scale-to-fit")]
+        (
+            "object-scale-to-fit-symbolic.svg",
+            "icons/icon-development-kit/object-scale-to-fit-symbolic.svg",
+        ),
         #[cfg(feature = "offline-globe")]
         (
             "offline-globe-symbolic.svg",
@@ -9208,6 +9913,16 @@ fn main() {
             "page-fit-regular-symbolic.svg",
             "icons/fluentui-system-icons/page-fit-regular-symbolic.svg",
         ),
+        #[cfg(feature = "page-orientation-landscape")]
+        (
+            "page-orientation-landscape-symbolic.svg",
+            "icons/icon-development-kit/page-orientation-landscape-symbolic.svg",
+        ),
+        #[cfg(feature = "page-orientation-portrait")]
+        (
+            "page-orientation-portrait-symbolic.svg",
+            "icons/icon-development-kit/page-orientation-portrait-symbolic.svg",
+        ),
         #[cfg(feature = "paint-brush-filled")]
         (
             "paint-brush-filled-symbolic.svg",
@@ -9317,6 +10032,36 @@ fn main() {
         (
             "panel-left-regular-symbolic.svg",
             "icons/fluentui-system-icons/panel-left-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "panel-left-text-add-filled")]
+        (
+            "panel-left-text-add-filled-symbolic.svg",
+            "icons/fluentui-system-icons/panel-left-text-add-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "panel-left-text-add-regular")]
+        (
+            "panel-left-text-add-regular-symbolic.svg",
+            "icons/fluentui-system-icons/panel-left-text-add-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "panel-left-text-dismiss-filled")]
+        (
+            "panel-left-text-dismiss-filled-symbolic.svg",
+            "icons/fluentui-system-icons/panel-left-text-dismiss-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "panel-left-text-dismiss-regular")]
+        (
+            "panel-left-text-dismiss-regular-symbolic.svg",
+            "icons/fluentui-system-icons/panel-left-text-dismiss-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "panel-left-text-filled")]
+        (
+            "panel-left-text-filled-symbolic.svg",
+            "icons/fluentui-system-icons/panel-left-text-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "panel-left-text-regular")]
+        (
+            "panel-left-text-regular-symbolic.svg",
+            "icons/fluentui-system-icons/panel-left-text-regular-symbolic.svg",
         ),
         #[cfg(feature = "panel-right-contract-filled")]
         (
@@ -9483,6 +10228,16 @@ fn main() {
             "pda-symbolic.svg",
             "icons/icon-development-kit/pda-symbolic.svg",
         ),
+        #[cfg(feature = "pen-dismiss-filled")]
+        (
+            "pen-dismiss-filled-symbolic.svg",
+            "icons/fluentui-system-icons/pen-dismiss-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "pen-dismiss-regular")]
+        (
+            "pen-dismiss-regular-symbolic.svg",
+            "icons/fluentui-system-icons/pen-dismiss-regular-symbolic.svg",
+        ),
         #[cfg(feature = "pen-filled")]
         (
             "pen-filled-symbolic.svg",
@@ -9522,6 +10277,11 @@ fn main() {
         (
             "pencil-and-paper-symbolic.svg",
             "icons/icon-development-kit/pencil-and-paper-symbolic.svg",
+        ),
+        #[cfg(feature = "pencil-and-paper-small")]
+        (
+            "pencil-and-paper-small-symbolic.svg",
+            "icons/icon-development-kit/pencil-and-paper-small-symbolic.svg",
         ),
         #[cfg(feature = "penguin")]
         (
@@ -9577,6 +10337,16 @@ fn main() {
         (
             "people-community-regular-symbolic.svg",
             "icons/fluentui-system-icons/people-community-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "people-edit-filled")]
+        (
+            "people-edit-filled-symbolic.svg",
+            "icons/fluentui-system-icons/people-edit-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "people-edit-regular")]
+        (
+            "people-edit-regular-symbolic.svg",
+            "icons/fluentui-system-icons/people-edit-regular-symbolic.svg",
         ),
         #[cfg(feature = "people-error-filled")]
         (
@@ -9858,6 +10628,16 @@ fn main() {
             "person-info-regular-symbolic.svg",
             "icons/fluentui-system-icons/person-info-regular-symbolic.svg",
         ),
+        #[cfg(feature = "person-lightning-filled")]
+        (
+            "person-lightning-filled-symbolic.svg",
+            "icons/fluentui-system-icons/person-lightning-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "person-lightning-regular")]
+        (
+            "person-lightning-regular-symbolic.svg",
+            "icons/fluentui-system-icons/person-lightning-regular-symbolic.svg",
+        ),
         #[cfg(feature = "person-link-filled")]
         (
             "person-link-filled-symbolic.svg",
@@ -9922,6 +10702,16 @@ fn main() {
         (
             "person-regular-symbolic.svg",
             "icons/fluentui-system-icons/person-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "person-ribbon-filled")]
+        (
+            "person-ribbon-filled-symbolic.svg",
+            "icons/fluentui-system-icons/person-ribbon-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "person-ribbon-regular")]
+        (
+            "person-ribbon-regular-symbolic.svg",
+            "icons/fluentui-system-icons/person-ribbon-regular-symbolic.svg",
         ),
         #[cfg(feature = "person-search-filled")]
         (
@@ -10088,10 +10878,25 @@ fn main() {
             "phone-oldschool-symbolic.svg",
             "icons/icon-development-kit/phone-oldschool-symbolic.svg",
         ),
+        #[cfg(feature = "phone-ongoing-call")]
+        (
+            "phone-ongoing-call-symbolic.svg",
+            "icons/icon-development-kit/phone-ongoing-call-symbolic.svg",
+        ),
         #[cfg(feature = "phone-regular")]
         (
             "phone-regular-symbolic.svg",
             "icons/fluentui-system-icons/phone-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "phone-right-facing")]
+        (
+            "phone-right-facing-symbolic.svg",
+            "icons/icon-development-kit/phone-right-facing-symbolic.svg",
+        ),
+        #[cfg(feature = "phone-right-facing-large")]
+        (
+            "phone-right-facing-large-symbolic.svg",
+            "icons/icon-development-kit/phone-right-facing-large-symbolic.svg",
         ),
         #[cfg(feature = "phone-span-in-filled")]
         (
@@ -10367,6 +11172,16 @@ fn main() {
         (
             "podcast-symbolic.svg",
             "icons/icon-development-kit/podcast-symbolic.svg",
+        ),
+        #[cfg(feature = "police-badge")]
+        (
+            "police-badge-symbolic.svg",
+            "icons/icon-development-kit/police-badge-symbolic.svg",
+        ),
+        #[cfg(feature = "police-badge2")]
+        (
+            "police-badge2-symbolic.svg",
+            "icons/icon-development-kit/police-badge2-symbolic.svg",
         ),
         #[cfg(feature = "poll-filled")]
         (
@@ -10763,6 +11578,16 @@ fn main() {
             "re-order-regular-symbolic.svg",
             "icons/fluentui-system-icons/re-order-regular-symbolic.svg",
         ),
+        #[cfg(feature = "reaction-add")]
+        (
+            "reaction-add-symbolic.svg",
+            "icons/icon-development-kit/reaction-add-symbolic.svg",
+        ),
+        #[cfg(feature = "reaction-add2")]
+        (
+            "reaction-add2-symbolic.svg",
+            "icons/icon-development-kit/reaction-add2-symbolic.svg",
+        ),
         #[cfg(feature = "read-aloud-filled")]
         (
             "read-aloud-filled-symbolic.svg",
@@ -10897,6 +11722,11 @@ fn main() {
         (
             "rename-regular-symbolic.svg",
             "icons/fluentui-system-icons/rename-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "rescue")]
+        (
+            "rescue-symbolic.svg",
+            "icons/icon-development-kit/rescue-symbolic.svg",
         ),
         #[cfg(feature = "resize-large-filled")]
         (
@@ -11072,6 +11902,11 @@ fn main() {
         (
             "run-regular-symbolic.svg",
             "icons/fluentui-system-icons/run-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "running")]
+        (
+            "running-symbolic.svg",
+            "icons/icon-development-kit/running-symbolic.svg",
         ),
         #[cfg(feature = "salami")]
         (
@@ -11268,6 +12103,11 @@ fn main() {
             "screenshooter-symbolic.svg",
             "icons/icon-development-kit/screenshooter-symbolic.svg",
         ),
+        #[cfg(feature = "screenshot-portrait")]
+        (
+            "screenshot-portrait-symbolic.svg",
+            "icons/icon-development-kit/screenshot-portrait-symbolic.svg",
+        ),
         #[cfg(feature = "screenshot-recorded")]
         (
             "screenshot-recorded-symbolic.svg",
@@ -11352,6 +12192,16 @@ fn main() {
         (
             "send-alt-symbolic.svg",
             "icons/icon-development-kit/send-alt-symbolic.svg",
+        ),
+        #[cfg(feature = "send-beaker-filled")]
+        (
+            "send-beaker-filled-symbolic.svg",
+            "icons/fluentui-system-icons/send-beaker-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "send-beaker-regular")]
+        (
+            "send-beaker-regular-symbolic.svg",
+            "icons/fluentui-system-icons/send-beaker-regular-symbolic.svg",
         ),
         #[cfg(feature = "send-filled")]
         (
@@ -11893,6 +12743,16 @@ fn main() {
             "slide-eraser-regular-symbolic.svg",
             "icons/fluentui-system-icons/slide-eraser-regular-symbolic.svg",
         ),
+        #[cfg(feature = "slide-record-filled")]
+        (
+            "slide-record-filled-symbolic.svg",
+            "icons/fluentui-system-icons/slide-record-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "slide-record-regular")]
+        (
+            "slide-record-regular-symbolic.svg",
+            "icons/fluentui-system-icons/slide-record-regular-symbolic.svg",
+        ),
         #[cfg(feature = "slide-text-filled")]
         (
             "slide-text-filled-symbolic.svg",
@@ -11922,6 +12782,16 @@ fn main() {
         (
             "slide-text-regular-symbolic.svg",
             "icons/fluentui-system-icons/slide-text-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "slide-text-sparkle-filled")]
+        (
+            "slide-text-sparkle-filled-symbolic.svg",
+            "icons/fluentui-system-icons/slide-text-sparkle-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "slide-text-sparkle-regular")]
+        (
+            "slide-text-sparkle-regular-symbolic.svg",
+            "icons/fluentui-system-icons/slide-text-sparkle-regular-symbolic.svg",
         ),
         #[cfg(feature = "small-x")]
         (
@@ -12353,6 +13223,16 @@ fn main() {
             "star-arrow-back-regular-symbolic.svg",
             "icons/fluentui-system-icons/star-arrow-back-regular-symbolic.svg",
         ),
+        #[cfg(feature = "star-checkmark-filled")]
+        (
+            "star-checkmark-filled-symbolic.svg",
+            "icons/fluentui-system-icons/star-checkmark-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "star-checkmark-regular")]
+        (
+            "star-checkmark-regular-symbolic.svg",
+            "icons/fluentui-system-icons/star-checkmark-regular-symbolic.svg",
+        ),
         #[cfg(feature = "star-dismiss-filled")]
         (
             "star-dismiss-filled-symbolic.svg",
@@ -12648,6 +13528,11 @@ fn main() {
             "subtract-regular-symbolic.svg",
             "icons/fluentui-system-icons/subtract-regular-symbolic.svg",
         ),
+        #[cfg(feature = "subtract-square-filled")]
+        (
+            "subtract-square-filled-symbolic.svg",
+            "icons/fluentui-system-icons/subtract-square-filled-symbolic.svg",
+        ),
         #[cfg(feature = "subtract-square-multiple-filled")]
         (
             "subtract-square-multiple-filled-symbolic.svg",
@@ -12657,6 +13542,16 @@ fn main() {
         (
             "subtract-square-multiple-regular-symbolic.svg",
             "icons/fluentui-system-icons/subtract-square-multiple-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "subtract-square-regular")]
+        (
+            "subtract-square-regular-symbolic.svg",
+            "icons/fluentui-system-icons/subtract-square-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "subway")]
+        (
+            "subway-symbolic.svg",
+            "icons/icon-development-kit/subway-symbolic.svg",
         ),
         #[cfg(feature = "success")]
         (
@@ -13043,10 +13938,30 @@ fn main() {
             "table-simple-checkmark-regular-symbolic.svg",
             "icons/fluentui-system-icons/table-simple-checkmark-regular-symbolic.svg",
         ),
+        #[cfg(feature = "table-simple-exclude-filled")]
+        (
+            "table-simple-exclude-filled-symbolic.svg",
+            "icons/fluentui-system-icons/table-simple-exclude-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "table-simple-exclude-regular")]
+        (
+            "table-simple-exclude-regular-symbolic.svg",
+            "icons/fluentui-system-icons/table-simple-exclude-regular-symbolic.svg",
+        ),
         #[cfg(feature = "table-simple-filled")]
         (
             "table-simple-filled-symbolic.svg",
             "icons/fluentui-system-icons/table-simple-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "table-simple-include-filled")]
+        (
+            "table-simple-include-filled-symbolic.svg",
+            "icons/fluentui-system-icons/table-simple-include-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "table-simple-include-regular")]
+        (
+            "table-simple-include-regular-symbolic.svg",
+            "icons/fluentui-system-icons/table-simple-include-regular-symbolic.svg",
         ),
         #[cfg(feature = "table-simple-regular")]
         (
@@ -13187,6 +14102,16 @@ fn main() {
         (
             "tag-multiple-regular-symbolic.svg",
             "icons/fluentui-system-icons/tag-multiple-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "tag-outline")]
+        (
+            "tag-outline-symbolic.svg",
+            "icons/icon-development-kit/tag-outline-symbolic.svg",
+        ),
+        #[cfg(feature = "tag-outline-add")]
+        (
+            "tag-outline-add-symbolic.svg",
+            "icons/icon-development-kit/tag-outline-add-symbolic.svg",
         ),
         #[cfg(feature = "tag-question-mark-filled")]
         (
@@ -13427,6 +14352,26 @@ fn main() {
         (
             "text-bold-regular-symbolic.svg",
             "icons/fluentui-system-icons/text-bold-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "text-bullet-list-square-filled")]
+        (
+            "text-bullet-list-square-filled-symbolic.svg",
+            "icons/fluentui-system-icons/text-bullet-list-square-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "text-bullet-list-square-regular")]
+        (
+            "text-bullet-list-square-regular-symbolic.svg",
+            "icons/fluentui-system-icons/text-bullet-list-square-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "text-bullet-list-square-sparkle-filled")]
+        (
+            "text-bullet-list-square-sparkle-filled-symbolic.svg",
+            "icons/fluentui-system-icons/text-bullet-list-square-sparkle-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "text-bullet-list-square-sparkle-regular")]
+        (
+            "text-bullet-list-square-sparkle-regular-symbolic.svg",
+            "icons/fluentui-system-icons/text-bullet-list-square-sparkle-regular-symbolic.svg",
         ),
         #[cfg(feature = "text-bullet-list-square-warning-filled")]
         (
@@ -13843,6 +14788,16 @@ fn main() {
             "text3-symbolic.svg",
             "icons/icon-development-kit/text3-symbolic.svg",
         ),
+        #[cfg(feature = "textbox-align-middle-filled")]
+        (
+            "textbox-align-middle-filled-symbolic.svg",
+            "icons/fluentui-system-icons/textbox-align-middle-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "textbox-align-middle-regular")]
+        (
+            "textbox-align-middle-regular-symbolic.svg",
+            "icons/fluentui-system-icons/textbox-align-middle-regular-symbolic.svg",
+        ),
         #[cfg(feature = "textbox-filled")]
         (
             "textbox-filled-symbolic.svg",
@@ -14028,10 +14983,30 @@ fn main() {
             "town-symbolic.svg",
             "icons/icon-development-kit/town-symbolic.svg",
         ),
+        #[cfg(feature = "train")]
+        (
+            "train-symbolic.svg",
+            "icons/icon-development-kit/train-symbolic.svg",
+        ),
+        #[cfg(feature = "tram")]
+        (
+            "tram-symbolic.svg",
+            "icons/icon-development-kit/tram-symbolic.svg",
+        ),
         #[cfg(feature = "transform")]
         (
             "transform-symbolic.svg",
             "icons/icon-development-kit/transform-symbolic.svg",
+        ),
+        #[cfg(feature = "translate-auto-filled")]
+        (
+            "translate-auto-filled-symbolic.svg",
+            "icons/fluentui-system-icons/translate-auto-filled-symbolic.svg",
+        ),
+        #[cfg(feature = "translate-auto-regular")]
+        (
+            "translate-auto-regular-symbolic.svg",
+            "icons/fluentui-system-icons/translate-auto-regular-symbolic.svg",
         ),
         #[cfg(feature = "translate-filled")]
         (
@@ -14563,6 +15538,11 @@ fn main() {
             "walking-symbolic.svg",
             "icons/icon-development-kit/walking-symbolic.svg",
         ),
+        #[cfg(feature = "walking2")]
+        (
+            "walking2-symbolic.svg",
+            "icons/icon-development-kit/walking2-symbolic.svg",
+        ),
         #[cfg(feature = "wallet")]
         (
             "wallet-symbolic.svg",
@@ -14667,6 +15647,11 @@ fn main() {
         (
             "weather-partly-cloudy-day-regular-symbolic.svg",
             "icons/fluentui-system-icons/weather-partly-cloudy-day-regular-symbolic.svg",
+        ),
+        #[cfg(feature = "weather-showers-scattered")]
+        (
+            "weather-showers-scattered-symbolic.svg",
+            "icons/icon-development-kit/weather-showers-scattered-symbolic.svg",
         ),
         #[cfg(feature = "weather-sunny-filled")]
         (
@@ -14867,6 +15852,11 @@ fn main() {
         (
             "wine-glass-symbolic.svg",
             "icons/icon-development-kit/wine-glass-symbolic.svg",
+        ),
+        #[cfg(feature = "wine-glasses")]
+        (
+            "wine-glasses-symbolic.svg",
+            "icons/icon-development-kit/wine-glasses-symbolic.svg",
         ),
         #[cfg(feature = "work-week")]
         (

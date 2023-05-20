@@ -187,6 +187,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/airbrush-tool-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const AIRBRUSH_TOOL: &str = "airbrush-tool";
+    #[doc(alias = "airplane-landing-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "airplane-landing-filled")))]
+    #[cfg(feature = "airplane-landing-filled")]
+    /// Icon name constant for the `airplane-landing-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/airplane-landing-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const AIRPLANE_LANDING_FILLED: &str = "airplane-landing-filled";
+    #[doc(alias = "airplane-landing-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "airplane-landing-regular")))]
+    #[cfg(feature = "airplane-landing-regular")]
+    /// Icon name constant for the `airplane-landing-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/airplane-landing-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const AIRPLANE_LANDING_REGULAR: &str = "airplane-landing-regular";
     #[doc(alias = "airplane-take-off-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "airplane-take-off-filled")))]
     #[cfg(feature = "airplane-take-off-filled")]
@@ -529,6 +547,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/align-top-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const ALIGN_TOP_REGULAR: &str = "align-top-regular";
+    #[doc(alias = "ambulance")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "ambulance")))]
+    #[cfg(feature = "ambulance")]
+    /// Icon name constant for the `ambulance` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/ambulance-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const AMBULANCE: &str = "ambulance";
     #[doc(alias = "animal-cat-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "animal-cat-filled")))]
     #[cfg(feature = "animal-cat-filled")]
@@ -646,6 +673,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/app-icon-design-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const APP_ICON_DESIGN: &str = "app-icon-design";
+    #[doc(alias = "applause")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "applause")))]
+    #[cfg(feature = "applause")]
+    /// Icon name constant for the `applause` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/applause-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const APPLAUSE: &str = "applause";
     #[doc(alias = "application-x-firmware")]
     #[cfg_attr(docsrs, doc(cfg(feature = "application-x-firmware")))]
     #[cfg(feature = "application-x-firmware")]
@@ -736,6 +772,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/archive-arrow-back-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const ARCHIVE_ARROW_BACK_REGULAR: &str = "archive-arrow-back-regular";
+    #[doc(alias = "archive-extract")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "archive-extract")))]
+    #[cfg(feature = "archive-extract")]
+    /// Icon name constant for the `archive-extract` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/archive-extract-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const ARCHIVE_EXTRACT: &str = "archive-extract";
     #[doc(alias = "archive-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "archive-filled")))]
     #[cfg(feature = "archive-filled")]
@@ -1024,6 +1069,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-download-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const ARROW_DOWNLOAD_REGULAR: &str = "arrow-download-regular";
+    #[doc(alias = "arrow-enter-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "arrow-enter-filled")))]
+    #[cfg(feature = "arrow-enter-filled")]
+    /// Icon name constant for the `arrow-enter-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-enter-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const ARROW_ENTER_FILLED: &str = "arrow-enter-filled";
+    #[doc(alias = "arrow-enter-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "arrow-enter-regular")))]
+    #[cfg(feature = "arrow-enter-regular")]
+    /// Icon name constant for the `arrow-enter-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-enter-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const ARROW_ENTER_REGULAR: &str = "arrow-enter-regular";
     #[doc(alias = "arrow-fit-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "arrow-fit-filled")))]
     #[cfg(feature = "arrow-fit-filled")]
@@ -1060,6 +1123,42 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-fit-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const ARROW_FIT_REGULAR: &str = "arrow-fit-regular";
+    #[doc(alias = "arrow-flow-diagonal-up-right-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "arrow-flow-diagonal-up-right-filled")))]
+    #[cfg(feature = "arrow-flow-diagonal-up-right-filled")]
+    /// Icon name constant for the `arrow-flow-diagonal-up-right-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-flow-diagonal-up-right-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const ARROW_FLOW_DIAGONAL_UP_RIGHT_FILLED: &str = "arrow-flow-diagonal-up-right-filled";
+    #[doc(alias = "arrow-flow-diagonal-up-right-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "arrow-flow-diagonal-up-right-regular")))]
+    #[cfg(feature = "arrow-flow-diagonal-up-right-regular")]
+    /// Icon name constant for the `arrow-flow-diagonal-up-right-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-flow-diagonal-up-right-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const ARROW_FLOW_DIAGONAL_UP_RIGHT_REGULAR: &str = "arrow-flow-diagonal-up-right-regular";
+    #[doc(alias = "arrow-flow-up-right-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "arrow-flow-up-right-filled")))]
+    #[cfg(feature = "arrow-flow-up-right-filled")]
+    /// Icon name constant for the `arrow-flow-up-right-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-flow-up-right-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const ARROW_FLOW_UP_RIGHT_FILLED: &str = "arrow-flow-up-right-filled";
+    #[doc(alias = "arrow-flow-up-right-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "arrow-flow-up-right-regular")))]
+    #[cfg(feature = "arrow-flow-up-right-regular")]
+    /// Icon name constant for the `arrow-flow-up-right-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-flow-up-right-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const ARROW_FLOW_UP_RIGHT_REGULAR: &str = "arrow-flow-up-right-regular";
     #[doc(alias = "arrow-forward-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "arrow-forward-filled")))]
     #[cfg(feature = "arrow-forward-filled")]
@@ -1555,6 +1654,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-split-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const ARROW_SPLIT_REGULAR: &str = "arrow-split-regular";
+    #[doc(alias = "arrow-sprint-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "arrow-sprint-filled")))]
+    #[cfg(feature = "arrow-sprint-filled")]
+    /// Icon name constant for the `arrow-sprint-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-sprint-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const ARROW_SPRINT_FILLED: &str = "arrow-sprint-filled";
+    #[doc(alias = "arrow-sprint-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "arrow-sprint-regular")))]
+    #[cfg(feature = "arrow-sprint-regular")]
+    /// Icon name constant for the `arrow-sprint-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/arrow-sprint-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const ARROW_SPRINT_REGULAR: &str = "arrow-sprint-regular";
     #[doc(alias = "arrow-step-back-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "arrow-step-back-filled")))]
     #[cfg(feature = "arrow-step-back-filled")]
@@ -2167,6 +2284,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/backpack-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const BACKPACK_REGULAR: &str = "backpack-regular";
+    #[doc(alias = "backspace-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "backspace-filled")))]
+    #[cfg(feature = "backspace-filled")]
+    /// Icon name constant for the `backspace-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/backspace-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BACKSPACE_FILLED: &str = "backspace-filled";
+    #[doc(alias = "backspace-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "backspace-regular")))]
+    #[cfg(feature = "backspace-regular")]
+    /// Icon name constant for the `backspace-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/backspace-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BACKSPACE_REGULAR: &str = "backspace-regular";
     #[doc(alias = "balloon-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "balloon-filled")))]
     #[cfg(feature = "balloon-filled")]
@@ -2266,6 +2401,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/beaker-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const BEAKER_REGULAR: &str = "beaker-regular";
+    #[doc(alias = "beaker-settings-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "beaker-settings-filled")))]
+    #[cfg(feature = "beaker-settings-filled")]
+    /// Icon name constant for the `beaker-settings-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/beaker-settings-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BEAKER_SETTINGS_FILLED: &str = "beaker-settings-filled";
+    #[doc(alias = "beaker-settings-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "beaker-settings-regular")))]
+    #[cfg(feature = "beaker-settings-regular")]
+    /// Icon name constant for the `beaker-settings-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/beaker-settings-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BEAKER_SETTINGS_REGULAR: &str = "beaker-settings-regular";
     #[doc(alias = "bear")]
     #[cfg_attr(docsrs, doc(cfg(feature = "bear")))]
     #[cfg(feature = "bear")]
@@ -2383,6 +2536,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/big-x-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const BIG_X: &str = "big-x";
+    #[doc(alias = "binder-triangle-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "binder-triangle-filled")))]
+    #[cfg(feature = "binder-triangle-filled")]
+    /// Icon name constant for the `binder-triangle-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/binder-triangle-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BINDER_TRIANGLE_FILLED: &str = "binder-triangle-filled";
+    #[doc(alias = "binder-triangle-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "binder-triangle-regular")))]
+    #[cfg(feature = "binder-triangle-regular")]
+    /// Icon name constant for the `binder-triangle-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/binder-triangle-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BINDER_TRIANGLE_REGULAR: &str = "binder-triangle-regular";
     #[doc(alias = "birthday")]
     #[cfg_attr(docsrs, doc(cfg(feature = "birthday")))]
     #[cfg(feature = "birthday")]
@@ -2545,6 +2716,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/body-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const BODY: &str = "body";
+    #[doc(alias = "book-dismiss-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "book-dismiss-filled")))]
+    #[cfg(feature = "book-dismiss-filled")]
+    /// Icon name constant for the `book-dismiss-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/book-dismiss-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BOOK_DISMISS_FILLED: &str = "book-dismiss-filled";
+    #[doc(alias = "book-dismiss-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "book-dismiss-regular")))]
+    #[cfg(feature = "book-dismiss-regular")]
+    /// Icon name constant for the `book-dismiss-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/book-dismiss-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BOOK_DISMISS_REGULAR: &str = "book-dismiss-regular";
     #[doc(alias = "book-number-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "book-number-filled")))]
     #[cfg(feature = "book-number-filled")]
@@ -2797,6 +2986,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/braces-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const BRACES_REGULAR: &str = "braces-regular";
+    #[doc(alias = "brain")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "brain")))]
+    #[cfg(feature = "brain")]
+    /// Icon name constant for the `brain` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/brain-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BRAIN: &str = "brain";
+    #[doc(alias = "brain-augemnted")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "brain-augemnted")))]
+    #[cfg(feature = "brain-augemnted")]
+    /// Icon name constant for the `brain-augemnted` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/brain-augemnted-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BRAIN_AUGEMNTED: &str = "brain-augemnted";
     #[doc(alias = "branch")]
     #[cfg_attr(docsrs, doc(cfg(feature = "branch")))]
     #[cfg(feature = "branch")]
@@ -3301,6 +3508,33 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/bus-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const BUS: &str = "bus";
+    #[doc(alias = "button-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "button-filled")))]
+    #[cfg(feature = "button-filled")]
+    /// Icon name constant for the `button-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/button-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BUTTON_FILLED: &str = "button-filled";
+    #[doc(alias = "button-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "button-regular")))]
+    #[cfg(feature = "button-regular")]
+    /// Icon name constant for the `button-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/button-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const BUTTON_REGULAR: &str = "button-regular";
+    #[doc(alias = "cablecar")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "cablecar")))]
+    #[cfg(feature = "cablecar")]
+    /// Icon name constant for the `cablecar` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/cablecar-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CABLECAR: &str = "cablecar";
     #[doc(alias = "cafe")]
     #[cfg_attr(docsrs, doc(cfg(feature = "cafe")))]
     #[cfg(feature = "cafe")]
@@ -3942,6 +4176,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/call-dismiss-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const CALL_DISMISS_REGULAR: &str = "call-dismiss-regular";
+    #[doc(alias = "call-emergency")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "call-emergency")))]
+    #[cfg(feature = "call-emergency")]
+    /// Icon name constant for the `call-emergency` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/call-emergency-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CALL_EMERGENCY: &str = "call-emergency";
     #[doc(alias = "call-end-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "call-end-filled")))]
     #[cfg(feature = "call-end-filled")]
@@ -4428,6 +4671,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/camera-static-inverse-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const CAMERA_STATIC_INVERSE: &str = "camera-static-inverse";
+    #[doc(alias = "camera-timer")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "camera-timer")))]
+    #[cfg(feature = "camera-timer")]
+    /// Icon name constant for the `camera-timer` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/camera-timer-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CAMERA_TIMER: &str = "camera-timer";
     #[doc(alias = "camera-toggle")]
     #[cfg_attr(docsrs, doc(cfg(feature = "camera-toggle")))]
     #[cfg(feature = "camera-toggle")]
@@ -4635,6 +4887,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/center-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const CENTER: &str = "center";
+    #[doc(alias = "center-on-page-horizontal")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "center-on-page-horizontal")))]
+    #[cfg(feature = "center-on-page-horizontal")]
+    /// Icon name constant for the `center-on-page-horizontal` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/center-on-page-horizontal-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CENTER_ON_PAGE_HORIZONTAL: &str = "center-on-page-horizontal";
+    #[doc(alias = "center-on-page-vertical")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "center-on-page-vertical")))]
+    #[cfg(feature = "center-on-page-vertical")]
+    /// Icon name constant for the `center-on-page-vertical` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/center-on-page-vertical-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CENTER_ON_PAGE_VERTICAL: &str = "center-on-page-vertical";
     #[doc(alias = "certificate-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "certificate-filled")))]
     #[cfg(feature = "certificate-filled")]
@@ -5535,6 +5805,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/chevron-down-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const CHEVRON_DOWN_REGULAR: &str = "chevron-down-regular";
+    #[doc(alias = "chevron-down-up-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "chevron-down-up-filled")))]
+    #[cfg(feature = "chevron-down-up-filled")]
+    /// Icon name constant for the `chevron-down-up-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/chevron-down-up-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CHEVRON_DOWN_UP_FILLED: &str = "chevron-down-up-filled";
+    #[doc(alias = "chevron-down-up-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "chevron-down-up-regular")))]
+    #[cfg(feature = "chevron-down-up-regular")]
+    /// Icon name constant for the `chevron-down-up-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/chevron-down-up-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CHEVRON_DOWN_UP_REGULAR: &str = "chevron-down-up-regular";
     #[doc(alias = "chevron-left-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "chevron-left-filled")))]
     #[cfg(feature = "chevron-left-filled")]
@@ -5670,6 +5958,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/circle-half-fill-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const CIRCLE_HALF_FILL_REGULAR: &str = "circle-half-fill-regular";
+    #[doc(alias = "circle-hint-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "circle-hint-filled")))]
+    #[cfg(feature = "circle-hint-filled")]
+    /// Icon name constant for the `circle-hint-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/circle-hint-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CIRCLE_HINT_FILLED: &str = "circle-hint-filled";
+    #[doc(alias = "circle-hint-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "circle-hint-regular")))]
+    #[cfg(feature = "circle-hint-regular")]
+    /// Icon name constant for the `circle-hint-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/circle-hint-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CIRCLE_HINT_REGULAR: &str = "circle-hint-regular";
     #[doc(alias = "circle-image-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "circle-image-filled")))]
     #[cfg(feature = "circle-image-filled")]
@@ -5688,6 +5994,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/circle-image-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const CIRCLE_IMAGE_REGULAR: &str = "circle-image-regular";
+    #[doc(alias = "circle-line-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "circle-line-filled")))]
+    #[cfg(feature = "circle-line-filled")]
+    /// Icon name constant for the `circle-line-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/circle-line-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CIRCLE_LINE_FILLED: &str = "circle-line-filled";
+    #[doc(alias = "circle-line-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "circle-line-regular")))]
+    #[cfg(feature = "circle-line-regular")]
+    /// Icon name constant for the `circle-line-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/circle-line-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CIRCLE_LINE_REGULAR: &str = "circle-line-regular";
     #[doc(alias = "circle-off-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "circle-off-filled")))]
     #[cfg(feature = "circle-off-filled")]
@@ -6930,6 +7254,42 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/colorimeter-colorhug-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const COLORIMETER_COLORHUG: &str = "colorimeter-colorhug";
+    #[doc(alias = "column-single-compare-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "column-single-compare-filled")))]
+    #[cfg(feature = "column-single-compare-filled")]
+    /// Icon name constant for the `column-single-compare-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/column-single-compare-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const COLUMN_SINGLE_COMPARE_FILLED: &str = "column-single-compare-filled";
+    #[doc(alias = "column-single-compare-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "column-single-compare-regular")))]
+    #[cfg(feature = "column-single-compare-regular")]
+    /// Icon name constant for the `column-single-compare-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/column-single-compare-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const COLUMN_SINGLE_COMPARE_REGULAR: &str = "column-single-compare-regular";
+    #[doc(alias = "column-single-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "column-single-filled")))]
+    #[cfg(feature = "column-single-filled")]
+    /// Icon name constant for the `column-single-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/column-single-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const COLUMN_SINGLE_FILLED: &str = "column-single-filled";
+    #[doc(alias = "column-single-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "column-single-regular")))]
+    #[cfg(feature = "column-single-regular")]
+    /// Icon name constant for the `column-single-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/column-single-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const COLUMN_SINGLE_REGULAR: &str = "column-single-regular";
     #[doc(alias = "columns")]
     #[cfg_attr(docsrs, doc(cfg(feature = "columns")))]
     #[cfg(feature = "columns")]
@@ -7218,6 +7578,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/compass-wind-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const COMPASS_WIND: &str = "compass-wind";
+    #[doc(alias = "compass2")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "compass2")))]
+    #[cfg(feature = "compass2")]
+    /// Icon name constant for the `compass2` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/compass2-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const COMPASS2: &str = "compass2";
     #[doc(alias = "compose-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "compose-filled")))]
     #[cfg(feature = "compose-filled")]
@@ -7704,6 +8073,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/currency-dollar-rupee-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const CURRENCY_DOLLAR_RUPEE_REGULAR: &str = "currency-dollar-rupee-regular";
+    #[doc(alias = "cursor-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "cursor-filled")))]
+    #[cfg(feature = "cursor-filled")]
+    /// Icon name constant for the `cursor-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/cursor-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CURSOR_FILLED: &str = "cursor-filled";
     #[doc(alias = "cursor-hover-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "cursor-hover-filled")))]
     #[cfg(feature = "cursor-hover-filled")]
@@ -7740,6 +8118,33 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/cursor-hover-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const CURSOR_HOVER_REGULAR: &str = "cursor-hover-regular";
+    #[doc(alias = "cursor-prohibited-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "cursor-prohibited-filled")))]
+    #[cfg(feature = "cursor-prohibited-filled")]
+    /// Icon name constant for the `cursor-prohibited-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/cursor-prohibited-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CURSOR_PROHIBITED_FILLED: &str = "cursor-prohibited-filled";
+    #[doc(alias = "cursor-prohibited-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "cursor-prohibited-regular")))]
+    #[cfg(feature = "cursor-prohibited-regular")]
+    /// Icon name constant for the `cursor-prohibited-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/cursor-prohibited-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CURSOR_PROHIBITED_REGULAR: &str = "cursor-prohibited-regular";
+    #[doc(alias = "cursor-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "cursor-regular")))]
+    #[cfg(feature = "cursor-regular")]
+    /// Icon name constant for the `cursor-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/cursor-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const CURSOR_REGULAR: &str = "cursor-regular";
     #[doc(alias = "cut")]
     #[cfg_attr(docsrs, doc(cfg(feature = "cut")))]
     #[cfg(feature = "cut")]
@@ -7840,6 +8245,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/data-bar-vertical-star-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DATA_BAR_VERTICAL_STAR_REGULAR: &str = "data-bar-vertical-star-regular";
+    #[doc(alias = "data-histogram-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "data-histogram-filled")))]
+    #[cfg(feature = "data-histogram-filled")]
+    /// Icon name constant for the `data-histogram-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/data-histogram-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DATA_HISTOGRAM_FILLED: &str = "data-histogram-filled";
+    #[doc(alias = "data-histogram-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "data-histogram-regular")))]
+    #[cfg(feature = "data-histogram-regular")]
+    /// Icon name constant for the `data-histogram-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/data-histogram-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DATA_HISTOGRAM_REGULAR: &str = "data-histogram-regular";
     #[doc(alias = "data-trending-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "data-trending-filled")))]
     #[cfg(feature = "data-trending-filled")]
@@ -7894,6 +8317,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/database-stack-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DATABASE_STACK_REGULAR: &str = "database-stack-regular";
+    #[doc(alias = "daytime-sunrise")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "daytime-sunrise")))]
+    #[cfg(feature = "daytime-sunrise")]
+    /// Icon name constant for the `daytime-sunrise` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/daytime-sunrise-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DAYTIME_SUNRISE: &str = "daytime-sunrise";
+    #[doc(alias = "daytime-sunset")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "daytime-sunset")))]
+    #[cfg(feature = "daytime-sunset")]
+    /// Icon name constant for the `daytime-sunset` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/daytime-sunset-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DAYTIME_SUNSET: &str = "daytime-sunset";
     #[doc(alias = "deaf")]
     #[cfg_attr(docsrs, doc(cfg(feature = "deaf")))]
     #[cfg(feature = "deaf")]
@@ -8011,6 +8452,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/design-ideas-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DESIGN_IDEAS_REGULAR: &str = "design-ideas-regular";
+    #[doc(alias = "desktop-arrow-down-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "desktop-arrow-down-filled")))]
+    #[cfg(feature = "desktop-arrow-down-filled")]
+    /// Icon name constant for the `desktop-arrow-down-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/desktop-arrow-down-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DESKTOP_ARROW_DOWN_FILLED: &str = "desktop-arrow-down-filled";
+    #[doc(alias = "desktop-arrow-down-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "desktop-arrow-down-regular")))]
+    #[cfg(feature = "desktop-arrow-down-regular")]
+    /// Icon name constant for the `desktop-arrow-down-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/desktop-arrow-down-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DESKTOP_ARROW_DOWN_REGULAR: &str = "desktop-arrow-down-regular";
     #[doc(alias = "desktop-arrow-right-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "desktop-arrow-right-filled")))]
     #[cfg(feature = "desktop-arrow-right-filled")]
@@ -8479,6 +8938,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/display-with-window-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DISPLAY_WITH_WINDOW: &str = "display-with-window";
+    #[doc(alias = "distance")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "distance")))]
+    #[cfg(feature = "distance")]
+    /// Icon name constant for the `distance` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/distance-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DISTANCE: &str = "distance";
     #[doc(alias = "divider-short-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "divider-short-filled")))]
     #[cfg(feature = "divider-short-filled")]
@@ -8760,6 +9228,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-catch-up-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DOCUMENT_CATCH_UP_REGULAR: &str = "document-catch-up-regular";
+    #[doc(alias = "document-checkmark-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-checkmark-filled")))]
+    #[cfg(feature = "document-checkmark-filled")]
+    /// Icon name constant for the `document-checkmark-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-checkmark-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_CHECKMARK_FILLED: &str = "document-checkmark-filled";
+    #[doc(alias = "document-checkmark-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-checkmark-regular")))]
+    #[cfg(feature = "document-checkmark-regular")]
+    /// Icon name constant for the `document-checkmark-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-checkmark-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_CHECKMARK_REGULAR: &str = "document-checkmark-regular";
     #[doc(alias = "document-contract-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "document-contract-filled")))]
     #[cfg(feature = "document-contract-filled")]
@@ -9057,6 +9543,42 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-header-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DOCUMENT_HEADER_REGULAR: &str = "document-header-regular";
+    #[doc(alias = "document-image-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-image-filled")))]
+    #[cfg(feature = "document-image-filled")]
+    /// Icon name constant for the `document-image-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-image-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_IMAGE_FILLED: &str = "document-image-filled";
+    #[doc(alias = "document-image-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-image-regular")))]
+    #[cfg(feature = "document-image-regular")]
+    /// Icon name constant for the `document-image-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-image-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_IMAGE_REGULAR: &str = "document-image-regular";
+    #[doc(alias = "document-java-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-java-filled")))]
+    #[cfg(feature = "document-java-filled")]
+    /// Icon name constant for the `document-java-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-java-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_JAVA_FILLED: &str = "document-java-filled";
+    #[doc(alias = "document-java-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-java-regular")))]
+    #[cfg(feature = "document-java-regular")]
+    /// Icon name constant for the `document-java-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-java-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_JAVA_REGULAR: &str = "document-java-regular";
     #[doc(alias = "document-js-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "document-js-filled")))]
     #[cfg(feature = "document-js-filled")]
@@ -9183,6 +9705,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-one-page-add-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DOCUMENT_ONE_PAGE_ADD_REGULAR: &str = "document-one-page-add-regular";
+    #[doc(alias = "document-one-page-beaker-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-one-page-beaker-filled")))]
+    #[cfg(feature = "document-one-page-beaker-filled")]
+    /// Icon name constant for the `document-one-page-beaker-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-one-page-beaker-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_ONE_PAGE_BEAKER_FILLED: &str = "document-one-page-beaker-filled";
+    #[doc(alias = "document-one-page-beaker-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-one-page-beaker-regular")))]
+    #[cfg(feature = "document-one-page-beaker-regular")]
+    /// Icon name constant for the `document-one-page-beaker-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-one-page-beaker-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_ONE_PAGE_BEAKER_REGULAR: &str = "document-one-page-beaker-regular";
     #[doc(alias = "document-one-page-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "document-one-page-filled")))]
     #[cfg(feature = "document-one-page-filled")]
@@ -9210,6 +9750,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-one-page-link-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DOCUMENT_ONE_PAGE_LINK_REGULAR: &str = "document-one-page-link-regular";
+    #[doc(alias = "document-one-page-multiple-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-one-page-multiple-filled")))]
+    #[cfg(feature = "document-one-page-multiple-filled")]
+    /// Icon name constant for the `document-one-page-multiple-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-one-page-multiple-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_ONE_PAGE_MULTIPLE_FILLED: &str = "document-one-page-multiple-filled";
+    #[doc(alias = "document-one-page-multiple-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-one-page-multiple-regular")))]
+    #[cfg(feature = "document-one-page-multiple-regular")]
+    /// Icon name constant for the `document-one-page-multiple-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-one-page-multiple-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_ONE_PAGE_MULTIPLE_REGULAR: &str = "document-one-page-multiple-regular";
     #[doc(alias = "document-one-page-regular")]
     #[cfg_attr(docsrs, doc(cfg(feature = "document-one-page-regular")))]
     #[cfg(feature = "document-one-page-regular")]
@@ -9219,6 +9777,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-one-page-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DOCUMENT_ONE_PAGE_REGULAR: &str = "document-one-page-regular";
+    #[doc(alias = "document-one-page-sparkle-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-one-page-sparkle-filled")))]
+    #[cfg(feature = "document-one-page-sparkle-filled")]
+    /// Icon name constant for the `document-one-page-sparkle-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-one-page-sparkle-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_ONE_PAGE_SPARKLE_FILLED: &str = "document-one-page-sparkle-filled";
+    #[doc(alias = "document-one-page-sparkle-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-one-page-sparkle-regular")))]
+    #[cfg(feature = "document-one-page-sparkle-regular")]
+    /// Icon name constant for the `document-one-page-sparkle-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-one-page-sparkle-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_ONE_PAGE_SPARKLE_REGULAR: &str = "document-one-page-sparkle-regular";
     #[doc(alias = "document-pdf-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "document-pdf-filled")))]
     #[cfg(feature = "document-pdf-filled")]
@@ -9336,6 +9912,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-ribbon-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DOCUMENT_RIBBON_REGULAR: &str = "document-ribbon-regular";
+    #[doc(alias = "document-sass-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-sass-filled")))]
+    #[cfg(feature = "document-sass-filled")]
+    /// Icon name constant for the `document-sass-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-sass-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_SASS_FILLED: &str = "document-sass-filled";
+    #[doc(alias = "document-sass-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-sass-regular")))]
+    #[cfg(feature = "document-sass-regular")]
+    /// Icon name constant for the `document-sass-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-sass-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_SASS_REGULAR: &str = "document-sass-regular";
     #[doc(alias = "document-search-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "document-search-filled")))]
     #[cfg(feature = "document-search-filled")]
@@ -9516,6 +10110,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-vb-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const DOCUMENT_VB_REGULAR: &str = "document-vb-regular";
+    #[doc(alias = "document-yml-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-yml-filled")))]
+    #[cfg(feature = "document-yml-filled")]
+    /// Icon name constant for the `document-yml-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-yml-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_YML_FILLED: &str = "document-yml-filled";
+    #[doc(alias = "document-yml-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "document-yml-regular")))]
+    #[cfg(feature = "document-yml-regular")]
+    /// Icon name constant for the `document-yml-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/document-yml-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const DOCUMENT_YML_REGULAR: &str = "document-yml-regular";
     #[doc(alias = "dog")]
     #[cfg_attr(docsrs, doc(cfg(feature = "dog")))]
     #[cfg(feature = "dog")]
@@ -9993,6 +10605,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/electric-car-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const ELECTRIC_CAR: &str = "electric-car";
+    #[doc(alias = "emergency-number")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "emergency-number")))]
+    #[cfg(feature = "emergency-number")]
+    /// Icon name constant for the `emergency-number` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/emergency-number-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const EMERGENCY_NUMBER: &str = "emergency-number";
     #[doc(alias = "emoji-add-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "emoji-add-filled")))]
     #[cfg(feature = "emoji-add-filled")]
@@ -10074,6 +10695,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/emoji-hand-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const EMOJI_HAND_REGULAR: &str = "emoji-hand-regular";
+    #[doc(alias = "emoji-hint-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "emoji-hint-filled")))]
+    #[cfg(feature = "emoji-hint-filled")]
+    /// Icon name constant for the `emoji-hint-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/emoji-hint-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const EMOJI_HINT_FILLED: &str = "emoji-hint-filled";
+    #[doc(alias = "emoji-hint-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "emoji-hint-regular")))]
+    #[cfg(feature = "emoji-hint-regular")]
+    /// Icon name constant for the `emoji-hint-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/emoji-hint-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const EMOJI_HINT_REGULAR: &str = "emoji-hint-regular";
     #[doc(alias = "emoji-laugh-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "emoji-laugh-filled")))]
     #[cfg(feature = "emoji-laugh-filled")]
@@ -10155,6 +10794,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/emoji-sparkle-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const EMOJI_SPARKLE_REGULAR: &str = "emoji-sparkle-regular";
+    #[doc(alias = "empty-trash")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "empty-trash")))]
+    #[cfg(feature = "empty-trash")]
+    /// Icon name constant for the `empty-trash` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/empty-trash-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const EMPTY_TRASH: &str = "empty-trash";
+    #[doc(alias = "empty-trash-bin")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "empty-trash-bin")))]
+    #[cfg(feature = "empty-trash-bin")]
+    /// Icon name constant for the `empty-trash-bin` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/empty-trash-bin-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const EMPTY_TRASH_BIN: &str = "empty-trash-bin";
     #[doc(alias = "encode")]
     #[cfg_attr(docsrs, doc(cfg(feature = "encode")))]
     #[cfg(feature = "encode")]
@@ -10290,6 +10947,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/error-circle-settings-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const ERROR_CIRCLE_SETTINGS_REGULAR: &str = "error-circle-settings-regular";
+    #[doc(alias = "ev")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "ev")))]
+    #[cfg(feature = "ev")]
+    /// Icon name constant for the `ev` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/ev-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const EV: &str = "ev";
     #[doc(alias = "execute-from")]
     #[cfg_attr(docsrs, doc(cfg(feature = "execute-from")))]
     #[cfg(feature = "execute-from")]
@@ -10380,6 +11046,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/external-devices-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const EXTERNAL_DEVICES: &str = "external-devices";
+    #[doc(alias = "external-display")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "external-display")))]
+    #[cfg(feature = "external-display")]
+    /// Icon name constant for the `external-display` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/external-display-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const EXTERNAL_DISPLAY: &str = "external-display";
+    #[doc(alias = "external-display2")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "external-display2")))]
+    #[cfg(feature = "external-display2")]
+    /// Icon name constant for the `external-display2` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/external-display2-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const EXTERNAL_DISPLAY2: &str = "external-display2";
     #[doc(alias = "external-link")]
     #[cfg_attr(docsrs, doc(cfg(feature = "external-link")))]
     #[cfg(feature = "external-link")]
@@ -10389,6 +11073,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/external-link-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const EXTERNAL_LINK: &str = "external-link";
+    #[doc(alias = "extract")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "extract")))]
+    #[cfg(feature = "extract")]
+    /// Icon name constant for the `extract` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/extract-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const EXTRACT: &str = "extract";
     #[doc(alias = "eye-closed")]
     #[cfg_attr(docsrs, doc(cfg(feature = "eye-closed")))]
     #[cfg(feature = "eye-closed")]
@@ -10650,6 +11343,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/feet-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const FEET: &str = "feet";
+    #[doc(alias = "ferry")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "ferry")))]
+    #[cfg(feature = "ferry")]
+    /// Icon name constant for the `ferry` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/ferry-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FERRY: &str = "ferry";
     #[doc(alias = "few-clouds")]
     #[cfg_attr(docsrs, doc(cfg(feature = "few-clouds")))]
     #[cfg(feature = "few-clouds")]
@@ -10704,6 +11406,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/fill-tool-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const FILL_TOOL: &str = "fill-tool";
+    #[doc(alias = "film-camera")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "film-camera")))]
+    #[cfg(feature = "film-camera")]
+    /// Icon name constant for the `film-camera` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/film-camera-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FILM_CAMERA: &str = "film-camera";
+    #[doc(alias = "film-camera-disabled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "film-camera-disabled")))]
+    #[cfg(feature = "film-camera-disabled")]
+    /// Icon name constant for the `film-camera-disabled` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/film-camera-disabled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FILM_CAMERA_DISABLED: &str = "film-camera-disabled";
     #[doc(alias = "filmstrip-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "filmstrip-filled")))]
     #[cfg(feature = "filmstrip-filled")]
@@ -10740,6 +11460,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/filmstrip-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const FILMSTRIP_REGULAR: &str = "filmstrip-regular";
+    #[doc(alias = "filmstrip-split-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "filmstrip-split-filled")))]
+    #[cfg(feature = "filmstrip-split-filled")]
+    /// Icon name constant for the `filmstrip-split-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/filmstrip-split-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FILMSTRIP_SPLIT_FILLED: &str = "filmstrip-split-filled";
+    #[doc(alias = "filmstrip-split-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "filmstrip-split-regular")))]
+    #[cfg(feature = "filmstrip-split-regular")]
+    /// Icon name constant for the `filmstrip-split-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/filmstrip-split-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FILMSTRIP_SPLIT_REGULAR: &str = "filmstrip-split-regular";
     #[doc(alias = "filter-dismiss-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "filter-dismiss-filled")))]
     #[cfg(feature = "filter-dismiss-filled")]
@@ -10839,6 +11577,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/fire2-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const FIRE2: &str = "fire2";
+    #[doc(alias = "fire2-alt")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "fire2-alt")))]
+    #[cfg(feature = "fire2-alt")]
+    /// Icon name constant for the `fire2-alt` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/fire2-alt-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FIRE2_ALT: &str = "fire2-alt";
+    #[doc(alias = "firefighter")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "firefighter")))]
+    #[cfg(feature = "firefighter")]
+    /// Icon name constant for the `firefighter` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/firefighter-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FIREFIGHTER: &str = "firefighter";
     #[doc(alias = "firmware-update")]
     #[cfg_attr(docsrs, doc(cfg(feature = "firmware-update")))]
     #[cfg(feature = "firmware-update")]
@@ -11289,6 +12045,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/folder-globe-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const FOLDER_GLOBE_REGULAR: &str = "folder-globe-regular";
+    #[doc(alias = "folder-list-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "folder-list-filled")))]
+    #[cfg(feature = "folder-list-filled")]
+    /// Icon name constant for the `folder-list-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/folder-list-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FOLDER_LIST_FILLED: &str = "folder-list-filled";
+    #[doc(alias = "folder-list-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "folder-list-regular")))]
+    #[cfg(feature = "folder-list-regular")]
+    /// Icon name constant for the `folder-list-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/folder-list-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FOLDER_LIST_REGULAR: &str = "folder-list-regular";
     #[doc(alias = "folder-mail-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "folder-mail-filled")))]
     #[cfg(feature = "folder-mail-filled")]
@@ -11649,6 +12423,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/fps-60-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const FPS_60_REGULAR: &str = "fps-60-regular";
+    #[doc(alias = "frame-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "frame-filled")))]
+    #[cfg(feature = "frame-filled")]
+    /// Icon name constant for the `frame-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/frame-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FRAME_FILLED: &str = "frame-filled";
+    #[doc(alias = "frame-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "frame-regular")))]
+    #[cfg(feature = "frame-regular")]
+    /// Icon name constant for the `frame-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/frame-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FRAME_REGULAR: &str = "frame-regular";
     #[doc(alias = "fuel")]
     #[cfg_attr(docsrs, doc(cfg(feature = "fuel")))]
     #[cfg(feature = "fuel")]
@@ -11748,6 +12540,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/function-third-order-horizontal-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const FUNCTION_THIRD_ORDER_HORIZONTAL: &str = "function-third-order-horizontal";
+    #[doc(alias = "funicular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "funicular")))]
+    #[cfg(feature = "funicular")]
+    /// Icon name constant for the `funicular` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/funicular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const FUNICULAR: &str = "funicular";
     #[doc(alias = "funnel")]
     #[cfg_attr(docsrs, doc(cfg(feature = "funnel")))]
     #[cfg(feature = "funnel")]
@@ -11829,6 +12630,42 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/garlic-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const GARLIC: &str = "garlic";
+    #[doc(alias = "gavel-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "gavel-filled")))]
+    #[cfg(feature = "gavel-filled")]
+    /// Icon name constant for the `gavel-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/gavel-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GAVEL_FILLED: &str = "gavel-filled";
+    #[doc(alias = "gavel-prohibited-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "gavel-prohibited-filled")))]
+    #[cfg(feature = "gavel-prohibited-filled")]
+    /// Icon name constant for the `gavel-prohibited-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/gavel-prohibited-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GAVEL_PROHIBITED_FILLED: &str = "gavel-prohibited-filled";
+    #[doc(alias = "gavel-prohibited-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "gavel-prohibited-regular")))]
+    #[cfg(feature = "gavel-prohibited-regular")]
+    /// Icon name constant for the `gavel-prohibited-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/gavel-prohibited-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GAVEL_PROHIBITED_REGULAR: &str = "gavel-prohibited-regular";
+    #[doc(alias = "gavel-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "gavel-regular")))]
+    #[cfg(feature = "gavel-regular")]
+    /// Icon name constant for the `gavel-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/gavel-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GAVEL_REGULAR: &str = "gavel-regular";
     #[doc(alias = "gear")]
     #[cfg_attr(docsrs, doc(cfg(feature = "gear")))]
     #[cfg(feature = "gear")]
@@ -11892,6 +12729,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/gift-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const GIFT_FILLED: &str = "gift-filled";
+    #[doc(alias = "gift-open-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "gift-open-filled")))]
+    #[cfg(feature = "gift-open-filled")]
+    /// Icon name constant for the `gift-open-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/gift-open-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GIFT_OPEN_FILLED: &str = "gift-open-filled";
+    #[doc(alias = "gift-open-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "gift-open-regular")))]
+    #[cfg(feature = "gift-open-regular")]
+    /// Icon name constant for the `gift-open-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/gift-open-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GIFT_OPEN_REGULAR: &str = "gift-open-regular";
     #[doc(alias = "gift-regular")]
     #[cfg_attr(docsrs, doc(cfg(feature = "gift-regular")))]
     #[cfg(feature = "gift-regular")]
@@ -12063,6 +12918,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/globe-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const GLOBE_REGULAR: &str = "globe-regular";
+    #[doc(alias = "globe-small")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "globe-small")))]
+    #[cfg(feature = "globe-small")]
+    /// Icon name constant for the `globe-small` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/globe-small-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GLOBE_SMALL: &str = "globe-small";
     #[doc(alias = "globe-star-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "globe-star-filled")))]
     #[cfg(feature = "globe-star-filled")]
@@ -12081,6 +12945,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/globe-star-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const GLOBE_STAR_REGULAR: &str = "globe-star-regular";
+    #[doc(alias = "goldola")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "goldola")))]
+    #[cfg(feature = "goldola")]
+    /// Icon name constant for the `goldola` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/goldola-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GOLDOLA: &str = "goldola";
     #[doc(alias = "golf")]
     #[cfg_attr(docsrs, doc(cfg(feature = "golf")))]
     #[cfg(feature = "golf")]
@@ -12144,6 +13017,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/grid-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const GRID_FILLED_ALT: &str = "grid-filled-alt";
+    #[doc(alias = "grid-kanban-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "grid-kanban-filled")))]
+    #[cfg(feature = "grid-kanban-filled")]
+    /// Icon name constant for the `grid-kanban-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/grid-kanban-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GRID_KANBAN_FILLED: &str = "grid-kanban-filled";
+    #[doc(alias = "grid-kanban-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "grid-kanban-regular")))]
+    #[cfg(feature = "grid-kanban-regular")]
+    /// Icon name constant for the `grid-kanban-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/grid-kanban-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const GRID_KANBAN_REGULAR: &str = "grid-kanban-regular";
     #[doc(alias = "grid-large")]
     #[cfg_attr(docsrs, doc(cfg(feature = "grid-large")))]
     #[cfg(feature = "grid-large")]
@@ -12306,6 +13197,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/hand-open-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const HAND_OPEN: &str = "hand-open";
+    #[doc(alias = "hand-openyay")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "hand-openyay")))]
+    #[cfg(feature = "hand-openyay")]
+    /// Icon name constant for the `hand-openyay` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/hand-openyay-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const HAND_OPENYAY: &str = "hand-openyay";
     #[doc(alias = "hand-point-horizontal")]
     #[cfg_attr(docsrs, doc(cfg(feature = "hand-point-horizontal")))]
     #[cfg(feature = "hand-point-horizontal")]
@@ -12522,6 +13422,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/heal-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const HEAL: &str = "heal";
+    #[doc(alias = "health-emergency")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "health-emergency")))]
+    #[cfg(feature = "health-emergency")]
+    /// Icon name constant for the `health-emergency` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/health-emergency-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const HEALTH_EMERGENCY: &str = "health-emergency";
     #[doc(alias = "heart-broken")]
     #[cfg_attr(docsrs, doc(cfg(feature = "heart-broken")))]
     #[cfg(feature = "heart-broken")]
@@ -12729,6 +13638,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/home-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const HOME_FILLED: &str = "home-filled";
+    #[doc(alias = "home-heart-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "home-heart-filled")))]
+    #[cfg(feature = "home-heart-filled")]
+    /// Icon name constant for the `home-heart-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/home-heart-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const HOME_HEART_FILLED: &str = "home-heart-filled";
+    #[doc(alias = "home-heart-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "home-heart-regular")))]
+    #[cfg(feature = "home-heart-regular")]
+    /// Icon name constant for the `home-heart-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/home-heart-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const HOME_HEART_REGULAR: &str = "home-heart-regular";
     #[doc(alias = "home-regular")]
     #[cfg_attr(docsrs, doc(cfg(feature = "home-regular")))]
     #[cfg(feature = "home-regular")]
@@ -12810,6 +13737,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/hospital-sign-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const HOSPITAL_SIGN: &str = "hospital-sign";
+    #[doc(alias = "hotel-tag")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "hotel-tag")))]
+    #[cfg(feature = "hotel-tag")]
+    /// Icon name constant for the `hotel-tag` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/hotel-tag-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const HOTEL_TAG: &str = "hotel-tag";
+    #[doc(alias = "hotel-tag-outline")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "hotel-tag-outline")))]
+    #[cfg(feature = "hotel-tag-outline")]
+    /// Icon name constant for the `hotel-tag-outline` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/hotel-tag-outline-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const HOTEL_TAG_OUTLINE: &str = "hotel-tag-outline";
     #[doc(alias = "hourglass")]
     #[cfg_attr(docsrs, doc(cfg(feature = "hourglass")))]
     #[cfg(feature = "hourglass")]
@@ -13107,6 +14052,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/image-round-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const IMAGE_ROUND: &str = "image-round";
+    #[doc(alias = "image-stack-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "image-stack-filled")))]
+    #[cfg(feature = "image-stack-filled")]
+    /// Icon name constant for the `image-stack-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/image-stack-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const IMAGE_STACK_FILLED: &str = "image-stack-filled";
+    #[doc(alias = "image-stack-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "image-stack-regular")))]
+    #[cfg(feature = "image-stack-regular")]
+    /// Icon name constant for the `image-stack-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/image-stack-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const IMAGE_STACK_REGULAR: &str = "image-stack-regular";
     #[doc(alias = "image-table-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "image-table-filled")))]
     #[cfg(feature = "image-table-filled")]
@@ -13161,6 +14124,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/important-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const IMPORTANT_REGULAR: &str = "important-regular";
+    #[doc(alias = "important-small")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "important-small")))]
+    #[cfg(feature = "important-small")]
+    /// Icon name constant for the `important-small` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/important-small-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const IMPORTANT_SMALL: &str = "important-small";
     #[doc(alias = "inbox")]
     #[cfg_attr(docsrs, doc(cfg(feature = "inbox")))]
     #[cfg(feature = "inbox")]
@@ -13746,6 +14718,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/laptop-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const LAPTOP_REGULAR: &str = "laptop-regular";
+    #[doc(alias = "laptop-shield-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "laptop-shield-filled")))]
+    #[cfg(feature = "laptop-shield-filled")]
+    /// Icon name constant for the `laptop-shield-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/laptop-shield-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LAPTOP_SHIELD_FILLED: &str = "laptop-shield-filled";
+    #[doc(alias = "laptop-shield-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "laptop-shield-regular")))]
+    #[cfg(feature = "laptop-shield-regular")]
+    /// Icon name constant for the `laptop-shield-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/laptop-shield-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LAPTOP_SHIELD_REGULAR: &str = "laptop-shield-regular";
     #[doc(alias = "large-brush")]
     #[cfg_attr(docsrs, doc(cfg(feature = "large-brush")))]
     #[cfg(feature = "large-brush")]
@@ -13989,6 +14979,42 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/likert-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const LIKERT_REGULAR: &str = "likert-regular";
+    #[doc(alias = "line-horizontal-4-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "line-horizontal-4-filled")))]
+    #[cfg(feature = "line-horizontal-4-filled")]
+    /// Icon name constant for the `line-horizontal-4-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/line-horizontal-4-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LINE_HORIZONTAL_4_FILLED: &str = "line-horizontal-4-filled";
+    #[doc(alias = "line-horizontal-4-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "line-horizontal-4-regular")))]
+    #[cfg(feature = "line-horizontal-4-regular")]
+    /// Icon name constant for the `line-horizontal-4-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/line-horizontal-4-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LINE_HORIZONTAL_4_REGULAR: &str = "line-horizontal-4-regular";
+    #[doc(alias = "line-horizontal-4-search-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "line-horizontal-4-search-filled")))]
+    #[cfg(feature = "line-horizontal-4-search-filled")]
+    /// Icon name constant for the `line-horizontal-4-search-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/line-horizontal-4-search-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LINE_HORIZONTAL_4_SEARCH_FILLED: &str = "line-horizontal-4-search-filled";
+    #[doc(alias = "line-horizontal-4-search-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "line-horizontal-4-search-regular")))]
+    #[cfg(feature = "line-horizontal-4-search-regular")]
+    /// Icon name constant for the `line-horizontal-4-search-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/line-horizontal-4-search-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LINE_HORIZONTAL_4_SEARCH_REGULAR: &str = "line-horizontal-4-search-regular";
     #[doc(alias = "link-dismiss-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "link-dismiss-filled")))]
     #[cfg(feature = "link-dismiss-filled")]
@@ -14079,6 +15105,60 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/list-alt-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const LIST_ALT: &str = "list-alt";
+    #[doc(alias = "list-bar-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "list-bar-filled")))]
+    #[cfg(feature = "list-bar-filled")]
+    /// Icon name constant for the `list-bar-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/list-bar-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LIST_BAR_FILLED: &str = "list-bar-filled";
+    #[doc(alias = "list-bar-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "list-bar-regular")))]
+    #[cfg(feature = "list-bar-regular")]
+    /// Icon name constant for the `list-bar-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/list-bar-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LIST_BAR_REGULAR: &str = "list-bar-regular";
+    #[doc(alias = "list-bar-tree-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "list-bar-tree-filled")))]
+    #[cfg(feature = "list-bar-tree-filled")]
+    /// Icon name constant for the `list-bar-tree-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/list-bar-tree-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LIST_BAR_TREE_FILLED: &str = "list-bar-tree-filled";
+    #[doc(alias = "list-bar-tree-offset-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "list-bar-tree-offset-filled")))]
+    #[cfg(feature = "list-bar-tree-offset-filled")]
+    /// Icon name constant for the `list-bar-tree-offset-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/list-bar-tree-offset-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LIST_BAR_TREE_OFFSET_FILLED: &str = "list-bar-tree-offset-filled";
+    #[doc(alias = "list-bar-tree-offset-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "list-bar-tree-offset-regular")))]
+    #[cfg(feature = "list-bar-tree-offset-regular")]
+    /// Icon name constant for the `list-bar-tree-offset-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/list-bar-tree-offset-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LIST_BAR_TREE_OFFSET_REGULAR: &str = "list-bar-tree-offset-regular";
+    #[doc(alias = "list-bar-tree-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "list-bar-tree-regular")))]
+    #[cfg(feature = "list-bar-tree-regular")]
+    /// Icon name constant for the `list-bar-tree-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/list-bar-tree-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LIST_BAR_TREE_REGULAR: &str = "list-bar-tree-regular";
     #[doc(alias = "list-compact")]
     #[cfg_attr(docsrs, doc(cfg(feature = "list-compact")))]
     #[cfg(feature = "list-compact")]
@@ -14286,6 +15366,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/lock-closed-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const LOCK_CLOSED_FILLED: &str = "lock-closed-filled";
+    #[doc(alias = "lock-closed-key-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "lock-closed-key-filled")))]
+    #[cfg(feature = "lock-closed-key-filled")]
+    /// Icon name constant for the `lock-closed-key-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/lock-closed-key-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LOCK_CLOSED_KEY_FILLED: &str = "lock-closed-key-filled";
+    #[doc(alias = "lock-closed-key-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "lock-closed-key-regular")))]
+    #[cfg(feature = "lock-closed-key-regular")]
+    /// Icon name constant for the `lock-closed-key-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/lock-closed-key-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LOCK_CLOSED_KEY_REGULAR: &str = "lock-closed-key-regular";
     #[doc(alias = "lock-closed-regular")]
     #[cfg_attr(docsrs, doc(cfg(feature = "lock-closed-regular")))]
     #[cfg(feature = "lock-closed-regular")]
@@ -14349,6 +15447,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/loupe-large-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const LOUPE_LARGE: &str = "loupe-large";
+    #[doc(alias = "loupe-plus")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "loupe-plus")))]
+    #[cfg(feature = "loupe-plus")]
+    /// Icon name constant for the `loupe-plus` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/loupe-plus-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const LOUPE_PLUS: &str = "loupe-plus";
     #[doc(alias = "loupe-with-arrow")]
     #[cfg_attr(docsrs, doc(cfg(feature = "loupe-with-arrow")))]
     #[cfg(feature = "loupe-with-arrow")]
@@ -14925,6 +16032,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/mail-shield-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const MAIL_SHIELD_REGULAR: &str = "mail-shield-regular";
+    #[doc(alias = "mail-small")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "mail-small")))]
+    #[cfg(feature = "mail-small")]
+    /// Icon name constant for the `mail-small` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/mail-small-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const MAIL_SMALL: &str = "mail-small";
     #[doc(alias = "mail-template-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "mail-template-filled")))]
     #[cfg(feature = "mail-template-filled")]
@@ -15069,6 +16185,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/marker-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const MARKER: &str = "marker";
+    #[doc(alias = "math-format-professional-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "math-format-professional-filled")))]
+    #[cfg(feature = "math-format-professional-filled")]
+    /// Icon name constant for the `math-format-professional-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/math-format-professional-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const MATH_FORMAT_PROFESSIONAL_FILLED: &str = "math-format-professional-filled";
+    #[doc(alias = "math-format-professional-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "math-format-professional-regular")))]
+    #[cfg(feature = "math-format-professional-regular")]
+    /// Icon name constant for the `math-format-professional-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/math-format-professional-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const MATH_FORMAT_PROFESSIONAL_REGULAR: &str = "math-format-professional-regular";
     #[doc(alias = "math-formula-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "math-formula-filled")))]
     #[cfg(feature = "math-formula-filled")]
@@ -15447,6 +16581,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/minus-large-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const MINUS_LARGE: &str = "minus-large";
+    #[doc(alias = "mitten")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "mitten")))]
+    #[cfg(feature = "mitten")]
+    /// Icon name constant for the `mitten` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/mitten-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const MITTEN: &str = "mitten";
     #[doc(alias = "mobile-network")]
     #[cfg_attr(docsrs, doc(cfg(feature = "mobile-network")))]
     #[cfg(feature = "mobile-network")]
@@ -15510,6 +16653,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/money-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const MONEY_FILLED: &str = "money-filled";
+    #[doc(alias = "money-hand-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "money-hand-filled")))]
+    #[cfg(feature = "money-hand-filled")]
+    /// Icon name constant for the `money-hand-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/money-hand-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const MONEY_HAND_FILLED: &str = "money-hand-filled";
+    #[doc(alias = "money-hand-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "money-hand-regular")))]
+    #[cfg(feature = "money-hand-regular")]
+    /// Icon name constant for the `money-hand-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/money-hand-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const MONEY_HAND_REGULAR: &str = "money-hand-regular";
     #[doc(alias = "money-none")]
     #[cfg_attr(docsrs, doc(cfg(feature = "money-none")))]
     #[cfg(feature = "money-none")]
@@ -15528,6 +16689,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/money-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const MONEY_REGULAR: &str = "money-regular";
+    #[doc(alias = "money-settings-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "money-settings-filled")))]
+    #[cfg(feature = "money-settings-filled")]
+    /// Icon name constant for the `money-settings-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/money-settings-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const MONEY_SETTINGS_FILLED: &str = "money-settings-filled";
+    #[doc(alias = "money-settings-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "money-settings-regular")))]
+    #[cfg(feature = "money-settings-regular")]
+    /// Icon name constant for the `money-settings-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/money-settings-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const MONEY_SETTINGS_REGULAR: &str = "money-settings-regular";
     #[doc(alias = "monitor-pick")]
     #[cfg_attr(docsrs, doc(cfg(feature = "monitor-pick")))]
     #[cfg(feature = "monitor-pick")]
@@ -15879,6 +17058,78 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/navigate-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const NAVIGATE: &str = "navigate";
+    #[doc(alias = "navigate-east")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "navigate-east")))]
+    #[cfg(feature = "navigate-east")]
+    /// Icon name constant for the `navigate-east` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/navigate-east-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const NAVIGATE_EAST: &str = "navigate-east";
+    #[doc(alias = "navigate-north")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "navigate-north")))]
+    #[cfg(feature = "navigate-north")]
+    /// Icon name constant for the `navigate-north` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/navigate-north-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const NAVIGATE_NORTH: &str = "navigate-north";
+    #[doc(alias = "navigate-north-east")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "navigate-north-east")))]
+    #[cfg(feature = "navigate-north-east")]
+    /// Icon name constant for the `navigate-north-east` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/navigate-north-east-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const NAVIGATE_NORTH_EAST: &str = "navigate-north-east";
+    #[doc(alias = "navigate-north-west")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "navigate-north-west")))]
+    #[cfg(feature = "navigate-north-west")]
+    /// Icon name constant for the `navigate-north-west` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/navigate-north-west-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const NAVIGATE_NORTH_WEST: &str = "navigate-north-west";
+    #[doc(alias = "navigate-south")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "navigate-south")))]
+    #[cfg(feature = "navigate-south")]
+    /// Icon name constant for the `navigate-south` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/navigate-south-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const NAVIGATE_SOUTH: &str = "navigate-south";
+    #[doc(alias = "navigate-south-east")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "navigate-south-east")))]
+    #[cfg(feature = "navigate-south-east")]
+    /// Icon name constant for the `navigate-south-east` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/navigate-south-east-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const NAVIGATE_SOUTH_EAST: &str = "navigate-south-east";
+    #[doc(alias = "navigate-south-west")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "navigate-south-west")))]
+    #[cfg(feature = "navigate-south-west")]
+    /// Icon name constant for the `navigate-south-west` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/navigate-south-west-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const NAVIGATE_SOUTH_WEST: &str = "navigate-south-west";
+    #[doc(alias = "navigate-west")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "navigate-west")))]
+    #[cfg(feature = "navigate-west")]
+    /// Icon name constant for the `navigate-west` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/navigate-west-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const NAVIGATE_WEST: &str = "navigate-west";
     #[doc(alias = "navigation-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "navigation-filled")))]
     #[cfg(feature = "navigation-filled")]
@@ -16414,6 +17665,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/object-packing-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const OBJECT_PACKING: &str = "object-packing";
+    #[doc(alias = "object-scale-1to1")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "object-scale-1to1")))]
+    #[cfg(feature = "object-scale-1to1")]
+    /// Icon name constant for the `object-scale-1to1` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/object-scale-1to1-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const OBJECT_SCALE_1TO1: &str = "object-scale-1to1";
+    #[doc(alias = "object-scale-to-fit")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "object-scale-to-fit")))]
+    #[cfg(feature = "object-scale-to-fit")]
+    /// Icon name constant for the `object-scale-to-fit` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/object-scale-to-fit-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const OBJECT_SCALE_TO_FIT: &str = "object-scale-to-fit";
     #[doc(alias = "offline-globe")]
     #[cfg_attr(docsrs, doc(cfg(feature = "offline-globe")))]
     #[cfg(feature = "offline-globe")]
@@ -16621,6 +17890,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/page-fit-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PAGE_FIT_REGULAR: &str = "page-fit-regular";
+    #[doc(alias = "page-orientation-landscape")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "page-orientation-landscape")))]
+    #[cfg(feature = "page-orientation-landscape")]
+    /// Icon name constant for the `page-orientation-landscape` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/page-orientation-landscape-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PAGE_ORIENTATION_LANDSCAPE: &str = "page-orientation-landscape";
+    #[doc(alias = "page-orientation-portrait")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "page-orientation-portrait")))]
+    #[cfg(feature = "page-orientation-portrait")]
+    /// Icon name constant for the `page-orientation-portrait` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/page-orientation-portrait-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PAGE_ORIENTATION_PORTRAIT: &str = "page-orientation-portrait";
     #[doc(alias = "paint-brush-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "paint-brush-filled")))]
     #[cfg(feature = "paint-brush-filled")]
@@ -16819,6 +18106,60 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/panel-left-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PANEL_LEFT_REGULAR: &str = "panel-left-regular";
+    #[doc(alias = "panel-left-text-add-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "panel-left-text-add-filled")))]
+    #[cfg(feature = "panel-left-text-add-filled")]
+    /// Icon name constant for the `panel-left-text-add-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/panel-left-text-add-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PANEL_LEFT_TEXT_ADD_FILLED: &str = "panel-left-text-add-filled";
+    #[doc(alias = "panel-left-text-add-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "panel-left-text-add-regular")))]
+    #[cfg(feature = "panel-left-text-add-regular")]
+    /// Icon name constant for the `panel-left-text-add-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/panel-left-text-add-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PANEL_LEFT_TEXT_ADD_REGULAR: &str = "panel-left-text-add-regular";
+    #[doc(alias = "panel-left-text-dismiss-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "panel-left-text-dismiss-filled")))]
+    #[cfg(feature = "panel-left-text-dismiss-filled")]
+    /// Icon name constant for the `panel-left-text-dismiss-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/panel-left-text-dismiss-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PANEL_LEFT_TEXT_DISMISS_FILLED: &str = "panel-left-text-dismiss-filled";
+    #[doc(alias = "panel-left-text-dismiss-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "panel-left-text-dismiss-regular")))]
+    #[cfg(feature = "panel-left-text-dismiss-regular")]
+    /// Icon name constant for the `panel-left-text-dismiss-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/panel-left-text-dismiss-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PANEL_LEFT_TEXT_DISMISS_REGULAR: &str = "panel-left-text-dismiss-regular";
+    #[doc(alias = "panel-left-text-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "panel-left-text-filled")))]
+    #[cfg(feature = "panel-left-text-filled")]
+    /// Icon name constant for the `panel-left-text-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/panel-left-text-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PANEL_LEFT_TEXT_FILLED: &str = "panel-left-text-filled";
+    #[doc(alias = "panel-left-text-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "panel-left-text-regular")))]
+    #[cfg(feature = "panel-left-text-regular")]
+    /// Icon name constant for the `panel-left-text-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/panel-left-text-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PANEL_LEFT_TEXT_REGULAR: &str = "panel-left-text-regular";
     #[doc(alias = "panel-right-contract-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "panel-right-contract-filled")))]
     #[cfg(feature = "panel-right-contract-filled")]
@@ -17116,6 +18457,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/pda-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PDA: &str = "pda";
+    #[doc(alias = "pen-dismiss-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "pen-dismiss-filled")))]
+    #[cfg(feature = "pen-dismiss-filled")]
+    /// Icon name constant for the `pen-dismiss-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/pen-dismiss-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PEN_DISMISS_FILLED: &str = "pen-dismiss-filled";
+    #[doc(alias = "pen-dismiss-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "pen-dismiss-regular")))]
+    #[cfg(feature = "pen-dismiss-regular")]
+    /// Icon name constant for the `pen-dismiss-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/pen-dismiss-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PEN_DISMISS_REGULAR: &str = "pen-dismiss-regular";
     #[doc(alias = "pen-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "pen-filled")))]
     #[cfg(feature = "pen-filled")]
@@ -17188,6 +18547,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/pencil-and-paper-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PENCIL_AND_PAPER: &str = "pencil-and-paper";
+    #[doc(alias = "pencil-and-paper-small")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "pencil-and-paper-small")))]
+    #[cfg(feature = "pencil-and-paper-small")]
+    /// Icon name constant for the `pencil-and-paper-small` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/pencil-and-paper-small-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PENCIL_AND_PAPER_SMALL: &str = "pencil-and-paper-small";
     #[doc(alias = "penguin")]
     #[cfg_attr(docsrs, doc(cfg(feature = "penguin")))]
     #[cfg(feature = "penguin")]
@@ -17287,6 +18655,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/people-community-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PEOPLE_COMMUNITY_REGULAR: &str = "people-community-regular";
+    #[doc(alias = "people-edit-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "people-edit-filled")))]
+    #[cfg(feature = "people-edit-filled")]
+    /// Icon name constant for the `people-edit-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/people-edit-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PEOPLE_EDIT_FILLED: &str = "people-edit-filled";
+    #[doc(alias = "people-edit-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "people-edit-regular")))]
+    #[cfg(feature = "people-edit-regular")]
+    /// Icon name constant for the `people-edit-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/people-edit-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PEOPLE_EDIT_REGULAR: &str = "people-edit-regular";
     #[doc(alias = "people-error-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "people-error-filled")))]
     #[cfg(feature = "people-error-filled")]
@@ -17791,6 +19177,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/person-info-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PERSON_INFO_REGULAR: &str = "person-info-regular";
+    #[doc(alias = "person-lightning-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "person-lightning-filled")))]
+    #[cfg(feature = "person-lightning-filled")]
+    /// Icon name constant for the `person-lightning-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/person-lightning-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PERSON_LIGHTNING_FILLED: &str = "person-lightning-filled";
+    #[doc(alias = "person-lightning-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "person-lightning-regular")))]
+    #[cfg(feature = "person-lightning-regular")]
+    /// Icon name constant for the `person-lightning-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/person-lightning-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PERSON_LIGHTNING_REGULAR: &str = "person-lightning-regular";
     #[doc(alias = "person-link-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "person-link-filled")))]
     #[cfg(feature = "person-link-filled")]
@@ -17908,6 +19312,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/person-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PERSON_REGULAR: &str = "person-regular";
+    #[doc(alias = "person-ribbon-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "person-ribbon-filled")))]
+    #[cfg(feature = "person-ribbon-filled")]
+    /// Icon name constant for the `person-ribbon-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/person-ribbon-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PERSON_RIBBON_FILLED: &str = "person-ribbon-filled";
+    #[doc(alias = "person-ribbon-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "person-ribbon-regular")))]
+    #[cfg(feature = "person-ribbon-regular")]
+    /// Icon name constant for the `person-ribbon-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/person-ribbon-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PERSON_RIBBON_REGULAR: &str = "person-ribbon-regular";
     #[doc(alias = "person-search-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "person-search-filled")))]
     #[cfg(feature = "person-search-filled")]
@@ -18205,6 +19627,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/phone-oldschool-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PHONE_OLDSCHOOL: &str = "phone-oldschool";
+    #[doc(alias = "phone-ongoing-call")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "phone-ongoing-call")))]
+    #[cfg(feature = "phone-ongoing-call")]
+    /// Icon name constant for the `phone-ongoing-call` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/phone-ongoing-call-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PHONE_ONGOING_CALL: &str = "phone-ongoing-call";
     #[doc(alias = "phone-regular")]
     #[cfg_attr(docsrs, doc(cfg(feature = "phone-regular")))]
     #[cfg(feature = "phone-regular")]
@@ -18214,6 +19645,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/phone-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PHONE_REGULAR: &str = "phone-regular";
+    #[doc(alias = "phone-right-facing")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "phone-right-facing")))]
+    #[cfg(feature = "phone-right-facing")]
+    /// Icon name constant for the `phone-right-facing` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/phone-right-facing-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PHONE_RIGHT_FACING: &str = "phone-right-facing";
+    #[doc(alias = "phone-right-facing-large")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "phone-right-facing-large")))]
+    #[cfg(feature = "phone-right-facing-large")]
+    /// Icon name constant for the `phone-right-facing-large` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/phone-right-facing-large-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const PHONE_RIGHT_FACING_LARGE: &str = "phone-right-facing-large";
     #[doc(alias = "phone-span-in-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "phone-span-in-filled")))]
     #[cfg(feature = "phone-span-in-filled")]
@@ -18709,6 +20158,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/podcast-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const PODCAST: &str = "podcast";
+    #[doc(alias = "police-badge")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "police-badge")))]
+    #[cfg(feature = "police-badge")]
+    /// Icon name constant for the `police-badge` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/police-badge-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const POLICE_BADGE: &str = "police-badge";
+    #[doc(alias = "police-badge2")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "police-badge2")))]
+    #[cfg(feature = "police-badge2")]
+    /// Icon name constant for the `police-badge2` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/police-badge2-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const POLICE_BADGE2: &str = "police-badge2";
     #[doc(alias = "poll-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "poll-filled")))]
     #[cfg(feature = "poll-filled")]
@@ -19420,6 +20887,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/re-order-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const RE_ORDER_REGULAR: &str = "re-order-regular";
+    #[doc(alias = "reaction-add")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "reaction-add")))]
+    #[cfg(feature = "reaction-add")]
+    /// Icon name constant for the `reaction-add` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/reaction-add-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const REACTION_ADD: &str = "reaction-add";
+    #[doc(alias = "reaction-add2")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "reaction-add2")))]
+    #[cfg(feature = "reaction-add2")]
+    /// Icon name constant for the `reaction-add2` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/reaction-add2-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const REACTION_ADD2: &str = "reaction-add2";
     #[doc(alias = "read-aloud-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "read-aloud-filled")))]
     #[cfg(feature = "read-aloud-filled")]
@@ -19663,6 +21148,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/rename-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const RENAME_REGULAR: &str = "rename-regular";
+    #[doc(alias = "rescue")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "rescue")))]
+    #[cfg(feature = "rescue")]
+    /// Icon name constant for the `rescue` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/rescue-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const RESCUE: &str = "rescue";
     #[doc(alias = "resize-large-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "resize-large-filled")))]
     #[cfg(feature = "resize-large-filled")]
@@ -19978,6 +21472,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/run-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const RUN_REGULAR: &str = "run-regular";
+    #[doc(alias = "running")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "running")))]
+    #[cfg(feature = "running")]
+    /// Icon name constant for the `running` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/running-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const RUNNING: &str = "running";
     #[doc(alias = "salami")]
     #[cfg_attr(docsrs, doc(cfg(feature = "salami")))]
     #[cfg(feature = "salami")]
@@ -20329,6 +21832,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/screenshooter-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const SCREENSHOOTER: &str = "screenshooter";
+    #[doc(alias = "screenshot-portrait")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "screenshot-portrait")))]
+    #[cfg(feature = "screenshot-portrait")]
+    /// Icon name constant for the `screenshot-portrait` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/screenshot-portrait-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SCREENSHOT_PORTRAIT: &str = "screenshot-portrait";
     #[doc(alias = "screenshot-recorded")]
     #[cfg_attr(docsrs, doc(cfg(feature = "screenshot-recorded")))]
     #[cfg(feature = "screenshot-recorded")]
@@ -20482,6 +21994,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/send-alt-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const SEND_ALT: &str = "send-alt";
+    #[doc(alias = "send-beaker-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "send-beaker-filled")))]
+    #[cfg(feature = "send-beaker-filled")]
+    /// Icon name constant for the `send-beaker-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/send-beaker-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SEND_BEAKER_FILLED: &str = "send-beaker-filled";
+    #[doc(alias = "send-beaker-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "send-beaker-regular")))]
+    #[cfg(feature = "send-beaker-regular")]
+    /// Icon name constant for the `send-beaker-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/send-beaker-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SEND_BEAKER_REGULAR: &str = "send-beaker-regular";
     #[doc(alias = "send-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "send-filled")))]
     #[cfg(feature = "send-filled")]
@@ -21462,6 +22992,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/slide-eraser-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const SLIDE_ERASER_REGULAR: &str = "slide-eraser-regular";
+    #[doc(alias = "slide-record-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "slide-record-filled")))]
+    #[cfg(feature = "slide-record-filled")]
+    /// Icon name constant for the `slide-record-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/slide-record-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SLIDE_RECORD_FILLED: &str = "slide-record-filled";
+    #[doc(alias = "slide-record-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "slide-record-regular")))]
+    #[cfg(feature = "slide-record-regular")]
+    /// Icon name constant for the `slide-record-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/slide-record-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SLIDE_RECORD_REGULAR: &str = "slide-record-regular";
     #[doc(alias = "slide-text-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "slide-text-filled")))]
     #[cfg(feature = "slide-text-filled")]
@@ -21516,6 +23064,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/slide-text-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const SLIDE_TEXT_REGULAR: &str = "slide-text-regular";
+    #[doc(alias = "slide-text-sparkle-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "slide-text-sparkle-filled")))]
+    #[cfg(feature = "slide-text-sparkle-filled")]
+    /// Icon name constant for the `slide-text-sparkle-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/slide-text-sparkle-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SLIDE_TEXT_SPARKLE_FILLED: &str = "slide-text-sparkle-filled";
+    #[doc(alias = "slide-text-sparkle-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "slide-text-sparkle-regular")))]
+    #[cfg(feature = "slide-text-sparkle-regular")]
+    /// Icon name constant for the `slide-text-sparkle-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/slide-text-sparkle-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SLIDE_TEXT_SPARKLE_REGULAR: &str = "slide-text-sparkle-regular";
     #[doc(alias = "small-x")]
     #[cfg_attr(docsrs, doc(cfg(feature = "small-x")))]
     #[cfg(feature = "small-x")]
@@ -22290,6 +23856,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/star-arrow-back-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const STAR_ARROW_BACK_REGULAR: &str = "star-arrow-back-regular";
+    #[doc(alias = "star-checkmark-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "star-checkmark-filled")))]
+    #[cfg(feature = "star-checkmark-filled")]
+    /// Icon name constant for the `star-checkmark-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/star-checkmark-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const STAR_CHECKMARK_FILLED: &str = "star-checkmark-filled";
+    #[doc(alias = "star-checkmark-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "star-checkmark-regular")))]
+    #[cfg(feature = "star-checkmark-regular")]
+    /// Icon name constant for the `star-checkmark-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/star-checkmark-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const STAR_CHECKMARK_REGULAR: &str = "star-checkmark-regular";
     #[doc(alias = "star-dismiss-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "star-dismiss-filled")))]
     #[cfg(feature = "star-dismiss-filled")]
@@ -22821,6 +24405,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/subtract-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const SUBTRACT_REGULAR: &str = "subtract-regular";
+    #[doc(alias = "subtract-square-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "subtract-square-filled")))]
+    #[cfg(feature = "subtract-square-filled")]
+    /// Icon name constant for the `subtract-square-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/subtract-square-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SUBTRACT_SQUARE_FILLED: &str = "subtract-square-filled";
     #[doc(alias = "subtract-square-multiple-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "subtract-square-multiple-filled")))]
     #[cfg(feature = "subtract-square-multiple-filled")]
@@ -22839,6 +24432,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/subtract-square-multiple-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const SUBTRACT_SQUARE_MULTIPLE_REGULAR: &str = "subtract-square-multiple-regular";
+    #[doc(alias = "subtract-square-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "subtract-square-regular")))]
+    #[cfg(feature = "subtract-square-regular")]
+    /// Icon name constant for the `subtract-square-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/subtract-square-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SUBTRACT_SQUARE_REGULAR: &str = "subtract-square-regular";
+    #[doc(alias = "subway")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "subway")))]
+    #[cfg(feature = "subway")]
+    /// Icon name constant for the `subway` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/subway-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const SUBWAY: &str = "subway";
     #[doc(alias = "success")]
     #[cfg_attr(docsrs, doc(cfg(feature = "success")))]
     #[cfg(feature = "success")]
@@ -23532,6 +25143,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/table-simple-checkmark-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const TABLE_SIMPLE_CHECKMARK_REGULAR: &str = "table-simple-checkmark-regular";
+    #[doc(alias = "table-simple-exclude-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "table-simple-exclude-filled")))]
+    #[cfg(feature = "table-simple-exclude-filled")]
+    /// Icon name constant for the `table-simple-exclude-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/table-simple-exclude-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TABLE_SIMPLE_EXCLUDE_FILLED: &str = "table-simple-exclude-filled";
+    #[doc(alias = "table-simple-exclude-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "table-simple-exclude-regular")))]
+    #[cfg(feature = "table-simple-exclude-regular")]
+    /// Icon name constant for the `table-simple-exclude-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/table-simple-exclude-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TABLE_SIMPLE_EXCLUDE_REGULAR: &str = "table-simple-exclude-regular";
     #[doc(alias = "table-simple-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "table-simple-filled")))]
     #[cfg(feature = "table-simple-filled")]
@@ -23541,6 +25170,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/table-simple-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const TABLE_SIMPLE_FILLED: &str = "table-simple-filled";
+    #[doc(alias = "table-simple-include-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "table-simple-include-filled")))]
+    #[cfg(feature = "table-simple-include-filled")]
+    /// Icon name constant for the `table-simple-include-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/table-simple-include-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TABLE_SIMPLE_INCLUDE_FILLED: &str = "table-simple-include-filled";
+    #[doc(alias = "table-simple-include-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "table-simple-include-regular")))]
+    #[cfg(feature = "table-simple-include-regular")]
+    /// Icon name constant for the `table-simple-include-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/table-simple-include-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TABLE_SIMPLE_INCLUDE_REGULAR: &str = "table-simple-include-regular";
     #[doc(alias = "table-simple-regular")]
     #[cfg_attr(docsrs, doc(cfg(feature = "table-simple-regular")))]
     #[cfg(feature = "table-simple-regular")]
@@ -23793,6 +25440,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/tag-multiple-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const TAG_MULTIPLE_REGULAR: &str = "tag-multiple-regular";
+    #[doc(alias = "tag-outline")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "tag-outline")))]
+    #[cfg(feature = "tag-outline")]
+    /// Icon name constant for the `tag-outline` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/tag-outline-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TAG_OUTLINE: &str = "tag-outline";
+    #[doc(alias = "tag-outline-add")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "tag-outline-add")))]
+    #[cfg(feature = "tag-outline-add")]
+    /// Icon name constant for the `tag-outline-add` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/tag-outline-add-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TAG_OUTLINE_ADD: &str = "tag-outline-add";
     #[doc(alias = "tag-question-mark-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "tag-question-mark-filled")))]
     #[cfg(feature = "tag-question-mark-filled")]
@@ -24225,6 +25890,44 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/text-bold-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const TEXT_BOLD_REGULAR: &str = "text-bold-regular";
+    #[doc(alias = "text-bullet-list-square-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "text-bullet-list-square-filled")))]
+    #[cfg(feature = "text-bullet-list-square-filled")]
+    /// Icon name constant for the `text-bullet-list-square-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/text-bullet-list-square-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TEXT_BULLET_LIST_SQUARE_FILLED: &str = "text-bullet-list-square-filled";
+    #[doc(alias = "text-bullet-list-square-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "text-bullet-list-square-regular")))]
+    #[cfg(feature = "text-bullet-list-square-regular")]
+    /// Icon name constant for the `text-bullet-list-square-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/text-bullet-list-square-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TEXT_BULLET_LIST_SQUARE_REGULAR: &str = "text-bullet-list-square-regular";
+    #[doc(alias = "text-bullet-list-square-sparkle-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "text-bullet-list-square-sparkle-filled")))]
+    #[cfg(feature = "text-bullet-list-square-sparkle-filled")]
+    /// Icon name constant for the `text-bullet-list-square-sparkle-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/text-bullet-list-square-sparkle-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TEXT_BULLET_LIST_SQUARE_SPARKLE_FILLED: &str =
+        "text-bullet-list-square-sparkle-filled";
+    #[doc(alias = "text-bullet-list-square-sparkle-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "text-bullet-list-square-sparkle-regular")))]
+    #[cfg(feature = "text-bullet-list-square-sparkle-regular")]
+    /// Icon name constant for the `text-bullet-list-square-sparkle-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/text-bullet-list-square-sparkle-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TEXT_BULLET_LIST_SQUARE_SPARKLE_REGULAR: &str =
+        "text-bullet-list-square-sparkle-regular";
     #[doc(alias = "text-bullet-list-square-warning-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "text-bullet-list-square-warning-filled")))]
     #[cfg(feature = "text-bullet-list-square-warning-filled")]
@@ -24975,6 +26678,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/text3-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const TEXT3: &str = "text3";
+    #[doc(alias = "textbox-align-middle-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "textbox-align-middle-filled")))]
+    #[cfg(feature = "textbox-align-middle-filled")]
+    /// Icon name constant for the `textbox-align-middle-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/textbox-align-middle-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TEXTBOX_ALIGN_MIDDLE_FILLED: &str = "textbox-align-middle-filled";
+    #[doc(alias = "textbox-align-middle-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "textbox-align-middle-regular")))]
+    #[cfg(feature = "textbox-align-middle-regular")]
+    /// Icon name constant for the `textbox-align-middle-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/textbox-align-middle-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TEXTBOX_ALIGN_MIDDLE_REGULAR: &str = "textbox-align-middle-regular";
     #[doc(alias = "textbox-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "textbox-filled")))]
     #[cfg(feature = "textbox-filled")]
@@ -25308,6 +27029,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/town-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const TOWN: &str = "town";
+    #[doc(alias = "train")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "train")))]
+    #[cfg(feature = "train")]
+    /// Icon name constant for the `train` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/train-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TRAIN: &str = "train";
+    #[doc(alias = "tram")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "tram")))]
+    #[cfg(feature = "tram")]
+    /// Icon name constant for the `tram` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/tram-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TRAM: &str = "tram";
     #[doc(alias = "transform")]
     #[cfg_attr(docsrs, doc(cfg(feature = "transform")))]
     #[cfg(feature = "transform")]
@@ -25317,6 +27056,24 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/transform-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const TRANSFORM: &str = "transform";
+    #[doc(alias = "translate-auto-filled")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "translate-auto-filled")))]
+    #[cfg(feature = "translate-auto-filled")]
+    /// Icon name constant for the `translate-auto-filled` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/translate-auto-filled-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TRANSLATE_AUTO_FILLED: &str = "translate-auto-filled";
+    #[doc(alias = "translate-auto-regular")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "translate-auto-regular")))]
+    #[cfg(feature = "translate-auto-regular")]
+    /// Icon name constant for the `translate-auto-regular` icon.
+    ///
+    /// Source: `fluentui-system-icons`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/translate-auto-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const TRANSLATE_AUTO_REGULAR: &str = "translate-auto-regular";
     #[doc(alias = "translate-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "translate-filled")))]
     #[cfg(feature = "translate-filled")]
@@ -26279,6 +28036,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/walking-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const WALKING: &str = "walking";
+    #[doc(alias = "walking2")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "walking2")))]
+    #[cfg(feature = "walking2")]
+    /// Icon name constant for the `walking2` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/walking2-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const WALKING2: &str = "walking2";
     #[doc(alias = "wallet")]
     #[cfg_attr(docsrs, doc(cfg(feature = "wallet")))]
     #[cfg(feature = "wallet")]
@@ -26468,6 +28234,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/fluentui-system-icons/weather-partly-cloudy-day-regular-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const WEATHER_PARTLY_CLOUDY_DAY_REGULAR: &str = "weather-partly-cloudy-day-regular";
+    #[doc(alias = "weather-showers-scattered")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "weather-showers-scattered")))]
+    #[cfg(feature = "weather-showers-scattered")]
+    /// Icon name constant for the `weather-showers-scattered` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/weather-showers-scattered-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const WEATHER_SHOWERS_SCATTERED: &str = "weather-showers-scattered";
     #[doc(alias = "weather-sunny-filled")]
     #[cfg_attr(docsrs, doc(cfg(feature = "weather-sunny-filled")))]
     #[cfg(feature = "weather-sunny-filled")]
@@ -26828,6 +28603,15 @@ pub mod icon_name {
     ///
     /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/wine-glass-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
     pub const WINE_GLASS: &str = "wine-glass";
+    #[doc(alias = "wine-glasses")]
+    #[cfg_attr(docsrs, doc(cfg(feature = "wine-glasses")))]
+    #[cfg(feature = "wine-glasses")]
+    /// Icon name constant for the `wine-glasses` icon.
+    ///
+    /// Source: `icon-development-kit`
+    ///
+    /// <img alt-name="Icon preview" src="https://raw.githubusercontent.com/Relm4/icons/main/icons/icon-development-kit/wine-glasses-symbolic.svg" width="64" style="color: #fff;background: #fff;border-radius: 5px;padding: 5px;"/>
+    pub const WINE_GLASSES: &str = "wine-glasses";
     #[doc(alias = "work-week")]
     #[cfg_attr(docsrs, doc(cfg(feature = "work-week")))]
     #[cfg(feature = "work-week")]
