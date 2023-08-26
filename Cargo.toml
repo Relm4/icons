@@ -23,7 +23,7 @@ members = [
 gtk = { version = "0.6.6", package = "gtk4" }
 
 [build-dependencies]
-gvdb = { version = "0.4.1", features = ["gresource"] }
+gvdb = { version = "0.5.1", features = ["gresource"] }
 
 [package.metadata.docs.rs]
 all-features = true
