@@ -55,10 +55,12 @@ fn main() {
         start_seq: RUST_START_SEQ,
         end_seq: RUST_END_SEQ,
     };
+
     build_rs_generator.generate_features(&icon_list, |icon| {
         let name = &icon.name;
+        let source = &icon.source;
         let path = icon.file_path();
-        format!("#[cfg(feature = \"{name}\")]\n(\"{name}-symbolic.svg\", \"{path}\"),")
+        format!("#[cfg(any(feature = \"{name}\", feature = \"{source}\"))]\n(\"{name}-symbolic.svg\", \"{path}\"),")
     });
 
     let lib_rs_generator = Generator {
@@ -77,10 +79,11 @@ fn main() {
             format!("#[doc(alias = \"{name}\")]")
         };
 
+        let cfg = format!("cfg(any(feature = \"{name}\", feature = \"{source}\"))");
         format!(
             "{alias}
-#[cfg_attr(docsrs, doc(cfg(feature = \"{name}\")))]
-#[cfg(feature = \"{name}\")]
+#[cfg_attr(docsrs, doc({cfg}))]
+#[{cfg}]
 /// Icon name constant for the `{name}` icon.
 ///
 /// Source: `{source}`
