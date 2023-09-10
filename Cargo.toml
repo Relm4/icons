@@ -1,9 +1,9 @@
 [package]
 name = "relm4-icons"
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
-version = "0.7.0-alpha.1"
+version = "0.7.0-alpha.2"
 edition = "2021"
-rust-version = "1.65"
+rust-version = "1.70"
 readme = "README.md"
 license = "Apache-2.0 OR MIT"
 description = "Icons for Relm4 or any application based on gtk-rs"
