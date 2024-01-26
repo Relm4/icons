@@ -2,7 +2,7 @@ use std::path::Path;
 
 use gvdb::gresource::{GResourceBuilder, GResourceFileData, PreprocessOptions};
 
-const PREFIX: &str = "/relm4/icons/scalable/actions/";
+const PREFIX: &str = "/org/relm4/icons/scalable/actions/";
 const TARGET_FILE: &str = "resources.gresource";
 
 fn main() {
