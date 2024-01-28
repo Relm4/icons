@@ -27,6 +27,7 @@ use gtk::{gdk, gio};
 pub fn initialize_icons() {
     gio::resources_register_include!("resources.gresource").unwrap();
 
+    gtk::init().unwrap();
     let display = gdk::Display::default().unwrap();
     let theme = gtk::IconTheme::for_display(&display);
     theme.add_resource_path("/org/relm4/icons/");
