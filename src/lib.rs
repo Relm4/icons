@@ -27,9 +27,11 @@ use gtk::{gdk, gio};
 pub fn initialize_icons() {
     gio::resources_register_include!("resources.gresource").unwrap();
 
+    gtk::init().unwrap();
     let display = gdk::Display::default().unwrap();
     let theme = gtk::IconTheme::for_display(&display);
-    theme.add_resource_path("/relm4/icons/");
+    theme.add_resource_path("/org/relm4/icons/");
+    theme.add_resource_path("/org/relm4/icons/scalable/actions/");
 }
 
 #[cfg(all(test, feature = "arrow-circle-right-filled", feature = "work-week"))]
