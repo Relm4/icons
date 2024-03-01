@@ -38,7 +38,7 @@ impl IconFilter for FluentFilter {
         if file_name.ends_with("16_filled.svg") || file_name.ends_with("16_regular.svg") {
             let file_name = file_name.trim_start_matches("ic_fluent_");
             let file_name = file_name.replace("16_", "");
-            let file_name = file_name.replace("_", "-");
+            let file_name = file_name.replace('_', "-");
             let file_name = file_name.replace(".svg", "-symbolic.svg");
             Some(file_name)
         } else {
