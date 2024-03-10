@@ -77,7 +77,7 @@ fn copy_files(path: &str, list: HashMap<String, PathBuf>) {
 }
 
 fn analyze_dir<F: IconFilter>(path: &str, list: &mut HashMap<String, PathBuf>) {
-    let dir = std::fs::read_dir(path).unwrap();
+    let dir = std::fs::read_dir(path).expect(path);
     analyze_dir_recursively::<F>(dir, list);
 }
 

@@ -83,6 +83,12 @@
   <a href="icons/fluentui-system-icons/alert-off-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/alert-off-regular-symbolic.svg" width="32" alt="alert-off-regular">
   </a>
+  <a href="icons/fluentui-system-icons/alert-on-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/alert-on-filled-symbolic.svg" width="32" alt="alert-on-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/alert-on-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/alert-on-regular-symbolic.svg" width="32" alt="alert-on-regular">
+  </a>
   <a href="icons/fluentui-system-icons/alert-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/alert-regular-symbolic.svg" width="32" alt="alert-regular">
   </a>
@@ -221,11 +227,17 @@
   <a href="icons/icon-development-kit/application-x-firmware-symbolic.svg">
     <img src="icons/icon-development-kit/application-x-firmware-symbolic.svg" width="32" alt="application-x-firmware">
   </a>
+  <a href="icons/icon-development-kit/appointment-symbolic.svg">
+    <img src="icons/icon-development-kit/appointment-symbolic.svg" width="32" alt="appointment">
+  </a>
   <a href="icons/fluentui-system-icons/approvals-app-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/approvals-app-filled-symbolic.svg" width="32" alt="approvals-app-filled">
   </a>
   <a href="icons/fluentui-system-icons/approvals-app-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/approvals-app-regular-symbolic.svg" width="32" alt="approvals-app-regular">
+  </a>
+  <a href="icons/icon-development-kit/approximate-symbolic.svg">
+    <img src="icons/icon-development-kit/approximate-symbolic.svg" width="32" alt="approximate">
   </a>
   <a href="icons/fluentui-system-icons/apps-add-in-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/apps-add-in-filled-symbolic.svg" width="32" alt="apps-add-in-filled">
@@ -317,6 +329,36 @@
   <a href="icons/fluentui-system-icons/arrow-circle-up-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-circle-up-regular-symbolic.svg" width="32" alt="arrow-circle-up-regular">
   </a>
+  <a href="icons/icon-development-kit/arrow-circular-bottom-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-circular-bottom-left-symbolic.svg" width="32" alt="arrow-circular-bottom-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow-circular-bottom-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-circular-bottom-right-symbolic.svg" width="32" alt="arrow-circular-bottom-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow-circular-small-bottom-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-circular-small-bottom-left-symbolic.svg" width="32" alt="arrow-circular-small-bottom-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow-circular-small-bottom-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-circular-small-bottom-right-symbolic.svg" width="32" alt="arrow-circular-small-bottom-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow-circular-small-top-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-circular-small-top-left-symbolic.svg" width="32" alt="arrow-circular-small-top-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow-circular-small-top-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-circular-small-top-right-symbolic.svg" width="32" alt="arrow-circular-small-top-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow-circular-top-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-circular-top-left-symbolic.svg" width="32" alt="arrow-circular-top-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow-circular-top-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-circular-top-right-symbolic.svg" width="32" alt="arrow-circular-top-right">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-clockwise-dashes-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-clockwise-dashes-filled-symbolic.svg" width="32" alt="arrow-clockwise-dashes-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-clockwise-dashes-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-clockwise-dashes-regular-symbolic.svg" width="32" alt="arrow-clockwise-dashes-regular">
+  </a>
   <a href="icons/fluentui-system-icons/arrow-clockwise-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-clockwise-filled-symbolic.svg" width="32" alt="arrow-clockwise-filled">
   </a>
@@ -335,6 +377,12 @@
   <a href="icons/fluentui-system-icons/arrow-curve-down-left-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-curve-down-left-regular-symbolic.svg" width="32" alt="arrow-curve-down-left-regular">
   </a>
+  <a href="icons/fluentui-system-icons/arrow-down-exclamation-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-down-exclamation-filled-symbolic.svg" width="32" alt="arrow-down-exclamation-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-down-exclamation-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-down-exclamation-regular-symbolic.svg" width="32" alt="arrow-down-exclamation-regular">
+  </a>
   <a href="icons/fluentui-system-icons/arrow-down-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-down-filled-symbolic.svg" width="32" alt="arrow-down-filled">
   </a>
@@ -350,6 +398,12 @@
   <a href="icons/fluentui-system-icons/arrow-download-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-download-filled-symbolic.svg" width="32" alt="arrow-download-filled">
   </a>
+  <a href="icons/fluentui-system-icons/arrow-download-off-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-download-off-filled-symbolic.svg" width="32" alt="arrow-download-off-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-download-off-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-download-off-regular-symbolic.svg" width="32" alt="arrow-download-off-regular">
+  </a>
   <a href="icons/fluentui-system-icons/arrow-download-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-download-regular-symbolic.svg" width="32" alt="arrow-download-regular">
   </a>
@@ -359,11 +413,23 @@
   <a href="icons/fluentui-system-icons/arrow-enter-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-enter-regular-symbolic.svg" width="32" alt="arrow-enter-regular">
   </a>
+  <a href="icons/fluentui-system-icons/arrow-expand-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-expand-filled-symbolic.svg" width="32" alt="arrow-expand-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-expand-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-expand-regular-symbolic.svg" width="32" alt="arrow-expand-regular">
+  </a>
   <a href="icons/fluentui-system-icons/arrow-export-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-export-filled-symbolic.svg" width="32" alt="arrow-export-filled">
   </a>
   <a href="icons/fluentui-system-icons/arrow-export-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-export-regular-symbolic.svg" width="32" alt="arrow-export-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-export-up-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-export-up-filled-symbolic.svg" width="32" alt="arrow-export-up-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-export-up-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-export-up-regular-symbolic.svg" width="32" alt="arrow-export-up-regular">
   </a>
   <a href="icons/fluentui-system-icons/arrow-fit-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-fit-filled-symbolic.svg" width="32" alt="arrow-fit-filled">
@@ -407,6 +473,21 @@
   <a href="icons/fluentui-system-icons/arrow-hook-down-right-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-hook-down-right-regular-symbolic.svg" width="32" alt="arrow-hook-down-right-regular">
   </a>
+  <a href="icons/icon-development-kit/arrow-hook-left-horizontal-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-hook-left-horizontal-symbolic.svg" width="32" alt="arrow-hook-left-horizontal">
+  </a>
+  <a href="icons/icon-development-kit/arrow-hook-left-horizontal2-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-hook-left-horizontal2-symbolic.svg" width="32" alt="arrow-hook-left-horizontal2">
+  </a>
+  <a href="icons/icon-development-kit/arrow-hook-left-vertical-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-hook-left-vertical-symbolic.svg" width="32" alt="arrow-hook-left-vertical">
+  </a>
+  <a href="icons/icon-development-kit/arrow-hook-right-horizontal-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-hook-right-horizontal-symbolic.svg" width="32" alt="arrow-hook-right-horizontal">
+  </a>
+  <a href="icons/icon-development-kit/arrow-hook-right-vertical-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-hook-right-vertical-symbolic.svg" width="32" alt="arrow-hook-right-vertical">
+  </a>
   <a href="icons/fluentui-system-icons/arrow-hook-up-left-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-hook-up-left-filled-symbolic.svg" width="32" alt="arrow-hook-up-left-filled">
   </a>
@@ -418,6 +499,12 @@
   </a>
   <a href="icons/fluentui-system-icons/arrow-hook-up-right-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-hook-up-right-regular-symbolic.svg" width="32" alt="arrow-hook-up-right-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-import-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-import-filled-symbolic.svg" width="32" alt="arrow-import-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-import-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-import-regular-symbolic.svg" width="32" alt="arrow-import-regular">
   </a>
   <a href="icons/icon-development-kit/arrow-into-box-symbolic.svg">
     <img src="icons/icon-development-kit/arrow-into-box-symbolic.svg" width="32" alt="arrow-into-box">
@@ -457,6 +544,30 @@
   </a>
   <a href="icons/fluentui-system-icons/arrow-paragraph-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-paragraph-regular-symbolic.svg" width="32" alt="arrow-paragraph-regular">
+  </a>
+  <a href="icons/icon-development-kit/arrow-pointing-at-line-down-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-pointing-at-line-down-symbolic.svg" width="32" alt="arrow-pointing-at-line-down">
+  </a>
+  <a href="icons/icon-development-kit/arrow-pointing-at-line-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-pointing-at-line-left-symbolic.svg" width="32" alt="arrow-pointing-at-line-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow-pointing-at-line-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-pointing-at-line-right-symbolic.svg" width="32" alt="arrow-pointing-at-line-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow-pointing-at-line-up-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-pointing-at-line-up-symbolic.svg" width="32" alt="arrow-pointing-at-line-up">
+  </a>
+  <a href="icons/icon-development-kit/arrow-pointing-away-from-line-down-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-pointing-away-from-line-down-symbolic.svg" width="32" alt="arrow-pointing-away-from-line-down">
+  </a>
+  <a href="icons/icon-development-kit/arrow-pointing-away-from-line-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-pointing-away-from-line-left-symbolic.svg" width="32" alt="arrow-pointing-away-from-line-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow-pointing-away-from-line-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-pointing-away-from-line-right-symbolic.svg" width="32" alt="arrow-pointing-away-from-line-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow-pointing-away-from-line-up-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-pointing-away-from-line-up-symbolic.svg" width="32" alt="arrow-pointing-away-from-line-up">
   </a>
   <a href="icons/fluentui-system-icons/arrow-previous-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-previous-filled-symbolic.svg" width="32" alt="arrow-previous-filled">
@@ -551,6 +662,12 @@
   <a href="icons/fluentui-system-icons/arrow-sort-up-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-sort-up-filled-symbolic.svg" width="32" alt="arrow-sort-up-filled">
   </a>
+  <a href="icons/fluentui-system-icons/arrow-sort-up-lines-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-sort-up-lines-filled-symbolic.svg" width="32" alt="arrow-sort-up-lines-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-sort-up-lines-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-sort-up-lines-regular-symbolic.svg" width="32" alt="arrow-sort-up-lines-regular">
+  </a>
   <a href="icons/fluentui-system-icons/arrow-sort-up-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-sort-up-regular-symbolic.svg" width="32" alt="arrow-sort-up-regular">
   </a>
@@ -644,11 +761,44 @@
   <a href="icons/fluentui-system-icons/arrow-trending-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-trending-regular-symbolic.svg" width="32" alt="arrow-trending-regular">
   </a>
+  <a href="icons/icon-development-kit/arrow-turn-down-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-turn-down-left-symbolic.svg" width="32" alt="arrow-turn-down-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow-turn-down-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-turn-down-right-symbolic.svg" width="32" alt="arrow-turn-down-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow-turn-left-down-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-turn-left-down-symbolic.svg" width="32" alt="arrow-turn-left-down">
+  </a>
+  <a href="icons/icon-development-kit/arrow-turn-left-up-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-turn-left-up-symbolic.svg" width="32" alt="arrow-turn-left-up">
+  </a>
+  <a href="icons/icon-development-kit/arrow-turn-right-down-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-turn-right-down-symbolic.svg" width="32" alt="arrow-turn-right-down">
+  </a>
+  <a href="icons/icon-development-kit/arrow-turn-right-horizontal2-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-turn-right-horizontal2-symbolic.svg" width="32" alt="arrow-turn-right-horizontal2">
+  </a>
+  <a href="icons/icon-development-kit/arrow-turn-right-up-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-turn-right-up-symbolic.svg" width="32" alt="arrow-turn-right-up">
+  </a>
+  <a href="icons/icon-development-kit/arrow-turn-up-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-turn-up-left-symbolic.svg" width="32" alt="arrow-turn-up-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow-turn-up-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow-turn-up-right-symbolic.svg" width="32" alt="arrow-turn-up-right">
+  </a>
   <a href="icons/fluentui-system-icons/arrow-undo-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-undo-filled-symbolic.svg" width="32" alt="arrow-undo-filled">
   </a>
   <a href="icons/fluentui-system-icons/arrow-undo-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-undo-regular-symbolic.svg" width="32" alt="arrow-undo-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-up-exclamation-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-up-exclamation-filled-symbolic.svg" width="32" alt="arrow-up-exclamation-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-up-exclamation-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-up-exclamation-regular-symbolic.svg" width="32" alt="arrow-up-exclamation-regular">
   </a>
   <a href="icons/fluentui-system-icons/arrow-up-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-up-filled-symbolic.svg" width="32" alt="arrow-up-filled">
@@ -662,6 +812,12 @@
   <a href="icons/fluentui-system-icons/arrow-up-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-up-regular-symbolic.svg" width="32" alt="arrow-up-regular">
   </a>
+  <a href="icons/fluentui-system-icons/arrow-up-right-dashes-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-up-right-dashes-filled-symbolic.svg" width="32" alt="arrow-up-right-dashes-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/arrow-up-right-dashes-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/arrow-up-right-dashes-regular-symbolic.svg" width="32" alt="arrow-up-right-dashes-regular">
+  </a>
   <a href="icons/fluentui-system-icons/arrow-up-right-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-up-right-filled-symbolic.svg" width="32" alt="arrow-up-right-filled">
   </a>
@@ -674,6 +830,12 @@
   <a href="icons/fluentui-system-icons/arrow-upload-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/arrow-upload-regular-symbolic.svg" width="32" alt="arrow-upload-regular">
   </a>
+  <a href="icons/icon-development-kit/arrow1-bottom-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow1-bottom-left-symbolic.svg" width="32" alt="arrow1-bottom-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow1-bottom-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow1-bottom-right-symbolic.svg" width="32" alt="arrow1-bottom-right">
+  </a>
   <a href="icons/icon-development-kit/arrow1-down-symbolic.svg">
     <img src="icons/icon-development-kit/arrow1-down-symbolic.svg" width="32" alt="arrow1-down">
   </a>
@@ -682,6 +844,12 @@
   </a>
   <a href="icons/icon-development-kit/arrow1-right-symbolic.svg">
     <img src="icons/icon-development-kit/arrow1-right-symbolic.svg" width="32" alt="arrow1-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow1-top-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow1-top-left-symbolic.svg" width="32" alt="arrow1-top-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow1-top-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow1-top-right-symbolic.svg" width="32" alt="arrow1-top-right">
   </a>
   <a href="icons/icon-development-kit/arrow1-up-symbolic.svg">
     <img src="icons/icon-development-kit/arrow1-up-symbolic.svg" width="32" alt="arrow1-up">
@@ -710,6 +878,12 @@
   <a href="icons/icon-development-kit/arrow2-up-symbolic.svg">
     <img src="icons/icon-development-kit/arrow2-up-symbolic.svg" width="32" alt="arrow2-up">
   </a>
+  <a href="icons/icon-development-kit/arrow3-bottom-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow3-bottom-left-symbolic.svg" width="32" alt="arrow3-bottom-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow3-bottom-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow3-bottom-right-symbolic.svg" width="32" alt="arrow3-bottom-right">
+  </a>
   <a href="icons/icon-development-kit/arrow3-down-symbolic.svg">
     <img src="icons/icon-development-kit/arrow3-down-symbolic.svg" width="32" alt="arrow3-down">
   </a>
@@ -719,8 +893,56 @@
   <a href="icons/icon-development-kit/arrow3-right-symbolic.svg">
     <img src="icons/icon-development-kit/arrow3-right-symbolic.svg" width="32" alt="arrow3-right">
   </a>
+  <a href="icons/icon-development-kit/arrow3-top-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow3-top-left-symbolic.svg" width="32" alt="arrow3-top-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow3-top-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow3-top-right-symbolic.svg" width="32" alt="arrow3-top-right">
+  </a>
   <a href="icons/icon-development-kit/arrow3-up-symbolic.svg">
     <img src="icons/icon-development-kit/arrow3-up-symbolic.svg" width="32" alt="arrow3-up">
+  </a>
+  <a href="icons/icon-development-kit/arrow4-down-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow4-down-symbolic.svg" width="32" alt="arrow4-down">
+  </a>
+  <a href="icons/icon-development-kit/arrow4-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow4-left-symbolic.svg" width="32" alt="arrow4-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow4-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow4-right-symbolic.svg" width="32" alt="arrow4-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow4-up-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow4-up-symbolic.svg" width="32" alt="arrow4-up">
+  </a>
+  <a href="icons/icon-development-kit/arrow5-bottom-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow5-bottom-left-symbolic.svg" width="32" alt="arrow5-bottom-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow5-bottom-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow5-bottom-right-symbolic.svg" width="32" alt="arrow5-bottom-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow5-down-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow5-down-symbolic.svg" width="32" alt="arrow5-down">
+  </a>
+  <a href="icons/icon-development-kit/arrow5-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow5-left-symbolic.svg" width="32" alt="arrow5-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow5-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow5-right-symbolic.svg" width="32" alt="arrow5-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow5-top-left-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow5-top-left-symbolic.svg" width="32" alt="arrow5-top-left">
+  </a>
+  <a href="icons/icon-development-kit/arrow5-top-right-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow5-top-right-symbolic.svg" width="32" alt="arrow5-top-right">
+  </a>
+  <a href="icons/icon-development-kit/arrow5-up-symbolic.svg">
+    <img src="icons/icon-development-kit/arrow5-up-symbolic.svg" width="32" alt="arrow5-up">
+  </a>
+  <a href="icons/icon-development-kit/arrows-pointing-inward-symbolic.svg">
+    <img src="icons/icon-development-kit/arrows-pointing-inward-symbolic.svg" width="32" alt="arrows-pointing-inward">
+  </a>
+  <a href="icons/icon-development-kit/arrows-pointing-outward-symbolic.svg">
+    <img src="icons/icon-development-kit/arrows-pointing-outward-symbolic.svg" width="32" alt="arrows-pointing-outward">
   </a>
   <a href="icons/icon-development-kit/arrows-questionmark-symbolic.svg">
     <img src="icons/icon-development-kit/arrows-questionmark-symbolic.svg" width="32" alt="arrows-questionmark">
@@ -745,6 +967,9 @@
   </a>
   <a href="icons/icon-development-kit/auth-otp-symbolic.svg">
     <img src="icons/icon-development-kit/auth-otp-symbolic.svg" width="32" alt="auth-otp">
+  </a>
+  <a href="icons/icon-development-kit/auto-brightness-symbolic.svg">
+    <img src="icons/icon-development-kit/auto-brightness-symbolic.svg" width="32" alt="auto-brightness">
   </a>
   <a href="icons/fluentui-system-icons/autosum-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/autosum-filled-symbolic.svg" width="32" alt="autosum-filled">
@@ -803,17 +1028,38 @@
   <a href="icons/icon-development-kit/barbecue-symbolic.svg">
     <img src="icons/icon-development-kit/barbecue-symbolic.svg" width="32" alt="barbecue">
   </a>
+  <a href="icons/icon-development-kit/barber-symbolic.svg">
+    <img src="icons/icon-development-kit/barber-symbolic.svg" width="32" alt="barber">
+  </a>
   <a href="icons/icon-development-kit/baseball-symbolic.svg">
     <img src="icons/icon-development-kit/baseball-symbolic.svg" width="32" alt="baseball">
   </a>
   <a href="icons/icon-development-kit/battery-symbolic.svg">
     <img src="icons/icon-development-kit/battery-symbolic.svg" width="32" alt="battery">
   </a>
+  <a href="icons/fluentui-system-icons/battery-10-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/battery-10-filled-symbolic.svg" width="32" alt="battery-10-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/battery-10-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/battery-10-regular-symbolic.svg" width="32" alt="battery-10-regular">
+  </a>
+  <a href="icons/icon-development-kit/battery-leaf-symbolic.svg">
+    <img src="icons/icon-development-kit/battery-leaf-symbolic.svg" width="32" alt="battery-leaf">
+  </a>
+  <a href="icons/icon-development-kit/battery-leaf2-symbolic.svg">
+    <img src="icons/icon-development-kit/battery-leaf2-symbolic.svg" width="32" alt="battery-leaf2">
+  </a>
   <a href="icons/fluentui-system-icons/beach-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/beach-filled-symbolic.svg" width="32" alt="beach-filled">
   </a>
   <a href="icons/fluentui-system-icons/beach-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/beach-regular-symbolic.svg" width="32" alt="beach-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/beaker-empty-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/beaker-empty-filled-symbolic.svg" width="32" alt="beaker-empty-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/beaker-empty-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/beaker-empty-regular-symbolic.svg" width="32" alt="beaker-empty-regular">
   </a>
   <a href="icons/fluentui-system-icons/beaker-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/beaker-filled-symbolic.svg" width="32" alt="beaker-filled">
@@ -859,6 +1105,9 @@
   </a>
   <a href="icons/icon-development-kit/bench-symbolic.svg">
     <img src="icons/icon-development-kit/bench-symbolic.svg" width="32" alt="bench">
+  </a>
+  <a href="icons/icon-development-kit/bicycle-parking-symbolic.svg">
+    <img src="icons/icon-development-kit/bicycle-parking-symbolic.svg" width="32" alt="bicycle-parking">
   </a>
   <a href="icons/icon-development-kit/big-dot-symbolic.svg">
     <img src="icons/icon-development-kit/big-dot-symbolic.svg" width="32" alt="big-dot">
@@ -926,11 +1175,20 @@
   <a href="icons/icon-development-kit/body-symbolic.svg">
     <img src="icons/icon-development-kit/body-symbolic.svg" width="32" alt="body">
   </a>
+  <a href="icons/fluentui-system-icons/book-database-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/book-database-filled-symbolic.svg" width="32" alt="book-database-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/book-database-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/book-database-regular-symbolic.svg" width="32" alt="book-database-regular">
+  </a>
   <a href="icons/fluentui-system-icons/book-dismiss-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/book-dismiss-filled-symbolic.svg" width="32" alt="book-dismiss-filled">
   </a>
   <a href="icons/fluentui-system-icons/book-dismiss-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/book-dismiss-regular-symbolic.svg" width="32" alt="book-dismiss-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/book-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/book-filled-symbolic.svg" width="32" alt="book-filled">
   </a>
   <a href="icons/fluentui-system-icons/book-number-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/book-number-filled-symbolic.svg" width="32" alt="book-number-filled">
@@ -944,14 +1202,32 @@
   <a href="icons/fluentui-system-icons/book-open-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/book-open-regular-symbolic.svg" width="32" alt="book-open-regular">
   </a>
+  <a href="icons/fluentui-system-icons/book-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/book-regular-symbolic.svg" width="32" alt="book-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/book-toolbox-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/book-toolbox-filled-symbolic.svg" width="32" alt="book-toolbox-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/book-toolbox-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/book-toolbox-regular-symbolic.svg" width="32" alt="book-toolbox-regular">
+  </a>
+  <a href="icons/icon-development-kit/bookmark-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/bookmark-filled-symbolic.svg" width="32" alt="bookmark-filled">
+  </a>
   <a href="icons/fluentui-system-icons/bookmark-filled-symbolic.svg">
-    <img src="icons/fluentui-system-icons/bookmark-filled-symbolic.svg" width="32" alt="bookmark-filled">
+    <img src="icons/fluentui-system-icons/bookmark-filled-symbolic.svg" width="32" alt="bookmark-filled-alt">
+  </a>
+  <a href="icons/icon-development-kit/bookmark-missing-symbolic.svg">
+    <img src="icons/icon-development-kit/bookmark-missing-symbolic.svg" width="32" alt="bookmark-missing">
   </a>
   <a href="icons/fluentui-system-icons/bookmark-multiple-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/bookmark-multiple-filled-symbolic.svg" width="32" alt="bookmark-multiple-filled">
   </a>
   <a href="icons/fluentui-system-icons/bookmark-multiple-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/bookmark-multiple-regular-symbolic.svg" width="32" alt="bookmark-multiple-regular">
+  </a>
+  <a href="icons/icon-development-kit/bookmark-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/bookmark-outline-symbolic.svg" width="32" alt="bookmark-outline">
   </a>
   <a href="icons/fluentui-system-icons/bookmark-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/bookmark-regular-symbolic.svg" width="32" alt="bookmark-regular">
@@ -961,6 +1237,18 @@
   </a>
   <a href="icons/fluentui-system-icons/border-all-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/border-all-regular-symbolic.svg" width="32" alt="border-all-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/border-inside-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/border-inside-filled-symbolic.svg" width="32" alt="border-inside-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/border-inside-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/border-inside-regular-symbolic.svg" width="32" alt="border-inside-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/border-none-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/border-none-filled-symbolic.svg" width="32" alt="border-none-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/border-none-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/border-none-regular-symbolic.svg" width="32" alt="border-none-regular">
   </a>
   <a href="icons/icon-development-kit/bottom-symbolic.svg">
     <img src="icons/icon-development-kit/bottom-symbolic.svg" width="32" alt="bottom">
@@ -974,6 +1262,9 @@
   <a href="icons/fluentui-system-icons/bowl-chopsticks-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/bowl-chopsticks-regular-symbolic.svg" width="32" alt="bowl-chopsticks-regular">
   </a>
+  <a href="icons/icon-development-kit/box-dotted-symbolic.svg">
+    <img src="icons/icon-development-kit/box-dotted-symbolic.svg" width="32" alt="box-dotted">
+  </a>
   <a href="icons/icon-development-kit/box-down-symbolic.svg">
     <img src="icons/icon-development-kit/box-down-symbolic.svg" width="32" alt="box-down">
   </a>
@@ -982,6 +1273,9 @@
   </a>
   <a href="icons/icon-development-kit/box-left-symbolic.svg">
     <img src="icons/icon-development-kit/box-left-symbolic.svg" width="32" alt="box-left">
+  </a>
+  <a href="icons/icon-development-kit/box-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/box-outline-symbolic.svg" width="32" alt="box-outline">
   </a>
   <a href="icons/fluentui-system-icons/box-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/box-regular-symbolic.svg" width="32" alt="box-regular">
@@ -994,6 +1288,9 @@
   </a>
   <a href="icons/fluentui-system-icons/box-search-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/box-search-regular-symbolic.svg" width="32" alt="box-search-regular">
+  </a>
+  <a href="icons/icon-development-kit/box-small-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/box-small-outline-symbolic.svg" width="32" alt="box-small-outline">
   </a>
   <a href="icons/icon-development-kit/box-up-symbolic.svg">
     <img src="icons/icon-development-kit/box-up-symbolic.svg" width="32" alt="box-up">
@@ -1016,6 +1313,9 @@
   <a href="icons/fluentui-system-icons/braces-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/braces-regular-symbolic.svg" width="32" alt="braces-regular">
   </a>
+  <a href="icons/icon-development-kit/braille-symbolic.svg">
+    <img src="icons/icon-development-kit/braille-symbolic.svg" width="32" alt="braille">
+  </a>
   <a href="icons/icon-development-kit/brain-symbolic.svg">
     <img src="icons/icon-development-kit/brain-symbolic.svg" width="32" alt="brain">
   </a>
@@ -1025,14 +1325,29 @@
   <a href="icons/icon-development-kit/branch-symbolic.svg">
     <img src="icons/icon-development-kit/branch-symbolic.svg" width="32" alt="branch">
   </a>
+  <a href="icons/icon-development-kit/branch-arrow-symbolic.svg">
+    <img src="icons/icon-development-kit/branch-arrow-symbolic.svg" width="32" alt="branch-arrow">
+  </a>
+  <a href="icons/icon-development-kit/branch-compare-symbolic.svg">
+    <img src="icons/icon-development-kit/branch-compare-symbolic.svg" width="32" alt="branch-compare">
+  </a>
+  <a href="icons/icon-development-kit/branch-compare-arrows-symbolic.svg">
+    <img src="icons/icon-development-kit/branch-compare-arrows-symbolic.svg" width="32" alt="branch-compare-arrows">
+  </a>
   <a href="icons/fluentui-system-icons/branch-compare-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/branch-compare-filled-symbolic.svg" width="32" alt="branch-compare-filled">
   </a>
   <a href="icons/fluentui-system-icons/branch-compare-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/branch-compare-regular-symbolic.svg" width="32" alt="branch-compare-regular">
   </a>
+  <a href="icons/icon-development-kit/branch-deleted-symbolic.svg">
+    <img src="icons/icon-development-kit/branch-deleted-symbolic.svg" width="32" alt="branch-deleted">
+  </a>
   <a href="icons/fluentui-system-icons/branch-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/branch-filled-symbolic.svg" width="32" alt="branch-filled">
+  </a>
+  <a href="icons/icon-development-kit/branch-fork-symbolic.svg">
+    <img src="icons/icon-development-kit/branch-fork-symbolic.svg" width="32" alt="branch-fork">
   </a>
   <a href="icons/fluentui-system-icons/branch-fork-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/branch-fork-filled-symbolic.svg" width="32" alt="branch-fork-filled">
@@ -1042,6 +1357,12 @@
   </a>
   <a href="icons/fluentui-system-icons/branch-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/branch-regular-symbolic.svg" width="32" alt="branch-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/branch-request-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/branch-request-filled-symbolic.svg" width="32" alt="branch-request-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/branch-request-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/branch-request-regular-symbolic.svg" width="32" alt="branch-request-regular">
   </a>
   <a href="icons/icon-development-kit/bread-symbolic.svg">
     <img src="icons/icon-development-kit/bread-symbolic.svg" width="32" alt="bread">
@@ -1160,11 +1481,29 @@
   <a href="icons/fluentui-system-icons/building-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/building-filled-symbolic.svg" width="32" alt="building-filled">
   </a>
+  <a href="icons/fluentui-system-icons/building-government-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/building-government-filled-symbolic.svg" width="32" alt="building-government-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/building-government-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/building-government-regular-symbolic.svg" width="32" alt="building-government-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/building-government-search-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/building-government-search-filled-symbolic.svg" width="32" alt="building-government-search-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/building-government-search-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/building-government-search-regular-symbolic.svg" width="32" alt="building-government-search-regular">
+  </a>
   <a href="icons/fluentui-system-icons/building-home-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/building-home-filled-symbolic.svg" width="32" alt="building-home-filled">
   </a>
   <a href="icons/fluentui-system-icons/building-home-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/building-home-regular-symbolic.svg" width="32" alt="building-home-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/building-lighthouse-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/building-lighthouse-filled-symbolic.svg" width="32" alt="building-lighthouse-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/building-lighthouse-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/building-lighthouse-regular-symbolic.svg" width="32" alt="building-lighthouse-regular">
   </a>
   <a href="icons/fluentui-system-icons/building-mosque-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/building-mosque-filled-symbolic.svg" width="32" alt="building-mosque-filled">
@@ -1193,6 +1532,15 @@
   <a href="icons/fluentui-system-icons/building-skyscraper-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/building-skyscraper-regular-symbolic.svg" width="32" alt="building-skyscraper-regular">
   </a>
+  <a href="icons/fluentui-system-icons/building-swap-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/building-swap-filled-symbolic.svg" width="32" alt="building-swap-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/building-swap-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/building-swap-regular-symbolic.svg" width="32" alt="building-swap-regular">
+  </a>
+  <a href="icons/icon-development-kit/bullhorn-symbolic.svg">
+    <img src="icons/icon-development-kit/bullhorn-symbolic.svg" width="32" alt="bullhorn">
+  </a>
   <a href="icons/icon-development-kit/bus-symbolic.svg">
     <img src="icons/icon-development-kit/bus-symbolic.svg" width="32" alt="bus">
   </a>
@@ -1210,6 +1558,9 @@
   </a>
   <a href="icons/icon-development-kit/cage-symbolic.svg">
     <img src="icons/icon-development-kit/cage-symbolic.svg" width="32" alt="cage">
+  </a>
+  <a href="icons/icon-development-kit/cake-symbolic.svg">
+    <img src="icons/icon-development-kit/cake-symbolic.svg" width="32" alt="cake">
   </a>
   <a href="icons/fluentui-system-icons/calculator-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/calculator-filled-symbolic.svg" width="32" alt="calculator-filled">
@@ -1328,6 +1679,12 @@
   <a href="icons/fluentui-system-icons/calendar-multiple-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/calendar-multiple-regular-symbolic.svg" width="32" alt="calendar-multiple-regular">
   </a>
+  <a href="icons/fluentui-system-icons/calendar-note-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/calendar-note-filled-symbolic.svg" width="32" alt="calendar-note-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/calendar-note-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/calendar-note-regular-symbolic.svg" width="32" alt="calendar-note-regular">
+  </a>
   <a href="icons/fluentui-system-icons/calendar-pattern-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/calendar-pattern-filled-symbolic.svg" width="32" alt="calendar-pattern-filled">
   </a>
@@ -1358,6 +1715,12 @@
   <a href="icons/fluentui-system-icons/calendar-question-mark-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/calendar-question-mark-regular-symbolic.svg" width="32" alt="calendar-question-mark-regular">
   </a>
+  <a href="icons/fluentui-system-icons/calendar-record-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/calendar-record-filled-symbolic.svg" width="32" alt="calendar-record-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/calendar-record-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/calendar-record-regular-symbolic.svg" width="32" alt="calendar-record-regular">
+  </a>
   <a href="icons/fluentui-system-icons/calendar-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/calendar-regular-symbolic.svg" width="32" alt="calendar-regular">
   </a>
@@ -1384,6 +1747,12 @@
   </a>
   <a href="icons/fluentui-system-icons/calendar-shield-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/calendar-shield-regular-symbolic.svg" width="32" alt="calendar-shield-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/calendar-sparkle-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/calendar-sparkle-filled-symbolic.svg" width="32" alt="calendar-sparkle-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/calendar-sparkle-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/calendar-sparkle-regular-symbolic.svg" width="32" alt="calendar-sparkle-regular">
   </a>
   <a href="icons/fluentui-system-icons/calendar-star-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/calendar-star-filled-symbolic.svg" width="32" alt="calendar-star-filled">
@@ -1577,6 +1946,9 @@
   <a href="icons/icon-development-kit/camera-shutter-symbolic.svg">
     <img src="icons/icon-development-kit/camera-shutter-symbolic.svg" width="32" alt="camera-shutter">
   </a>
+  <a href="icons/icon-development-kit/camera-small-symbolic.svg">
+    <img src="icons/icon-development-kit/camera-small-symbolic.svg" width="32" alt="camera-small">
+  </a>
   <a href="icons/fluentui-system-icons/camera-sparkles-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/camera-sparkles-filled-symbolic.svg" width="32" alt="camera-sparkles-filled">
   </a>
@@ -1745,6 +2117,9 @@
   <a href="icons/fluentui-system-icons/chat-arrow-double-back-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/chat-arrow-double-back-regular-symbolic.svg" width="32" alt="chat-arrow-double-back-regular">
   </a>
+  <a href="icons/icon-development-kit/chat-bubble-empty-symbolic.svg">
+    <img src="icons/icon-development-kit/chat-bubble-empty-symbolic.svg" width="32" alt="chat-bubble-empty">
+  </a>
   <a href="icons/icon-development-kit/chat-bubble-emtpy-symbolic.svg">
     <img src="icons/icon-development-kit/chat-bubble-emtpy-symbolic.svg" width="32" alt="chat-bubble-emtpy">
   </a>
@@ -1753,6 +2128,9 @@
   </a>
   <a href="icons/icon-development-kit/chat-bubble-text-inverted-symbolic.svg">
     <img src="icons/icon-development-kit/chat-bubble-text-inverted-symbolic.svg" width="32" alt="chat-bubble-text-inverted">
+  </a>
+  <a href="icons/icon-development-kit/chat-bubbles-empty-symbolic.svg">
+    <img src="icons/icon-development-kit/chat-bubbles-empty-symbolic.svg" width="32" alt="chat-bubbles-empty">
   </a>
   <a href="icons/icon-development-kit/chat-bubbles-empty-inverted-symbolic.svg">
     <img src="icons/icon-development-kit/chat-bubbles-empty-inverted-symbolic.svg" width="32" alt="chat-bubbles-empty-inverted">
@@ -1792,6 +2170,12 @@
   </a>
   <a href="icons/fluentui-system-icons/chat-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/chat-filled-symbolic.svg" width="32" alt="chat-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/chat-lock-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/chat-lock-filled-symbolic.svg" width="32" alt="chat-lock-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/chat-lock-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/chat-lock-regular-symbolic.svg" width="32" alt="chat-lock-regular">
   </a>
   <a href="icons/fluentui-system-icons/chat-multiple-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/chat-multiple-filled-symbolic.svg" width="32" alt="chat-multiple-filled">
@@ -1889,6 +2273,12 @@
   <a href="icons/fluentui-system-icons/checkmark-circle-square-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/checkmark-circle-square-regular-symbolic.svg" width="32" alt="checkmark-circle-square-regular">
   </a>
+  <a href="icons/fluentui-system-icons/checkmark-circle-warning-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/checkmark-circle-warning-filled-symbolic.svg" width="32" alt="checkmark-circle-warning-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/checkmark-circle-warning-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/checkmark-circle-warning-regular-symbolic.svg" width="32" alt="checkmark-circle-warning-regular">
+  </a>
   <a href="icons/fluentui-system-icons/checkmark-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/checkmark-filled-symbolic.svg" width="32" alt="checkmark-filled">
   </a>
@@ -1918,6 +2308,9 @@
   </a>
   <a href="icons/fluentui-system-icons/checkmark-underline-circle-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/checkmark-underline-circle-regular-symbolic.svg" width="32" alt="checkmark-underline-circle-regular">
+  </a>
+  <a href="icons/icon-development-kit/cheese-grater-symbolic.svg">
+    <img src="icons/icon-development-kit/cheese-grater-symbolic.svg" width="32" alt="cheese-grater">
   </a>
   <a href="icons/fluentui-system-icons/chevron-circle-down-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/chevron-circle-down-filled-symbolic.svg" width="32" alt="chevron-circle-down-filled">
@@ -2012,6 +2405,9 @@
   <a href="icons/icon-development-kit/cigarette-none-symbolic.svg">
     <img src="icons/icon-development-kit/cigarette-none-symbolic.svg" width="32" alt="cigarette-none">
   </a>
+  <a href="icons/icon-development-kit/circle-anchor-center-symbolic.svg">
+    <img src="icons/icon-development-kit/circle-anchor-center-symbolic.svg" width="32" alt="circle-anchor-center">
+  </a>
   <a href="icons/icon-development-kit/circle-filled-symbolic.svg">
     <img src="icons/icon-development-kit/circle-filled-symbolic.svg" width="32" alt="circle-filled">
   </a>
@@ -2099,6 +2495,12 @@
   <a href="icons/fluentui-system-icons/clipboard-arrow-right-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/clipboard-arrow-right-regular-symbolic.svg" width="32" alt="clipboard-arrow-right-regular">
   </a>
+  <a href="icons/fluentui-system-icons/clipboard-brush-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clipboard-brush-filled-symbolic.svg" width="32" alt="clipboard-brush-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/clipboard-brush-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clipboard-brush-regular-symbolic.svg" width="32" alt="clipboard-brush-regular">
+  </a>
   <a href="icons/fluentui-system-icons/clipboard-bullet-list-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/clipboard-bullet-list-filled-symbolic.svg" width="32" alt="clipboard-bullet-list-filled">
   </a>
@@ -2144,6 +2546,12 @@
   <a href="icons/fluentui-system-icons/clipboard-link-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/clipboard-link-regular-symbolic.svg" width="32" alt="clipboard-link-regular">
   </a>
+  <a href="icons/fluentui-system-icons/clipboard-math-formula-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clipboard-math-formula-filled-symbolic.svg" width="32" alt="clipboard-math-formula-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/clipboard-math-formula-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clipboard-math-formula-regular-symbolic.svg" width="32" alt="clipboard-math-formula-regular">
+  </a>
   <a href="icons/fluentui-system-icons/clipboard-month-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/clipboard-month-filled-symbolic.svg" width="32" alt="clipboard-month-filled">
   </a>
@@ -2162,6 +2570,12 @@
   <a href="icons/fluentui-system-icons/clipboard-note-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/clipboard-note-regular-symbolic.svg" width="32" alt="clipboard-note-regular">
   </a>
+  <a href="icons/fluentui-system-icons/clipboard-number-123-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clipboard-number-123-filled-symbolic.svg" width="32" alt="clipboard-number-123-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/clipboard-number-123-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clipboard-number-123-regular-symbolic.svg" width="32" alt="clipboard-number-123-regular">
+  </a>
   <a href="icons/fluentui-system-icons/clipboard-paste-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/clipboard-paste-filled-symbolic.svg" width="32" alt="clipboard-paste-filled">
   </a>
@@ -2173,6 +2587,12 @@
   </a>
   <a href="icons/fluentui-system-icons/clipboard-task-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/clipboard-task-filled-symbolic.svg" width="32" alt="clipboard-task-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/clipboard-task-list-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clipboard-task-list-filled-symbolic.svg" width="32" alt="clipboard-task-list-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/clipboard-task-list-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clipboard-task-list-regular-symbolic.svg" width="32" alt="clipboard-task-list-regular">
   </a>
   <a href="icons/fluentui-system-icons/clipboard-task-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/clipboard-task-regular-symbolic.svg" width="32" alt="clipboard-task-regular">
@@ -2188,6 +2608,12 @@
   </a>
   <a href="icons/icon-development-kit/clock-alt-symbolic.svg">
     <img src="icons/icon-development-kit/clock-alt-symbolic.svg" width="32" alt="clock-alt">
+  </a>
+  <a href="icons/fluentui-system-icons/clock-bill-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clock-bill-filled-symbolic.svg" width="32" alt="clock-bill-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/clock-bill-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/clock-bill-regular-symbolic.svg" width="32" alt="clock-bill-regular">
   </a>
   <a href="icons/fluentui-system-icons/clock-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/clock-filled-symbolic.svg" width="32" alt="clock-filled">
@@ -2216,6 +2642,12 @@
   <a href="icons/icon-development-kit/closed-captioning-symbolic.svg">
     <img src="icons/icon-development-kit/closed-captioning-symbolic.svg" width="32" alt="closed-captioning">
   </a>
+  <a href="icons/icon-development-kit/closed-captioning-off-symbolic.svg">
+    <img src="icons/icon-development-kit/closed-captioning-off-symbolic.svg" width="32" alt="closed-captioning-off">
+  </a>
+  <a href="icons/icon-development-kit/clothing-store-symbolic.svg">
+    <img src="icons/icon-development-kit/clothing-store-symbolic.svg" width="32" alt="clothing-store">
+  </a>
   <a href="icons/fluentui-system-icons/cloud-add-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/cloud-add-filled-symbolic.svg" width="32" alt="cloud-add-filled">
   </a>
@@ -2234,17 +2666,35 @@
   <a href="icons/fluentui-system-icons/cloud-arrow-down-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/cloud-arrow-down-regular-symbolic.svg" width="32" alt="cloud-arrow-down-regular">
   </a>
+  <a href="icons/fluentui-system-icons/cloud-arrow-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cloud-arrow-right-filled-symbolic.svg" width="32" alt="cloud-arrow-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/cloud-arrow-right-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cloud-arrow-right-regular-symbolic.svg" width="32" alt="cloud-arrow-right-regular">
+  </a>
   <a href="icons/fluentui-system-icons/cloud-arrow-up-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/cloud-arrow-up-filled-symbolic.svg" width="32" alt="cloud-arrow-up-filled">
   </a>
   <a href="icons/fluentui-system-icons/cloud-arrow-up-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/cloud-arrow-up-regular-symbolic.svg" width="32" alt="cloud-arrow-up-regular">
   </a>
+  <a href="icons/fluentui-system-icons/cloud-beaker-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cloud-beaker-filled-symbolic.svg" width="32" alt="cloud-beaker-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/cloud-beaker-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cloud-beaker-regular-symbolic.svg" width="32" alt="cloud-beaker-regular">
+  </a>
   <a href="icons/fluentui-system-icons/cloud-checkmark-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/cloud-checkmark-filled-symbolic.svg" width="32" alt="cloud-checkmark-filled">
   </a>
   <a href="icons/fluentui-system-icons/cloud-checkmark-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/cloud-checkmark-regular-symbolic.svg" width="32" alt="cloud-checkmark-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/cloud-cube-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cloud-cube-filled-symbolic.svg" width="32" alt="cloud-cube-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/cloud-cube-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cloud-cube-regular-symbolic.svg" width="32" alt="cloud-cube-regular">
   </a>
   <a href="icons/icon-development-kit/cloud-disabled-symbolic.svg">
     <img src="icons/icon-development-kit/cloud-disabled-symbolic.svg" width="32" alt="cloud-disabled">
@@ -2435,6 +2885,12 @@
   <a href="icons/icon-development-kit/coin-symbolic.svg">
     <img src="icons/icon-development-kit/coin-symbolic.svg" width="32" alt="coin">
   </a>
+  <a href="icons/fluentui-system-icons/collections-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/collections-filled-symbolic.svg" width="32" alt="collections-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/collections-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/collections-regular-symbolic.svg" width="32" alt="collections-regular">
+  </a>
   <a href="icons/icon-development-kit/color-symbolic.svg">
     <img src="icons/icon-development-kit/color-symbolic.svg" width="32" alt="color">
   </a>
@@ -2561,11 +3017,23 @@
   <a href="icons/fluentui-system-icons/comment-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/comment-regular-symbolic.svg" width="32" alt="comment-regular">
   </a>
+  <a href="icons/icon-development-kit/commit-symbolic.svg">
+    <img src="icons/icon-development-kit/commit-symbolic.svg" width="32" alt="commit">
+  </a>
+  <a href="icons/icon-development-kit/commit-horizontal-symbolic.svg">
+    <img src="icons/icon-development-kit/commit-horizontal-symbolic.svg" width="32" alt="commit-horizontal">
+  </a>
   <a href="icons/fluentui-system-icons/communication-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/communication-filled-symbolic.svg" width="32" alt="communication-filled">
   </a>
   <a href="icons/fluentui-system-icons/communication-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/communication-regular-symbolic.svg" width="32" alt="communication-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/communication-shield-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/communication-shield-filled-symbolic.svg" width="32" alt="communication-shield-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/communication-shield-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/communication-shield-regular-symbolic.svg" width="32" alt="communication-shield-regular">
   </a>
   <a href="icons/icon-development-kit/compass-symbolic.svg">
     <img src="icons/icon-development-kit/compass-symbolic.svg" width="32" alt="compass">
@@ -2648,8 +3116,17 @@
   <a href="icons/fluentui-system-icons/contact-card-ribbon-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/contact-card-ribbon-regular-symbolic.svg" width="32" alt="contact-card-ribbon-regular">
   </a>
+  <a href="icons/icon-development-kit/container-symbolic.svg">
+    <img src="icons/icon-development-kit/container-symbolic.svg" width="32" alt="container">
+  </a>
   <a href="icons/icon-development-kit/container-terminal-symbolic.svg">
     <img src="icons/icon-development-kit/container-terminal-symbolic.svg" width="32" alt="container-terminal">
+  </a>
+  <a href="icons/icon-development-kit/container3-symbolic.svg">
+    <img src="icons/icon-development-kit/container3-symbolic.svg" width="32" alt="container3">
+  </a>
+  <a href="icons/icon-development-kit/container4-symbolic.svg">
+    <img src="icons/icon-development-kit/container4-symbolic.svg" width="32" alt="container4">
   </a>
   <a href="icons/fluentui-system-icons/content-settings-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/content-settings-filled-symbolic.svg" width="32" alt="content-settings-filled">
@@ -2675,11 +3152,23 @@
   <a href="icons/fluentui-system-icons/contract-down-left-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/contract-down-left-regular-symbolic.svg" width="32" alt="contract-down-left-regular">
   </a>
+  <a href="icons/fluentui-system-icons/contract-up-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/contract-up-right-filled-symbolic.svg" width="32" alt="contract-up-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/contract-up-right-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/contract-up-right-regular-symbolic.svg" width="32" alt="contract-up-right-regular">
+  </a>
   <a href="icons/icon-development-kit/controls-symbolic.svg">
     <img src="icons/icon-development-kit/controls-symbolic.svg" width="32" alt="controls">
   </a>
   <a href="icons/icon-development-kit/controls-big-symbolic.svg">
     <img src="icons/icon-development-kit/controls-big-symbolic.svg" width="32" alt="controls-big">
+  </a>
+  <a href="icons/fluentui-system-icons/cookies-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cookies-filled-symbolic.svg" width="32" alt="cookies-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/cookies-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cookies-regular-symbolic.svg" width="32" alt="cookies-regular">
   </a>
   <a href="icons/icon-development-kit/copy-symbolic.svg">
     <img src="icons/icon-development-kit/copy-symbolic.svg" width="32" alt="copy">
@@ -2722,6 +3211,33 @@
   </a>
   <a href="icons/icon-development-kit/cross-large-symbolic.svg">
     <img src="icons/icon-development-kit/cross-large-symbolic.svg" width="32" alt="cross-large">
+  </a>
+  <a href="icons/icon-development-kit/cross-large-circle-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/cross-large-circle-filled-symbolic.svg" width="32" alt="cross-large-circle-filled">
+  </a>
+  <a href="icons/icon-development-kit/cross-large-circle-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/cross-large-circle-outline-symbolic.svg" width="32" alt="cross-large-circle-outline">
+  </a>
+  <a href="icons/icon-development-kit/cross-large-square-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/cross-large-square-filled-symbolic.svg" width="32" alt="cross-large-square-filled">
+  </a>
+  <a href="icons/icon-development-kit/cross-large-square-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/cross-large-square-outline-symbolic.svg" width="32" alt="cross-large-square-outline">
+  </a>
+  <a href="icons/icon-development-kit/cross-small-symbolic.svg">
+    <img src="icons/icon-development-kit/cross-small-symbolic.svg" width="32" alt="cross-small">
+  </a>
+  <a href="icons/icon-development-kit/cross-small-circle-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/cross-small-circle-filled-symbolic.svg" width="32" alt="cross-small-circle-filled">
+  </a>
+  <a href="icons/icon-development-kit/cross-small-circle-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/cross-small-circle-outline-symbolic.svg" width="32" alt="cross-small-circle-outline">
+  </a>
+  <a href="icons/icon-development-kit/cross-small-square-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/cross-small-square-filled-symbolic.svg" width="32" alt="cross-small-square-filled">
+  </a>
+  <a href="icons/icon-development-kit/cross-small-square-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/cross-small-square-outline-symbolic.svg" width="32" alt="cross-small-square-outline">
   </a>
   <a href="icons/icon-development-kit/crossword-clue-across-symbolic.svg">
     <img src="icons/icon-development-kit/crossword-clue-across-symbolic.svg" width="32" alt="crossword-clue-across">
@@ -2786,6 +3302,12 @@
   <a href="icons/icon-development-kit/cut-symbolic.svg">
     <img src="icons/icon-development-kit/cut-symbolic.svg" width="32" alt="cut">
   </a>
+  <a href="icons/fluentui-system-icons/cut-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cut-filled-symbolic.svg" width="32" alt="cut-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/cut-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/cut-regular-symbolic.svg" width="32" alt="cut-regular">
+  </a>
   <a href="icons/icon-development-kit/cycling-symbolic.svg">
     <img src="icons/icon-development-kit/cycling-symbolic.svg" width="32" alt="cycling">
   </a>
@@ -2828,6 +3350,18 @@
   <a href="icons/fluentui-system-icons/data-trending-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/data-trending-regular-symbolic.svg" width="32" alt="data-trending-regular">
   </a>
+  <a href="icons/fluentui-system-icons/data-usage-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/data-usage-filled-symbolic.svg" width="32" alt="data-usage-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/data-usage-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/data-usage-regular-symbolic.svg" width="32" alt="data-usage-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/data-usage-settings-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/data-usage-settings-filled-symbolic.svg" width="32" alt="data-usage-settings-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/data-usage-settings-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/data-usage-settings-regular-symbolic.svg" width="32" alt="data-usage-settings-regular">
+  </a>
   <a href="icons/fluentui-system-icons/database-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/database-filled-symbolic.svg" width="32" alt="database-filled">
   </a>
@@ -2855,6 +3389,24 @@
   <a href="icons/icon-development-kit/decode-symbolic.svg">
     <img src="icons/icon-development-kit/decode-symbolic.svg" width="32" alt="decode">
   </a>
+  <a href="icons/icon-development-kit/delay-symbolic.svg">
+    <img src="icons/icon-development-kit/delay-symbolic.svg" width="32" alt="delay">
+  </a>
+  <a href="icons/icon-development-kit/delay-extreme-symbolic.svg">
+    <img src="icons/icon-development-kit/delay-extreme-symbolic.svg" width="32" alt="delay-extreme">
+  </a>
+  <a href="icons/icon-development-kit/delay-extreme-small-symbolic.svg">
+    <img src="icons/icon-development-kit/delay-extreme-small-symbolic.svg" width="32" alt="delay-extreme-small">
+  </a>
+  <a href="icons/icon-development-kit/delay-long-symbolic.svg">
+    <img src="icons/icon-development-kit/delay-long-symbolic.svg" width="32" alt="delay-long">
+  </a>
+  <a href="icons/icon-development-kit/delay-long-small-symbolic.svg">
+    <img src="icons/icon-development-kit/delay-long-small-symbolic.svg" width="32" alt="delay-long-small">
+  </a>
+  <a href="icons/icon-development-kit/delay-small-symbolic.svg">
+    <img src="icons/icon-development-kit/delay-small-symbolic.svg" width="32" alt="delay-small">
+  </a>
   <a href="icons/fluentui-system-icons/delete-arrow-back-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/delete-arrow-back-filled-symbolic.svg" width="32" alt="delete-arrow-back-filled">
   </a>
@@ -2866,6 +3418,9 @@
   </a>
   <a href="icons/fluentui-system-icons/delete-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/delete-regular-symbolic.svg" width="32" alt="delete-regular">
+  </a>
+  <a href="icons/icon-development-kit/dentist-symbolic.svg">
+    <img src="icons/icon-development-kit/dentist-symbolic.svg" width="32" alt="dentist">
   </a>
   <a href="icons/fluentui-system-icons/dentist-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/dentist-filled-symbolic.svg" width="32" alt="dentist-filled">
@@ -3065,6 +3620,12 @@
   <a href="icons/icon-development-kit/distance-symbolic.svg">
     <img src="icons/icon-development-kit/distance-symbolic.svg" width="32" alt="distance">
   </a>
+  <a href="icons/fluentui-system-icons/diversity-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/diversity-filled-symbolic.svg" width="32" alt="diversity-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/diversity-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/diversity-regular-symbolic.svg" width="32" alt="diversity-regular">
+  </a>
   <a href="icons/fluentui-system-icons/divider-short-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/divider-short-filled-symbolic.svg" width="32" alt="divider-short-filled">
   </a>
@@ -3097,6 +3658,9 @@
   </a>
   <a href="icons/icon-development-kit/dock-usb-symbolic.svg">
     <img src="icons/icon-development-kit/dock-usb-symbolic.svg" width="32" alt="dock-usb">
+  </a>
+  <a href="icons/icon-development-kit/doctor-symbolic.svg">
+    <img src="icons/icon-development-kit/doctor-symbolic.svg" width="32" alt="doctor">
   </a>
   <a href="icons/fluentui-system-icons/doctor-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/doctor-filled-symbolic.svg" width="32" alt="doctor-filled">
@@ -3133,6 +3697,12 @@
   </a>
   <a href="icons/fluentui-system-icons/document-arrow-up-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-arrow-up-regular-symbolic.svg" width="32" alt="document-arrow-up-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/document-briefcase-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/document-briefcase-filled-symbolic.svg" width="32" alt="document-briefcase-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/document-briefcase-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/document-briefcase-regular-symbolic.svg" width="32" alt="document-briefcase-regular">
   </a>
   <a href="icons/fluentui-system-icons/document-bullet-list-arrow-left-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-bullet-list-arrow-left-filled-symbolic.svg" width="32" alt="document-bullet-list-arrow-left-filled">
@@ -3196,6 +3766,12 @@
   </a>
   <a href="icons/fluentui-system-icons/document-data-link-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-data-link-regular-symbolic.svg" width="32" alt="document-data-link-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/document-data-lock-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/document-data-lock-filled-symbolic.svg" width="32" alt="document-data-lock-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/document-data-lock-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/document-data-lock-regular-symbolic.svg" width="32" alt="document-data-lock-regular">
   </a>
   <a href="icons/fluentui-system-icons/document-data-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-data-regular-symbolic.svg" width="32" alt="document-data-regular">
@@ -3280,6 +3856,12 @@
   </a>
   <a href="icons/fluentui-system-icons/document-js-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-js-regular-symbolic.svg" width="32" alt="document-js-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/document-lightning-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/document-lightning-filled-symbolic.svg" width="32" alt="document-lightning-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/document-lightning-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/document-lightning-regular-symbolic.svg" width="32" alt="document-lightning-regular">
   </a>
   <a href="icons/fluentui-system-icons/document-link-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-link-filled-symbolic.svg" width="32" alt="document-link-filled">
@@ -3404,6 +3986,12 @@
   <a href="icons/fluentui-system-icons/document-settings-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-settings-regular-symbolic.svg" width="32" alt="document-settings-regular">
   </a>
+  <a href="icons/fluentui-system-icons/document-signature-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/document-signature-filled-symbolic.svg" width="32" alt="document-signature-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/document-signature-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/document-signature-regular-symbolic.svg" width="32" alt="document-signature-regular">
+  </a>
   <a href="icons/fluentui-system-icons/document-split-hint-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-split-hint-filled-symbolic.svg" width="32" alt="document-split-hint-filled">
   </a>
@@ -3433,6 +4021,9 @@
   </a>
   <a href="icons/fluentui-system-icons/document-target-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-target-regular-symbolic.svg" width="32" alt="document-target-regular">
+  </a>
+  <a href="icons/icon-development-kit/document-text-symbolic.svg">
+    <img src="icons/icon-development-kit/document-text-symbolic.svg" width="32" alt="document-text">
   </a>
   <a href="icons/fluentui-system-icons/document-text-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/document-text-filled-symbolic.svg" width="32" alt="document-text-filled">
@@ -3485,11 +4076,23 @@
   <a href="icons/icon-development-kit/dotted-box-symbolic.svg">
     <img src="icons/icon-development-kit/dotted-box-symbolic.svg" width="32" alt="dotted-box">
   </a>
+  <a href="icons/icon-development-kit/double-ended-arrows-horizontal-symbolic.svg">
+    <img src="icons/icon-development-kit/double-ended-arrows-horizontal-symbolic.svg" width="32" alt="double-ended-arrows-horizontal">
+  </a>
+  <a href="icons/icon-development-kit/double-ended-arrows-vertical-symbolic.svg">
+    <img src="icons/icon-development-kit/double-ended-arrows-vertical-symbolic.svg" width="32" alt="double-ended-arrows-vertical">
+  </a>
   <a href="icons/icon-development-kit/down-symbolic.svg">
     <img src="icons/icon-development-kit/down-symbolic.svg" width="32" alt="down">
   </a>
   <a href="icons/icon-development-kit/down-large-symbolic.svg">
     <img src="icons/icon-development-kit/down-large-symbolic.svg" width="32" alt="down-large">
+  </a>
+  <a href="icons/icon-development-kit/down-small-symbolic.svg">
+    <img src="icons/icon-development-kit/down-small-symbolic.svg" width="32" alt="down-small">
+  </a>
+  <a href="icons/icon-development-kit/down-smaller-symbolic.svg">
+    <img src="icons/icon-development-kit/down-smaller-symbolic.svg" width="32" alt="down-smaller">
   </a>
   <a href="icons/fluentui-system-icons/drafts-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/drafts-filled-symbolic.svg" width="32" alt="drafts-filled">
@@ -3499,6 +4102,36 @@
   </a>
   <a href="icons/icon-development-kit/drag-n-drop-symbolic.svg">
     <img src="icons/icon-development-kit/drag-n-drop-symbolic.svg" width="32" alt="drag-n-drop">
+  </a>
+  <a href="icons/icon-development-kit/draw-arc-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-arc-symbolic.svg" width="32" alt="draw-arc">
+  </a>
+  <a href="icons/icon-development-kit/draw-circle-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-circle-symbolic.svg" width="32" alt="draw-circle">
+  </a>
+  <a href="icons/icon-development-kit/draw-line-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-line-symbolic.svg" width="32" alt="draw-line">
+  </a>
+  <a href="icons/icon-development-kit/draw-oval-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-oval-symbolic.svg" width="32" alt="draw-oval">
+  </a>
+  <a href="icons/icon-development-kit/draw-oval2-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-oval2-symbolic.svg" width="32" alt="draw-oval2">
+  </a>
+  <a href="icons/icon-development-kit/draw-polyline-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-polyline-symbolic.svg" width="32" alt="draw-polyline">
+  </a>
+  <a href="icons/icon-development-kit/draw-rectangle-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-rectangle-symbolic.svg" width="32" alt="draw-rectangle">
+  </a>
+  <a href="icons/icon-development-kit/draw-rectangle2-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-rectangle2-symbolic.svg" width="32" alt="draw-rectangle2">
+  </a>
+  <a href="icons/icon-development-kit/draw-square-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-square-symbolic.svg" width="32" alt="draw-square">
+  </a>
+  <a href="icons/icon-development-kit/draw-text-symbolic.svg">
+    <img src="icons/icon-development-kit/draw-text-symbolic.svg" width="32" alt="draw-text">
   </a>
   <a href="icons/icon-development-kit/drawer-symbolic.svg">
     <img src="icons/icon-development-kit/drawer-symbolic.svg" width="32" alt="drawer">
@@ -3526,6 +4159,9 @@
   </a>
   <a href="icons/fluentui-system-icons/drink-wine-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/drink-wine-regular-symbolic.svg" width="32" alt="drink-wine-regular">
+  </a>
+  <a href="icons/icon-development-kit/drinking-fountain-symbolic.svg">
+    <img src="icons/icon-development-kit/drinking-fountain-symbolic.svg" width="32" alt="drinking-fountain">
   </a>
   <a href="icons/icon-development-kit/drinks-symbolic.svg">
     <img src="icons/icon-development-kit/drinks-symbolic.svg" width="32" alt="drinks">
@@ -3577,6 +4213,12 @@
   </a>
   <a href="icons/fluentui-system-icons/edit-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/edit-filled-symbolic.svg" width="32" alt="edit-filled">
+  </a>
+  <a href="icons/icon-development-kit/edit-find-symbolic.svg">
+    <img src="icons/icon-development-kit/edit-find-symbolic.svg" width="32" alt="edit-find">
+  </a>
+  <a href="icons/icon-development-kit/edit-find-replace-symbolic.svg">
+    <img src="icons/icon-development-kit/edit-find-replace-symbolic.svg" width="32" alt="edit-find-replace">
   </a>
   <a href="icons/fluentui-system-icons/edit-off-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/edit-off-filled-symbolic.svg" width="32" alt="edit-off-filled">
@@ -3695,6 +4337,9 @@
   <a href="icons/icon-development-kit/entry-clear-symbolic.svg">
     <img src="icons/icon-development-kit/entry-clear-symbolic.svg" width="32" alt="entry-clear">
   </a>
+  <a href="icons/icon-development-kit/entry-clear-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/entry-clear-outline-symbolic.svg" width="32" alt="entry-clear-outline">
+  </a>
   <a href="icons/fluentui-system-icons/equal-off-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/equal-off-filled-symbolic.svg" width="32" alt="equal-off-filled">
   </a>
@@ -3731,6 +4376,15 @@
   <a href="icons/fluentui-system-icons/error-circle-settings-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/error-circle-settings-regular-symbolic.svg" width="32" alt="error-circle-settings-regular">
   </a>
+  <a href="icons/icon-development-kit/error-correct-symbolic.svg">
+    <img src="icons/icon-development-kit/error-correct-symbolic.svg" width="32" alt="error-correct">
+  </a>
+  <a href="icons/icon-development-kit/error-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/error-outline-symbolic.svg" width="32" alt="error-outline">
+  </a>
+  <a href="icons/icon-development-kit/error-small-symbolic.svg">
+    <img src="icons/icon-development-kit/error-small-symbolic.svg" width="32" alt="error-small">
+  </a>
   <a href="icons/icon-development-kit/ev-symbolic.svg">
     <img src="icons/icon-development-kit/ev-symbolic.svg" width="32" alt="ev">
   </a>
@@ -3766,6 +4420,9 @@
   </a>
   <a href="icons/icon-development-kit/external-display-symbolic.svg">
     <img src="icons/icon-development-kit/external-display-symbolic.svg" width="32" alt="external-display">
+  </a>
+  <a href="icons/icon-development-kit/external-display-nointernal-symbolic.svg">
+    <img src="icons/icon-development-kit/external-display-nointernal-symbolic.svg" width="32" alt="external-display-nointernal">
   </a>
   <a href="icons/icon-development-kit/external-display2-symbolic.svg">
     <img src="icons/icon-development-kit/external-display2-symbolic.svg" width="32" alt="external-display2">
@@ -3926,6 +4583,12 @@
   <a href="icons/icon-development-kit/fingerprint-authentication-symbolic.svg">
     <img src="icons/icon-development-kit/fingerprint-authentication-symbolic.svg" width="32" alt="fingerprint-authentication">
   </a>
+  <a href="icons/fluentui-system-icons/fingerprint-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/fingerprint-filled-symbolic.svg" width="32" alt="fingerprint-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/fingerprint-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/fingerprint-regular-symbolic.svg" width="32" alt="fingerprint-regular">
+  </a>
   <a href="icons/icon-development-kit/fingerprint2-symbolic.svg">
     <img src="icons/icon-development-kit/fingerprint2-symbolic.svg" width="32" alt="fingerprint2">
   </a>
@@ -4058,6 +4721,12 @@
   <a href="icons/fluentui-system-icons/flow-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/flow-regular-symbolic.svg" width="32" alt="flow-regular">
   </a>
+  <a href="icons/fluentui-system-icons/flowchart-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/flowchart-filled-symbolic.svg" width="32" alt="flowchart-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/flowchart-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/flowchart-regular-symbolic.svg" width="32" alt="flowchart-regular">
+  </a>
   <a href="icons/fluentui-system-icons/fluid-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/fluid-filled-symbolic.svg" width="32" alt="fluid-filled">
   </a>
@@ -4166,6 +4835,12 @@
   <a href="icons/icon-development-kit/folder-remote-symbolic.svg">
     <img src="icons/icon-development-kit/folder-remote-symbolic.svg" width="32" alt="folder-remote">
   </a>
+  <a href="icons/fluentui-system-icons/folder-search-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/folder-search-filled-symbolic.svg" width="32" alt="folder-search-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/folder-search-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/folder-search-regular-symbolic.svg" width="32" alt="folder-search-regular">
+  </a>
   <a href="icons/fluentui-system-icons/folder-swap-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/folder-swap-filled-symbolic.svg" width="32" alt="folder-swap-filled">
   </a>
@@ -4229,8 +4904,17 @@
   <a href="icons/fluentui-system-icons/food-toast-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/food-toast-regular-symbolic.svg" width="32" alt="food-toast-regular">
   </a>
+  <a href="icons/icon-development-kit/football-symbolic.svg">
+    <img src="icons/icon-development-kit/football-symbolic.svg" width="32" alt="football">
+  </a>
   <a href="icons/icon-development-kit/football-american-symbolic.svg">
     <img src="icons/icon-development-kit/football-american-symbolic.svg" width="32" alt="football-american">
+  </a>
+  <a href="icons/icon-development-kit/four-arrows-pointing-inward-symbolic.svg">
+    <img src="icons/icon-development-kit/four-arrows-pointing-inward-symbolic.svg" width="32" alt="four-arrows-pointing-inward">
+  </a>
+  <a href="icons/icon-development-kit/four-arrows-pointing-outward-symbolic.svg">
+    <img src="icons/icon-development-kit/four-arrows-pointing-outward-symbolic.svg" width="32" alt="four-arrows-pointing-outward">
   </a>
   <a href="icons/fluentui-system-icons/fps-30-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/fps-30-filled-symbolic.svg" width="32" alt="fps-30-filled">
@@ -4264,6 +4948,12 @@
   </a>
   <a href="icons/fluentui-system-icons/full-screen-minimize-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/full-screen-minimize-regular-symbolic.svg" width="32" alt="full-screen-minimize-regular">
+  </a>
+  <a href="icons/icon-development-kit/fullscreen-rectangular-symbolic.svg">
+    <img src="icons/icon-development-kit/fullscreen-rectangular-symbolic.svg" width="32" alt="fullscreen-rectangular">
+  </a>
+  <a href="icons/icon-development-kit/fullscreen-square-symbolic.svg">
+    <img src="icons/icon-development-kit/fullscreen-square-symbolic.svg" width="32" alt="fullscreen-square">
   </a>
   <a href="icons/icon-development-kit/function-exponential-symbolic.svg">
     <img src="icons/icon-development-kit/function-exponential-symbolic.svg" width="32" alt="function-exponential">
@@ -4312,6 +5002,9 @@
   </a>
   <a href="icons/icon-development-kit/garlic-symbolic.svg">
     <img src="icons/icon-development-kit/garlic-symbolic.svg" width="32" alt="garlic">
+  </a>
+  <a href="icons/icon-development-kit/gate-symbolic.svg">
+    <img src="icons/icon-development-kit/gate-symbolic.svg" width="32" alt="gate">
   </a>
   <a href="icons/fluentui-system-icons/gavel-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/gavel-filled-symbolic.svg" width="32" alt="gavel-filled">
@@ -4403,14 +5096,32 @@
   <a href="icons/fluentui-system-icons/globe-arrow-forward-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/globe-arrow-forward-regular-symbolic.svg" width="32" alt="globe-arrow-forward-regular">
   </a>
+  <a href="icons/fluentui-system-icons/globe-arrow-up-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-arrow-up-filled-symbolic.svg" width="32" alt="globe-arrow-up-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/globe-arrow-up-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-arrow-up-regular-symbolic.svg" width="32" alt="globe-arrow-up-regular">
+  </a>
   <a href="icons/fluentui-system-icons/globe-clock-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/globe-clock-filled-symbolic.svg" width="32" alt="globe-clock-filled">
   </a>
   <a href="icons/fluentui-system-icons/globe-clock-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/globe-clock-regular-symbolic.svg" width="32" alt="globe-clock-regular">
   </a>
+  <a href="icons/fluentui-system-icons/globe-error-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-error-filled-symbolic.svg" width="32" alt="globe-error-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/globe-error-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-error-regular-symbolic.svg" width="32" alt="globe-error-regular">
+  </a>
   <a href="icons/fluentui-system-icons/globe-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/globe-filled-symbolic.svg" width="32" alt="globe-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/globe-prohibited-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-prohibited-filled-symbolic.svg" width="32" alt="globe-prohibited-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/globe-prohibited-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-prohibited-regular-symbolic.svg" width="32" alt="globe-prohibited-regular">
   </a>
   <a href="icons/fluentui-system-icons/globe-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/globe-regular-symbolic.svg" width="32" alt="globe-regular">
@@ -4423,6 +5134,18 @@
   </a>
   <a href="icons/fluentui-system-icons/globe-star-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/globe-star-regular-symbolic.svg" width="32" alt="globe-star-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/globe-sync-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-sync-filled-symbolic.svg" width="32" alt="globe-sync-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/globe-sync-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-sync-regular-symbolic.svg" width="32" alt="globe-sync-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/globe-warning-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-warning-filled-symbolic.svg" width="32" alt="globe-warning-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/globe-warning-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/globe-warning-regular-symbolic.svg" width="32" alt="globe-warning-regular">
   </a>
   <a href="icons/icon-development-kit/goldola-symbolic.svg">
     <img src="icons/icon-development-kit/goldola-symbolic.svg" width="32" alt="goldola">
@@ -4561,6 +5284,12 @@
   </a>
   <a href="icons/icon-development-kit/harddisk-inverted-symbolic.svg">
     <img src="icons/icon-development-kit/harddisk-inverted-symbolic.svg" width="32" alt="harddisk-inverted">
+  </a>
+  <a href="icons/fluentui-system-icons/hat-graduation-add-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/hat-graduation-add-filled-symbolic.svg" width="32" alt="hat-graduation-add-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/hat-graduation-add-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/hat-graduation-add-regular-symbolic.svg" width="32" alt="hat-graduation-add-regular">
   </a>
   <a href="icons/fluentui-system-icons/hat-graduation-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/hat-graduation-filled-symbolic.svg" width="32" alt="hat-graduation-filled">
@@ -4703,6 +5432,15 @@
   <a href="icons/icon-development-kit/horizontal-arrows-left-symbolic.svg">
     <img src="icons/icon-development-kit/horizontal-arrows-left-symbolic.svg" width="32" alt="horizontal-arrows-left">
   </a>
+  <a href="icons/icon-development-kit/horizontal-arrows-long-left-symbolic.svg">
+    <img src="icons/icon-development-kit/horizontal-arrows-long-left-symbolic.svg" width="32" alt="horizontal-arrows-long-left">
+  </a>
+  <a href="icons/icon-development-kit/horizontal-arrows-long-none-symbolic.svg">
+    <img src="icons/icon-development-kit/horizontal-arrows-long-none-symbolic.svg" width="32" alt="horizontal-arrows-long-none">
+  </a>
+  <a href="icons/icon-development-kit/horizontal-arrows-long-right-symbolic.svg">
+    <img src="icons/icon-development-kit/horizontal-arrows-long-right-symbolic.svg" width="32" alt="horizontal-arrows-long-right">
+  </a>
   <a href="icons/icon-development-kit/horizontal-arrows-none-symbolic.svg">
     <img src="icons/icon-development-kit/horizontal-arrows-none-symbolic.svg" width="32" alt="horizontal-arrows-none">
   </a>
@@ -4750,6 +5488,12 @@
   </a>
   <a href="icons/fluentui-system-icons/hourglass-three-quarter-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/hourglass-three-quarter-regular-symbolic.svg" width="32" alt="hourglass-three-quarter-regular">
+  </a>
+  <a href="icons/icon-development-kit/icecream-symbolic.svg">
+    <img src="icons/icon-development-kit/icecream-symbolic.svg" width="32" alt="icecream">
+  </a>
+  <a href="icons/icon-development-kit/icecream-cone-symbolic.svg">
+    <img src="icons/icon-development-kit/icecream-cone-symbolic.svg" width="32" alt="icecream-cone">
   </a>
   <a href="icons/icon-development-kit/image-symbolic.svg">
     <img src="icons/icon-development-kit/image-symbolic.svg" width="32" alt="image">
@@ -4865,6 +5609,9 @@
   <a href="icons/fluentui-system-icons/info-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/info-filled-symbolic.svg" width="32" alt="info-filled">
   </a>
+  <a href="icons/icon-development-kit/info-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/info-outline-symbolic.svg" width="32" alt="info-outline">
+  </a>
   <a href="icons/fluentui-system-icons/info-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/info-regular-symbolic.svg" width="32" alt="info-regular">
   </a>
@@ -4952,6 +5699,9 @@
   <a href="icons/fluentui-system-icons/key-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/key-filled-symbolic.svg" width="32" alt="key-filled">
   </a>
+  <a href="icons/icon-development-kit/key-login-symbolic.svg">
+    <img src="icons/icon-development-kit/key-login-symbolic.svg" width="32" alt="key-login">
+  </a>
   <a href="icons/fluentui-system-icons/key-multiple-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/key-multiple-filled-symbolic.svg" width="32" alt="key-multiple-filled">
   </a>
@@ -4963,6 +5713,12 @@
   </a>
   <a href="icons/icon-development-kit/key2-symbolic.svg">
     <img src="icons/icon-development-kit/key2-symbolic.svg" width="32" alt="key2">
+  </a>
+  <a href="icons/icon-development-kit/key3-symbolic.svg">
+    <img src="icons/icon-development-kit/key3-symbolic.svg" width="32" alt="key3">
+  </a>
+  <a href="icons/icon-development-kit/key4-symbolic.svg">
+    <img src="icons/icon-development-kit/key4-symbolic.svg" width="32" alt="key4">
   </a>
   <a href="icons/icon-development-kit/keyboard-symbolic.svg">
     <img src="icons/icon-development-kit/keyboard-symbolic.svg" width="32" alt="keyboard">
@@ -5084,6 +5840,213 @@
   <a href="icons/icon-development-kit/last-large-symbolic.svg">
     <img src="icons/icon-development-kit/last-large-symbolic.svg" width="32" alt="last-large">
   </a>
+  <a href="icons/fluentui-system-icons/layer-diagonal-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layer-diagonal-filled-symbolic.svg" width="32" alt="layer-diagonal-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layer-diagonal-person-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layer-diagonal-person-filled-symbolic.svg" width="32" alt="layer-diagonal-person-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layer-diagonal-person-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layer-diagonal-person-regular-symbolic.svg" width="32" alt="layer-diagonal-person-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layer-diagonal-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layer-diagonal-regular-symbolic.svg" width="32" alt="layer-diagonal-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layer-diagonal-sparkle-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layer-diagonal-sparkle-filled-symbolic.svg" width="32" alt="layer-diagonal-sparkle-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layer-diagonal-sparkle-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layer-diagonal-sparkle-regular-symbolic.svg" width="32" alt="layer-diagonal-sparkle-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-cell-four-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-cell-four-filled-symbolic.svg" width="32" alt="layout-cell-four-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-cell-four-focus-bottom-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-cell-four-focus-bottom-left-filled-symbolic.svg" width="32" alt="layout-cell-four-focus-bottom-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-cell-four-focus-bottom-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-cell-four-focus-bottom-right-filled-symbolic.svg" width="32" alt="layout-cell-four-focus-bottom-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-cell-four-focus-top-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-cell-four-focus-top-left-filled-symbolic.svg" width="32" alt="layout-cell-four-focus-top-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-cell-four-focus-top-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-cell-four-focus-top-right-filled-symbolic.svg" width="32" alt="layout-cell-four-focus-top-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-cell-four-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-cell-four-regular-symbolic.svg" width="32" alt="layout-cell-four-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-four-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-four-filled-symbolic.svg" width="32" alt="layout-column-four-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-four-focus-center-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-four-focus-center-left-filled-symbolic.svg" width="32" alt="layout-column-four-focus-center-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-four-focus-center-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-four-focus-center-right-filled-symbolic.svg" width="32" alt="layout-column-four-focus-center-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-four-focus-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-four-focus-left-filled-symbolic.svg" width="32" alt="layout-column-four-focus-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-four-focus-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-four-focus-right-filled-symbolic.svg" width="32" alt="layout-column-four-focus-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-four-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-four-regular-symbolic.svg" width="32" alt="layout-column-four-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-one-third-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-one-third-left-filled-symbolic.svg" width="32" alt="layout-column-one-third-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-one-third-left-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-one-third-left-regular-symbolic.svg" width="32" alt="layout-column-one-third-left-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-one-third-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-one-third-right-filled-symbolic.svg" width="32" alt="layout-column-one-third-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-one-third-right-hint-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-one-third-right-hint-filled-symbolic.svg" width="32" alt="layout-column-one-third-right-hint-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-one-third-right-hint-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-one-third-right-hint-regular-symbolic.svg" width="32" alt="layout-column-one-third-right-hint-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-one-third-right-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-one-third-right-regular-symbolic.svg" width="32" alt="layout-column-one-third-right-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-three-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-three-filled-symbolic.svg" width="32" alt="layout-column-three-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-three-focus-center-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-three-focus-center-filled-symbolic.svg" width="32" alt="layout-column-three-focus-center-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-three-focus-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-three-focus-left-filled-symbolic.svg" width="32" alt="layout-column-three-focus-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-three-focus-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-three-focus-right-filled-symbolic.svg" width="32" alt="layout-column-three-focus-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-three-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-three-regular-symbolic.svg" width="32" alt="layout-column-three-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-filled-symbolic.svg" width="32" alt="layout-column-two-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-focus-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-focus-left-filled-symbolic.svg" width="32" alt="layout-column-two-focus-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-focus-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-focus-right-filled-symbolic.svg" width="32" alt="layout-column-two-focus-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-regular-symbolic.svg" width="32" alt="layout-column-two-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-left-filled-symbolic.svg" width="32" alt="layout-column-two-split-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-left-focus-bottom-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-left-focus-bottom-left-filled-symbolic.svg" width="32" alt="layout-column-two-split-left-focus-bottom-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-left-focus-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-left-focus-right-filled-symbolic.svg" width="32" alt="layout-column-two-split-left-focus-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-left-focus-top-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-left-focus-top-left-filled-symbolic.svg" width="32" alt="layout-column-two-split-left-focus-top-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-left-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-left-regular-symbolic.svg" width="32" alt="layout-column-two-split-left-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-right-filled-symbolic.svg" width="32" alt="layout-column-two-split-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-right-focus-bottom-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-right-focus-bottom-right-filled-symbolic.svg" width="32" alt="layout-column-two-split-right-focus-bottom-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-right-focus-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-right-focus-left-filled-symbolic.svg" width="32" alt="layout-column-two-split-right-focus-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-right-focus-top-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-right-focus-top-right-filled-symbolic.svg" width="32" alt="layout-column-two-split-right-focus-top-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-column-two-split-right-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-column-two-split-right-regular-symbolic.svg" width="32" alt="layout-column-two-split-right-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-four-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-four-filled-symbolic.svg" width="32" alt="layout-row-four-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-four-focus-bottom-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-four-focus-bottom-filled-symbolic.svg" width="32" alt="layout-row-four-focus-bottom-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-four-focus-center-bottom-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-four-focus-center-bottom-filled-symbolic.svg" width="32" alt="layout-row-four-focus-center-bottom-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-four-focus-center-top-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-four-focus-center-top-filled-symbolic.svg" width="32" alt="layout-row-four-focus-center-top-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-four-focus-top-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-four-focus-top-filled-symbolic.svg" width="32" alt="layout-row-four-focus-top-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-four-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-four-regular-symbolic.svg" width="32" alt="layout-row-four-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-three-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-three-filled-symbolic.svg" width="32" alt="layout-row-three-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-three-focus-bottom-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-three-focus-bottom-filled-symbolic.svg" width="32" alt="layout-row-three-focus-bottom-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-three-focus-center-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-three-focus-center-filled-symbolic.svg" width="32" alt="layout-row-three-focus-center-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-three-focus-top-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-three-focus-top-filled-symbolic.svg" width="32" alt="layout-row-three-focus-top-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-three-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-three-regular-symbolic.svg" width="32" alt="layout-row-three-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-filled-symbolic.svg" width="32" alt="layout-row-two-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-focus-bottom-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-focus-bottom-filled-symbolic.svg" width="32" alt="layout-row-two-focus-bottom-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-focus-top-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-focus-top-filled-symbolic.svg" width="32" alt="layout-row-two-focus-top-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-regular-symbolic.svg" width="32" alt="layout-row-two-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-bottom-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-bottom-filled-symbolic.svg" width="32" alt="layout-row-two-split-bottom-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-bottom-focus-bottom-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-bottom-focus-bottom-left-filled-symbolic.svg" width="32" alt="layout-row-two-split-bottom-focus-bottom-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-bottom-focus-bottom-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-bottom-focus-bottom-right-filled-symbolic.svg" width="32" alt="layout-row-two-split-bottom-focus-bottom-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-bottom-focus-top-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-bottom-focus-top-filled-symbolic.svg" width="32" alt="layout-row-two-split-bottom-focus-top-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-bottom-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-bottom-regular-symbolic.svg" width="32" alt="layout-row-two-split-bottom-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-top-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-top-filled-symbolic.svg" width="32" alt="layout-row-two-split-top-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-top-focus-bottom-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-top-focus-bottom-filled-symbolic.svg" width="32" alt="layout-row-two-split-top-focus-bottom-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-top-focus-top-left-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-top-focus-top-left-filled-symbolic.svg" width="32" alt="layout-row-two-split-top-focus-top-left-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-top-focus-top-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-top-focus-top-right-filled-symbolic.svg" width="32" alt="layout-row-two-split-top-focus-top-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/layout-row-two-split-top-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/layout-row-two-split-top-regular-symbolic.svg" width="32" alt="layout-row-two-split-top-regular">
+  </a>
+  <a href="icons/icon-development-kit/leaf-symbolic.svg">
+    <img src="icons/icon-development-kit/leaf-symbolic.svg" width="32" alt="leaf">
+  </a>
   <a href="icons/fluentui-system-icons/leaf-one-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/leaf-one-filled-symbolic.svg" width="32" alt="leaf-one-filled">
   </a>
@@ -5111,6 +6074,12 @@
   <a href="icons/icon-development-kit/left-large-symbolic.svg">
     <img src="icons/icon-development-kit/left-large-symbolic.svg" width="32" alt="left-large">
   </a>
+  <a href="icons/icon-development-kit/left-small-symbolic.svg">
+    <img src="icons/icon-development-kit/left-small-symbolic.svg" width="32" alt="left-small">
+  </a>
+  <a href="icons/icon-development-kit/left-smaller-symbolic.svg">
+    <img src="icons/icon-development-kit/left-smaller-symbolic.svg" width="32" alt="left-smaller">
+  </a>
   <a href="icons/icon-development-kit/library-symbolic.svg">
     <img src="icons/icon-development-kit/library-symbolic.svg" width="32" alt="library">
   </a>
@@ -5125,6 +6094,18 @@
   </a>
   <a href="icons/fluentui-system-icons/library-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/library-regular-symbolic.svg" width="32" alt="library-regular">
+  </a>
+  <a href="icons/icon-development-kit/license-symbolic.svg">
+    <img src="icons/icon-development-kit/license-symbolic.svg" width="32" alt="license">
+  </a>
+  <a href="icons/icon-development-kit/license-cc-symbolic.svg">
+    <img src="icons/icon-development-kit/license-cc-symbolic.svg" width="32" alt="license-cc">
+  </a>
+  <a href="icons/icon-development-kit/license-copyleft-symbolic.svg">
+    <img src="icons/icon-development-kit/license-copyleft-symbolic.svg" width="32" alt="license-copyleft">
+  </a>
+  <a href="icons/icon-development-kit/license-copyright-symbolic.svg">
+    <img src="icons/icon-development-kit/license-copyright-symbolic.svg" width="32" alt="license-copyright">
   </a>
   <a href="icons/icon-development-kit/lightbulb-symbolic.svg">
     <img src="icons/icon-development-kit/lightbulb-symbolic.svg" width="32" alt="lightbulb">
@@ -5152,6 +6133,15 @@
   </a>
   <a href="icons/fluentui-system-icons/likert-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/likert-regular-symbolic.svg" width="32" alt="likert-regular">
+  </a>
+  <a href="icons/icon-development-kit/line-extend-symbolic.svg">
+    <img src="icons/icon-development-kit/line-extend-symbolic.svg" width="32" alt="line-extend">
+  </a>
+  <a href="icons/fluentui-system-icons/line-flow-diagonal-up-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/line-flow-diagonal-up-right-filled-symbolic.svg" width="32" alt="line-flow-diagonal-up-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/line-flow-diagonal-up-right-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/line-flow-diagonal-up-right-regular-symbolic.svg" width="32" alt="line-flow-diagonal-up-right-regular">
   </a>
   <a href="icons/fluentui-system-icons/line-horizontal-1-dashes-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/line-horizontal-1-dashes-filled-symbolic.svg" width="32" alt="line-horizontal-1-dashes-filled">
@@ -5183,6 +6173,21 @@
   <a href="icons/fluentui-system-icons/line-horizontal-4-search-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/line-horizontal-4-search-regular-symbolic.svg" width="32" alt="line-horizontal-4-search-regular">
   </a>
+  <a href="icons/icon-development-kit/line-intersect-symbolic.svg">
+    <img src="icons/icon-development-kit/line-intersect-symbolic.svg" width="32" alt="line-intersect">
+  </a>
+  <a href="icons/icon-development-kit/line-join-symbolic.svg">
+    <img src="icons/icon-development-kit/line-join-symbolic.svg" width="32" alt="line-join">
+  </a>
+  <a href="icons/icon-development-kit/line-trim-symbolic.svg">
+    <img src="icons/icon-development-kit/line-trim-symbolic.svg" width="32" alt="line-trim">
+  </a>
+  <a href="icons/fluentui-system-icons/link-add-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/link-add-filled-symbolic.svg" width="32" alt="link-add-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/link-add-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/link-add-regular-symbolic.svg" width="32" alt="link-add-regular">
+  </a>
   <a href="icons/fluentui-system-icons/link-dismiss-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/link-dismiss-filled-symbolic.svg" width="32" alt="link-dismiss-filled">
   </a>
@@ -5203,6 +6208,12 @@
   </a>
   <a href="icons/fluentui-system-icons/link-multiple-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/link-multiple-regular-symbolic.svg" width="32" alt="link-multiple-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/link-person-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/link-person-filled-symbolic.svg" width="32" alt="link-person-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/link-person-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/link-person-regular-symbolic.svg" width="32" alt="link-person-regular">
   </a>
   <a href="icons/fluentui-system-icons/link-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/link-regular-symbolic.svg" width="32" alt="link-regular">
@@ -5303,6 +6314,18 @@
   <a href="icons/fluentui-system-icons/location-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/location-regular-symbolic.svg" width="32" alt="location-regular">
   </a>
+  <a href="icons/fluentui-system-icons/location-ripple-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/location-ripple-filled-symbolic.svg" width="32" alt="location-ripple-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/location-ripple-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/location-ripple-regular-symbolic.svg" width="32" alt="location-ripple-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/location-target-square-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/location-target-square-filled-symbolic.svg" width="32" alt="location-target-square-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/location-target-square-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/location-target-square-regular-symbolic.svg" width="32" alt="location-target-square-regular">
+  </a>
   <a href="icons/fluentui-system-icons/lock-closed-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/lock-closed-filled-symbolic.svg" width="32" alt="lock-closed-filled">
   </a>
@@ -5321,11 +6344,20 @@
   <a href="icons/fluentui-system-icons/lock-open-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/lock-open-regular-symbolic.svg" width="32" alt="lock-open-regular">
   </a>
+  <a href="icons/fluentui-system-icons/lock-shield-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/lock-shield-filled-symbolic.svg" width="32" alt="lock-shield-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/lock-shield-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/lock-shield-regular-symbolic.svg" width="32" alt="lock-shield-regular">
+  </a>
   <a href="icons/icon-development-kit/lock-small-symbolic.svg">
     <img src="icons/icon-development-kit/lock-small-symbolic.svg" width="32" alt="lock-small">
   </a>
   <a href="icons/icon-development-kit/lock-small-open-symbolic.svg">
     <img src="icons/icon-development-kit/lock-small-open-symbolic.svg" width="32" alt="lock-small-open">
+  </a>
+  <a href="icons/icon-development-kit/loop-arrow-symbolic.svg">
+    <img src="icons/icon-development-kit/loop-arrow-symbolic.svg" width="32" alt="loop-arrow">
   </a>
   <a href="icons/icon-development-kit/loupe-symbolic.svg">
     <img src="icons/icon-development-kit/loupe-symbolic.svg" width="32" alt="loupe">
@@ -5377,6 +6409,12 @@
   </a>
   <a href="icons/icon-development-kit/mail-archive-symbolic.svg">
     <img src="icons/icon-development-kit/mail-archive-symbolic.svg" width="32" alt="mail-archive">
+  </a>
+  <a href="icons/fluentui-system-icons/mail-arrow-clockwise-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/mail-arrow-clockwise-filled-symbolic.svg" width="32" alt="mail-arrow-clockwise-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/mail-arrow-clockwise-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/mail-arrow-clockwise-regular-symbolic.svg" width="32" alt="mail-arrow-clockwise-regular">
   </a>
   <a href="icons/fluentui-system-icons/mail-arrow-double-back-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/mail-arrow-double-back-filled-symbolic.svg" width="32" alt="mail-arrow-double-back-filled">
@@ -5567,6 +6605,12 @@
   <a href="icons/icon-development-kit/mailbox-symbolic.svg">
     <img src="icons/icon-development-kit/mailbox-symbolic.svg" width="32" alt="mailbox">
   </a>
+  <a href="icons/fluentui-system-icons/mailbox-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/mailbox-filled-symbolic.svg" width="32" alt="mailbox-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/mailbox-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/mailbox-regular-symbolic.svg" width="32" alt="mailbox-regular">
+  </a>
   <a href="icons/icon-development-kit/map-symbolic.svg">
     <img src="icons/icon-development-kit/map-symbolic.svg" width="32" alt="map">
   </a>
@@ -5581,6 +6625,9 @@
   </a>
   <a href="icons/icon-development-kit/map-marker-symbolic.svg">
     <img src="icons/icon-development-kit/map-marker-symbolic.svg" width="32" alt="map-marker">
+  </a>
+  <a href="icons/icon-development-kit/map-marker-small-symbolic.svg">
+    <img src="icons/icon-development-kit/map-marker-small-symbolic.svg" width="32" alt="map-marker-small">
   </a>
   <a href="icons/fluentui-system-icons/map-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/map-regular-symbolic.svg" width="32" alt="map-regular">
@@ -5629,6 +6676,9 @@
   </a>
   <a href="icons/icon-development-kit/meeting-symbolic.svg">
     <img src="icons/icon-development-kit/meeting-symbolic.svg" width="32" alt="meeting">
+  </a>
+  <a href="icons/icon-development-kit/megaphone-symbolic.svg">
+    <img src="icons/icon-development-kit/megaphone-symbolic.svg" width="32" alt="megaphone">
   </a>
   <a href="icons/fluentui-system-icons/megaphone-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/megaphone-filled-symbolic.svg" width="32" alt="megaphone-filled">
@@ -5681,6 +6731,9 @@
   <a href="icons/icon-development-kit/merged-symbolic.svg">
     <img src="icons/icon-development-kit/merged-symbolic.svg" width="32" alt="merged">
   </a>
+  <a href="icons/icon-development-kit/metronome-symbolic.svg">
+    <img src="icons/icon-development-kit/metronome-symbolic.svg" width="32" alt="metronome">
+  </a>
   <a href="icons/fluentui-system-icons/mic-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/mic-filled-symbolic.svg" width="32" alt="mic-filled">
   </a>
@@ -5726,8 +6779,32 @@
   <a href="icons/icon-development-kit/minus-symbolic.svg">
     <img src="icons/icon-development-kit/minus-symbolic.svg" width="32" alt="minus">
   </a>
+  <a href="icons/icon-development-kit/minus-circle-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/minus-circle-filled-symbolic.svg" width="32" alt="minus-circle-filled">
+  </a>
+  <a href="icons/icon-development-kit/minus-circle-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/minus-circle-outline-symbolic.svg" width="32" alt="minus-circle-outline">
+  </a>
   <a href="icons/icon-development-kit/minus-large-symbolic.svg">
     <img src="icons/icon-development-kit/minus-large-symbolic.svg" width="32" alt="minus-large">
+  </a>
+  <a href="icons/icon-development-kit/minus-large-circle-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/minus-large-circle-filled-symbolic.svg" width="32" alt="minus-large-circle-filled">
+  </a>
+  <a href="icons/icon-development-kit/minus-large-circle-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/minus-large-circle-outline-symbolic.svg" width="32" alt="minus-large-circle-outline">
+  </a>
+  <a href="icons/icon-development-kit/minus-large-square-symbolic.svg">
+    <img src="icons/icon-development-kit/minus-large-square-symbolic.svg" width="32" alt="minus-large-square">
+  </a>
+  <a href="icons/icon-development-kit/minus-large-square-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/minus-large-square-outline-symbolic.svg" width="32" alt="minus-large-square-outline">
+  </a>
+  <a href="icons/icon-development-kit/minus-square-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/minus-square-filled-symbolic.svg" width="32" alt="minus-square-filled">
+  </a>
+  <a href="icons/icon-development-kit/minus-square-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/minus-square-outline-symbolic.svg" width="32" alt="minus-square-outline">
   </a>
   <a href="icons/icon-development-kit/mitten-symbolic.svg">
     <img src="icons/icon-development-kit/mitten-symbolic.svg" width="32" alt="mitten">
@@ -5807,6 +6884,9 @@
   <a href="icons/fluentui-system-icons/more-horizontal-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/more-horizontal-regular-symbolic.svg" width="32" alt="more-horizontal-regular">
   </a>
+  <a href="icons/icon-development-kit/more-small-symbolic.svg">
+    <img src="icons/icon-development-kit/more-small-symbolic.svg" width="32" alt="more-small">
+  </a>
   <a href="icons/fluentui-system-icons/more-vertical-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/more-vertical-filled-symbolic.svg" width="32" alt="more-vertical-filled">
   </a>
@@ -5818,6 +6898,18 @@
   </a>
   <a href="icons/icon-development-kit/mouse-symbolic.svg">
     <img src="icons/icon-development-kit/mouse-symbolic.svg" width="32" alt="mouse">
+  </a>
+  <a href="icons/icon-development-kit/mouse-click-symbolic.svg">
+    <img src="icons/icon-development-kit/mouse-click-symbolic.svg" width="32" alt="mouse-click">
+  </a>
+  <a href="icons/icon-development-kit/mouse-primary-click-symbolic.svg">
+    <img src="icons/icon-development-kit/mouse-primary-click-symbolic.svg" width="32" alt="mouse-primary-click">
+  </a>
+  <a href="icons/icon-development-kit/mouse-secondary-click-symbolic.svg">
+    <img src="icons/icon-development-kit/mouse-secondary-click-symbolic.svg" width="32" alt="mouse-secondary-click">
+  </a>
+  <a href="icons/icon-development-kit/mouse-wheel-scroll-symbolic.svg">
+    <img src="icons/icon-development-kit/mouse-wheel-scroll-symbolic.svg" width="32" alt="mouse-wheel-scroll">
   </a>
   <a href="icons/icon-development-kit/mouse-wireless-symbolic.svg">
     <img src="icons/icon-development-kit/mouse-wireless-symbolic.svg" width="32" alt="mouse-wireless">
@@ -5873,8 +6965,14 @@
   <a href="icons/fluentui-system-icons/music-note-off-2-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/music-note-off-2-regular-symbolic.svg" width="32" alt="music-note-off-2-regular">
   </a>
+  <a href="icons/icon-development-kit/music-note-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/music-note-outline-symbolic.svg" width="32" alt="music-note-outline">
+  </a>
   <a href="icons/icon-development-kit/music-note-single-symbolic.svg">
     <img src="icons/icon-development-kit/music-note-single-symbolic.svg" width="32" alt="music-note-single">
+  </a>
+  <a href="icons/icon-development-kit/music-note-single-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/music-note-single-outline-symbolic.svg" width="32" alt="music-note-single-outline">
   </a>
   <a href="icons/icon-development-kit/music-queue-symbolic.svg">
     <img src="icons/icon-development-kit/music-queue-symbolic.svg" width="32" alt="music-queue">
@@ -5939,6 +7037,15 @@
   <a href="icons/icon-development-kit/network-cellular-no-data-signal-weak-symbolic.svg">
     <img src="icons/icon-development-kit/network-cellular-no-data-signal-weak-symbolic.svg" width="32" alt="network-cellular-no-data-signal-weak">
   </a>
+  <a href="icons/icon-development-kit/network-computer-symbolic.svg">
+    <img src="icons/icon-development-kit/network-computer-symbolic.svg" width="32" alt="network-computer">
+  </a>
+  <a href="icons/icon-development-kit/network-proxy-symbolic.svg">
+    <img src="icons/icon-development-kit/network-proxy-symbolic.svg" width="32" alt="network-proxy">
+  </a>
+  <a href="icons/icon-development-kit/network-proxy-server-symbolic.svg">
+    <img src="icons/icon-development-kit/network-proxy-server-symbolic.svg" width="32" alt="network-proxy-server">
+  </a>
   <a href="icons/icon-development-kit/network-raid-symbolic.svg">
     <img src="icons/icon-development-kit/network-raid-symbolic.svg" width="32" alt="network-raid">
   </a>
@@ -5993,11 +7100,20 @@
   <a href="icons/icon-development-kit/no-wheelchair-symbolic.svg">
     <img src="icons/icon-development-kit/no-wheelchair-symbolic.svg" width="32" alt="no-wheelchair">
   </a>
+  <a href="icons/icon-development-kit/non-emergency-healthcare-symbolic.svg">
+    <img src="icons/icon-development-kit/non-emergency-healthcare-symbolic.svg" width="32" alt="non-emergency-healthcare">
+  </a>
+  <a href="icons/icon-development-kit/non-religious-cemetary-symbolic.svg">
+    <img src="icons/icon-development-kit/non-religious-cemetary-symbolic.svg" width="32" alt="non-religious-cemetary">
+  </a>
   <a href="icons/icon-development-kit/noodles-symbolic.svg">
     <img src="icons/icon-development-kit/noodles-symbolic.svg" width="32" alt="noodles">
   </a>
   <a href="icons/icon-development-kit/normalize-symbolic.svg">
     <img src="icons/icon-development-kit/normalize-symbolic.svg" width="32" alt="normalize">
+  </a>
+  <a href="icons/icon-development-kit/not-accessible-symbolic.svg">
+    <img src="icons/icon-development-kit/not-accessible-symbolic.svg" width="32" alt="not-accessible">
   </a>
   <a href="icons/icon-development-kit/not-junk-symbolic.svg">
     <img src="icons/icon-development-kit/not-junk-symbolic.svg" width="32" alt="not-junk">
@@ -6062,6 +7178,12 @@
   <a href="icons/icon-development-kit/nudity-none-symbolic.svg">
     <img src="icons/icon-development-kit/nudity-none-symbolic.svg" width="32" alt="nudity-none">
   </a>
+  <a href="icons/fluentui-system-icons/number-circle-0-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-0-filled-symbolic.svg" width="32" alt="number-circle-0-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/number-circle-0-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-0-regular-symbolic.svg" width="32" alt="number-circle-0-regular">
+  </a>
   <a href="icons/fluentui-system-icons/number-circle-1-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/number-circle-1-filled-symbolic.svg" width="32" alt="number-circle-1-filled">
   </a>
@@ -6091,6 +7213,30 @@
   </a>
   <a href="icons/fluentui-system-icons/number-circle-5-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/number-circle-5-regular-symbolic.svg" width="32" alt="number-circle-5-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/number-circle-6-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-6-filled-symbolic.svg" width="32" alt="number-circle-6-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/number-circle-6-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-6-regular-symbolic.svg" width="32" alt="number-circle-6-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/number-circle-7-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-7-filled-symbolic.svg" width="32" alt="number-circle-7-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/number-circle-7-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-7-regular-symbolic.svg" width="32" alt="number-circle-7-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/number-circle-8-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-8-filled-symbolic.svg" width="32" alt="number-circle-8-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/number-circle-8-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-8-regular-symbolic.svg" width="32" alt="number-circle-8-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/number-circle-9-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-9-filled-symbolic.svg" width="32" alt="number-circle-9-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/number-circle-9-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/number-circle-9-regular-symbolic.svg" width="32" alt="number-circle-9-regular">
   </a>
   <a href="icons/fluentui-system-icons/number-row-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/number-row-filled-symbolic.svg" width="32" alt="number-row-filled">
@@ -6158,11 +7304,23 @@
   <a href="icons/fluentui-system-icons/organization-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/organization-filled-symbolic.svg" width="32" alt="organization-filled">
   </a>
+  <a href="icons/fluentui-system-icons/organization-horizontal-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/organization-horizontal-filled-symbolic.svg" width="32" alt="organization-horizontal-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/organization-horizontal-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/organization-horizontal-regular-symbolic.svg" width="32" alt="organization-horizontal-regular">
+  </a>
   <a href="icons/fluentui-system-icons/organization-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/organization-regular-symbolic.svg" width="32" alt="organization-regular">
   </a>
   <a href="icons/icon-development-kit/outbox-symbolic.svg">
     <img src="icons/icon-development-kit/outbox-symbolic.svg" width="32" alt="outbox">
+  </a>
+  <a href="icons/icon-development-kit/oval-center-anchor-symbolic.svg">
+    <img src="icons/icon-development-kit/oval-center-anchor-symbolic.svg" width="32" alt="oval-center-anchor">
+  </a>
+  <a href="icons/icon-development-kit/oval-center-anchor2-symbolic.svg">
+    <img src="icons/icon-development-kit/oval-center-anchor2-symbolic.svg" width="32" alt="oval-center-anchor2">
   </a>
   <a href="icons/fluentui-system-icons/oval-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/oval-filled-symbolic.svg" width="32" alt="oval-filled">
@@ -6383,6 +7541,12 @@
   <a href="icons/fluentui-system-icons/payment-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/payment-regular-symbolic.svg" width="32" alt="payment-regular">
   </a>
+  <a href="icons/fluentui-system-icons/payment-wireless-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/payment-wireless-filled-symbolic.svg" width="32" alt="payment-wireless-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/payment-wireless-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/payment-wireless-regular-symbolic.svg" width="32" alt="payment-wireless-regular">
+  </a>
   <a href="icons/icon-development-kit/pci-card-symbolic.svg">
     <img src="icons/icon-development-kit/pci-card-symbolic.svg" width="32" alt="pci-card">
   </a>
@@ -6448,6 +7612,12 @@
   </a>
   <a href="icons/fluentui-system-icons/people-call-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/people-call-regular-symbolic.svg" width="32" alt="people-call-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/people-chat-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/people-chat-filled-symbolic.svg" width="32" alt="people-chat-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/people-chat-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/people-chat-regular-symbolic.svg" width="32" alt="people-chat-regular">
   </a>
   <a href="icons/fluentui-system-icons/people-checkmark-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/people-checkmark-filled-symbolic.svg" width="32" alt="people-checkmark-filled">
@@ -6665,6 +7835,12 @@
   <a href="icons/fluentui-system-icons/person-note-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/person-note-regular-symbolic.svg" width="32" alt="person-note-regular">
   </a>
+  <a href="icons/fluentui-system-icons/person-passkey-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-passkey-filled-symbolic.svg" width="32" alt="person-passkey-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/person-passkey-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-passkey-regular-symbolic.svg" width="32" alt="person-passkey-regular">
+  </a>
   <a href="icons/fluentui-system-icons/person-prohibited-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/person-prohibited-filled-symbolic.svg" width="32" alt="person-prohibited-filled">
   </a>
@@ -6697,6 +7873,18 @@
   </a>
   <a href="icons/fluentui-system-icons/person-settings-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/person-settings-regular-symbolic.svg" width="32" alt="person-settings-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/person-square-checkmark-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-square-checkmark-filled-symbolic.svg" width="32" alt="person-square-checkmark-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/person-square-checkmark-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-square-checkmark-regular-symbolic.svg" width="32" alt="person-square-checkmark-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/person-square-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-square-filled-symbolic.svg" width="32" alt="person-square-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/person-square-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-square-regular-symbolic.svg" width="32" alt="person-square-regular">
   </a>
   <a href="icons/fluentui-system-icons/person-standing-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/person-standing-filled-symbolic.svg" width="32" alt="person-standing-filled">
@@ -6734,14 +7922,32 @@
   <a href="icons/fluentui-system-icons/person-sync-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/person-sync-regular-symbolic.svg" width="32" alt="person-sync-regular">
   </a>
+  <a href="icons/icon-development-kit/person-talking-symbolic.svg">
+    <img src="icons/icon-development-kit/person-talking-symbolic.svg" width="32" alt="person-talking">
+  </a>
+  <a href="icons/fluentui-system-icons/person-voice-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-voice-filled-symbolic.svg" width="32" alt="person-voice-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/person-voice-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-voice-regular-symbolic.svg" width="32" alt="person-voice-regular">
+  </a>
   <a href="icons/fluentui-system-icons/person-walking-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/person-walking-filled-symbolic.svg" width="32" alt="person-walking-filled">
   </a>
   <a href="icons/fluentui-system-icons/person-walking-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/person-walking-regular-symbolic.svg" width="32" alt="person-walking-regular">
   </a>
+  <a href="icons/fluentui-system-icons/person-warning-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-warning-filled-symbolic.svg" width="32" alt="person-warning-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/person-warning-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/person-warning-regular-symbolic.svg" width="32" alt="person-warning-regular">
+  </a>
   <a href="icons/icon-development-kit/person2-symbolic.svg">
     <img src="icons/icon-development-kit/person2-symbolic.svg" width="32" alt="person2">
+  </a>
+  <a href="icons/icon-development-kit/pharmacy-symbolic.svg">
+    <img src="icons/icon-development-kit/pharmacy-symbolic.svg" width="32" alt="pharmacy">
   </a>
   <a href="icons/icon-development-kit/phone-symbolic.svg">
     <img src="icons/icon-development-kit/phone-symbolic.svg" width="32" alt="phone">
@@ -6893,6 +8099,9 @@
   <a href="icons/fluentui-system-icons/pin-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/pin-regular-symbolic.svg" width="32" alt="pin-regular">
   </a>
+  <a href="icons/icon-development-kit/pin-small-symbolic.svg">
+    <img src="icons/icon-development-kit/pin-small-symbolic.svg" width="32" alt="pin-small">
+  </a>
   <a href="icons/icon-development-kit/pip-in-symbolic.svg">
     <img src="icons/icon-development-kit/pip-in-symbolic.svg" width="32" alt="pip-in">
   </a>
@@ -6950,17 +8159,77 @@
   <a href="icons/icon-development-kit/playlist-symbolic.svg">
     <img src="icons/icon-development-kit/playlist-symbolic.svg" width="32" alt="playlist">
   </a>
+  <a href="icons/icon-development-kit/playlist-consecutive-symbolic.svg">
+    <img src="icons/icon-development-kit/playlist-consecutive-symbolic.svg" width="32" alt="playlist-consecutive">
+  </a>
+  <a href="icons/icon-development-kit/playlist-infinite-symbolic.svg">
+    <img src="icons/icon-development-kit/playlist-infinite-symbolic.svg" width="32" alt="playlist-infinite">
+  </a>
+  <a href="icons/icon-development-kit/playlist-repeat-symbolic.svg">
+    <img src="icons/icon-development-kit/playlist-repeat-symbolic.svg" width="32" alt="playlist-repeat">
+  </a>
+  <a href="icons/icon-development-kit/playlist-repeat-song-symbolic.svg">
+    <img src="icons/icon-development-kit/playlist-repeat-song-symbolic.svg" width="32" alt="playlist-repeat-song">
+  </a>
+  <a href="icons/icon-development-kit/playlist-shuffle-symbolic.svg">
+    <img src="icons/icon-development-kit/playlist-shuffle-symbolic.svg" width="32" alt="playlist-shuffle">
+  </a>
   <a href="icons/icon-development-kit/playlist2-symbolic.svg">
     <img src="icons/icon-development-kit/playlist2-symbolic.svg" width="32" alt="playlist2">
+  </a>
+  <a href="icons/fluentui-system-icons/plug-connected-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/plug-connected-filled-symbolic.svg" width="32" alt="plug-connected-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/plug-connected-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/plug-connected-regular-symbolic.svg" width="32" alt="plug-connected-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/plug-disconnected-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/plug-disconnected-filled-symbolic.svg" width="32" alt="plug-disconnected-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/plug-disconnected-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/plug-disconnected-regular-symbolic.svg" width="32" alt="plug-disconnected-regular">
   </a>
   <a href="icons/icon-development-kit/plus-symbolic.svg">
     <img src="icons/icon-development-kit/plus-symbolic.svg" width="32" alt="plus">
   </a>
+  <a href="icons/icon-development-kit/plus-circle-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/plus-circle-filled-symbolic.svg" width="32" alt="plus-circle-filled">
+  </a>
+  <a href="icons/icon-development-kit/plus-circle-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/plus-circle-outline-symbolic.svg" width="32" alt="plus-circle-outline">
+  </a>
   <a href="icons/icon-development-kit/plus-large-symbolic.svg">
     <img src="icons/icon-development-kit/plus-large-symbolic.svg" width="32" alt="plus-large">
   </a>
+  <a href="icons/icon-development-kit/plus-large-circle-symbolic.svg">
+    <img src="icons/icon-development-kit/plus-large-circle-symbolic.svg" width="32" alt="plus-large-circle">
+  </a>
+  <a href="icons/icon-development-kit/plus-large-circle-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/plus-large-circle-outline-symbolic.svg" width="32" alt="plus-large-circle-outline">
+  </a>
+  <a href="icons/icon-development-kit/plus-large-square-symbolic.svg">
+    <img src="icons/icon-development-kit/plus-large-square-symbolic.svg" width="32" alt="plus-large-square">
+  </a>
+  <a href="icons/icon-development-kit/plus-large-square-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/plus-large-square-outline-symbolic.svg" width="32" alt="plus-large-square-outline">
+  </a>
+  <a href="icons/icon-development-kit/plus-square-filled-symbolic.svg">
+    <img src="icons/icon-development-kit/plus-square-filled-symbolic.svg" width="32" alt="plus-square-filled">
+  </a>
+  <a href="icons/icon-development-kit/plus-square-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/plus-square-outline-symbolic.svg" width="32" alt="plus-square-outline">
+  </a>
+  <a href="icons/icon-development-kit/pocket-knife-symbolic.svg">
+    <img src="icons/icon-development-kit/pocket-knife-symbolic.svg" width="32" alt="pocket-knife">
+  </a>
   <a href="icons/icon-development-kit/podcast-symbolic.svg">
     <img src="icons/icon-development-kit/podcast-symbolic.svg" width="32" alt="podcast">
+  </a>
+  <a href="icons/icon-development-kit/pointer-primary-click-symbolic.svg">
+    <img src="icons/icon-development-kit/pointer-primary-click-symbolic.svg" width="32" alt="pointer-primary-click">
+  </a>
+  <a href="icons/icon-development-kit/pointer-secondary-click-symbolic.svg">
+    <img src="icons/icon-development-kit/pointer-secondary-click-symbolic.svg" width="32" alt="pointer-secondary-click">
   </a>
   <a href="icons/icon-development-kit/police-badge-symbolic.svg">
     <img src="icons/icon-development-kit/police-badge-symbolic.svg" width="32" alt="police-badge">
@@ -6976,6 +8245,12 @@
   </a>
   <a href="icons/fluentui-system-icons/poll-horizontal-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/poll-horizontal-regular-symbolic.svg" width="32" alt="poll-horizontal-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/poll-off-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/poll-off-filled-symbolic.svg" width="32" alt="poll-off-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/poll-off-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/poll-off-regular-symbolic.svg" width="32" alt="poll-off-regular">
   </a>
   <a href="icons/fluentui-system-icons/poll-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/poll-regular-symbolic.svg" width="32" alt="poll-regular">
@@ -7064,6 +8339,9 @@
   <a href="icons/icon-development-kit/printer-network-symbolic.svg">
     <img src="icons/icon-development-kit/printer-network-symbolic.svg" width="32" alt="printer-network">
   </a>
+  <a href="icons/icon-development-kit/printer2-symbolic.svg">
+    <img src="icons/icon-development-kit/printer2-symbolic.svg" width="32" alt="printer2">
+  </a>
   <a href="icons/icon-development-kit/processor-symbolic.svg">
     <img src="icons/icon-development-kit/processor-symbolic.svg" width="32" alt="processor">
   </a>
@@ -7103,11 +8381,23 @@
   <a href="icons/icon-development-kit/pub-symbolic.svg">
     <img src="icons/icon-development-kit/pub-symbolic.svg" width="32" alt="pub">
   </a>
+  <a href="icons/icon-development-kit/pull-request-symbolic.svg">
+    <img src="icons/icon-development-kit/pull-request-symbolic.svg" width="32" alt="pull-request">
+  </a>
+  <a href="icons/icon-development-kit/pull-request-closed-symbolic.svg">
+    <img src="icons/icon-development-kit/pull-request-closed-symbolic.svg" width="32" alt="pull-request-closed">
+  </a>
   <a href="icons/icon-development-kit/pull-request-denied-symbolic.svg">
     <img src="icons/icon-development-kit/pull-request-denied-symbolic.svg" width="32" alt="pull-request-denied">
   </a>
   <a href="icons/icon-development-kit/pull-request-draft-symbolic.svg">
     <img src="icons/icon-development-kit/pull-request-draft-symbolic.svg" width="32" alt="pull-request-draft">
+  </a>
+  <a href="icons/icon-development-kit/pull-request-merged-symbolic.svg">
+    <img src="icons/icon-development-kit/pull-request-merged-symbolic.svg" width="32" alt="pull-request-merged">
+  </a>
+  <a href="icons/icon-development-kit/pull-request-new-symbolic.svg">
+    <img src="icons/icon-development-kit/pull-request-new-symbolic.svg" width="32" alt="pull-request-new">
   </a>
   <a href="icons/fluentui-system-icons/puzzle-cube-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/puzzle-cube-filled-symbolic.svg" width="32" alt="puzzle-cube-filled">
@@ -7142,11 +8432,17 @@
   <a href="icons/fluentui-system-icons/question-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/question-filled-symbolic.svg" width="32" alt="question-filled">
   </a>
+  <a href="icons/icon-development-kit/question-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/question-outline-symbolic.svg" width="32" alt="question-outline">
+  </a>
   <a href="icons/fluentui-system-icons/question-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/question-regular-symbolic.svg" width="32" alt="question-regular">
   </a>
   <a href="icons/icon-development-kit/question-round-symbolic.svg">
     <img src="icons/icon-development-kit/question-round-symbolic.svg" width="32" alt="question-round">
+  </a>
+  <a href="icons/icon-development-kit/question-round-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/question-round-outline-symbolic.svg" width="32" alt="question-round-outline">
   </a>
   <a href="icons/icon-development-kit/quotation-symbolic.svg">
     <img src="icons/icon-development-kit/quotation-symbolic.svg" width="32" alt="quotation">
@@ -7232,6 +8528,9 @@
   <a href="icons/fluentui-system-icons/reading-list-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/reading-list-regular-symbolic.svg" width="32" alt="reading-list-regular">
   </a>
+  <a href="icons/icon-development-kit/readonly-symbolic.svg">
+    <img src="icons/icon-development-kit/readonly-symbolic.svg" width="32" alt="readonly">
+  </a>
   <a href="icons/fluentui-system-icons/receipt-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/receipt-filled-symbolic.svg" width="32" alt="receipt-filled">
   </a>
@@ -7265,6 +8564,12 @@
   <a href="icons/fluentui-system-icons/record-stop-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/record-stop-regular-symbolic.svg" width="32" alt="record-stop-regular">
   </a>
+  <a href="icons/icon-development-kit/rectangle-center-anchor-symbolic.svg">
+    <img src="icons/icon-development-kit/rectangle-center-anchor-symbolic.svg" width="32" alt="rectangle-center-anchor">
+  </a>
+  <a href="icons/icon-development-kit/rectangle-center-anchor2-symbolic.svg">
+    <img src="icons/icon-development-kit/rectangle-center-anchor2-symbolic.svg" width="32" alt="rectangle-center-anchor2">
+  </a>
   <a href="icons/fluentui-system-icons/rectangle-landscape-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/rectangle-landscape-filled-symbolic.svg" width="32" alt="rectangle-landscape-filled">
   </a>
@@ -7282,6 +8587,21 @@
   </a>
   <a href="icons/fluentui-system-icons/rectangle-landscape-sparkle-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/rectangle-landscape-sparkle-regular-symbolic.svg" width="32" alt="rectangle-landscape-sparkle-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/rectangle-landscape-sync-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/rectangle-landscape-sync-filled-symbolic.svg" width="32" alt="rectangle-landscape-sync-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/rectangle-landscape-sync-off-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/rectangle-landscape-sync-off-filled-symbolic.svg" width="32" alt="rectangle-landscape-sync-off-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/rectangle-landscape-sync-off-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/rectangle-landscape-sync-off-regular-symbolic.svg" width="32" alt="rectangle-landscape-sync-off-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/rectangle-landscape-sync-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/rectangle-landscape-sync-regular-symbolic.svg" width="32" alt="rectangle-landscape-sync-regular">
+  </a>
+  <a href="icons/icon-development-kit/recycling-bin-symbolic.svg">
+    <img src="icons/icon-development-kit/recycling-bin-symbolic.svg" width="32" alt="recycling-bin">
   </a>
   <a href="icons/icon-development-kit/refresh-symbolic.svg">
     <img src="icons/icon-development-kit/refresh-symbolic.svg" width="32" alt="refresh">
@@ -7316,6 +8636,9 @@
   <a href="icons/icon-development-kit/rescue-symbolic.svg">
     <img src="icons/icon-development-kit/rescue-symbolic.svg" width="32" alt="rescue">
   </a>
+  <a href="icons/fluentui-system-icons/resize-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/resize-filled-symbolic.svg" width="32" alt="resize-filled">
+  </a>
   <a href="icons/fluentui-system-icons/resize-large-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/resize-large-filled-symbolic.svg" width="32" alt="resize-large-filled">
   </a>
@@ -7324,6 +8647,9 @@
   </a>
   <a href="icons/icon-development-kit/resize-mode-symbolic.svg">
     <img src="icons/icon-development-kit/resize-mode-symbolic.svg" width="32" alt="resize-mode">
+  </a>
+  <a href="icons/fluentui-system-icons/resize-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/resize-regular-symbolic.svg" width="32" alt="resize-regular">
   </a>
   <a href="icons/fluentui-system-icons/resize-small-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/resize-small-filled-symbolic.svg" width="32" alt="resize-small-filled">
@@ -7379,6 +8705,12 @@
   <a href="icons/icon-development-kit/right-large-symbolic.svg">
     <img src="icons/icon-development-kit/right-large-symbolic.svg" width="32" alt="right-large">
   </a>
+  <a href="icons/icon-development-kit/right-small-symbolic.svg">
+    <img src="icons/icon-development-kit/right-small-symbolic.svg" width="32" alt="right-small">
+  </a>
+  <a href="icons/icon-development-kit/right-smaller-symbolic.svg">
+    <img src="icons/icon-development-kit/right-smaller-symbolic.svg" width="32" alt="right-smaller">
+  </a>
   <a href="icons/fluentui-system-icons/road-cone-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/road-cone-filled-symbolic.svg" width="32" alt="road-cone-filled">
   </a>
@@ -7400,6 +8732,12 @@
   <a href="icons/icon-development-kit/rotate-symbolic.svg">
     <img src="icons/icon-development-kit/rotate-symbolic.svg" width="32" alt="rotate">
   </a>
+  <a href="icons/icon-development-kit/rotate-left-symbolic.svg">
+    <img src="icons/icon-development-kit/rotate-left-symbolic.svg" width="32" alt="rotate-left">
+  </a>
+  <a href="icons/icon-development-kit/rotate-right-symbolic.svg">
+    <img src="icons/icon-development-kit/rotate-right-symbolic.svg" width="32" alt="rotate-right">
+  </a>
   <a href="icons/icon-development-kit/rotation-lock-symbolic.svg">
     <img src="icons/icon-development-kit/rotation-lock-symbolic.svg" width="32" alt="rotation-lock">
   </a>
@@ -7409,8 +8747,38 @@
   <a href="icons/icon-development-kit/routing-symbolic.svg">
     <img src="icons/icon-development-kit/routing-symbolic.svg" width="32" alt="routing">
   </a>
+  <a href="icons/fluentui-system-icons/rss-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/rss-filled-symbolic.svg" width="32" alt="rss-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/rss-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/rss-regular-symbolic.svg" width="32" alt="rss-regular">
+  </a>
+  <a href="icons/icon-development-kit/ruler-angled-symbolic.svg">
+    <img src="icons/icon-development-kit/ruler-angled-symbolic.svg" width="32" alt="ruler-angled">
+  </a>
+  <a href="icons/icon-development-kit/ruler-corner-symbolic.svg">
+    <img src="icons/icon-development-kit/ruler-corner-symbolic.svg" width="32" alt="ruler-corner">
+  </a>
+  <a href="icons/icon-development-kit/ruler-end-horizontal-left-symbolic.svg">
+    <img src="icons/icon-development-kit/ruler-end-horizontal-left-symbolic.svg" width="32" alt="ruler-end-horizontal-left">
+  </a>
+  <a href="icons/icon-development-kit/ruler-end-horizontal-right-symbolic.svg">
+    <img src="icons/icon-development-kit/ruler-end-horizontal-right-symbolic.svg" width="32" alt="ruler-end-horizontal-right">
+  </a>
+  <a href="icons/icon-development-kit/ruler-end-vertical-bottom-symbolic.svg">
+    <img src="icons/icon-development-kit/ruler-end-vertical-bottom-symbolic.svg" width="32" alt="ruler-end-vertical-bottom">
+  </a>
+  <a href="icons/icon-development-kit/ruler-end-vertical-top-symbolic.svg">
+    <img src="icons/icon-development-kit/ruler-end-vertical-top-symbolic.svg" width="32" alt="ruler-end-vertical-top">
+  </a>
   <a href="icons/fluentui-system-icons/ruler-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/ruler-filled-symbolic.svg" width="32" alt="ruler-filled">
+  </a>
+  <a href="icons/icon-development-kit/ruler-outline-horizontal-symbolic.svg">
+    <img src="icons/icon-development-kit/ruler-outline-horizontal-symbolic.svg" width="32" alt="ruler-outline-horizontal">
+  </a>
+  <a href="icons/icon-development-kit/ruler-outline-vertical-symbolic.svg">
+    <img src="icons/icon-development-kit/ruler-outline-vertical-symbolic.svg" width="32" alt="ruler-outline-vertical">
   </a>
   <a href="icons/fluentui-system-icons/ruler-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/ruler-regular-symbolic.svg" width="32" alt="ruler-regular">
@@ -7423,6 +8791,9 @@
   </a>
   <a href="icons/icon-development-kit/running-symbolic.svg">
     <img src="icons/icon-development-kit/running-symbolic.svg" width="32" alt="running">
+  </a>
+  <a href="icons/icon-development-kit/sad-computer-symbolic.svg">
+    <img src="icons/icon-development-kit/sad-computer-symbolic.svg" width="32" alt="sad-computer">
   </a>
   <a href="icons/icon-development-kit/salami-symbolic.svg">
     <img src="icons/icon-development-kit/salami-symbolic.svg" width="32" alt="salami">
@@ -7514,6 +8885,9 @@
   <a href="icons/icon-development-kit/scissors-symbolic.svg">
     <img src="icons/icon-development-kit/scissors-symbolic.svg" width="32" alt="scissors">
   </a>
+  <a href="icons/icon-development-kit/score-symbolic.svg">
+    <img src="icons/icon-development-kit/score-symbolic.svg" width="32" alt="score">
+  </a>
   <a href="icons/icon-development-kit/screen-privacy-symbolic.svg">
     <img src="icons/icon-development-kit/screen-privacy-symbolic.svg" width="32" alt="screen-privacy">
   </a>
@@ -7547,11 +8921,23 @@
   <a href="icons/icon-development-kit/screenshooter-symbolic.svg">
     <img src="icons/icon-development-kit/screenshooter-symbolic.svg" width="32" alt="screenshooter">
   </a>
+  <a href="icons/fluentui-system-icons/screenshot-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/screenshot-filled-symbolic.svg" width="32" alt="screenshot-filled">
+  </a>
   <a href="icons/icon-development-kit/screenshot-portrait-symbolic.svg">
     <img src="icons/icon-development-kit/screenshot-portrait-symbolic.svg" width="32" alt="screenshot-portrait">
   </a>
+  <a href="icons/fluentui-system-icons/screenshot-record-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/screenshot-record-filled-symbolic.svg" width="32" alt="screenshot-record-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/screenshot-record-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/screenshot-record-regular-symbolic.svg" width="32" alt="screenshot-record-regular">
+  </a>
   <a href="icons/icon-development-kit/screenshot-recorded-symbolic.svg">
     <img src="icons/icon-development-kit/screenshot-recorded-symbolic.svg" width="32" alt="screenshot-recorded">
+  </a>
+  <a href="icons/fluentui-system-icons/screenshot-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/screenshot-regular-symbolic.svg" width="32" alt="screenshot-regular">
   </a>
   <a href="icons/fluentui-system-icons/script-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/script-filled-symbolic.svg" width="32" alt="script-filled">
@@ -7565,8 +8951,23 @@
   <a href="icons/icon-development-kit/scroll-on-a-roll-symbolic.svg">
     <img src="icons/icon-development-kit/scroll-on-a-roll-symbolic.svg" width="32" alt="scroll-on-a-roll">
   </a>
+  <a href="icons/icon-development-kit/seal-symbolic.svg">
+    <img src="icons/icon-development-kit/seal-symbolic.svg" width="32" alt="seal">
+  </a>
+  <a href="icons/icon-development-kit/search-computer-symbolic.svg">
+    <img src="icons/icon-development-kit/search-computer-symbolic.svg" width="32" alt="search-computer">
+  </a>
   <a href="icons/fluentui-system-icons/search-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/search-filled-symbolic.svg" width="32" alt="search-filled">
+  </a>
+  <a href="icons/icon-development-kit/search-folder-symbolic.svg">
+    <img src="icons/icon-development-kit/search-folder-symbolic.svg" width="32" alt="search-folder">
+  </a>
+  <a href="icons/icon-development-kit/search-global-symbolic.svg">
+    <img src="icons/icon-development-kit/search-global-symbolic.svg" width="32" alt="search-global">
+  </a>
+  <a href="icons/icon-development-kit/search-harddrive-symbolic.svg">
+    <img src="icons/icon-development-kit/search-harddrive-symbolic.svg" width="32" alt="search-harddrive">
   </a>
   <a href="icons/fluentui-system-icons/search-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/search-regular-symbolic.svg" width="32" alt="search-regular">
@@ -7577,8 +8978,47 @@
   <a href="icons/fluentui-system-icons/search-visual-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/search-visual-regular-symbolic.svg" width="32" alt="search-visual-regular">
   </a>
+  <a href="icons/fluentui-system-icons/seat-add-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/seat-add-filled-symbolic.svg" width="32" alt="seat-add-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/seat-add-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/seat-add-regular-symbolic.svg" width="32" alt="seat-add-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/seat-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/seat-filled-symbolic.svg" width="32" alt="seat-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/seat-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/seat-regular-symbolic.svg" width="32" alt="seat-regular">
+  </a>
+  <a href="icons/icon-development-kit/security-key-symbolic.svg">
+    <img src="icons/icon-development-kit/security-key-symbolic.svg" width="32" alt="security-key">
+  </a>
+  <a href="icons/icon-development-kit/seek-backward-symbolic.svg">
+    <img src="icons/icon-development-kit/seek-backward-symbolic.svg" width="32" alt="seek-backward">
+  </a>
+  <a href="icons/icon-development-kit/seek-backward-large-symbolic.svg">
+    <img src="icons/icon-development-kit/seek-backward-large-symbolic.svg" width="32" alt="seek-backward-large">
+  </a>
+  <a href="icons/icon-development-kit/seek-forward-symbolic.svg">
+    <img src="icons/icon-development-kit/seek-forward-symbolic.svg" width="32" alt="seek-forward">
+  </a>
+  <a href="icons/icon-development-kit/seek-forward-large-symbolic.svg">
+    <img src="icons/icon-development-kit/seek-forward-large-symbolic.svg" width="32" alt="seek-forward-large">
+  </a>
   <a href="icons/icon-development-kit/select-symbolic.svg">
     <img src="icons/icon-development-kit/select-symbolic.svg" width="32" alt="select">
+  </a>
+  <a href="icons/fluentui-system-icons/select-all-off-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/select-all-off-filled-symbolic.svg" width="32" alt="select-all-off-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/select-all-off-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/select-all-off-regular-symbolic.svg" width="32" alt="select-all-off-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/select-all-on-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/select-all-on-filled-symbolic.svg" width="32" alt="select-all-on-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/select-all-on-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/select-all-on-regular-symbolic.svg" width="32" alt="select-all-on-regular">
   </a>
   <a href="icons/icon-development-kit/select-mode-symbolic.svg">
     <img src="icons/icon-development-kit/select-mode-symbolic.svg" width="32" alt="select-mode">
@@ -7637,6 +9077,12 @@
   <a href="icons/fluentui-system-icons/server-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/server-filled-symbolic.svg" width="32" alt="server-filled">
   </a>
+  <a href="icons/fluentui-system-icons/server-link-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/server-link-filled-symbolic.svg" width="32" alt="server-link-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/server-link-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/server-link-regular-symbolic.svg" width="32" alt="server-link-regular">
+  </a>
   <a href="icons/icon-development-kit/server-pick-symbolic.svg">
     <img src="icons/icon-development-kit/server-pick-symbolic.svg" width="32" alt="server-pick">
   </a>
@@ -7670,6 +9116,9 @@
   <a href="icons/fluentui-system-icons/settings-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/settings-regular-symbolic.svg" width="32" alt="settings-regular">
   </a>
+  <a href="icons/icon-development-kit/shape-balance-symbolic.svg">
+    <img src="icons/icon-development-kit/shape-balance-symbolic.svg" width="32" alt="shape-balance">
+  </a>
   <a href="icons/fluentui-system-icons/shape-exclude-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/shape-exclude-filled-symbolic.svg" width="32" alt="shape-exclude-filled">
   </a>
@@ -7681,6 +9130,12 @@
   </a>
   <a href="icons/fluentui-system-icons/shape-intersect-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/shape-intersect-regular-symbolic.svg" width="32" alt="shape-intersect-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/shape-organic-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/shape-organic-filled-symbolic.svg" width="32" alt="shape-organic-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/shape-organic-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/shape-organic-regular-symbolic.svg" width="32" alt="shape-organic-regular">
   </a>
   <a href="icons/fluentui-system-icons/shape-subtract-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/shape-subtract-filled-symbolic.svg" width="32" alt="shape-subtract-filled">
@@ -7711,6 +9166,12 @@
   </a>
   <a href="icons/icon-development-kit/share-alt-symbolic.svg">
     <img src="icons/icon-development-kit/share-alt-symbolic.svg" width="32" alt="share-alt">
+  </a>
+  <a href="icons/fluentui-system-icons/share-android-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/share-android-filled-symbolic.svg" width="32" alt="share-android-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/share-android-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/share-android-regular-symbolic.svg" width="32" alt="share-android-regular">
   </a>
   <a href="icons/fluentui-system-icons/share-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/share-filled-symbolic.svg" width="32" alt="share-filled">
@@ -7844,6 +9305,9 @@
   <a href="icons/icon-development-kit/shoe-box-symbolic.svg">
     <img src="icons/icon-development-kit/shoe-box-symbolic.svg" width="32" alt="shoe-box">
   </a>
+  <a href="icons/icon-development-kit/shop-symbolic.svg">
+    <img src="icons/icon-development-kit/shop-symbolic.svg" width="32" alt="shop">
+  </a>
   <a href="icons/fluentui-system-icons/shopping-bag-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/shopping-bag-filled-symbolic.svg" width="32" alt="shopping-bag-filled">
   </a>
@@ -7895,6 +9359,9 @@
   <a href="icons/icon-development-kit/size-vertically-symbolic.svg">
     <img src="icons/icon-development-kit/size-vertically-symbolic.svg" width="32" alt="size-vertically">
   </a>
+  <a href="icons/icon-development-kit/skip-backward-large-symbolic.svg">
+    <img src="icons/icon-development-kit/skip-backward-large-symbolic.svg" width="32" alt="skip-backward-large">
+  </a>
   <a href="icons/icon-development-kit/skip-backwards-10-symbolic.svg">
     <img src="icons/icon-development-kit/skip-backwards-10-symbolic.svg" width="32" alt="skip-backwards-10">
   </a>
@@ -7906,6 +9373,9 @@
   </a>
   <a href="icons/icon-development-kit/skip-forward-30-symbolic.svg">
     <img src="icons/icon-development-kit/skip-forward-30-symbolic.svg" width="32" alt="skip-forward-30">
+  </a>
+  <a href="icons/icon-development-kit/skip-forward-large-symbolic.svg">
+    <img src="icons/icon-development-kit/skip-forward-large-symbolic.svg" width="32" alt="skip-forward-large">
   </a>
   <a href="icons/icon-development-kit/skull-symbolic.svg">
     <img src="icons/icon-development-kit/skull-symbolic.svg" width="32" alt="skull">
@@ -7936,6 +9406,18 @@
   </a>
   <a href="icons/fluentui-system-icons/slide-record-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/slide-record-regular-symbolic.svg" width="32" alt="slide-record-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/slide-search-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/slide-search-filled-symbolic.svg" width="32" alt="slide-search-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/slide-search-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/slide-search-regular-symbolic.svg" width="32" alt="slide-search-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/slide-text-edit-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/slide-text-edit-filled-symbolic.svg" width="32" alt="slide-text-edit-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/slide-text-edit-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/slide-text-edit-regular-symbolic.svg" width="32" alt="slide-text-edit-regular">
   </a>
   <a href="icons/fluentui-system-icons/slide-text-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/slide-text-filled-symbolic.svg" width="32" alt="slide-text-filled">
@@ -7969,6 +9451,9 @@
   </a>
   <a href="icons/icon-development-kit/smartphone-symbolic.svg">
     <img src="icons/icon-development-kit/smartphone-symbolic.svg" width="32" alt="smartphone">
+  </a>
+  <a href="icons/icon-development-kit/smartphone2-symbolic.svg">
+    <img src="icons/icon-development-kit/smartphone2-symbolic.svg" width="32" alt="smartphone2">
   </a>
   <a href="icons/icon-development-kit/smile-symbolic.svg">
     <img src="icons/icon-development-kit/smile-symbolic.svg" width="32" alt="smile">
@@ -8042,6 +9527,9 @@
   <a href="icons/fluentui-system-icons/sparkle-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/sparkle-regular-symbolic.svg" width="32" alt="sparkle-regular">
   </a>
+  <a href="icons/icon-development-kit/speaker-symbolic.svg">
+    <img src="icons/icon-development-kit/speaker-symbolic.svg" width="32" alt="speaker">
+  </a>
   <a href="icons/fluentui-system-icons/speaker-0-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/speaker-0-filled-symbolic.svg" width="32" alt="speaker-0-filled">
   </a>
@@ -8059,6 +9547,12 @@
   </a>
   <a href="icons/fluentui-system-icons/speaker-2-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/speaker-2-regular-symbolic.svg" width="32" alt="speaker-2-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/speaker-box-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/speaker-box-filled-symbolic.svg" width="32" alt="speaker-box-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/speaker-box-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/speaker-box-regular-symbolic.svg" width="32" alt="speaker-box-regular">
   </a>
   <a href="icons/fluentui-system-icons/speaker-edit-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/speaker-edit-filled-symbolic.svg" width="32" alt="speaker-edit-filled">
@@ -8078,6 +9572,9 @@
   <a href="icons/fluentui-system-icons/speaker-off-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/speaker-off-regular-symbolic.svg" width="32" alt="speaker-off-regular">
   </a>
+  <a href="icons/icon-development-kit/speaker-wireless-symbolic.svg">
+    <img src="icons/icon-development-kit/speaker-wireless-symbolic.svg" width="32" alt="speaker-wireless">
+  </a>
   <a href="icons/icon-development-kit/speakers-symbolic.svg">
     <img src="icons/icon-development-kit/speakers-symbolic.svg" width="32" alt="speakers">
   </a>
@@ -8092,6 +9589,9 @@
   </a>
   <a href="icons/icon-development-kit/speedometer4-symbolic.svg">
     <img src="icons/icon-development-kit/speedometer4-symbolic.svg" width="32" alt="speedometer4">
+  </a>
+  <a href="icons/icon-development-kit/speedometer5-symbolic.svg">
+    <img src="icons/icon-development-kit/speedometer5-symbolic.svg" width="32" alt="speedometer5">
   </a>
   <a href="icons/icon-development-kit/spinner-symbolic.svg">
     <img src="icons/icon-development-kit/spinner-symbolic.svg" width="32" alt="spinner">
@@ -8135,6 +9635,9 @@
   <a href="icons/icon-development-kit/spring-symbolic.svg">
     <img src="icons/icon-development-kit/spring-symbolic.svg" width="32" alt="spring">
   </a>
+  <a href="icons/icon-development-kit/sprout-symbolic.svg">
+    <img src="icons/icon-development-kit/sprout-symbolic.svg" width="32" alt="sprout">
+  </a>
   <a href="icons/fluentui-system-icons/square-add-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/square-add-filled-symbolic.svg" width="32" alt="square-add-filled">
   </a>
@@ -8146,6 +9649,9 @@
   </a>
   <a href="icons/fluentui-system-icons/square-arrow-forward-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/square-arrow-forward-regular-symbolic.svg" width="32" alt="square-arrow-forward-regular">
+  </a>
+  <a href="icons/icon-development-kit/square-center-anchor-symbolic.svg">
+    <img src="icons/icon-development-kit/square-center-anchor-symbolic.svg" width="32" alt="square-center-anchor">
   </a>
   <a href="icons/fluentui-system-icons/square-dismiss-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/square-dismiss-filled-symbolic.svg" width="32" alt="square-dismiss-filled">
@@ -8167,6 +9673,12 @@
   </a>
   <a href="icons/fluentui-system-icons/square-hint-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/square-hint-filled-symbolic.svg" width="32" alt="square-hint-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/square-hint-hexagon-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/square-hint-hexagon-filled-symbolic.svg" width="32" alt="square-hint-hexagon-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/square-hint-hexagon-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/square-hint-hexagon-regular-symbolic.svg" width="32" alt="square-hint-hexagon-regular">
   </a>
   <a href="icons/fluentui-system-icons/square-hint-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/square-hint-regular-symbolic.svg" width="32" alt="square-hint-regular">
@@ -8315,6 +9827,9 @@
   <a href="icons/fluentui-system-icons/status-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/status-regular-symbolic.svg" width="32" alt="status-regular">
   </a>
+  <a href="icons/icon-development-kit/steam-train-symbolic.svg">
+    <img src="icons/icon-development-kit/steam-train-symbolic.svg" width="32" alt="steam-train">
+  </a>
   <a href="icons/icon-development-kit/step-back-symbolic.svg">
     <img src="icons/icon-development-kit/step-back-symbolic.svg" width="32" alt="step-back">
   </a>
@@ -8360,8 +9875,23 @@
   <a href="icons/icon-development-kit/stop-sign-large-symbolic.svg">
     <img src="icons/icon-development-kit/stop-sign-large-symbolic.svg" width="32" alt="stop-sign-large">
   </a>
+  <a href="icons/icon-development-kit/stop-sign-large-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/stop-sign-large-outline-symbolic.svg" width="32" alt="stop-sign-large-outline">
+  </a>
+  <a href="icons/icon-development-kit/stop-sign-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/stop-sign-outline-symbolic.svg" width="32" alt="stop-sign-outline">
+  </a>
+  <a href="icons/icon-development-kit/stop-small-symbolic.svg">
+    <img src="icons/icon-development-kit/stop-small-symbolic.svg" width="32" alt="stop-small">
+  </a>
   <a href="icons/icon-development-kit/stopwatch-symbolic.svg">
     <img src="icons/icon-development-kit/stopwatch-symbolic.svg" width="32" alt="stopwatch">
+  </a>
+  <a href="icons/fluentui-system-icons/storage-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/storage-filled-symbolic.svg" width="32" alt="storage-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/storage-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/storage-regular-symbolic.svg" width="32" alt="storage-regular">
   </a>
   <a href="icons/fluentui-system-icons/store-microsoft-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/store-microsoft-filled-symbolic.svg" width="32" alt="store-microsoft-filled">
@@ -8387,8 +9917,14 @@
   <a href="icons/fluentui-system-icons/subtitles-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/subtitles-filled-symbolic.svg" width="32" alt="subtitles-filled">
   </a>
+  <a href="icons/icon-development-kit/subtitles-off-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/subtitles-off-outline-symbolic.svg" width="32" alt="subtitles-off-outline">
+  </a>
   <a href="icons/fluentui-system-icons/subtitles-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/subtitles-regular-symbolic.svg" width="32" alt="subtitles-regular">
+  </a>
+  <a href="icons/icon-development-kit/subtitles2-symbolic.svg">
+    <img src="icons/icon-development-kit/subtitles2-symbolic.svg" width="32" alt="subtitles2">
   </a>
   <a href="icons/fluentui-system-icons/subtract-circle-arrow-back-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/subtract-circle-arrow-back-filled-symbolic.svg" width="32" alt="subtract-circle-arrow-back-filled">
@@ -8411,6 +9947,12 @@
   <a href="icons/fluentui-system-icons/subtract-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/subtract-filled-symbolic.svg" width="32" alt="subtract-filled">
   </a>
+  <a href="icons/fluentui-system-icons/subtract-parentheses-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/subtract-parentheses-filled-symbolic.svg" width="32" alt="subtract-parentheses-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/subtract-parentheses-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/subtract-parentheses-regular-symbolic.svg" width="32" alt="subtract-parentheses-regular">
+  </a>
   <a href="icons/fluentui-system-icons/subtract-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/subtract-regular-symbolic.svg" width="32" alt="subtract-regular">
   </a>
@@ -8432,6 +9974,9 @@
   <a href="icons/icon-development-kit/success-symbolic.svg">
     <img src="icons/icon-development-kit/success-symbolic.svg" width="32" alt="success">
   </a>
+  <a href="icons/icon-development-kit/success-small-symbolic.svg">
+    <img src="icons/icon-development-kit/success-small-symbolic.svg" width="32" alt="success-small">
+  </a>
   <a href="icons/icon-development-kit/sun-symbolic.svg">
     <img src="icons/icon-development-kit/sun-symbolic.svg" width="32" alt="sun">
   </a>
@@ -8440,6 +9985,9 @@
   </a>
   <a href="icons/icon-development-kit/sun-outline-symbolic.svg">
     <img src="icons/icon-development-kit/sun-outline-symbolic.svg" width="32" alt="sun-outline">
+  </a>
+  <a href="icons/icon-development-kit/symbolic-link-symbolic.svg">
+    <img src="icons/icon-development-kit/symbolic-link-symbolic.svg" width="32" alt="symbolic-link">
   </a>
   <a href="icons/fluentui-system-icons/symbols-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/symbols-filled-symbolic.svg" width="32" alt="symbols-filled">
@@ -8476,6 +10024,24 @@
   </a>
   <a href="icons/fluentui-system-icons/tab-desktop-link-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/tab-desktop-link-regular-symbolic.svg" width="32" alt="tab-desktop-link-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/tab-desktop-multiple-add-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/tab-desktop-multiple-add-filled-symbolic.svg" width="32" alt="tab-desktop-multiple-add-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/tab-desktop-multiple-add-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/tab-desktop-multiple-add-regular-symbolic.svg" width="32" alt="tab-desktop-multiple-add-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/tab-desktop-multiple-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/tab-desktop-multiple-filled-symbolic.svg" width="32" alt="tab-desktop-multiple-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/tab-desktop-multiple-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/tab-desktop-multiple-regular-symbolic.svg" width="32" alt="tab-desktop-multiple-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/tab-desktop-multiple-sparkle-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/tab-desktop-multiple-sparkle-filled-symbolic.svg" width="32" alt="tab-desktop-multiple-sparkle-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/tab-desktop-multiple-sparkle-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/tab-desktop-multiple-sparkle-regular-symbolic.svg" width="32" alt="tab-desktop-multiple-sparkle-regular">
   </a>
   <a href="icons/fluentui-system-icons/tab-desktop-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/tab-desktop-regular-symbolic.svg" width="32" alt="tab-desktop-regular">
@@ -8816,6 +10382,12 @@
   <a href="icons/icon-development-kit/tea-symbolic.svg">
     <img src="icons/icon-development-kit/tea-symbolic.svg" width="32" alt="tea">
   </a>
+  <a href="icons/fluentui-system-icons/teardrop-bottom-right-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/teardrop-bottom-right-filled-symbolic.svg" width="32" alt="teardrop-bottom-right-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/teardrop-bottom-right-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/teardrop-bottom-right-regular-symbolic.svg" width="32" alt="teardrop-bottom-right-regular">
+  </a>
   <a href="icons/fluentui-system-icons/temperature-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/temperature-filled-symbolic.svg" width="32" alt="temperature-filled">
   </a>
@@ -8906,6 +10478,18 @@
   <a href="icons/icon-development-kit/text-alt-symbolic.svg">
     <img src="icons/icon-development-kit/text-alt-symbolic.svg" width="32" alt="text-alt">
   </a>
+  <a href="icons/fluentui-system-icons/text-arrow-down-right-column-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-arrow-down-right-column-filled-symbolic.svg" width="32" alt="text-arrow-down-right-column-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-arrow-down-right-column-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-arrow-down-right-column-regular-symbolic.svg" width="32" alt="text-arrow-down-right-column-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/text-asterisk-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-asterisk-filled-symbolic.svg" width="32" alt="text-asterisk-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-asterisk-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-asterisk-regular-symbolic.svg" width="32" alt="text-asterisk-regular">
+  </a>
   <a href="icons/icon-development-kit/text-bold-symbolic.svg">
     <img src="icons/icon-development-kit/text-bold-symbolic.svg" width="32" alt="text-bold">
   </a>
@@ -8990,11 +10574,23 @@
   <a href="icons/fluentui-system-icons/text-density-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/text-density-regular-symbolic.svg" width="32" alt="text-density-regular">
   </a>
+  <a href="icons/fluentui-system-icons/text-description-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-description-filled-symbolic.svg" width="32" alt="text-description-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-description-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-description-regular-symbolic.svg" width="32" alt="text-description-regular">
+  </a>
   <a href="icons/icon-development-kit/text-direction-ltr-symbolic.svg">
     <img src="icons/icon-development-kit/text-direction-ltr-symbolic.svg" width="32" alt="text-direction-ltr">
   </a>
   <a href="icons/icon-development-kit/text-direction-rtl-symbolic.svg">
     <img src="icons/icon-development-kit/text-direction-rtl-symbolic.svg" width="32" alt="text-direction-rtl">
+  </a>
+  <a href="icons/fluentui-system-icons/text-edit-style-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-edit-style-filled-symbolic.svg" width="32" alt="text-edit-style-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-edit-style-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-edit-style-regular-symbolic.svg" width="32" alt="text-edit-style-regular">
   </a>
   <a href="icons/fluentui-system-icons/text-expand-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/text-expand-filled-symbolic.svg" width="32" alt="text-expand-filled">
@@ -9029,11 +10625,53 @@
   <a href="icons/fluentui-system-icons/text-font-size-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/text-font-size-regular-symbolic.svg" width="32" alt="text-font-size-regular">
   </a>
+  <a href="icons/fluentui-system-icons/text-grammar-lightning-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-grammar-lightning-filled-symbolic.svg" width="32" alt="text-grammar-lightning-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-grammar-lightning-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-grammar-lightning-regular-symbolic.svg" width="32" alt="text-grammar-lightning-regular">
+  </a>
   <a href="icons/fluentui-system-icons/text-grammar-wand-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/text-grammar-wand-filled-symbolic.svg" width="32" alt="text-grammar-wand-filled">
   </a>
   <a href="icons/fluentui-system-icons/text-grammar-wand-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/text-grammar-wand-regular-symbolic.svg" width="32" alt="text-grammar-wand-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-1-lines-caret-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-1-lines-caret-filled-symbolic.svg" width="32" alt="text-header-1-lines-caret-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-1-lines-caret-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-1-lines-caret-regular-symbolic.svg" width="32" alt="text-header-1-lines-caret-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-1-lines-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-1-lines-filled-symbolic.svg" width="32" alt="text-header-1-lines-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-1-lines-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-1-lines-regular-symbolic.svg" width="32" alt="text-header-1-lines-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-2-lines-caret-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-2-lines-caret-filled-symbolic.svg" width="32" alt="text-header-2-lines-caret-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-2-lines-caret-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-2-lines-caret-regular-symbolic.svg" width="32" alt="text-header-2-lines-caret-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-2-lines-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-2-lines-filled-symbolic.svg" width="32" alt="text-header-2-lines-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-2-lines-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-2-lines-regular-symbolic.svg" width="32" alt="text-header-2-lines-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-3-lines-caret-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-3-lines-caret-filled-symbolic.svg" width="32" alt="text-header-3-lines-caret-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-3-lines-caret-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-3-lines-caret-regular-symbolic.svg" width="32" alt="text-header-3-lines-caret-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-3-lines-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-3-lines-filled-symbolic.svg" width="32" alt="text-header-3-lines-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-header-3-lines-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-header-3-lines-regular-symbolic.svg" width="32" alt="text-header-3-lines-regular">
   </a>
   <a href="icons/fluentui-system-icons/text-indent-decrease-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/text-indent-decrease-filled-symbolic.svg" width="32" alt="text-indent-decrease-filled">
@@ -9052,6 +10690,12 @@
   </a>
   <a href="icons/icon-development-kit/text-indent-more-symbolic.svg">
     <img src="icons/icon-development-kit/text-indent-more-symbolic.svg" width="32" alt="text-indent-more">
+  </a>
+  <a href="icons/icon-development-kit/text-insert-symbolic.svg">
+    <img src="icons/icon-development-kit/text-insert-symbolic.svg" width="32" alt="text-insert">
+  </a>
+  <a href="icons/icon-development-kit/text-insert2-symbolic.svg">
+    <img src="icons/icon-development-kit/text-insert2-symbolic.svg" width="32" alt="text-insert2">
   </a>
   <a href="icons/icon-development-kit/text-italic-symbolic.svg">
     <img src="icons/icon-development-kit/text-italic-symbolic.svg" width="32" alt="text-italic">
@@ -9175,6 +10819,12 @@
   </a>
   <a href="icons/fluentui-system-icons/text-underline-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/text-underline-regular-symbolic.svg" width="32" alt="text-underline-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/text-whole-word-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-whole-word-filled-symbolic.svg" width="32" alt="text-whole-word-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/text-whole-word-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/text-whole-word-regular-symbolic.svg" width="32" alt="text-whole-word-regular">
   </a>
   <a href="icons/fluentui-system-icons/text-wrap-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/text-wrap-filled-symbolic.svg" width="32" alt="text-wrap-filled">
@@ -9302,6 +10952,15 @@
   <a href="icons/fluentui-system-icons/ticket-diagonal-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/ticket-diagonal-regular-symbolic.svg" width="32" alt="ticket-diagonal-regular">
   </a>
+  <a href="icons/icon-development-kit/ticket-first-class-symbolic.svg">
+    <img src="icons/icon-development-kit/ticket-first-class-symbolic.svg" width="32" alt="ticket-first-class">
+  </a>
+  <a href="icons/icon-development-kit/ticket-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/ticket-outline-symbolic.svg" width="32" alt="ticket-outline">
+  </a>
+  <a href="icons/icon-development-kit/ticket-second-class-symbolic.svg">
+    <img src="icons/icon-development-kit/ticket-second-class-symbolic.svg" width="32" alt="ticket-second-class">
+  </a>
   <a href="icons/icon-development-kit/ticket-special-symbolic.svg">
     <img src="icons/icon-development-kit/ticket-special-symbolic.svg" width="32" alt="ticket-special">
   </a>
@@ -9371,17 +11030,38 @@
   <a href="icons/icon-development-kit/touchpad-disabled-symbolic.svg">
     <img src="icons/icon-development-kit/touchpad-disabled-symbolic.svg" width="32" alt="touchpad-disabled">
   </a>
+  <a href="icons/icon-development-kit/touchpad-primary-click-symbolic.svg">
+    <img src="icons/icon-development-kit/touchpad-primary-click-symbolic.svg" width="32" alt="touchpad-primary-click">
+  </a>
+  <a href="icons/icon-development-kit/touchpad-secondary-click-symbolic.svg">
+    <img src="icons/icon-development-kit/touchpad-secondary-click-symbolic.svg" width="32" alt="touchpad-secondary-click">
+  </a>
   <a href="icons/icon-development-kit/town-symbolic.svg">
     <img src="icons/icon-development-kit/town-symbolic.svg" width="32" alt="town">
   </a>
+  <a href="icons/icon-development-kit/traffic-lights-symbolic.svg">
+    <img src="icons/icon-development-kit/traffic-lights-symbolic.svg" width="32" alt="traffic-lights">
+  </a>
   <a href="icons/icon-development-kit/train-symbolic.svg">
     <img src="icons/icon-development-kit/train-symbolic.svg" width="32" alt="train">
+  </a>
+  <a href="icons/icon-development-kit/train-load-extreme-symbolic.svg">
+    <img src="icons/icon-development-kit/train-load-extreme-symbolic.svg" width="32" alt="train-load-extreme">
+  </a>
+  <a href="icons/icon-development-kit/train-load-high-symbolic.svg">
+    <img src="icons/icon-development-kit/train-load-high-symbolic.svg" width="32" alt="train-load-high">
+  </a>
+  <a href="icons/icon-development-kit/train-load-veryhigh-symbolic.svg">
+    <img src="icons/icon-development-kit/train-load-veryhigh-symbolic.svg" width="32" alt="train-load-veryhigh">
   </a>
   <a href="icons/icon-development-kit/tram-symbolic.svg">
     <img src="icons/icon-development-kit/tram-symbolic.svg" width="32" alt="tram">
   </a>
   <a href="icons/icon-development-kit/transform-symbolic.svg">
     <img src="icons/icon-development-kit/transform-symbolic.svg" width="32" alt="transform">
+  </a>
+  <a href="icons/icon-development-kit/translate-symbolic.svg">
+    <img src="icons/icon-development-kit/translate-symbolic.svg" width="32" alt="translate">
   </a>
   <a href="icons/fluentui-system-icons/translate-auto-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/translate-auto-filled-symbolic.svg" width="32" alt="translate-auto-filled">
@@ -9406,6 +11086,15 @@
   </a>
   <a href="icons/icon-development-kit/tree-symbolic.svg">
     <img src="icons/icon-development-kit/tree-symbolic.svg" width="32" alt="tree">
+  </a>
+  <a href="icons/icon-development-kit/tree-circle-symbolic.svg">
+    <img src="icons/icon-development-kit/tree-circle-symbolic.svg" width="32" alt="tree-circle">
+  </a>
+  <a href="icons/icon-development-kit/tree-rectangle-symbolic.svg">
+    <img src="icons/icon-development-kit/tree-rectangle-symbolic.svg" width="32" alt="tree-rectangle">
+  </a>
+  <a href="icons/icon-development-kit/tree-triangle-symbolic.svg">
+    <img src="icons/icon-development-kit/tree-triangle-symbolic.svg" width="32" alt="tree-triangle">
   </a>
   <a href="icons/icon-development-kit/tree2-symbolic.svg">
     <img src="icons/icon-development-kit/tree2-symbolic.svg" width="32" alt="tree2">
@@ -9473,14 +11162,29 @@
   <a href="icons/fluentui-system-icons/tv-usb-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/tv-usb-regular-symbolic.svg" width="32" alt="tv-usb-regular">
   </a>
+  <a href="icons/icon-development-kit/unfullscreen-rectangular-symbolic.svg">
+    <img src="icons/icon-development-kit/unfullscreen-rectangular-symbolic.svg" width="32" alt="unfullscreen-rectangular">
+  </a>
+  <a href="icons/icon-development-kit/unfullscreen-square-symbolic.svg">
+    <img src="icons/icon-development-kit/unfullscreen-square-symbolic.svg" width="32" alt="unfullscreen-square">
+  </a>
   <a href="icons/icon-development-kit/ungroup-symbolic.svg">
     <img src="icons/icon-development-kit/ungroup-symbolic.svg" width="32" alt="ungroup">
+  </a>
+  <a href="icons/icon-development-kit/unreadable-symbolic.svg">
+    <img src="icons/icon-development-kit/unreadable-symbolic.svg" width="32" alt="unreadable">
   </a>
   <a href="icons/icon-development-kit/up-symbolic.svg">
     <img src="icons/icon-development-kit/up-symbolic.svg" width="32" alt="up">
   </a>
   <a href="icons/icon-development-kit/up-large-symbolic.svg">
     <img src="icons/icon-development-kit/up-large-symbolic.svg" width="32" alt="up-large">
+  </a>
+  <a href="icons/icon-development-kit/up-small-symbolic.svg">
+    <img src="icons/icon-development-kit/up-small-symbolic.svg" width="32" alt="up-small">
+  </a>
+  <a href="icons/icon-development-kit/up-smaller-symbolic.svg">
+    <img src="icons/icon-development-kit/up-smaller-symbolic.svg" width="32" alt="up-smaller">
   </a>
   <a href="icons/icon-development-kit/update-symbolic.svg">
     <img src="icons/icon-development-kit/update-symbolic.svg" width="32" alt="update">
@@ -9505,6 +11209,12 @@
   </a>
   <a href="icons/fluentui-system-icons/vault-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/vault-regular-symbolic.svg" width="32" alt="vault-regular">
+  </a>
+  <a href="icons/icon-development-kit/vcal-symbolic.svg">
+    <img src="icons/icon-development-kit/vcal-symbolic.svg" width="32" alt="vcal">
+  </a>
+  <a href="icons/icon-development-kit/vcard-symbolic.svg">
+    <img src="icons/icon-development-kit/vcard-symbolic.svg" width="32" alt="vcard">
   </a>
   <a href="icons/fluentui-system-icons/vehicle-bicycle-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/vehicle-bicycle-filled-symbolic.svg" width="32" alt="vehicle-bicycle-filled">
@@ -9554,6 +11264,12 @@
   <a href="icons/fluentui-system-icons/vehicle-ship-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/vehicle-ship-regular-symbolic.svg" width="32" alt="vehicle-ship-regular">
   </a>
+  <a href="icons/fluentui-system-icons/vehicle-subway-clock-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/vehicle-subway-clock-filled-symbolic.svg" width="32" alt="vehicle-subway-clock-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/vehicle-subway-clock-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/vehicle-subway-clock-regular-symbolic.svg" width="32" alt="vehicle-subway-clock-regular">
+  </a>
   <a href="icons/fluentui-system-icons/vehicle-subway-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/vehicle-subway-filled-symbolic.svg" width="32" alt="vehicle-subway-filled">
   </a>
@@ -9571,6 +11287,33 @@
   </a>
   <a href="icons/fluentui-system-icons/vehicle-truck-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/vehicle-truck-regular-symbolic.svg" width="32" alt="vehicle-truck-regular">
+  </a>
+  <a href="icons/icon-development-kit/verified-checkmark-symbolic.svg">
+    <img src="icons/icon-development-kit/verified-checkmark-symbolic.svg" width="32" alt="verified-checkmark">
+  </a>
+  <a href="icons/icon-development-kit/vertical-arrows-symbolic.svg">
+    <img src="icons/icon-development-kit/vertical-arrows-symbolic.svg" width="32" alt="vertical-arrows">
+  </a>
+  <a href="icons/icon-development-kit/vertical-arrows-down-symbolic.svg">
+    <img src="icons/icon-development-kit/vertical-arrows-down-symbolic.svg" width="32" alt="vertical-arrows-down">
+  </a>
+  <a href="icons/icon-development-kit/vertical-arrows-long-symbolic.svg">
+    <img src="icons/icon-development-kit/vertical-arrows-long-symbolic.svg" width="32" alt="vertical-arrows-long">
+  </a>
+  <a href="icons/icon-development-kit/vertical-arrows-long-down-symbolic.svg">
+    <img src="icons/icon-development-kit/vertical-arrows-long-down-symbolic.svg" width="32" alt="vertical-arrows-long-down">
+  </a>
+  <a href="icons/icon-development-kit/vertical-arrows-long-none-symbolic.svg">
+    <img src="icons/icon-development-kit/vertical-arrows-long-none-symbolic.svg" width="32" alt="vertical-arrows-long-none">
+  </a>
+  <a href="icons/icon-development-kit/vertical-arrows-long-up-symbolic.svg">
+    <img src="icons/icon-development-kit/vertical-arrows-long-up-symbolic.svg" width="32" alt="vertical-arrows-long-up">
+  </a>
+  <a href="icons/icon-development-kit/vertical-arrows-none-symbolic.svg">
+    <img src="icons/icon-development-kit/vertical-arrows-none-symbolic.svg" width="32" alt="vertical-arrows-none">
+  </a>
+  <a href="icons/icon-development-kit/vertical-arrows-up-symbolic.svg">
+    <img src="icons/icon-development-kit/vertical-arrows-up-symbolic.svg" width="32" alt="vertical-arrows-up">
   </a>
   <a href="icons/fluentui-system-icons/video-background-effect-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-background-effect-filled-symbolic.svg" width="32" alt="video-background-effect-filled">
@@ -9593,6 +11336,9 @@
   <a href="icons/fluentui-system-icons/video-chat-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-chat-regular-symbolic.svg" width="32" alt="video-chat-regular">
   </a>
+  <a href="icons/icon-development-kit/video-clip-symbolic.svg">
+    <img src="icons/icon-development-kit/video-clip-symbolic.svg" width="32" alt="video-clip">
+  </a>
   <a href="icons/fluentui-system-icons/video-clip-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-clip-filled-symbolic.svg" width="32" alt="video-clip-filled">
   </a>
@@ -9608,8 +11354,20 @@
   <a href="icons/fluentui-system-icons/video-clip-off-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-clip-off-regular-symbolic.svg" width="32" alt="video-clip-off-regular">
   </a>
+  <a href="icons/fluentui-system-icons/video-clip-optimize-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/video-clip-optimize-filled-symbolic.svg" width="32" alt="video-clip-optimize-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/video-clip-optimize-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/video-clip-optimize-regular-symbolic.svg" width="32" alt="video-clip-optimize-regular">
+  </a>
   <a href="icons/fluentui-system-icons/video-clip-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-clip-regular-symbolic.svg" width="32" alt="video-clip-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/video-clip-wand-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/video-clip-wand-filled-symbolic.svg" width="32" alt="video-clip-wand-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/video-clip-wand-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/video-clip-wand-regular-symbolic.svg" width="32" alt="video-clip-wand-regular">
   </a>
   <a href="icons/icon-development-kit/video-decode-symbolic.svg">
     <img src="icons/icon-development-kit/video-decode-symbolic.svg" width="32" alt="video-decode">
@@ -9619,6 +11377,12 @@
   </a>
   <a href="icons/fluentui-system-icons/video-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-filled-symbolic.svg" width="32" alt="video-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/video-off-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/video-off-filled-symbolic.svg" width="32" alt="video-off-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/video-off-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/video-off-regular-symbolic.svg" width="32" alt="video-off-regular">
   </a>
   <a href="icons/fluentui-system-icons/video-person-call-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-person-call-filled-symbolic.svg" width="32" alt="video-person-call-filled">
@@ -9635,6 +11399,12 @@
   <a href="icons/fluentui-system-icons/video-person-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-person-filled-symbolic.svg" width="32" alt="video-person-filled">
   </a>
+  <a href="icons/fluentui-system-icons/video-person-pulse-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/video-person-pulse-filled-symbolic.svg" width="32" alt="video-person-pulse-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/video-person-pulse-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/video-person-pulse-regular-symbolic.svg" width="32" alt="video-person-pulse-regular">
+  </a>
   <a href="icons/fluentui-system-icons/video-person-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-person-regular-symbolic.svg" width="32" alt="video-person-regular">
   </a>
@@ -9649,6 +11419,12 @@
   </a>
   <a href="icons/fluentui-system-icons/video-prohibited-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-prohibited-regular-symbolic.svg" width="32" alt="video-prohibited-regular">
+  </a>
+  <a href="icons/icon-development-kit/video-reel-symbolic.svg">
+    <img src="icons/icon-development-kit/video-reel-symbolic.svg" width="32" alt="video-reel">
+  </a>
+  <a href="icons/icon-development-kit/video-reel2-symbolic.svg">
+    <img src="icons/icon-development-kit/video-reel2-symbolic.svg" width="32" alt="video-reel2">
   </a>
   <a href="icons/fluentui-system-icons/video-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/video-regular-symbolic.svg" width="32" alt="video-regular">
@@ -9722,6 +11498,9 @@
   <a href="icons/icon-development-kit/walking2-symbolic.svg">
     <img src="icons/icon-development-kit/walking2-symbolic.svg" width="32" alt="walking2">
   </a>
+  <a href="icons/icon-development-kit/walking3-symbolic.svg">
+    <img src="icons/icon-development-kit/walking3-symbolic.svg" width="32" alt="walking3">
+  </a>
   <a href="icons/icon-development-kit/wallet-symbolic.svg">
     <img src="icons/icon-development-kit/wallet-symbolic.svg" width="32" alt="wallet">
   </a>
@@ -9754,6 +11533,9 @@
   </a>
   <a href="icons/fluentui-system-icons/warning-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/warning-filled-symbolic.svg" width="32" alt="warning-filled">
+  </a>
+  <a href="icons/icon-development-kit/warning-outline-symbolic.svg">
+    <img src="icons/icon-development-kit/warning-outline-symbolic.svg" width="32" alt="warning-outline">
   </a>
   <a href="icons/fluentui-system-icons/warning-regular-symbolic.svg">
     <img src="icons/fluentui-system-icons/warning-regular-symbolic.svg" width="32" alt="warning-regular">
@@ -9824,6 +11606,18 @@
   <a href="icons/icon-development-kit/wheelchair-modified-isa-symbolic.svg">
     <img src="icons/icon-development-kit/wheelchair-modified-isa-symbolic.svg" width="32" alt="wheelchair-modified-isa">
   </a>
+  <a href="icons/fluentui-system-icons/whiteboard-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/whiteboard-filled-symbolic.svg" width="32" alt="whiteboard-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/whiteboard-off-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/whiteboard-off-filled-symbolic.svg" width="32" alt="whiteboard-off-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/whiteboard-off-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/whiteboard-off-regular-symbolic.svg" width="32" alt="whiteboard-off-regular">
+  </a>
+  <a href="icons/fluentui-system-icons/whiteboard-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/whiteboard-regular-symbolic.svg" width="32" alt="whiteboard-regular">
+  </a>
   <a href="icons/icon-development-kit/window-symbolic.svg">
     <img src="icons/icon-development-kit/window-symbolic.svg" width="32" alt="window">
   </a>
@@ -9859,6 +11653,12 @@
   </a>
   <a href="icons/fluentui-system-icons/window-filled-symbolic.svg">
     <img src="icons/fluentui-system-icons/window-filled-symbolic.svg" width="32" alt="window-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/window-fingerprint-filled-symbolic.svg">
+    <img src="icons/fluentui-system-icons/window-fingerprint-filled-symbolic.svg" width="32" alt="window-fingerprint-filled">
+  </a>
+  <a href="icons/fluentui-system-icons/window-fingerprint-regular-symbolic.svg">
+    <img src="icons/fluentui-system-icons/window-fingerprint-regular-symbolic.svg" width="32" alt="window-fingerprint-regular">
   </a>
   <a href="icons/icon-development-kit/window-flat-symbolic.svg">
     <img src="icons/icon-development-kit/window-flat-symbolic.svg" width="32" alt="window-flat">

@@ -1,4 +1,4 @@
-//! More than 2500 icons, ready for use in your app!
+//! More than 3000 icons, ready for use in your app!
 //!
 //! # Sources
 //!
@@ -16,7 +16,7 @@
     clippy::cargo,
     clippy::must_use_candidate
 )]
-#![allow(clippy::negative_feature_names)]
+#![allow(clippy::negative_feature_names, clippy::multiple_crate_versions)]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
 /// Module containing constants for icons names.

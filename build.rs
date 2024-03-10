@@ -72,7 +72,7 @@ fn main() {
 
     if let Some(folder) = &config.icon_folder {
         println!("cargo:rerun-if-changed={folder}");
-        let custom_icons_path: PathBuf = [config_dir, &folder].iter().collect();
+        let custom_icons_path: PathBuf = [config_dir, folder].iter().collect();
         let read_dir = std::fs::read_dir(custom_icons_path)
             .expect("Couldn't open icon path specified in config (relative to the manifest)");
         for entry in read_dir {
