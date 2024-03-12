@@ -32,14 +32,8 @@ jobs:
       - name: "clippy"
         run: cargo clippy -- --deny warnings
 
-      - name: "clippy multiple features"
-        run: cargo clippy --features "arrow-circle-right-filled, work-week" -- --deny warnings
-
       - name: "build"
         run: cargo build
-
-      - name: "build multiple features"
-        run: cargo build --features "arrow-circle-right-filled, work-week"
 
   fmt:
     name: rustfmt

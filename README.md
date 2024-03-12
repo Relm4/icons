@@ -1,19 +1,20 @@
-# Relm4 icons - Icons for your Relm4 and gtk-rs applications!
+# Relm4 icons - Icons for your gtk-rs and Relm4 applications!
 
 [![CI](https://github.com/Relm4/icons/actions/workflows/rust.yml/badge.svg)](https://github.com/Relm4/icons/actions/workflows/rust.yml)
 [![Matrix](https://img.shields.io/matrix/relm4:matrix.org?label=matrix%20chat)](https://matrix.to/#/#relm4:matrix.org)
 [![Relm4 icons on crates.io](https://img.shields.io/crates/v/relm4-icons.svg)](https://crates.io/crates/relm4-icons)
 [![Relm4 icons docs](https://img.shields.io/badge/rust-documentation-blue)](https://docs.rs/relm4_icons/)
-![Minimum Rust version 1.65](https://img.shields.io/badge/rustc-1.65+-06a096.svg)
+![Minimum Rust version 1.70](https://img.shields.io/badge/rustc-1.65+-06a096.svg)
 [![dependency status](https://deps.rs/repo/github/Relm4/icons/status.svg)](https://deps.rs/repo/github/Relm4/icons)
 
-More than 2500 icons, ready for use in your app!
+More than 3000 icons, ready for use in your app!
 
 ## Usage
 
 ### 1. Find your icons 🔍
 
-Use one of the following methods:
+You can either use one of the over 3000 shipped icons or use your own icons.
+You can browse the shipped icons using one of the following methods:
 
 For icons from the GNOME [icon-development-kit](https://gitlab.gnome.org/Teams/Design/icon-development-kit):
 + Install [Icon library](https://flathub.org/apps/details/org.gnome.design.IconLibrary)
@@ -22,38 +23,44 @@ For icons from the GNOME [icon-development-kit](https://gitlab.gnome.org/Teams/D
 For icons from [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons):
 + Browse the [fluent icon library catalog](https://aka.ms/fluentui-system-icons)
 
-For browsing all icons:
+For browsing all shipped icons:
 + Use the icon previews provided by in this repo: [16x16](icons16.md), [32x32](icons32.md) and [64x64](icons64.md)
-+ Search the [Rust documentation](https://docs.rs/relm4_icons/) which also includes icon previews
 
-### 2. Get relm4-icons ✍
+> Sometimes, icons-development-kit and Fluent UI System Icons have overlapping icon names, so the postfix "-alt" is added.
 
-For each icon you want to use, you can add a feature flag.
-Only the icons you specify will be compiled into your application.
+### 2. Specify your icons 🖼️
 
-```toml
-relm4-icons = { version = "0.7.0", features = ["<icon1>", "<icon2>", "<icon3>..."] }
-```
-
-#### Example
-
-To enable the `plus` and `minus` icons use:
+Create a file called `icons.toml` next to the `Cargo.toml` file of your app:
 
 ```toml
-relm4-icons = { version = "0.6.1", features = ["plus", "minus"] }
+# Recommended: Specify your app ID *OR* your base resource path for more robust icon loading
+app_id = "com.my.app"
+base_resource_path = "/com/my/app/"
+
+# List of icon names you found (shipped with this crate)
+# Note: the file ending `-symbolic.svg` isn't part of the icon name.
+icons = ["plus", "minus"]
+
+# Optional: Specify a folder containing your own SVG icons
+icon_folder = "my_svg_icons"
 ```
 
-> The file ending `-symbolic.svg` isn't part of the icon name.
 
-### 3. Load the icons 🛫
+### 3. Add Relm4 icons ✍
 
-Add this somewhere in your initialization code (after initializing `RelmApp` or GTK).
+```toml
+relm4-icons = "0.7.0"
+```
+
+### 4. Load the icons 🛫
+
+Add this to your initialization code:
 
 ```rust
 relm4_icons::initialize_icons();
 ```
 
-### 4. Use the icons 🎉
+### 5. Use the icons 🎉
 
 Use `set_icon_name` and similar methods to use your icons, for example with
 [`ButtonExt`](https://gtk-rs.org/gtk4-rs/git/docs/gtk4/prelude/trait.ButtonExt.html#tymethod.set_icon_name),
@@ -68,27 +75,23 @@ let button = gtk::Button::default();
 button.set_icon_name("plus");
 ```
 
-You can also use the `icon_name` module for extra compile-time checking of icon names.
+You can also use the `icon_names` module for extra compile-time generated icon names.
 
 ```rust
-use relm4_icons::icon_name;
+use relm4_icons::icon_names;
 
 let button = gtk::Button::default();
-button.set_icon_name(icon_name::PLUS);
+button.set_icon_name(icon_names::PLUS);
 ```
 
 ## How it works
 
-### Codegen
-
-1. Find all icons in the `icons` folder
-2. Generate a feature flag and a conditional constant for each icon
-
 ### Crate
 
-1. Include only the selected icons in a gresource file
-2. Include the gresource file in the compiled binary
-3. On initialization, add the gresource file to the default icon theme
+1. Collect all icons specified in the config file
+2. Build a gresource bundle containing *only the selected icons*
+3. Include the gresource file in the compiled binary
+4. On initialization load the gresource file
 
 ### Add new icons
 
