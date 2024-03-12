@@ -13,7 +13,7 @@ More than 3000 icons, ready for use in your app!
 
 ### 1. Find your icons 🔍
 
-You can either use one of the over 3000 shipped icons or use your own icons.
+You can either use the of the over 3000 shipped icons or your own icons.
 You can browse the shipped icons using one of the following methods:
 
 For icons from the GNOME [icon-development-kit](https://gitlab.gnome.org/Teams/Design/icon-development-kit):
