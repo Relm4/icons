@@ -3,7 +3,7 @@ name = "relm4-icons"
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
 version = "0.7.0"
 edition = "2021"
-rust-version = "1.70"
+rust-version = "1.75"
 readme = "README.md"
 license = "Apache-2.0 OR MIT"
 description = "Icons for gtk-rs and Relm4 applications"
@@ -20,12 +20,12 @@ members = [
 ]
 
 [dependencies]
-gtk = { version = "0.7", package = "gtk4" }
+gtk = { version = "0.8", package = "gtk4" }
 
 [build-dependencies]
-gvdb = { version = "0.5.1", features = ["gresource"] }
+gvdb = { version = "0.5.3", features = ["gresource"] }
 serde = { version = "1.0.197", features = ["derive"] }
-toml = "0.8.10"
+toml = "0.8.11"
 
 [package.metadata.docs.rs]
 all-features = true
