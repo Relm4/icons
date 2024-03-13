@@ -14,7 +14,7 @@ const SHIPPED_ICONS_PATH: &str = "icons";
 const TARGET_FILE: &str = "resources.gresource";
 const CONSTANTS_FILE: &str = "icon_names.rs";
 
-#[derive(serde::Deserialize)]
+#[derive(Default, serde::Deserialize)]
 struct Config {
     app_id: Option<String>,
     base_resource_path: Option<String>,
@@ -49,25 +49,30 @@ fn path_to_icon_name(string: &OsStr) -> String {
 
 fn main() {
     let out_dir = env::var("OUT_DIR").unwrap();
-
-    // Try finding the target directory which is just below the manifest directory
-    // of the user.
-    // Unfortunately, the CARGO_MANIFEST_DIR env var passed by cargo always points
-    // to this crate, so we wouldn't find the users config file this way.
     let mut manifest_dir = Path::new(&out_dir).canonicalize().unwrap();
     eprintln!("Canonical manifest dir: {manifest_dir:?}");
-    while !manifest_dir.join("Cargo.toml").exists() {
-        if !manifest_dir.pop() {
-            panic!("Couldn't find your manifest directory");
-        }
-    }
-    let config_dir = manifest_dir
-        .to_str()
-        .expect("Couldn't convert manifest directory to string");
-    eprintln!("Canonical config dir: {config_dir:?}");
-    println!("cargo:rerun-if-changed={config_dir}/icons.toml");
 
-    let config = Config::load(config_dir);
+    let (config, config_dir) = if cfg!(docsrs) {
+        (Config::default(), "")
+    } else {
+        // Try finding the target directory which is just below the manifest directory
+        // of the user.
+        // Unfortunately, the CARGO_MANIFEST_DIR env var passed by cargo always points
+        // to this crate, so we wouldn't find the users config file this way.
+        while !manifest_dir.join("Cargo.toml").exists() {
+            if !manifest_dir.pop() {
+                panic!("Couldn't find your manifest directory");
+            }
+        }
+        let config_dir = manifest_dir
+            .to_str()
+            .expect("Couldn't convert manifest directory to string");
+        eprintln!("Canonical config dir: {config_dir:?}");
+        println!("cargo:rerun-if-changed={config_dir}/icons.toml");
+
+        (Config::load(config_dir), config_dir)
+    };
+
     let mut icons: HashMap<String, PathBuf> = HashMap::new();
 
     if let Some(folder) = &config.icon_folder {

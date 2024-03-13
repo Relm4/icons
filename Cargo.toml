@@ -1,7 +1,7 @@
 [package]
 name = "relm4-icons"
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
-version = "0.8.0"
+version = "0.8.1"
 edition = "2021"
 rust-version = "1.75"
 readme = "README.md"
@@ -30,6 +30,7 @@ toml = "0.8.11"
 [package.metadata.docs.rs]
 all-features = true
 # enable unstable features in the documentation
+rustc-args = ["--cfg", "docsrs"]
 rustdoc-args = ["--cfg", "docsrs"]
 
 [features]
