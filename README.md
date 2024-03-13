@@ -49,7 +49,7 @@ icon_folder = "my_svg_icons"
 ### 3. Add Relm4 icons ✍
 
 ```toml
-relm4-icons = "0.7.0"
+relm4-icons = "0.8.0"
 ```
 
 ### 4. Load the icons 🛫
