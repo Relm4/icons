@@ -2,6 +2,7 @@ use std::{
     collections::HashMap,
     env,
     ffi::OsStr,
+    io,
     path::{Path, PathBuf},
 };
 
@@ -23,11 +24,10 @@ struct Config {
 }
 
 impl Config {
-    fn load(dir: &str) -> Self {
+    fn load(dir: &str) -> Result<Self, io::Error> {
         let config_path: PathBuf = [dir, CONFIG_FILE].iter().collect();
-        let config_file = std::fs::read_to_string(config_path)
-            .expect("Couldn't find or open icon config file (icons.toml)");
-        toml::from_str(&config_file).expect("Couldn't parse icon config file")
+        let config_file = std::fs::read_to_string(config_path)?;
+        Ok(toml::from_str(&config_file).expect("Couldn't parse icon config file"))
     }
 }
 
@@ -53,7 +53,11 @@ fn main() {
     eprintln!("Canonical manifest dir: {manifest_dir:?}");
 
     let (config, config_dir) = if cfg!(docsrs) {
-        (Config::default(), "")
+        if let Ok(source_dir) = env::var("SOURCE_DIR") {
+            (Config::load(&source_dir).unwrap_or_default(), source_dir)
+        } else {
+            (Config::default(), "".into())
+        }
     } else {
         // Try finding the target directory which is just below the manifest directory
         // of the user.
@@ -66,18 +70,19 @@ fn main() {
         }
         let config_dir = manifest_dir
             .to_str()
-            .expect("Couldn't convert manifest directory to string");
-        eprintln!("Canonical config dir: {config_dir:?}");
-        println!("cargo:rerun-if-changed={config_dir}/icons.toml");
-
-        (Config::load(config_dir), config_dir)
+            .expect("Couldn't convert manifest directory to string")
+            .to_owned();
+        (Config::load(&config_dir).unwrap(), config_dir)
     };
+
+    eprintln!("Canonical config dir: {config_dir:?}");
+    println!("cargo:rerun-if-changed={config_dir}/icons.toml");
 
     let mut icons: HashMap<String, PathBuf> = HashMap::new();
 
     if let Some(folder) = &config.icon_folder {
         println!("cargo:rerun-if-changed={folder}");
-        let custom_icons_path: PathBuf = [config_dir, folder].iter().collect();
+        let custom_icons_path: PathBuf = [&config_dir, folder].iter().collect();
         let read_dir = std::fs::read_dir(custom_icons_path)
             .expect("Couldn't open icon path specified in config (relative to the manifest)");
         for entry in read_dir {
