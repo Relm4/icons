@@ -15,9 +15,7 @@ keywords = ["gui", "gtk", "gtk4", "elm"]
 categories = ["gui"]
 
 [workspace]
-members = [
-    "update_icons"
-]
+members = ["update_icons"]
 
 [dependencies]
 gtk = { version = "0.8", package = "gtk4" }
