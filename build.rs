@@ -2,6 +2,7 @@ use std::{
     collections::HashMap,
     env,
     ffi::OsStr,
+    io,
     path::{Path, PathBuf},
 };
 
@@ -14,7 +15,7 @@ const SHIPPED_ICONS_PATH: &str = "icons";
 const TARGET_FILE: &str = "resources.gresource";
 const CONSTANTS_FILE: &str = "icon_names.rs";
 
-#[derive(serde::Deserialize)]
+#[derive(Default, serde::Deserialize)]
 struct Config {
     app_id: Option<String>,
     base_resource_path: Option<String>,
@@ -23,11 +24,10 @@ struct Config {
 }
 
 impl Config {
-    fn load(dir: &str) -> Self {
+    fn load(dir: &str) -> Result<Self, io::Error> {
         let config_path: PathBuf = [dir, CONFIG_FILE].iter().collect();
-        let config_file = std::fs::read_to_string(config_path)
-            .expect("Couldn't find or open icon config file (icons.toml)");
-        toml::from_str(&config_file).expect("Couldn't parse icon config file")
+        let config_file = std::fs::read_to_string(config_path)?;
+        Ok(toml::from_str(&config_file).expect("Couldn't parse icon config file"))
     }
 }
 
@@ -49,30 +49,40 @@ fn path_to_icon_name(string: &OsStr) -> String {
 
 fn main() {
     let out_dir = env::var("OUT_DIR").unwrap();
-
-    // Try finding the target directory which is just below the manifest directory
-    // of the user.
-    // Unfortunately, the CARGO_MANIFEST_DIR env var passed by cargo always points
-    // to this crate, so we wouldn't find the users config file this way.
     let mut manifest_dir = Path::new(&out_dir).canonicalize().unwrap();
     eprintln!("Canonical manifest dir: {manifest_dir:?}");
-    while !manifest_dir.join("Cargo.toml").exists() {
-        if !manifest_dir.pop() {
-            panic!("Couldn't find your manifest directory");
+
+    let (config, config_dir) = if cfg!(docsrs) {
+        if let Ok(source_dir) = env::var("SOURCE_DIR") {
+            (Config::load(&source_dir).unwrap_or_default(), source_dir)
+        } else {
+            (Config::default(), "".into())
         }
-    }
-    let config_dir = manifest_dir
-        .to_str()
-        .expect("Couldn't convert manifest directory to string");
+    } else {
+        // Try finding the target directory which is just below the manifest directory
+        // of the user.
+        // Unfortunately, the CARGO_MANIFEST_DIR env var passed by cargo always points
+        // to this crate, so we wouldn't find the users config file this way.
+        while !manifest_dir.join("Cargo.toml").exists() {
+            if !manifest_dir.pop() {
+                panic!("Couldn't find your manifest directory");
+            }
+        }
+        let config_dir = manifest_dir
+            .to_str()
+            .expect("Couldn't convert manifest directory to string")
+            .to_owned();
+        (Config::load(&config_dir).unwrap(), config_dir)
+    };
+
     eprintln!("Canonical config dir: {config_dir:?}");
     println!("cargo:rerun-if-changed={config_dir}/icons.toml");
 
-    let config = Config::load(config_dir);
     let mut icons: HashMap<String, PathBuf> = HashMap::new();
 
     if let Some(folder) = &config.icon_folder {
         println!("cargo:rerun-if-changed={folder}");
-        let custom_icons_path: PathBuf = [config_dir, folder].iter().collect();
+        let custom_icons_path: PathBuf = [&config_dir, folder].iter().collect();
         let read_dir = std::fs::read_dir(custom_icons_path)
             .expect("Couldn't open icon path specified in config (relative to the manifest)");
         for entry in read_dir {
