@@ -72,7 +72,10 @@ fn main() {
             .to_str()
             .expect("Couldn't convert manifest directory to string")
             .to_owned();
-        (Config::load(&config_dir).unwrap(), config_dir)
+        (
+            Config::load(&config_dir).expect("Couldn't find `icons.toml` next to `Cargo.toml`"),
+            config_dir,
+        )
     };
 
     eprintln!("Canonical config dir: {config_dir:?}");
