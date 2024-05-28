@@ -28,6 +28,7 @@ use gtk::{gdk, gio};
 pub fn initialize_icons() {
     gio::resources_register_include!("resources.gresource").unwrap();
 
+    #[allow(clippy::const_is_empty)]
     if icon_names::APP_ID.is_empty() && icon_names::BASE_RESOURCE_PATH.is_empty() {
         gtk::init().unwrap();
 
