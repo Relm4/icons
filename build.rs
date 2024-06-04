@@ -49,7 +49,8 @@ fn path_to_icon_name(string: &OsStr) -> String {
 
 fn main() {
     let out_dir = env::var("OUT_DIR").unwrap();
-    let mut manifest_dir = Path::new(&out_dir).canonicalize().unwrap();
+    let manifest_dir = env::var("PWD").unwrap();
+    let mut manifest_path = Path::new(&manifest_dir).canonicalize().unwrap();
     eprintln!("Canonical manifest dir: {manifest_dir:?}");
 
     let (config, config_dir) = if cfg!(docsrs) {
@@ -63,12 +64,12 @@ fn main() {
         // of the user.
         // Unfortunately, the CARGO_MANIFEST_DIR env var passed by cargo always points
         // to this crate, so we wouldn't find the users config file this way.
-        while !manifest_dir.join("Cargo.toml").exists() {
-            if !manifest_dir.pop() {
+        while !manifest_path.join("Cargo.toml").exists() {
+            if !manifest_path.pop() {
                 panic!("Couldn't find your manifest directory");
             }
         }
-        let config_dir = manifest_dir
+        let config_dir = manifest_path
             .to_str()
             .expect("Couldn't convert manifest directory to string")
             .to_owned();
