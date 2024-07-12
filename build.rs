@@ -9,7 +9,7 @@ use std::{
 use gvdb::gresource::{GResourceBuilder, GResourceFileData, PreprocessOptions};
 
 const CONFIG_FILE: &str = "icons.toml";
-const GENERAL_PREFIX: &str = "/org/gtkrs/icons/scalable/actions/";
+const GENERAL_PREFIX: &str = "/org/relm4/icons/scalable/actions/";
 const SHIPPED_ICONS_PATH: &str = "icons";
 
 const TARGET_FILE: &str = "resources.gresource";

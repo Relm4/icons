@@ -34,7 +34,7 @@ pub fn initialize_icons() {
 
         let display = gdk::Display::default().unwrap();
         let theme = gtk::IconTheme::for_display(&display);
-        theme.add_resource_path("/org/gtkrs/icons/");
-        theme.add_resource_path("/org/gtkrs/icons/scalable/actions/");
+        theme.add_resource_path("/org/relm4/icons/");
+        theme.add_resource_path("/org/relm4/icons/scalable/actions/");
     }
 }

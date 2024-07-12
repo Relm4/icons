@@ -1,7 +1,7 @@
 [package]
 name = "relm4-icons"
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
-version = "0.8.3"
+version = "0.9.0"
 edition = "2021"
 rust-version = "1.75"
 readme = "README.md"
@@ -18,12 +18,12 @@ categories = ["gui"]
 members = ["update_icons"]
 
 [dependencies]
-gtk = { version = "0.8", package = "gtk4" }
+gtk = { version = "0.9", package = "gtk4" }
 
 [build-dependencies]
-gvdb = { version = "0.5.3", features = ["gresource"] }
-serde = { version = "1.0.197", features = ["derive"] }
-toml = "0.8.11"
+gvdb = { version = "0.6.1", features = ["gresource"] }
+serde = { version = "1.0.204", features = ["derive"] }
+toml = "0.8.14"
 
 [package.metadata.docs.rs]
 all-features = true
