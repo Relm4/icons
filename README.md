@@ -50,9 +50,39 @@ icon_folder = "my_svg_icons"
 
 ```toml
 relm4-icons = "0.8.0"
+
+[build-dependencies]
+relm4-icons = { version = "0.8.0", features = ["build-utils"] }
 ```
 
-### 4. Load the icons 🛫
+### 4. Bundle the icons 📦
+
+Create a module named `icon_names` in your crate like this:
+
+```rust
+mod icon_names {
+    include!(concat!(env!("OUT_DIR"), "/icon_names.rs"));
+}
+```
+
+And in your `build.rs` file, use `relm4-icons` to bundle the icons and include them in the compiled binary:
+
+```rust
+
+fn main() {
+    let manifest_path = std::env::var("CARGO_MANIFEST_DIR").unwrap();
+
+    let config = Config::load(
+        &manifest_path,
+        Some(relm4_icons::constants::SHIPPED_ICONS_PATH.to_string()),
+    )
+    .expect("couldn't load manifest");
+
+    relm4_icons::build_utils::bundle_icons(config, &manifest_path);
+}
+```
+
+### 5. Load the icons 🛫
 
 Add this to your initialization code:
 
@@ -78,7 +108,7 @@ button.set_icon_name("plus");
 You can also use the `icon_names` module for extra compile-time generated icon names.
 
 ```rust
-use relm4_icons::icon_names;
+use crate::icon_names;
 
 let button = gtk::Button::default();
 button.set_icon_name(icon_names::PLUS);
