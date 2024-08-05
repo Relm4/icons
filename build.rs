@@ -7,7 +7,9 @@ fn main() {
 
     // Create file that contains the icon names as constants
     let constants = format!(
-        "pub const SHIPPED_ICONS_PATH: &str = \"{}/icons\";",
+        "
+        /// Path to the shipped icons.
+        pub const SHIPPED_ICONS_PATH: &str = \"{}/icons\";",
         manifest_path
     );
 
