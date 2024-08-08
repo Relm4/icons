@@ -15,13 +15,10 @@ keywords = ["gui", "gtk", "gtk4", "elm"]
 categories = ["gui"]
 
 [workspace]
-members = ["update_icons"]
+members = ["update_icons", "build_icons"]
 
 [dependencies]
 gtk = { version = "0.8", package = "gtk4" }
-gvdb = { version = "0.5.3", features = ["gresource"], optional = true }
-serde = { version = "1.0.197", features = ["derive"], optional = true }
-toml = { version = "0.8.11", optional = true }
 
 [package.metadata.docs.rs]
 all-features = true
@@ -36,8 +33,3 @@ all = []
 # Enable entire icon kits
 icon-development-kit = []
 fluent-system-icons = []
-build-utils = [
-    "gvdb",
-    "serde",
-    "toml",
-]

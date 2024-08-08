@@ -1,39 +1,28 @@
 //! Utilities for build scripts using `relm4-icons`.
 
 use std::collections::HashMap;
+use std::env;
 use std::ffi::OsStr;
 use std::path::{Path, PathBuf};
-use std::{env, io};
 
 use gvdb::gresource::{GResourceBuilder, GResourceFileData, PreprocessOptions};
+
+/// Constants file with paths to icons.
+pub mod constants {
+    include!(concat!(env!("OUT_DIR"), "/constants.rs"));
+}
 
 const GENERAL_PREFIX: &str = "/org/gtkrs/icons/scalable/actions/";
 const TARGET_FILE: &str = "resources.gresource";
 const CONSTANTS_FILE: &str = "icon_names.rs";
-const CONFIG_FILE: &str = "icons.toml";
 
 /// Configuration for the icons.
 #[derive(Debug, Default, serde::Deserialize)]
 pub struct Config {
-    app_id: Option<String>,
-    base_resource_path: Option<String>,
-    icons_folder: Option<String>,
-    shipped_icons_folder: Option<String>,
-    icons: Option<Vec<String>>,
-}
-
-impl Config {
-    /// Load the configuration from the specified directory.
-    pub fn load(dir: &str, shipped_icons_folder: Option<String>) -> Result<Self, io::Error> {
-        let config_path: PathBuf = [dir, CONFIG_FILE].iter().collect();
-        let config_file = std::fs::read_to_string(config_path)?;
-        let mut config: Config =
-            toml::from_str(&config_file).expect("Couldn't parse icon config file");
-
-        config.shipped_icons_folder = shipped_icons_folder;
-
-        Ok(config)
-    }
+    pub app_id: Option<String>,
+    pub base_resource_path: Option<String>,
+    pub icons_folder: Option<String>,
+    pub icons: Option<Vec<String>>,
 }
 
 /// Convert file name to icon name
@@ -54,20 +43,13 @@ pub fn path_to_icon_name(string: &OsStr) -> String {
 }
 
 /// Given config and config directory, bundle icons and generate constants for icon names.
-pub fn bundle_icons(config: Config, config_dir: &str) {
+pub fn bundle_icons(config: Config) {
     let out_dir = env::var("OUT_DIR").unwrap();
-
-    eprintln!("Canonical config dir: {config_dir:?}");
-    println!("cargo:rerun-if-changed={config_dir}/icons.toml");
-
-    println!("Building icons from config: {}", config_dir);
-
     let mut icons: HashMap<String, PathBuf> = HashMap::new();
 
     if let Some(folder) = &config.icons_folder {
         println!("cargo:rerun-if-changed={folder}");
-        let custom_icons_path: PathBuf = [config_dir, folder].iter().collect();
-        let read_dir = std::fs::read_dir(custom_icons_path)
+        let read_dir = std::fs::read_dir(folder)
             .expect("Couldn't open icon path specified in config (relative to the manifest)");
         for entry in read_dir {
             let entry = entry.unwrap();
@@ -78,9 +60,7 @@ pub fn bundle_icons(config: Config, config_dir: &str) {
         }
     }
 
-    let shipped_icons_folder = config
-        .shipped_icons_folder
-        .expect("Could not find icons folder specified in config");
+    let shipped_icons_folder = constants::SHIPPED_ICONS_PATH;
 
     if let Some(icon_names) = config.icons {
         let dirs =

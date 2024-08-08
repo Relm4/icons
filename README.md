@@ -28,66 +28,56 @@ For browsing all shipped icons:
 
 > Sometimes, icons-development-kit and Fluent UI System Icons have overlapping icon names, so the postfix "-alt" is added.
 
-### 2. Specify your icons 🖼️
-
-Create a file called `icons.toml` next to the `Cargo.toml` file of your app:
-
-```toml
-# Recommended: Specify your app ID *OR* your base resource path for more robust icon loading
-app_id = "com.my.app"
-base_resource_path = "/com/my/app/"
-
-# List of icon names you found (shipped with this crate)
-# Note: the file ending `-symbolic.svg` isn't part of the icon name.
-icons = ["plus", "minus"]
-
-# Optional: Specify a folder containing your own SVG icons
-icon_folder = "my_svg_icons"
-```
-
-
-### 3. Add Relm4 icons ✍
+### 2. Add Relm4 icons ✍
 
 ```toml
 relm4-icons = "0.8.0"
 
 [build-dependencies]
-relm4-icons = { version = "0.8.0", features = ["build-utils"] }
+relm4-icons-build = "0.8.0"
 ```
 
-### 4. Bundle the icons 📦
+### 3. Add the icons to your project 📦
 
-Create a module named `icon_names` in your crate like this:
+Add the following to your `build.rs`:
+
+```rust
+use relm4_icons_build::Config;
+
+fn main() {
+    let config = Config {
+        icons: Some(
+            vec![
+                "ssd",
+                "size-horizontally",
+                "cross",
+            ]
+            .iter()
+            .map(|s| s.to_string())
+            .collect(),
+        ),
+        app_id: Some("com.my.app".to_string()),
+        base_resource_path: Some("icons".to_string()),
+        icons_folder: None,
+    };
+
+    relm4_icons_build::bundle_icons(config);
+}
+```
+
+### 4. Load the icons 🛫
+
+Add this to your initialization code:
 
 ```rust
 mod icon_names {
     include!(concat!(env!("OUT_DIR"), "/icon_names.rs"));
 }
-```
-
-And in your `build.rs` file, use `relm4-icons` to bundle the icons and include them in the compiled binary:
-
-```rust
 
 fn main() {
-    let manifest_path = std::env::var("CARGO_MANIFEST_DIR").unwrap();
-
-    let config = Config::load(
-        &manifest_path,
-        Some(relm4_icons::constants::SHIPPED_ICONS_PATH.to_string()),
-    )
-    .expect("couldn't load manifest");
-
-    relm4_icons::build_utils::bundle_icons(config, &manifest_path);
+    ///...///
+    relm4_icons::initialize_icons();
 }
-```
-
-### 5. Load the icons 🛫
-
-Add this to your initialization code:
-
-```rust
-relm4_icons::initialize_icons();
 ```
 
 ### 5. Use the icons 🎉

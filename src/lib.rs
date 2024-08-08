@@ -19,14 +19,6 @@
 #![allow(clippy::negative_feature_names, clippy::multiple_crate_versions)]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
-/// Utilities for building scripts.
-#[cfg(feature = "build-utils")]
-pub mod build_utils;
-/// Constants file with paths to icons.
-pub mod constants {
-    include!(concat!(env!("OUT_DIR"), "/constants.rs"));
-}
-
 /// Initialized the icons and registers them globally for your application.
 #[macro_export]
 macro_rules! initialize_icons {
