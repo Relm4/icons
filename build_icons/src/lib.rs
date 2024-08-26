@@ -1,8 +1,10 @@
 //! Utilities for build scripts using `relm4-icons`.
 
+use std::borrow::Cow;
 use std::collections::HashMap;
 use std::env;
 use std::ffi::OsStr;
+use std::fmt::Display;
 use std::path::{Path, PathBuf};
 
 use gvdb::gresource::{GResourceBuilder, GResourceFileData, PreprocessOptions};
@@ -14,16 +16,6 @@ pub mod constants {
 
 const GENERAL_PREFIX: &str = "/org/gtkrs/icons/scalable/actions/";
 const TARGET_FILE: &str = "resources.gresource";
-const CONSTANTS_FILE: &str = "icon_names.rs";
-
-/// Configuration for the icons.
-#[derive(Debug, Default, serde::Deserialize)]
-pub struct Config {
-    pub app_id: Option<String>,
-    pub base_resource_path: Option<String>,
-    pub icons_folder: Option<String>,
-    pub icons: Option<Vec<String>>,
-}
 
 /// Convert file name to icon name
 pub fn path_to_icon_name(string: &OsStr) -> String {
@@ -43,11 +35,22 @@ pub fn path_to_icon_name(string: &OsStr) -> String {
 }
 
 /// Given config and config directory, bundle icons and generate constants for icon names.
-pub fn bundle_icons(config: Config) {
+/// Bundle icons and generate constants for icon names.
+pub fn bundle_icons<P, I, S>(
+    constants_file: P,
+    app_id: Option<&str>,
+    base_resource_path: Option<P>,
+    icons_folder: Option<P>,
+    icon_names: I,
+) where
+    P: AsRef<Path> + Display + Clone + Default,
+    I: IntoIterator<Item = S>,
+    S: Into<Cow<'static, str>> + Display + Clone,
+{
     let out_dir = env::var("OUT_DIR").unwrap();
     let mut icons: HashMap<String, PathBuf> = HashMap::new();
 
-    if let Some(folder) = &config.icons_folder {
+    if let Some(folder) = &icons_folder {
         println!("cargo:rerun-if-changed={folder}");
         let read_dir = std::fs::read_dir(folder)
             .expect("Couldn't open icon path specified in config (relative to the manifest)");
@@ -62,34 +65,32 @@ pub fn bundle_icons(config: Config) {
 
     let shipped_icons_folder = constants::SHIPPED_ICONS_PATH;
 
-    if let Some(icon_names) = config.icons {
-        let dirs =
-            std::fs::read_dir(shipped_icons_folder).expect("Couldn't open folder of shipped icons");
-        let dirs: Vec<_> = dirs
-            .map(|entry| {
-                let entry = entry.expect("Couldn't open directories in shipped icon folder");
-                entry.path()
-            })
-            .collect();
+    let dirs =
+        std::fs::read_dir(shipped_icons_folder).expect("Couldn't open folder of shipped icons");
+    let dirs: Vec<_> = dirs
+        .map(|entry| {
+            let entry = entry.expect("Couldn't open directories in shipped icon folder");
+            entry.path()
+        })
+        .collect();
 
-        'outer: for icon in icon_names {
-            for dir in &dirs {
-                let icon_file_name = format!("{icon}-symbolic.svg");
-                let icon_path = dir.join(icon_file_name);
-                if icon_path.exists() {
-                    if icons.insert(icon.clone(), icon_path).is_some() {
-                        panic!("Icon with name `{icon}` exists twice")
-                    }
-                    continue 'outer;
+    'outer: for icon in icon_names {
+        for dir in &dirs {
+            let icon_file_name = format!("{icon}-symbolic.svg");
+            let icon_path = dir.join(icon_file_name);
+            if icon_path.exists() {
+                if icons.insert(icon.to_string(), icon_path).is_some() {
+                    panic!("Icon with name `{icon}` exists twice")
                 }
+                continue 'outer;
             }
-            panic!("Icon {icon} not found in shipped icons");
         }
+        panic!("Icon {icon} not found in shipped icons");
     }
 
-    let prefix = if let Some(base_resource_path) = &config.base_resource_path {
+    let prefix = if let Some(base_resource_path) = &base_resource_path {
         format!("{}icons/scalable/actions/", base_resource_path)
-    } else if let Some(app_id) = &config.app_id {
+    } else if let Some(app_id) = app_id {
         format!("/{}/icons/scalable/actions/", app_id.replace('.', "/"))
     } else {
         GENERAL_PREFIX.into()
@@ -129,13 +130,13 @@ pub fn bundle_icons(config: Config) {
         })
         .chain([format!(
             "pub(crate) const APP_ID: &str = \"{}\";",
-            config.app_id.unwrap_or_default()
+            app_id.unwrap_or_default()
         )])
         .chain([format!(
             "pub(crate) const BASE_RESOURCE_PATH: &str = \"{}\";",
-            config.base_resource_path.unwrap_or_default()
+            base_resource_path.unwrap_or_default()
         )])
         .collect();
 
-    std::fs::write(Path::new(&out_dir).join(CONSTANTS_FILE), constants).unwrap();
+    std::fs::write(Path::new(&out_dir).join(constants_file), constants).unwrap();
 }
