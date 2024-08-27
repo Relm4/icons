@@ -64,11 +64,12 @@ Add this to your initialization code:
 ```rust
 mod icon_names {
     include!(concat!(env!("OUT_DIR"), "/icon_names.rs"));
+    pub(crate) const GRESOURCE_BYTES: &'static [u8] = include_bytes!(concat!(env!("OUT_DIR"), "/resources.gresource"));
 }
 
 fn main() {
     ///...///
-    relm4_icons::initialize_icons!(icon_names::BASE_RESOURCE_PATH, icon_names::APP_ID);
+    relm4_icons::initialize_icons(icon_names::GRESOURCE_BYTES, icon_names::APP_ID, Some(icon_names::BASE_RESOURCE_PATH));
 }
 ```
 

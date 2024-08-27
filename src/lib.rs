@@ -19,21 +19,29 @@
 #![allow(clippy::negative_feature_names, clippy::multiple_crate_versions)]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
+use gtk::{
+    gdk,
+    gio::{resources_register, Resource},
+    glib,
+};
+use std::path::Path;
+
 /// Initialized the icons and registers them globally for your application.
-#[macro_export]
-macro_rules! initialize_icons {
-    ($base_resource_path:path, $app_id:path) => {
-        use gtk::{gdk, gio};
+pub fn initialize_icons<P: AsRef<Path>>(
+    gresource_bytes: &'static [u8],
+    app_id: &str,
+    base_resource_path: Option<P>,
+) {
+    let bytes = glib::Bytes::from(gresource_bytes);
+    let resource = Resource::from_data(&bytes).unwrap();
+    resources_register(&resource);
 
-        gio::resources_register_include!("resources.gresource").unwrap();
+    gtk::init().unwrap();
 
-        if $base_resource_path.is_empty() && $app_id.is_empty() {
-            gtk::init().unwrap();
-
-            let display = gdk::Display::default().unwrap();
-            let theme = gtk::IconTheme::for_display(&display);
-            theme.add_resource_path("/org/gtkrs/icons/");
-            theme.add_resource_path("/org/gtkrs/icons/scalable/actions/");
-        }
-    };
+    if base_resource_path.is_none() && app_id.is_empty() {
+        let display = gdk::Display::default().unwrap();
+        let theme = gtk::IconTheme::for_display(&display);
+        theme.add_resource_path("/org/gtkrs/icons/");
+        theme.add_resource_path("/org/gtkrs/icons/scalable/actions/");
+    }
 }
