@@ -5,20 +5,14 @@ fn main() {
 
     let manifest_path = std::env::var("CARGO_MANIFEST_DIR").unwrap();
 
-    // `icons` is one folder higher than the manifest
-    let icons_path = std::path::Path::new(&manifest_path)
-        .join("..")
-        .canonicalize()
-        .unwrap();
-
-    println!("Icons path: {}", icons_path.display());
+    println!("Icons path: {}", manifest_path);
 
     // Create file that contains the icon names as constants
     let constants = format!(
         "
         /// Path to the shipped icons.
         pub const SHIPPED_ICONS_PATH: &str = \"{}/icons\";",
-        icons_path.display()
+        manifest_path
     );
 
     std::fs::write(

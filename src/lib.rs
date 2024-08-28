@@ -24,24 +24,17 @@ use gtk::{
     gio::{resources_register, Resource},
     glib,
 };
-use std::path::Path;
 
 /// Initialized the icons and registers them globally for your application.
-pub fn initialize_icons<P: AsRef<Path>>(
-    gresource_bytes: &'static [u8],
-    app_id: &str,
-    base_resource_path: Option<P>,
-) {
+pub fn initialize_icons(gresource_bytes: &'static [u8]) {
     let bytes = glib::Bytes::from(gresource_bytes);
     let resource = Resource::from_data(&bytes).unwrap();
     resources_register(&resource);
 
     gtk::init().unwrap();
 
-    if base_resource_path.is_none() && app_id.is_empty() {
-        let display = gdk::Display::default().unwrap();
-        let theme = gtk::IconTheme::for_display(&display);
-        theme.add_resource_path("/org/gtkrs/icons/");
-        theme.add_resource_path("/org/gtkrs/icons/scalable/actions/");
-    }
+    let display = gdk::Display::default().unwrap();
+    let theme = gtk::IconTheme::for_display(&display);
+    theme.add_resource_path("/org/gtkrs/icons/");
+    theme.add_resource_path("/org/gtkrs/icons/scalable/actions/");
 }

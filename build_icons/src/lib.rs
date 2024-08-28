@@ -128,14 +128,6 @@ pub fn bundle_icons<P, I, S>(
             "
             )
         })
-        .chain([format!(
-            "pub(crate) const APP_ID: &str = \"{}\";",
-            app_id.unwrap_or_default()
-        )])
-        .chain([format!(
-            "pub(crate) const BASE_RESOURCE_PATH: &str = \"{}\";",
-            base_resource_path.unwrap_or_default()
-        )])
         .collect();
 
     std::fs::write(Path::new(&out_dir).join(constants_file), constants).unwrap();
