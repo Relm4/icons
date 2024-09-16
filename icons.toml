@@ -1,4 +1,0 @@
-# Example config that also serves as test case
-app_id = "com.my.app"
-icons = ["plus"]
-icon_folder = "icons/fluentui-system-icons"

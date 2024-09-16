@@ -19,22 +19,22 @@
 #![allow(clippy::negative_feature_names, clippy::multiple_crate_versions)]
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
-/// Module containing constants for icons names.
-pub mod icon_names;
-
-use gtk::{gdk, gio};
+use gtk::{
+    gdk,
+    gio::{resources_register, Resource},
+    glib,
+};
 
 /// Initialized the icons and registers them globally for your application.
-pub fn initialize_icons() {
-    gio::resources_register_include!("resources.gresource").unwrap();
+pub fn initialize_icons(gresource_bytes: &'static [u8]) {
+    let bytes = glib::Bytes::from(gresource_bytes);
+    let resource = Resource::from_data(&bytes).unwrap();
+    resources_register(&resource);
 
-    #[allow(clippy::const_is_empty)]
-    if icon_names::APP_ID.is_empty() && icon_names::BASE_RESOURCE_PATH.is_empty() {
-        gtk::init().unwrap();
+    gtk::init().unwrap();
 
-        let display = gdk::Display::default().unwrap();
-        let theme = gtk::IconTheme::for_display(&display);
-        theme.add_resource_path("/org/gtkrs/icons/");
-        theme.add_resource_path("/org/gtkrs/icons/scalable/actions/");
-    }
+    let display = gdk::Display::default().unwrap();
+    let theme = gtk::IconTheme::for_display(&display);
+    theme.add_resource_path("/org/gtkrs/icons/");
+    theme.add_resource_path("/org/gtkrs/icons/scalable/actions/");
 }
