@@ -14,7 +14,7 @@ pub mod constants {
     include!(concat!(env!("OUT_DIR"), "/constants.rs"));
 }
 
-const GENERAL_PREFIX: &str = "/org/gtkrs/icons/scalable/actions/";
+const GENERAL_PREFIX: &str = "/org/relm4/icons/scalable/actions/";
 const TARGET_FILE: &str = "resources.gresource";
 
 /// Convert file name to icon name
@@ -34,8 +34,7 @@ pub fn path_to_icon_name(string: &OsStr) -> String {
     }
 }
 
-/// Given config and config directory, bundle icons and generate constants for icon names.
-/// Bundle icons and generate constants for icon names.
+/// Bundles icons into a GResource file and generates constants for icon names.
 pub fn bundle_icons<P, I, S>(
     constants_file: P,
     app_id: Option<&str>,
@@ -128,6 +127,7 @@ pub fn bundle_icons<P, I, S>(
             "
             )
         })
+        .chain([format!("pub const RESOURCE_PREFIX: &str = \"{prefix}\";")])
         .collect();
 
     std::fs::write(Path::new(&out_dir).join(constants_file), constants).unwrap();
