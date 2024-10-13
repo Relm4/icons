@@ -11,7 +11,8 @@ use gvdb::gresource::{GResourceBuilder, GResourceFileData, PreprocessOptions};
 
 /// Constants file with paths to icons.
 pub mod constants {
-    include!(concat!(env!("OUT_DIR"), "/constants.rs"));
+    pub const SHIPPED_ICONS_PATH: &str =
+        include_str!(concat!(env!("OUT_DIR"), "/shipped_icons.txt"));
 }
 
 const GENERAL_PREFIX: &str = "/org/relm4/icons/scalable/actions/";

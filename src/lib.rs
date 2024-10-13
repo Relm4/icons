@@ -30,9 +30,9 @@ pub fn initialize_icons(gresource_bytes: &'static [u8], resource_prefix: &str) {
     let resource = Resource::from_data(&bytes).unwrap();
     resources_register(&resource);
 
+    gtk::init().unwrap();
+
     let display = gtk::gdk::Display::default().unwrap();
     let theme = gtk::IconTheme::for_display(&display);
     theme.add_resource_path(resource_prefix);
-
-    gtk::init().unwrap();
 }

@@ -1,11 +1,11 @@
 [package]
 name = "relm4-icons"
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
-version = "0.8.3"
+version = "0.9.0"
 edition = "2021"
 rust-version = "1.75"
 readme = "README.md"
-license = "Apache-2.0 OR MIT"
+license = "(Apache-2.0 OR MIT) AND CC0-1.0 AND MIT"
 description = "Icons for gtk-rs and Relm4 applications"
 
 homepage = "https://relm4.org"
@@ -18,7 +18,7 @@ categories = ["gui"]
 members = ["update_icons", "build_icons"]
 
 [dependencies]
-gtk = { version = "0.8", package = "gtk4" }
+gtk = { version = "0.9", package = "gtk4" }
 
 [package.metadata.docs.rs]
 all-features = true

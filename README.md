@@ -69,7 +69,7 @@ mod icon_names {
 
 fn main() {
     ///...///
-    relm4_icons::initialize_icons(icon_names::GRESOURCE_BYTES);
+    relm4_icons::initialize_icons(icon_names::GRESOURCE_BYTES, icon_names::RESOURCE_PREFIX);
 }
 ```
 
