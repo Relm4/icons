@@ -20,7 +20,6 @@ pub mod constants {
 }
 
 const GENERAL_PREFIX: &str = "/org/relm4/icons/scalable/actions/";
-const TARGET_FILE: &str = "resources.gresource";
 
 /// Convert file name to icon name
 pub fn path_to_icon_name(string: &OsStr) -> String {
@@ -95,12 +94,13 @@ pub fn bundle_icons<P, I, S>(
     }
 
     let prefix = if let Some(base_resource_path) = &base_resource_path {
-        format!("{}icons/scalable/actions/", base_resource_path)
+        format!("{}/icons/scalable/actions/", base_resource_path)
     } else if let Some(app_id) = app_id {
         format!("/{}/icons/scalable/actions/", app_id.replace('.', "/"))
     } else {
         GENERAL_PREFIX.into()
     };
+    let gresource_file_name = format!("{out_file_name}.gresource");
 
     // Generate resource bundle
     {
@@ -121,7 +121,7 @@ pub fn bundle_icons<P, I, S>(
             .build()
             .expect("Failed to build resource bundle");
 
-        fs::write(out_dir.join(TARGET_FILE), data).unwrap();
+        fs::write(out_dir.join(&gresource_file_name), data).unwrap();
     }
 
     // Create file that contains the icon names as constants
@@ -141,7 +141,9 @@ pub fn bundle_icons<P, I, S>(
 
         write!(
             out_file,
-            "/// Resource prefix used in generated `.gresource` file\n\
+            "/// GResource file contents\n\
+            pub const GRESOURCE_BYTES: &[u8] = include_bytes!(\"{gresource_file_name}\");\n\
+            /// Resource prefix used in generated `.gresource` file\n\
             pub const RESOURCE_PREFIX: &str = \"{prefix}\";"
         )
         .unwrap();
