@@ -15,15 +15,10 @@ keywords = ["gui", "gtk", "gtk4", "elm"]
 categories = ["gui"]
 
 [workspace]
-members = ["update_icons"]
+members = ["update_icons", "build_icons"]
 
 [dependencies]
 gtk = { version = "0.9", package = "gtk4" }
-
-[build-dependencies]
-gvdb = { version = "0.6.1", features = ["gresource"] }
-serde = { version = "1.0.204", features = ["derive"] }
-toml = "0.8.14"
 
 [package.metadata.docs.rs]
 all-features = true

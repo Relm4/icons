@@ -28,28 +28,33 @@ For browsing all shipped icons:
 
 > Sometimes, icons-development-kit and Fluent UI System Icons have overlapping icon names, so the postfix "-alt" is added.
 
-### 2. Specify your icons 🖼️
-
-Create a file called `icons.toml` next to the `Cargo.toml` file of your app:
-
-```toml
-# Recommended: Specify your app ID *OR* your base resource path for more robust icon loading
-app_id = "com.my.app"
-base_resource_path = "/com/my/app/"
-
-# List of icon names you found (shipped with this crate)
-# Note: the file ending `-symbolic.svg` isn't part of the icon name.
-icons = ["plus", "minus"]
-
-# Optional: Specify a folder containing your own SVG icons
-icon_folder = "my_svg_icons"
-```
-
-
-### 3. Add Relm4 icons ✍
+### 2. Add Relm4 icons ✍
 
 ```toml
 relm4-icons = "0.8.0"
+
+[build-dependencies]
+relm4-icons-build = "0.8.0"
+```
+
+### 3. Add the icons to your project 📦
+
+Add the following to your `build.rs`:
+
+```rust
+fn main() {
+    relm4_icons_build::bundle_icons(
+        "icon_names.rs",
+        Some("com.example.myapp"),
+        Some("icons"),
+        None::<&str>,
+        [
+            "ssd",
+            "size-horizontally",
+            "cross",
+        ],
+    );
+}
 ```
 
 ### 4. Load the icons 🛫
@@ -57,7 +62,15 @@ relm4-icons = "0.8.0"
 Add this to your initialization code:
 
 ```rust
-relm4_icons::initialize_icons();
+mod icon_names {
+    include!(concat!(env!("OUT_DIR"), "/icon_names.rs"));
+    pub(crate) const GRESOURCE_BYTES: &'static [u8] = include_bytes!(concat!(env!("OUT_DIR"), "/resources.gresource"));
+}
+
+fn main() {
+    ///...///
+    relm4_icons::initialize_icons(icon_names::GRESOURCE_BYTES, icon_names::RESOURCE_PREFIX);
+}
 ```
 
 ### 5. Use the icons 🎉
@@ -78,7 +91,7 @@ button.set_icon_name("plus");
 You can also use the `icon_names` module for extra compile-time generated icon names.
 
 ```rust
-use relm4_icons::icon_names;
+use crate::icon_names;
 
 let button = gtk::Button::default();
 button.set_icon_name(icon_names::PLUS);
