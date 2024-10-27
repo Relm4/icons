@@ -1,10 +1,8 @@
 //! Utilities for build scripts using `relm4-icons`.
 
-use std::borrow::Cow;
 use std::collections::HashMap;
 use std::env;
 use std::ffi::OsStr;
-use std::fmt::Display;
 use std::fs;
 use std::fs::File;
 use std::io::BufWriter;
@@ -42,20 +40,20 @@ pub fn path_to_icon_name(string: &OsStr) -> String {
 pub fn bundle_icons<P, I, S>(
     out_file_name: &str,
     app_id: Option<&str>,
-    base_resource_path: Option<P>,
+    base_resource_path: Option<&str>,
     icons_folder: Option<P>,
     icon_names: I,
 ) where
-    P: AsRef<Path> + Display + Clone + Default,
+    P: AsRef<Path>,
     I: IntoIterator<Item = S>,
-    S: Into<Cow<'static, str>> + Display + Clone,
+    S: AsRef<str>,
 {
     let out_dir = env::var("OUT_DIR").unwrap();
     let out_dir = Path::new(&out_dir);
     let mut icons: HashMap<String, PathBuf> = HashMap::new();
 
     if let Some(folder) = &icons_folder {
-        println!("cargo:rerun-if-changed={folder}");
+        println!("cargo:rerun-if-changed={}", folder.as_ref().display());
         let read_dir = fs::read_dir(folder)
             .expect("Couldn't open icon path specified in config (relative to the manifest)");
         for entry in read_dir {
@@ -79,6 +77,7 @@ pub fn bundle_icons<P, I, S>(
         .collect::<Vec<_>>();
 
     for icon in icon_names {
+        let icon = icon.as_ref();
         let icon_path = dirs
             .iter()
             .find_map(|dir| {
