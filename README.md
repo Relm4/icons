@@ -34,7 +34,7 @@ For browsing all shipped icons:
 relm4-icons = "0.8.0"
 
 [build-dependencies]
-relm4-icons-build = "0.8.0"
+relm4-icons-build = "0.1.0"
 ```
 
 ### 3. Add the icons to your project 📦
@@ -44,10 +44,17 @@ Add the following to your `build.rs`:
 ```rust
 fn main() {
     relm4_icons_build::bundle_icons(
+        // Name of the file that will be generated at `OUT_DIR`
         "icon_names.rs",
+        // Optional app ID
         Some("com.example.myapp"),
-        Some("icons"),
+        // Custom base resource path:
+        // * defaults to `/com/example/myapp` in this case if not specified explicitly
+        // * or `/org/relm4` if app ID was not specified either
         None::<&str>,
+        // Directory with custom icons (if any)
+        None::<&str>,
+        // List of icons to include
         [
             "ssd",
             "size-horizontally",
@@ -64,7 +71,6 @@ Add this to your initialization code:
 ```rust
 mod icon_names {
     include!(concat!(env!("OUT_DIR"), "/icon_names.rs"));
-    pub(crate) const GRESOURCE_BYTES: &'static [u8] = include_bytes!(concat!(env!("OUT_DIR"), "/resources.gresource"));
 }
 
 fn main() {

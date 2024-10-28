@@ -1,10 +1,12 @@
 //! Utilities for build scripts using `relm4-icons`.
 
-use std::borrow::Cow;
 use std::collections::HashMap;
 use std::env;
 use std::ffi::OsStr;
-use std::fmt::Display;
+use std::fs;
+use std::fs::File;
+use std::io::BufWriter;
+use std::io::Write;
 use std::path::{Path, PathBuf};
 
 use gvdb::gresource::{GResourceBuilder, GResourceFileData, PreprocessOptions};
@@ -16,7 +18,6 @@ pub mod constants {
 }
 
 const GENERAL_PREFIX: &str = "/org/relm4/icons/scalable/actions/";
-const TARGET_FILE: &str = "resources.gresource";
 
 /// Convert file name to icon name
 pub fn path_to_icon_name(string: &OsStr) -> String {
@@ -37,22 +38,23 @@ pub fn path_to_icon_name(string: &OsStr) -> String {
 
 /// Bundles icons into a GResource file and generates constants for icon names.
 pub fn bundle_icons<P, I, S>(
-    constants_file: P,
+    out_file_name: &str,
     app_id: Option<&str>,
-    base_resource_path: Option<P>,
+    base_resource_path: Option<&str>,
     icons_folder: Option<P>,
     icon_names: I,
 ) where
-    P: AsRef<Path> + Display + Clone + Default,
+    P: AsRef<Path>,
     I: IntoIterator<Item = S>,
-    S: Into<Cow<'static, str>> + Display + Clone,
+    S: AsRef<str>,
 {
     let out_dir = env::var("OUT_DIR").unwrap();
+    let out_dir = Path::new(&out_dir);
     let mut icons: HashMap<String, PathBuf> = HashMap::new();
 
     if let Some(folder) = &icons_folder {
-        println!("cargo:rerun-if-changed={folder}");
-        let read_dir = std::fs::read_dir(folder)
+        println!("cargo:rerun-if-changed={}", folder.as_ref().display());
+        let read_dir = fs::read_dir(folder)
             .expect("Couldn't open icon path specified in config (relative to the manifest)");
         for entry in read_dir {
             let entry = entry.unwrap();
@@ -65,71 +67,84 @@ pub fn bundle_icons<P, I, S>(
 
     let shipped_icons_folder = constants::SHIPPED_ICONS_PATH;
 
-    let dirs =
-        std::fs::read_dir(shipped_icons_folder).expect("Couldn't open folder of shipped icons");
-    let dirs: Vec<_> = dirs
+    let dirs = fs::read_dir(shipped_icons_folder)
+        .expect("Couldn't open folder of shipped icons")
         .map(|entry| {
-            let entry = entry.expect("Couldn't open directories in shipped icon folder");
-            entry.path()
+            entry
+                .expect("Couldn't open directories in shipped icon folder")
+                .path()
         })
-        .collect();
+        .collect::<Vec<_>>();
 
-    'outer: for icon in icon_names {
-        for dir in &dirs {
-            let icon_file_name = format!("{icon}-symbolic.svg");
-            let icon_path = dir.join(icon_file_name);
-            if icon_path.exists() {
-                if icons.insert(icon.to_string(), icon_path).is_some() {
-                    panic!("Icon with name `{icon}` exists twice")
-                }
-                continue 'outer;
-            }
+    for icon in icon_names {
+        let icon = icon.as_ref();
+        let icon_path = dirs
+            .iter()
+            .find_map(|dir| {
+                let icon_file_name = format!("{icon}-symbolic.svg");
+                let icon_path = dir.join(icon_file_name);
+                icon_path.exists().then_some(icon_path)
+            })
+            .unwrap_or_else(|| panic!("Icon with name `{icon}` exists twice"));
+
+        if icons.insert(icon.to_string(), icon_path).is_some() {
+            panic!("Icon with name `{icon}` exists twice");
         }
-        panic!("Icon {icon} not found in shipped icons");
     }
 
     let prefix = if let Some(base_resource_path) = &base_resource_path {
-        format!("{}icons/scalable/actions/", base_resource_path)
+        format!("{}/icons/scalable/actions/", base_resource_path)
     } else if let Some(app_id) = app_id {
         format!("/{}/icons/scalable/actions/", app_id.replace('.', "/"))
     } else {
         GENERAL_PREFIX.into()
     };
+    let gresource_file_name = format!("{out_file_name}.gresource");
 
     // Generate resource bundle
-    let resources = icons
-        .iter()
-        .map(|(icon, path)| {
-            GResourceFileData::from_file(
-                [&prefix, icon, "-symbolic.svg"].into_iter().collect(),
-                path,
-                true,
-                &PreprocessOptions::xml_stripblanks(),
-            )
-            .unwrap()
-        })
-        .collect();
+    {
+        let resources = icons
+            .iter()
+            .map(|(icon, path)| {
+                GResourceFileData::from_file(
+                    format!("{prefix}{icon}-symbolic.svg"),
+                    path,
+                    true,
+                    &PreprocessOptions::xml_stripblanks(),
+                )
+                .unwrap()
+            })
+            .collect();
 
-    let data = GResourceBuilder::from_file_data(resources)
-        .build()
-        .expect("Failed to build resource bundle");
+        let data = GResourceBuilder::from_file_data(resources)
+            .build()
+            .expect("Failed to build resource bundle");
 
-    std::fs::write(Path::new(&out_dir).join(TARGET_FILE), data).unwrap();
+        fs::write(out_dir.join(&gresource_file_name), data).unwrap();
+    }
 
     // Create file that contains the icon names as constants
-    let constants: String = icons
-        .iter()
-        .map(|(icon, icon_path)| {
-            let const_name = icon.to_uppercase().replace('-', "_");
-            format!(
-                "
-            /// Icon name of the icon `{icon}`, found at `{icon_path:?}`.
-            pub const {const_name}: &str = \"{icon}\";
-            "
-            )
-        })
-        .chain([format!("pub const RESOURCE_PREFIX: &str = \"{prefix}\";")])
-        .collect();
+    {
+        let mut out_file = BufWriter::new(File::create(out_dir.join(out_file_name)).unwrap());
 
-    std::fs::write(Path::new(&out_dir).join(constants_file), constants).unwrap();
+        for (icon, icon_path) in icons {
+            let const_name = icon.to_uppercase().replace('-', "_");
+            let path = icon_path.display();
+            write!(
+                out_file,
+                "/// Icon name of the icon `{icon}`, found at `{path}`\n\
+                pub const {const_name}: &str = \"{icon}\";\n"
+            )
+            .unwrap();
+        }
+
+        write!(
+            out_file,
+            "/// GResource file contents\n\
+            pub const GRESOURCE_BYTES: &[u8] = include_bytes!(\"{gresource_file_name}\");\n\
+            /// Resource prefix used in generated `.gresource` file\n\
+            pub const RESOURCE_PREFIX: &str = \"{prefix}\";"
+        )
+        .unwrap();
+    }
 }
