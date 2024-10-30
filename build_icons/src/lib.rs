@@ -17,7 +17,7 @@ pub mod constants {
         include_str!(concat!(env!("OUT_DIR"), "/shipped_icons.txt"));
 }
 
-const GENERAL_PREFIX: &str = "/org/relm4/icons/scalable/actions/";
+const GENERAL_PREFIX: &str = "/org/relm4/icons";
 
 /// Convert file name to icon name
 pub fn path_to_icon_name(string: &OsStr) -> String {
@@ -93,9 +93,9 @@ pub fn bundle_icons<P, I, S>(
     }
 
     let prefix = if let Some(base_resource_path) = &base_resource_path {
-        format!("{}/icons/scalable/actions/", base_resource_path)
+        format!("{}/icons", base_resource_path)
     } else if let Some(app_id) = app_id {
-        format!("/{}/icons/scalable/actions/", app_id.replace('.', "/"))
+        format!("/{}/icons", app_id.replace('.', "/"))
     } else {
         GENERAL_PREFIX.into()
     };
@@ -107,7 +107,7 @@ pub fn bundle_icons<P, I, S>(
             .iter()
             .map(|(icon, path)| {
                 GResourceFileData::from_file(
-                    format!("{prefix}{icon}-symbolic.svg"),
+                    format!("{prefix}/scalable/actions/{icon}-symbolic.svg"),
                     path,
                     true,
                     &PreprocessOptions::xml_stripblanks(),
