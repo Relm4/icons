@@ -1,7 +1,7 @@
 [package]
 name = "relm4-icons"
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
-version = "0.9.0"
+version = "0.10.0-beta.1"
 edition = "2021"
 rust-version = "1.75"
 readme = "README.md"
