@@ -10,6 +10,6 @@ readme = "README.md"
 repository = "https://github.com/Relm4/icons"
 
 [dependencies]
-gvdb = { version = "0.5.3", features = ["gresource"] }
-serde = { version = "1.0.197", features = ["derive"] }
-toml = { version = "0.8.11" }
+gvdb = { version = "0.7.1", features = ["gresource"] }
+serde = { version = "1.0.214", features = ["derive"] }
+toml = { version = "0.8.19" }
