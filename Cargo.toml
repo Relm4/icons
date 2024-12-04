@@ -1,10 +1,29 @@
 [package]
 name = "relm4-icons"
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description.workspace = true
+
+readme = "README.md"
+
+homepage.workspace = true
+repository.workspace = true
+
+keywords.workspace = true
+categories.workspace = true
+
+[workspace]
+resolver = "2"
+members = ["update_icons", "build_icons"]
+
+[workspace.package]
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
-version = "0.10.0-beta.1"
+version = "0.10.0-beta.2"
 edition = "2021"
 rust-version = "1.75"
-readme = "README.md"
 license = "(Apache-2.0 OR MIT) AND CC0-1.0 AND MIT"
 description = "Icons for gtk-rs and Relm4 applications"
 
@@ -13,9 +32,6 @@ repository = "https://github.com/Relm4/icons"
 
 keywords = ["gui", "gtk", "gtk4", "elm"]
 categories = ["gui"]
-
-[workspace]
-members = ["update_icons", "build_icons"]
 
 [dependencies]
 gtk = { version = "0.9", package = "gtk4" }

@@ -1,15 +1,21 @@
 [package]
 name = "relm4-icons-build"
-version = "0.10.0-beta.1"
-edition = "2021"
-license = "Apache-2.0 OR MIT"
-description = "Build icons for relm4-icons"
-keywords = ["gui", "gtk", "gtk4", "elm"]
-categories = ["gui"]
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description.workspace = true
+
 readme = "README.md"
-repository = "https://github.com/Relm4/icons"
+
+homepage.workspace = true
+repository.workspace = true
+
+keywords.workspace = true
+categories.workspace = true
 
 [dependencies]
 gvdb = { version = "0.7.1", features = ["gresource"] }
-serde = { version = "1.0.214", features = ["derive"] }
+serde = { version = "1.0.215", features = ["derive"] }
 toml = { version = "0.8.19" }
