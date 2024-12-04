@@ -20,16 +20,19 @@ pub mod constants {
 const GENERAL_PREFIX: &str = "/org/relm4/icons";
 
 /// Convert file name to icon name
-pub fn path_to_icon_name(string: &OsStr) -> String {
+pub fn path_to_icon_name(string: &OsStr) -> Option<String> {
     match string.to_str() {
         Some(string) => {
             if string.ends_with(".svg") {
-                string
-                    .trim_end_matches("-symbolic.svg")
-                    .trim_end_matches(".svg")
-                    .to_owned()
+                Some(
+                    string
+                        .trim_end_matches("-symbolic.svg")
+                        .trim_end_matches(".svg")
+                        .to_owned(),
+                )
             } else {
-                panic!("Found non-icon file `{string}`");
+                println!("Found non-icon file `{string}`, ignoring");
+                None
             }
         }
         None => panic!("Failed to convert file name `{string:?}` to string"),
@@ -58,9 +61,10 @@ pub fn bundle_icons<P, I, S>(
             .expect("Couldn't open icon path specified in config (relative to the manifest)");
         for entry in read_dir {
             let entry = entry.unwrap();
-            let icon = path_to_icon_name(&entry.file_name());
-            if icons.insert(icon.clone(), entry.path()).is_some() {
-                panic!("Icon with name `{icon}` exists twice")
+            if let Some(icon) = path_to_icon_name(&entry.file_name()) {
+                if icons.insert(icon.clone(), entry.path()).is_some() {
+                    panic!("Icon with name `{icon}` exists twice");
+                }
             }
         }
     }
