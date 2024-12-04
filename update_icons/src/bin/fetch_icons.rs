@@ -59,13 +59,14 @@ impl IconFilter for FluentFilter {
 }
 
 fn main() {
-    let mut list = HashMap::new();
-    analyze_dir::<DevKitFilter>("../source/icon-development-kit/export", &mut list);
-    copy_files("../icons/icon-development-kit", list);
+    // TODO: Unlock once there is a solution to https://gitlab.gnome.org/Teams/Design/icon-development-kit/-/issues/126
+    // let mut list = HashMap::new();
+    // analyze_dir::<DevKitFilter>("../source/icon-development-kit/export", &mut list);
+    // copy_files("../build_icons/icons/icon-development-kit", list);
 
     let mut list = HashMap::new();
     analyze_dir::<FluentFilter>("../source/fluentui-system-icons/assets", &mut list);
-    copy_files("../icons/fluentui-system-icons", list);
+    copy_files("../build_icons/icons/fluentui-system-icons", list);
 }
 
 fn copy_files(path: &str, list: HashMap<String, PathBuf>) {

@@ -20,7 +20,7 @@ pub struct IconInfo {
 impl IconInfo {
     fn file_path(&self) -> String {
         format!(
-            "icons/{}/{}",
+            "build_icons/icons/{}/{}",
             self.source,
             self.path.file_name().unwrap().to_str().unwrap()
         )

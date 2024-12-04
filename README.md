@@ -122,6 +122,15 @@ cd update_icons
 cargo run
 ```
 
+Existing icon sets can be updated as submodules with following commands:
+```sh
+git submodule update --remote --checkout
+rm -rf build_icons/icons/fluentui-system-icons
+cd update_icons
+cargo run --bin fetch_icons
+cargo run
+```
+
 ## Credit
 
 + GNOME contributors for providing so many outstanding icons

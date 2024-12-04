@@ -2,7 +2,7 @@ use std::{collections::HashMap, path::Path};
 
 use crate::IconInfo;
 
-const BASE_ICON_PATH: &str = "../icons";
+const BASE_ICON_PATH: &str = "../build_icons/icons";
 const FILE_ENDING: &str = "-symbolic.svg";
 
 pub fn get_icons(sources: &[&str]) -> Vec<IconInfo> {
