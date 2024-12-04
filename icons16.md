@@ -5,9 +5,6 @@
   <a href="build_icons/icons/icon-development-kit/C-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/C-symbolic.svg" width="16" alt="C">
   </a>
-  <a href="build_icons/icons/icon-development-kit/about-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/about-symbolic.svg" width="16" alt="about">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/accessibility-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/accessibility-filled-symbolic.svg" width="16" alt="accessibility-filled">
   </a>
@@ -193,6 +190,12 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/ambulance-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/ambulance-symbolic.svg" width="16" alt="ambulance">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/angled-arrows-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/angled-arrows-symbolic.svg" width="16" alt="angled-arrows">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/angled-arrows-lock-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/angled-arrows-lock-symbolic.svg" width="16" alt="angled-arrows-lock">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/animal-cat-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/animal-cat-filled-symbolic.svg" width="16" alt="animal-cat-filled">
@@ -1010,6 +1013,24 @@
   <a href="build_icons/icons/icon-development-kit/arrow5-up-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/arrow5-up-symbolic.svg" width="16" alt="arrow5-up">
   </a>
+  <a href="build_icons/icons/icon-development-kit/arrows-loop-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/arrows-loop-symbolic.svg" width="16" alt="arrows-loop">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/arrows-loop-disabled-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/arrows-loop-disabled-symbolic.svg" width="16" alt="arrows-loop-disabled">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/arrows-loop-tall-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/arrows-loop-tall-symbolic.svg" width="16" alt="arrows-loop-tall">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/arrows-loop-tall-alt-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/arrows-loop-tall-alt-symbolic.svg" width="16" alt="arrows-loop-tall-alt">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/arrows-loop-tall-disabled-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/arrows-loop-tall-disabled-symbolic.svg" width="16" alt="arrows-loop-tall-disabled">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/arrows-loop-tall-disabled-alt-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/arrows-loop-tall-disabled-alt-symbolic.svg" width="16" alt="arrows-loop-tall-disabled-alt">
+  </a>
   <a href="build_icons/icons/icon-development-kit/arrows-pointing-inward-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/arrows-pointing-inward-symbolic.svg" width="16" alt="arrows-pointing-inward">
   </a>
@@ -1115,11 +1136,53 @@
   <a href="build_icons/icons/fluentui-system-icons/battery-10-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/battery-10-regular-symbolic.svg" width="16" alt="battery-10-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/battery-action-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-action-symbolic.svg" width="16" alt="battery-action">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-caution-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-caution-symbolic.svg" width="16" alt="battery-caution">
+  </a>
   <a href="build_icons/icons/icon-development-kit/battery-leaf-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/battery-leaf-symbolic.svg" width="16" alt="battery-leaf">
   </a>
   <a href="build_icons/icons/icon-development-kit/battery-leaf2-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/battery-leaf2-symbolic.svg" width="16" alt="battery-leaf2">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-0-charging-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-0-charging-symbolic.svg" width="16" alt="battery-level-0-charging">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-100-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-100-symbolic.svg" width="16" alt="battery-level-100">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-100-charged-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-100-charged-symbolic.svg" width="16" alt="battery-level-100-charged">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-30-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-30-symbolic.svg" width="16" alt="battery-level-30">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-40-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-40-symbolic.svg" width="16" alt="battery-level-40">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-50-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-50-symbolic.svg" width="16" alt="battery-level-50">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-60-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-60-symbolic.svg" width="16" alt="battery-level-60">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-70-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-70-symbolic.svg" width="16" alt="battery-level-70">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-80-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-80-symbolic.svg" width="16" alt="battery-level-80">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-level-90-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-level-90-symbolic.svg" width="16" alt="battery-level-90">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-low-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-low-symbolic.svg" width="16" alt="battery-low">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/battery-missing-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/battery-missing-symbolic.svg" width="16" alt="battery-missing">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/beach-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/beach-filled-symbolic.svg" width="16" alt="beach-filled">
@@ -1157,18 +1220,6 @@
   <a href="build_icons/icons/fluentui-system-icons/bed-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/bed-regular-symbolic.svg" width="16" alt="bed-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/bell-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/bell-symbolic.svg" width="16" alt="bell">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/bell-large-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/bell-large-symbolic.svg" width="16" alt="bell-large">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/bell-large-none-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/bell-large-none-symbolic.svg" width="16" alt="bell-large-none">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/bell-none-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/bell-none-symbolic.svg" width="16" alt="bell-none">
-  </a>
   <a href="build_icons/icons/icon-development-kit/bell-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/bell-outline-symbolic.svg" width="16" alt="bell-outline">
   </a>
@@ -1183,9 +1234,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/big-dot-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/big-dot-symbolic.svg" width="16" alt="big-dot">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/big-x-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/big-x-symbolic.svg" width="16" alt="big-x">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/binder-triangle-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/binder-triangle-filled-symbolic.svg" width="16" alt="binder-triangle-filled">
@@ -1205,14 +1253,29 @@
   <a href="build_icons/icons/icon-development-kit/bluetooth-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/bluetooth-symbolic.svg" width="16" alt="bluetooth">
   </a>
+  <a href="build_icons/icons/icon-development-kit/bluetooth-2-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/bluetooth-2-symbolic.svg" width="16" alt="bluetooth-2">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/bluetooth-alt-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/bluetooth-alt-symbolic.svg" width="16" alt="bluetooth-alt">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/bluetooth-dots-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/bluetooth-dots-symbolic.svg" width="16" alt="bluetooth-dots">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/bluetooth-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/bluetooth-filled-symbolic.svg" width="16" alt="bluetooth-filled">
   </a>
   <a href="build_icons/icons/icon-development-kit/bluetooth-none-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/bluetooth-none-symbolic.svg" width="16" alt="bluetooth-none">
   </a>
+  <a href="build_icons/icons/icon-development-kit/bluetooth-none-alt-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/bluetooth-none-alt-symbolic.svg" width="16" alt="bluetooth-none-alt">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/bluetooth-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/bluetooth-regular-symbolic.svg" width="16" alt="bluetooth-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/bluetooth-x-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/bluetooth-x-symbolic.svg" width="16" alt="bluetooth-x">
   </a>
   <a href="build_icons/icons/icon-development-kit/blur-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/blur-symbolic.svg" width="16" alt="blur">
@@ -1982,9 +2045,6 @@
   <a href="build_icons/icons/fluentui-system-icons/call-warning-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/call-warning-regular-symbolic.svg" width="16" alt="call-warning-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/camera-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/camera-symbolic.svg" width="16" alt="camera">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/camera-arrow-up-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/camera-arrow-up-filled-symbolic.svg" width="16" alt="camera-arrow-up-filled">
   </a>
@@ -1996,6 +2056,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/camera-dead-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/camera-dead-symbolic.svg" width="16" alt="camera-dead">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/camera-disabled-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/camera-disabled-symbolic.svg" width="16" alt="camera-disabled">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/camera-dome-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/camera-dome-filled-symbolic.svg" width="16" alt="camera-dome-filled">
@@ -2035,6 +2098,12 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/camera-off-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/camera-off-regular-symbolic.svg" width="16" alt="camera-off-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/camera-photo-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/camera-photo-symbolic.svg" width="16" alt="camera-photo">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/camera-photo-2-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/camera-photo-2-symbolic.svg" width="16" alt="camera-photo-2">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/camera-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/camera-regular-symbolic.svg" width="16" alt="camera-regular">
@@ -2234,8 +2303,8 @@
   <a href="build_icons/icons/icon-development-kit/chat-bubble-empty-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/chat-bubble-empty-symbolic.svg" width="16" alt="chat-bubble-empty">
   </a>
-  <a href="build_icons/icons/icon-development-kit/chat-bubble-emtpy-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/chat-bubble-emtpy-symbolic.svg" width="16" alt="chat-bubble-emtpy">
+  <a href="build_icons/icons/icon-development-kit/chat-bubble-exclamation-point-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/chat-bubble-exclamation-point-symbolic.svg" width="16" alt="chat-bubble-exclamation-point">
   </a>
   <a href="build_icons/icons/icon-development-kit/chat-bubble-text-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/chat-bubble-text-symbolic.svg" width="16" alt="chat-bubble-text">
@@ -2248,9 +2317,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/chat-bubbles-empty-inverted-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/chat-bubbles-empty-inverted-symbolic.svg" width="16" alt="chat-bubbles-empty-inverted">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/chat-bubbles-emtpy-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/chat-bubbles-emtpy-symbolic.svg" width="16" alt="chat-bubbles-emtpy">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/chat-bubbles-question-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/chat-bubbles-question-filled-symbolic.svg" width="16" alt="chat-bubbles-question-filled">
@@ -2339,9 +2405,6 @@
   <a href="build_icons/icons/icon-development-kit/check-round-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/check-round-outline-symbolic.svg" width="16" alt="check-round-outline">
   </a>
-  <a href="build_icons/icons/icon-development-kit/check-round-outline-whole-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/check-round-outline-whole-symbolic.svg" width="16" alt="check-round-outline-whole">
-  </a>
   <a href="build_icons/icons/icon-development-kit/check-round-outline2-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/check-round-outline2-symbolic.svg" width="16" alt="check-round-outline2">
   </a>
@@ -2384,9 +2447,6 @@
   <a href="build_icons/icons/icon-development-kit/checkmark-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/checkmark-symbolic.svg" width="16" alt="checkmark">
   </a>
-  <a href="build_icons/icons/icon-development-kit/checkmark-alt-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/checkmark-alt-symbolic.svg" width="16" alt="checkmark-alt">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/checkmark-circle-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/checkmark-circle-filled-symbolic.svg" width="16" alt="checkmark-circle-filled">
   </a>
@@ -2407,9 +2467,6 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/checkmark-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/checkmark-filled-symbolic.svg" width="16" alt="checkmark-filled">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/checkmark-large-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/checkmark-large-symbolic.svg" width="16" alt="checkmark-large">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/checkmark-lock-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/checkmark-lock-filled-symbolic.svg" width="16" alt="checkmark-lock-filled">
@@ -2533,6 +2590,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/circle-anchor-center-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/circle-anchor-center-symbolic.svg" width="16" alt="circle-anchor-center">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/circle-crossed-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/circle-crossed-symbolic.svg" width="16" alt="circle-crossed">
   </a>
   <a href="build_icons/icons/icon-development-kit/circle-filled-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/circle-filled-symbolic.svg" width="16" alt="circle-filled">
@@ -2906,9 +2966,6 @@
   <a href="build_icons/icons/fluentui-system-icons/cloud-words-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/cloud-words-regular-symbolic.svg" width="16" alt="cloud-words-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/clouds-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/clouds-symbolic.svg" width="16" alt="clouds">
-  </a>
   <a href="build_icons/icons/icon-development-kit/clouds-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/clouds-outline-symbolic.svg" width="16" alt="clouds-outline">
   </a>
@@ -3272,6 +3329,15 @@
   <a href="build_icons/icons/fluentui-system-icons/connected-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/connected-regular-symbolic.svg" width="16" alt="connected-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/connected-squares-dots-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/connected-squares-dots-symbolic.svg" width="16" alt="connected-squares-dots">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/connected-squares-question-mark-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/connected-squares-question-mark-symbolic.svg" width="16" alt="connected-squares-question-mark">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/connected-squares-x-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/connected-squares-x-symbolic.svg" width="16" alt="connected-squares-x">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/connector-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/connector-filled-symbolic.svg" width="16" alt="connector-filled">
   </a>
@@ -3313,6 +3379,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/container4-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/container4-symbolic.svg" width="16" alt="container4">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/content-loading-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/content-loading-symbolic.svg" width="16" alt="content-loading">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/content-settings-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/content-settings-filled-symbolic.svg" width="16" alt="content-settings-filled">
@@ -3397,15 +3466,6 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/crop-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/crop-regular-symbolic.svg" width="16" alt="crop-regular">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/cross-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/cross-symbolic.svg" width="16" alt="cross">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/cross-filled-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/cross-filled-symbolic.svg" width="16" alt="cross-filled">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/cross-filled-large-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/cross-filled-large-symbolic.svg" width="16" alt="cross-filled-large">
   </a>
   <a href="build_icons/icons/icon-development-kit/cross-large-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/cross-large-symbolic.svg" width="16" alt="cross-large">
@@ -3866,9 +3926,6 @@
   <a href="build_icons/icons/fluentui-system-icons/divider-tall-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/divider-tall-regular-symbolic.svg" width="16" alt="divider-tall-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/do-not-distrub-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/do-not-distrub-symbolic.svg" width="16" alt="do-not-distrub">
-  </a>
   <a href="build_icons/icons/icon-development-kit/dock-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/dock-symbolic.svg" width="16" alt="dock">
   </a>
@@ -4307,9 +4364,6 @@
   <a href="build_icons/icons/icon-development-kit/dot-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/dot-symbolic.svg" width="16" alt="dot">
   </a>
-  <a href="build_icons/icons/icon-development-kit/dotted-box-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/dotted-box-symbolic.svg" width="16" alt="dotted-box">
-  </a>
   <a href="build_icons/icons/icon-development-kit/double-ended-arrows-horizontal-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/double-ended-arrows-horizontal-symbolic.svg" width="16" alt="double-ended-arrows-horizontal">
   </a>
@@ -4412,6 +4466,9 @@
   <a href="build_icons/icons/icon-development-kit/drinks-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/drinks-symbolic.svg" width="16" alt="drinks">
   </a>
+  <a href="build_icons/icons/icon-development-kit/drive-optical-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/drive-optical-symbolic.svg" width="16" alt="drive-optical">
+  </a>
   <a href="build_icons/icons/icon-development-kit/driving-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/driving-symbolic.svg" width="16" alt="driving">
   </a>
@@ -4489,9 +4546,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/edit-select-all-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/edit-select-all-symbolic.svg" width="16" alt="edit-select-all">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/edit-select-all-alt-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/edit-select-all-alt-symbolic.svg" width="16" alt="edit-select-all-alt">
   </a>
   <a href="build_icons/icons/icon-development-kit/edit-select-none-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/edit-select-none-symbolic.svg" width="16" alt="edit-select-none">
@@ -4625,9 +4679,6 @@
   <a href="build_icons/icons/icon-development-kit/eraser5-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/eraser5-symbolic.svg" width="16" alt="eraser5">
   </a>
-  <a href="build_icons/icons/icon-development-kit/error-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/error-symbolic.svg" width="16" alt="error">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/error-circle-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/error-circle-filled-symbolic.svg" width="16" alt="error-circle-filled">
   </a>
@@ -4688,9 +4739,6 @@
   <a href="build_icons/icons/icon-development-kit/external-display-nointernal-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/external-display-nointernal-symbolic.svg" width="16" alt="external-display-nointernal">
   </a>
-  <a href="build_icons/icons/icon-development-kit/external-display2-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/external-display2-symbolic.svg" width="16" alt="external-display2">
-  </a>
   <a href="build_icons/icons/icon-development-kit/external-link-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/external-link-symbolic.svg" width="16" alt="external-link">
   </a>
@@ -4723,6 +4771,12 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/eye-open-negative-filled-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/eye-open-negative-filled-symbolic.svg" width="16" alt="eye-open-negative-filled">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/eye-outline-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/eye-outline-symbolic.svg" width="16" alt="eye-outline">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/eye-outline-filled-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/eye-outline-filled-symbolic.svg" width="16" alt="eye-outline-filled">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/eye-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/eye-regular-symbolic.svg" width="16" alt="eye-regular">
@@ -4786,12 +4840,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/ferry-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/ferry-symbolic.svg" width="16" alt="ferry">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/few-clouds-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/few-clouds-symbolic.svg" width="16" alt="few-clouds">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/few-clouds-night-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/few-clouds-night-symbolic.svg" width="16" alt="few-clouds-night">
   </a>
   <a href="build_icons/icons/icon-development-kit/few-clouds-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/few-clouds-outline-symbolic.svg" width="16" alt="few-clouds-outline">
@@ -5042,6 +5090,9 @@
   <a href="build_icons/icons/fluentui-system-icons/folder-document-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/folder-document-regular-symbolic.svg" width="16" alt="folder-document-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/folder-drag-accept-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/folder-drag-accept-symbolic.svg" width="16" alt="folder-drag-accept">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/folder-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/folder-filled-symbolic.svg" width="16" alt="folder-filled">
   </a>
@@ -5080,6 +5131,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/folder-multiple-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/folder-multiple-regular-symbolic.svg" width="16" alt="folder-multiple-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/folder-open-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/folder-open-symbolic.svg" width="16" alt="folder-open">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/folder-open-down-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/folder-open-down-filled-symbolic.svg" width="16" alt="folder-open-down-filled">
@@ -5134,6 +5188,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/folder-sync-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/folder-sync-regular-symbolic.svg" width="16" alt="folder-sync-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/folder-visiting-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/folder-visiting-symbolic.svg" width="16" alt="folder-visiting">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/folder-zip-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/folder-zip-filled-symbolic.svg" width="16" alt="folder-zip-filled">
@@ -5264,6 +5321,12 @@
   <a href="build_icons/icons/icon-development-kit/funnel-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/funnel-outline-symbolic.svg" width="16" alt="funnel-outline">
   </a>
+  <a href="build_icons/icons/icon-development-kit/game-controller-vibrate-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/game-controller-vibrate-symbolic.svg" width="16" alt="game-controller-vibrate">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/game-controller2-vibrate-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/game-controller2-vibrate-symbolic.svg" width="16" alt="game-controller2-vibrate">
+  </a>
   <a href="build_icons/icons/icon-development-kit/gamepad-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/gamepad-symbolic.svg" width="16" alt="gamepad">
   </a>
@@ -5299,9 +5362,6 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/gavel-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/gavel-regular-symbolic.svg" width="16" alt="gavel-regular">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/gear-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/gear-symbolic.svg" width="16" alt="gear">
   </a>
   <a href="build_icons/icons/icon-development-kit/general-properties-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/general-properties-symbolic.svg" width="16" alt="general-properties">
@@ -5441,11 +5501,11 @@
   <a href="build_icons/icons/fluentui-system-icons/globe-warning-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/globe-warning-regular-symbolic.svg" width="16" alt="globe-warning-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/goldola-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/goldola-symbolic.svg" width="16" alt="goldola">
-  </a>
   <a href="build_icons/icons/icon-development-kit/golf-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/golf-symbolic.svg" width="16" alt="golf">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/gondola-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/gondola-symbolic.svg" width="16" alt="gondola">
   </a>
   <a href="build_icons/icons/icon-development-kit/graph-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/graph-symbolic.svg" width="16" alt="graph">
@@ -5522,9 +5582,6 @@
   <a href="build_icons/icons/icon-development-kit/hand-middle-finger-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/hand-middle-finger-symbolic.svg" width="16" alt="hand-middle-finger">
   </a>
-  <a href="build_icons/icons/icon-development-kit/hand-open-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/hand-open-symbolic.svg" width="16" alt="hand-open">
-  </a>
   <a href="build_icons/icons/icon-development-kit/hand-openyay-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/hand-openyay-symbolic.svg" width="16" alt="hand-openyay">
   </a>
@@ -5539,9 +5596,6 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/hand-point-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/hand-point-regular-symbolic.svg" width="16" alt="hand-point-regular">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/hand-point-right-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/hand-point-right-symbolic.svg" width="16" alt="hand-point-right">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/hand-right-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/hand-right-filled-symbolic.svg" width="16" alt="hand-right-filled">
@@ -5627,8 +5681,17 @@
   <a href="build_icons/icons/fluentui-system-icons/hd-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/hd-regular-symbolic.svg" width="16" alt="hd-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/headphone-arrow-in-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/headphone-arrow-in-symbolic.svg" width="16" alt="headphone-arrow-in">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/headphone-arrow-out-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/headphone-arrow-out-symbolic.svg" width="16" alt="headphone-arrow-out">
+  </a>
   <a href="build_icons/icons/icon-development-kit/headphones-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/headphones-symbolic.svg" width="16" alt="headphones">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/headphones-muted-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/headphones-muted-symbolic.svg" width="16" alt="headphones-muted">
   </a>
   <a href="build_icons/icons/icon-development-kit/headset-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/headset-symbolic.svg" width="16" alt="headset">
@@ -5653,6 +5716,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/heart-broken-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/heart-broken-regular-symbolic.svg" width="16" alt="heart-broken-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/heart-circle-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/heart-circle-symbolic.svg" width="16" alt="heart-circle">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/heart-circle-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/heart-circle-filled-symbolic.svg" width="16" alt="heart-circle-filled">
@@ -5756,8 +5822,14 @@
   <a href="build_icons/icons/icon-development-kit/horizontal-arrows-long-none-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/horizontal-arrows-long-none-symbolic.svg" width="16" alt="horizontal-arrows-long-none">
   </a>
+  <a href="build_icons/icons/icon-development-kit/horizontal-arrows-long-question-mark-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/horizontal-arrows-long-question-mark-symbolic.svg" width="16" alt="horizontal-arrows-long-question-mark">
+  </a>
   <a href="build_icons/icons/icon-development-kit/horizontal-arrows-long-right-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/horizontal-arrows-long-right-symbolic.svg" width="16" alt="horizontal-arrows-long-right">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/horizontal-arrows-long-x-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/horizontal-arrows-long-x-symbolic.svg" width="16" alt="horizontal-arrows-long-x">
   </a>
   <a href="build_icons/icons/icon-development-kit/horizontal-arrows-none-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/horizontal-arrows-none-symbolic.svg" width="16" alt="horizontal-arrows-none">
@@ -5768,14 +5840,14 @@
   <a href="build_icons/icons/icon-development-kit/horizontal-arrows-right-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/horizontal-arrows-right-symbolic.svg" width="16" alt="horizontal-arrows-right">
   </a>
+  <a href="build_icons/icons/icon-development-kit/horse-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/horse-symbolic.svg" width="16" alt="horse">
+  </a>
   <a href="build_icons/icons/icon-development-kit/hospital-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/hospital-symbolic.svg" width="16" alt="hospital">
   </a>
   <a href="build_icons/icons/icon-development-kit/hospital-sign-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/hospital-sign-symbolic.svg" width="16" alt="hospital-sign">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/hotel-tag-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/hotel-tag-symbolic.svg" width="16" alt="hotel-tag">
   </a>
   <a href="build_icons/icons/icon-development-kit/hotel-tag-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/hotel-tag-outline-symbolic.svg" width="16" alt="hotel-tag-outline">
@@ -5921,9 +5993,6 @@
   <a href="build_icons/icons/icon-development-kit/inbox-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/inbox-symbolic.svg" width="16" alt="inbox">
   </a>
-  <a href="build_icons/icons/icon-development-kit/info-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/info-symbolic.svg" width="16" alt="info">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/info-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/info-filled-symbolic.svg" width="16" alt="info-filled">
   </a>
@@ -5932,6 +6001,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/info-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/info-regular-symbolic.svg" width="16" alt="info-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/info2-outline-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/info2-outline-symbolic.svg" width="16" alt="info2-outline">
   </a>
   <a href="build_icons/icons/icon-development-kit/ink-tool-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/ink-tool-symbolic.svg" width="16" alt="ink-tool">
@@ -5951,6 +6023,15 @@
   <a href="build_icons/icons/fluentui-system-icons/inprivate-account-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/inprivate-account-regular-symbolic.svg" width="16" alt="inprivate-account-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/input-dialpad-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/input-dialpad-symbolic.svg" width="16" alt="input-dialpad">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/insert-link-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/insert-link-symbolic.svg" width="16" alt="insert-link">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/insert-text-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/insert-text-symbolic.svg" width="16" alt="insert-text">
+  </a>
   <a href="build_icons/icons/icon-development-kit/integral-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/integral-symbolic.svg" width="16" alt="integral">
   </a>
@@ -5959,6 +6040,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/integral3-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/integral3-symbolic.svg" width="16" alt="integral3">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/interlinked-rectangles-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/interlinked-rectangles-symbolic.svg" width="16" alt="interlinked-rectangles">
   </a>
   <a href="build_icons/icons/icon-development-kit/inverse-fast-fourier-transform-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/inverse-fast-fourier-transform-symbolic.svg" width="16" alt="inverse-fast-fourier-transform">
@@ -6038,8 +6122,14 @@
   <a href="build_icons/icons/icon-development-kit/key4-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/key4-symbolic.svg" width="16" alt="key4">
   </a>
+  <a href="build_icons/icons/icon-development-kit/key5-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/key5-symbolic.svg" width="16" alt="key5">
+  </a>
   <a href="build_icons/icons/icon-development-kit/keyboard-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/keyboard-symbolic.svg" width="16" alt="keyboard">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/keyboard-brightness-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/keyboard-brightness-symbolic.svg" width="16" alt="keyboard-brightness">
   </a>
   <a href="build_icons/icons/icon-development-kit/keyboard-brightness-high-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/keyboard-brightness-high-symbolic.svg" width="16" alt="keyboard-brightness-high">
@@ -6590,8 +6680,14 @@
   <a href="build_icons/icons/fluentui-system-icons/list-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/list-filled-symbolic.svg" width="16" alt="list-filled">
   </a>
+  <a href="build_icons/icons/icon-development-kit/list-high-priority-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/list-high-priority-symbolic.svg" width="16" alt="list-high-priority">
+  </a>
   <a href="build_icons/icons/icon-development-kit/list-large-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/list-large-symbolic.svg" width="16" alt="list-large">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/list-low-priority-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/list-low-priority-symbolic.svg" width="16" alt="list-low-priority">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/list-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/list-regular-symbolic.svg" width="16" alt="list-regular">
@@ -6692,6 +6788,9 @@
   <a href="build_icons/icons/icon-development-kit/lock-small-open-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/lock-small-open-symbolic.svg" width="16" alt="lock-small-open">
   </a>
+  <a href="build_icons/icons/icon-development-kit/log-out-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/log-out-symbolic.svg" width="16" alt="log-out">
+  </a>
   <a href="build_icons/icons/icon-development-kit/loop-arrow-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/loop-arrow-symbolic.svg" width="16" alt="loop-arrow">
   </a>
@@ -6701,8 +6800,14 @@
   <a href="build_icons/icons/icon-development-kit/loupe-large-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/loupe-large-symbolic.svg" width="16" alt="loupe-large">
   </a>
+  <a href="build_icons/icons/icon-development-kit/loupe-minus-large-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/loupe-minus-large-symbolic.svg" width="16" alt="loupe-minus-large">
+  </a>
   <a href="build_icons/icons/icon-development-kit/loupe-plus-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/loupe-plus-symbolic.svg" width="16" alt="loupe-plus">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/loupe-plus-large-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/loupe-plus-large-symbolic.svg" width="16" alt="loupe-plus-large">
   </a>
   <a href="build_icons/icons/icon-development-kit/loupe-with-arrow-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/loupe-with-arrow-symbolic.svg" width="16" alt="loupe-with-arrow">
@@ -6721,6 +6826,12 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/magic-wand-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/magic-wand-symbolic.svg" width="16" alt="magic-wand">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/magnet-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/magnet-symbolic.svg" width="16" alt="magnet">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/magnet-tilted-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/magnet-tilted-symbolic.svg" width="16" alt="magnet-tilted">
   </a>
   <a href="build_icons/icons/icon-development-kit/mail-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/mail-symbolic.svg" width="16" alt="mail">
@@ -6781,6 +6892,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/mail-attach-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mail-attach-regular-symbolic.svg" width="16" alt="mail-attach-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/mail-attachment-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mail-attachment-symbolic.svg" width="16" alt="mail-attachment">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/mail-checkmark-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mail-checkmark-filled-symbolic.svg" width="16" alt="mail-checkmark-filled">
@@ -6902,6 +7016,9 @@
   <a href="build_icons/icons/fluentui-system-icons/mail-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mail-regular-symbolic.svg" width="16" alt="mail-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/mail-replied-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mail-replied-symbolic.svg" width="16" alt="mail-replied">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/mail-rewind-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mail-rewind-filled-symbolic.svg" width="16" alt="mail-rewind-filled">
   </a>
@@ -6910,6 +7027,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/mail-secure-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/mail-secure-symbolic.svg" width="16" alt="mail-secure">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/mail-send-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mail-send-symbolic.svg" width="16" alt="mail-send">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/mail-settings-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mail-settings-filled-symbolic.svg" width="16" alt="mail-settings-filled">
@@ -6931,6 +7051,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/mail-template-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mail-template-regular-symbolic.svg" width="16" alt="mail-template-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/mail-unread-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mail-unread-symbolic.svg" width="16" alt="mail-unread">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/mail-unread-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mail-unread-filled-symbolic.svg" width="16" alt="mail-unread-filled">
@@ -6967,6 +7090,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/map-marker-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/map-marker-symbolic.svg" width="16" alt="map-marker">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/map-marker-none-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/map-marker-none-symbolic.svg" width="16" alt="map-marker-none">
   </a>
   <a href="build_icons/icons/icon-development-kit/map-marker-small-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/map-marker-small-symbolic.svg" width="16" alt="map-marker-small">
@@ -7076,6 +7202,21 @@
   <a href="build_icons/icons/icon-development-kit/metronome-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/metronome-symbolic.svg" width="16" alt="metronome">
   </a>
+  <a href="build_icons/icons/icon-development-kit/mic-1-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mic-1-symbolic.svg" width="16" alt="mic-1">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/mic-2-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mic-2-symbolic.svg" width="16" alt="mic-2">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/mic-3-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mic-3-symbolic.svg" width="16" alt="mic-3">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/mic-4-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mic-4-symbolic.svg" width="16" alt="mic-4">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/mic-5-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mic-5-symbolic.svg" width="16" alt="mic-5">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/mic-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mic-filled-symbolic.svg" width="16" alt="mic-filled">
   </a>
@@ -7084,6 +7225,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/mic-link-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mic-link-regular-symbolic.svg" width="16" alt="mic-link-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/mic-none-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/mic-none-symbolic.svg" width="16" alt="mic-none">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/mic-off-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/mic-off-filled-symbolic.svg" width="16" alt="mic-off-filled">
@@ -7120,6 +7264,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/microphone-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/microphone-symbolic.svg" width="16" alt="microphone">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/microphone-outline-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/microphone-outline-symbolic.svg" width="16" alt="microphone-outline">
   </a>
   <a href="build_icons/icons/icon-development-kit/microphone2-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/microphone2-symbolic.svg" width="16" alt="microphone2">
@@ -7199,17 +7346,11 @@
   <a href="build_icons/icons/icon-development-kit/monitor-pick-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/monitor-pick-symbolic.svg" width="16" alt="monitor-pick">
   </a>
+  <a href="build_icons/icons/icon-development-kit/monorail-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/monorail-symbolic.svg" width="16" alt="monorail">
+  </a>
   <a href="build_icons/icons/icon-development-kit/month-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/month-symbolic.svg" width="16" alt="month">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/moon-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/moon-symbolic.svg" width="16" alt="moon">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/moon-alt-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/moon-alt-symbolic.svg" width="16" alt="moon-alt">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/moon-alt2-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/moon-alt2-symbolic.svg" width="16" alt="moon-alt2">
   </a>
   <a href="build_icons/icons/icon-development-kit/moon-clouds-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/moon-clouds-outline-symbolic.svg" width="16" alt="moon-clouds-outline">
@@ -7243,9 +7384,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/mountain-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/mountain-symbolic.svg" width="16" alt="mountain">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/mouse-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/mouse-symbolic.svg" width="16" alt="mouse">
   </a>
   <a href="build_icons/icons/icon-development-kit/mouse-click-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/mouse-click-symbolic.svg" width="16" alt="mouse-click">
@@ -7282,6 +7420,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/movies-and-tv-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/movies-and-tv-regular-symbolic.svg" width="16" alt="movies-and-tv-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/multimedia-player-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/multimedia-player-symbolic.svg" width="16" alt="multimedia-player">
   </a>
   <a href="build_icons/icons/icon-development-kit/multitasking-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/multitasking-symbolic.svg" width="16" alt="multitasking">
@@ -7370,6 +7511,27 @@
   <a href="build_icons/icons/fluentui-system-icons/network-adapter-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/network-adapter-regular-symbolic.svg" width="16" alt="network-adapter-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/network-cellular-2g-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/network-cellular-2g-symbolic.svg" width="16" alt="network-cellular-2g">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/network-cellular-3g-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/network-cellular-3g-symbolic.svg" width="16" alt="network-cellular-3g">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/network-cellular-4g-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/network-cellular-4g-symbolic.svg" width="16" alt="network-cellular-4g">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/network-cellular-5g-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/network-cellular-5g-symbolic.svg" width="16" alt="network-cellular-5g">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/network-cellular-edge-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/network-cellular-edge-symbolic.svg" width="16" alt="network-cellular-edge">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/network-cellular-gprs-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/network-cellular-gprs-symbolic.svg" width="16" alt="network-cellular-gprs">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/network-cellular-hspa-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/network-cellular-hspa-symbolic.svg" width="16" alt="network-cellular-hspa">
+  </a>
   <a href="build_icons/icons/icon-development-kit/network-cellular-no-data-signal-excellent-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/network-cellular-no-data-signal-excellent-symbolic.svg" width="16" alt="network-cellular-no-data-signal-excellent">
   </a>
@@ -7418,9 +7580,6 @@
   <a href="build_icons/icons/icon-development-kit/newspaper-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/newspaper-symbolic.svg" width="16" alt="newspaper">
   </a>
-  <a href="build_icons/icons/icon-development-kit/newspaper-rounded-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/newspaper-rounded-symbolic.svg" width="16" alt="newspaper-rounded">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/next-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/next-filled-symbolic.svg" width="16" alt="next-filled">
   </a>
@@ -7438,6 +7597,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/no-flying-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/no-flying-symbolic.svg" width="16" alt="no-flying">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/no-sound-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/no-sound-symbolic.svg" width="16" alt="no-sound">
   </a>
   <a href="build_icons/icons/icon-development-kit/no-toilets-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/no-toilets-symbolic.svg" width="16" alt="no-toilets">
@@ -7958,9 +8120,6 @@
   <a href="build_icons/icons/icon-development-kit/pencil-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/pencil-symbolic.svg" width="16" alt="pencil">
   </a>
-  <a href="build_icons/icons/icon-development-kit/pencil-and-paper-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/pencil-and-paper-symbolic.svg" width="16" alt="pencil-and-paper">
-  </a>
   <a href="build_icons/icons/icon-development-kit/pencil-and-paper-small-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/pencil-and-paper-small-symbolic.svg" width="16" alt="pencil-and-paper-small">
   </a>
@@ -8084,26 +8243,8 @@
   <a href="build_icons/icons/icon-development-kit/pepper-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/pepper-symbolic.svg" width="16" alt="pepper">
   </a>
-  <a href="build_icons/icons/icon-development-kit/permissions-advertising-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/permissions-advertising-symbolic.svg" width="16" alt="permissions-advertising">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/permissions-camera-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/permissions-camera-symbolic.svg" width="16" alt="permissions-camera">
-  </a>
   <a href="build_icons/icons/icon-development-kit/permissions-generic-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/permissions-generic-symbolic.svg" width="16" alt="permissions-generic">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/permissions-location-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/permissions-location-symbolic.svg" width="16" alt="permissions-location">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/permissions-microphone-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/permissions-microphone-symbolic.svg" width="16" alt="permissions-microphone">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/permissions-notifications-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/permissions-notifications-symbolic.svg" width="16" alt="permissions-notifications">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/permissions-password-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/permissions-password-symbolic.svg" width="16" alt="permissions-password">
   </a>
   <a href="build_icons/icons/icon-development-kit/person-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/person-symbolic.svg" width="16" alt="person">
@@ -8369,9 +8510,6 @@
   <a href="build_icons/icons/fluentui-system-icons/person-warning-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/person-warning-regular-symbolic.svg" width="16" alt="person-warning-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/person2-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/person2-symbolic.svg" width="16" alt="person2">
-  </a>
   <a href="build_icons/icons/icon-development-kit/pharmacy-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/pharmacy-symbolic.svg" width="16" alt="pharmacy">
   </a>
@@ -8573,6 +8711,9 @@
   <a href="build_icons/icons/icon-development-kit/play-large-diabled-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/play-large-diabled-symbolic.svg" width="16" alt="play-large-diabled">
   </a>
+  <a href="build_icons/icons/icon-development-kit/play-large-disabled-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/play-large-disabled-symbolic.svg" width="16" alt="play-large-disabled">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/play-multiple-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/play-multiple-filled-symbolic.svg" width="16" alt="play-multiple-filled">
   </a>
@@ -8593,6 +8734,15 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/playback-speed-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/playback-speed-symbolic.svg" width="16" alt="playback-speed">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/playground-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/playground-symbolic.svg" width="16" alt="playground">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/playground2-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/playground2-symbolic.svg" width="16" alt="playground2">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/playground3-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/playground3-symbolic.svg" width="16" alt="playground3">
   </a>
   <a href="build_icons/icons/icon-development-kit/playlist-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/playlist-symbolic.svg" width="16" alt="playlist">
@@ -8626,6 +8776,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/plug-disconnected-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/plug-disconnected-regular-symbolic.svg" width="16" alt="plug-disconnected-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/plug-dots-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/plug-dots-symbolic.svg" width="16" alt="plug-dots">
   </a>
   <a href="build_icons/icons/icon-development-kit/plus-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/plus-symbolic.svg" width="16" alt="plus">
@@ -8867,9 +9020,6 @@
   <a href="build_icons/icons/icon-development-kit/qr-code-scanner-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/qr-code-scanner-symbolic.svg" width="16" alt="qr-code-scanner">
   </a>
-  <a href="build_icons/icons/icon-development-kit/question-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/question-symbolic.svg" width="16" alt="question">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/question-circle-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/question-circle-filled-symbolic.svg" width="16" alt="question-circle-filled">
   </a>
@@ -8884,9 +9034,6 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/question-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/question-regular-symbolic.svg" width="16" alt="question-regular">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/question-round-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/question-round-symbolic.svg" width="16" alt="question-round">
   </a>
   <a href="build_icons/icons/icon-development-kit/question-round-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/question-round-outline-symbolic.svg" width="16" alt="question-round-outline">
@@ -8906,14 +9053,38 @@
   <a href="build_icons/icons/fluentui-system-icons/radio-button-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/radio-button-regular-symbolic.svg" width="16" alt="radio-button-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/radiowaves-1-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/radiowaves-1-symbolic.svg" width="16" alt="radiowaves-1">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/radiowaves-2-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/radiowaves-2-symbolic.svg" width="16" alt="radiowaves-2">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/radiowaves-3-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/radiowaves-3-symbolic.svg" width="16" alt="radiowaves-3">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/radiowaves-4-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/radiowaves-4-symbolic.svg" width="16" alt="radiowaves-4">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/radiowaves-5-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/radiowaves-5-symbolic.svg" width="16" alt="radiowaves-5">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/radiowaves-6-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/radiowaves-6-symbolic.svg" width="16" alt="radiowaves-6">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/radiowaves-dots-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/radiowaves-dots-symbolic.svg" width="16" alt="radiowaves-dots">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/radiowaves-none-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/radiowaves-none-symbolic.svg" width="16" alt="radiowaves-none">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/radiowaves-question-mark-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/radiowaves-question-mark-symbolic.svg" width="16" alt="radiowaves-question-mark">
+  </a>
   <a href="build_icons/icons/icon-development-kit/raid-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/raid-symbolic.svg" width="16" alt="raid">
   </a>
   <a href="build_icons/icons/icon-development-kit/rain-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/rain-symbolic.svg" width="16" alt="rain">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/rain-alt-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/rain-alt-symbolic.svg" width="16" alt="rain-alt">
   </a>
   <a href="build_icons/icons/icon-development-kit/rain-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/rain-outline-symbolic.svg" width="16" alt="rain-outline">
@@ -9049,12 +9220,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/recycling-bin-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/recycling-bin-symbolic.svg" width="16" alt="recycling-bin">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/refresh-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/refresh-symbolic.svg" width="16" alt="refresh">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/refresh-large-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/refresh-large-symbolic.svg" width="16" alt="refresh-large">
   </a>
   <a href="build_icons/icons/icon-development-kit/regex-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/regex-symbolic.svg" width="16" alt="regex">
@@ -9197,9 +9362,6 @@
   <a href="build_icons/icons/icon-development-kit/rotation-lock-disabled-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/rotation-lock-disabled-symbolic.svg" width="16" alt="rotation-lock-disabled">
   </a>
-  <a href="build_icons/icons/icon-development-kit/routing-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/routing-symbolic.svg" width="16" alt="routing">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/row-child-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/row-child-filled-symbolic.svg" width="16" alt="row-child-filled">
   </a>
@@ -9253,6 +9415,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/sad-computer-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/sad-computer-symbolic.svg" width="16" alt="sad-computer">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/sad-computer-alt-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/sad-computer-alt-symbolic.svg" width="16" alt="sad-computer-alt">
   </a>
   <a href="build_icons/icons/icon-development-kit/salami-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/salami-symbolic.svg" width="16" alt="salami">
@@ -9334,9 +9499,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/scanner-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/scanner-symbolic.svg" width="16" alt="scanner">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/scattered-clouds-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/scattered-clouds-symbolic.svg" width="16" alt="scattered-clouds">
   </a>
   <a href="build_icons/icons/icon-development-kit/school-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/school-symbolic.svg" width="16" alt="school">
@@ -9737,11 +9899,17 @@
   <a href="build_icons/icons/fluentui-system-icons/shield-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/shield-filled-symbolic.svg" width="16" alt="shield-filled">
   </a>
+  <a href="build_icons/icons/icon-development-kit/shield-full-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/shield-full-symbolic.svg" width="16" alt="shield-full">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/shield-globe-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/shield-globe-filled-symbolic.svg" width="16" alt="shield-globe-filled">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/shield-globe-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/shield-globe-regular-symbolic.svg" width="16" alt="shield-globe-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/shield-half-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/shield-half-symbolic.svg" width="16" alt="shield-half">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/shield-keyhole-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/shield-keyhole-filled-symbolic.svg" width="16" alt="shield-keyhole-filled">
@@ -9754,6 +9922,9 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/shield-lock-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/shield-lock-regular-symbolic.svg" width="16" alt="shield-lock-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/shield-outline-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/shield-outline-symbolic.svg" width="16" alt="shield-outline">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/shield-question-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/shield-question-filled-symbolic.svg" width="16" alt="shield-question-filled">
@@ -9818,9 +9989,6 @@
   <a href="build_icons/icons/icon-development-kit/shopping-cart-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/shopping-cart-symbolic.svg" width="16" alt="shopping-cart">
   </a>
-  <a href="build_icons/icons/icon-development-kit/showers-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/showers-symbolic.svg" width="16" alt="showers">
-  </a>
   <a href="build_icons/icons/icon-development-kit/sign-language-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/sign-language-symbolic.svg" width="16" alt="sign-language">
   </a>
@@ -9841,6 +10009,12 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/sim-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/sim-filled-symbolic.svg" width="16" alt="sim-filled">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/sim-lock-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/sim-lock-symbolic.svg" width="16" alt="sim-lock">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/sim-question-mark-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/sim-question-mark-symbolic.svg" width="16" alt="sim-question-mark">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/sim-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/sim-regular-symbolic.svg" width="16" alt="sim-regular">
@@ -9880,9 +10054,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/skull-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/skull-symbolic.svg" width="16" alt="skull">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/skull-small-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/skull-small-symbolic.svg" width="16" alt="skull-small">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/slash-forward-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/slash-forward-filled-symbolic.svg" width="16" alt="slash-forward-filled">
@@ -9950,9 +10121,6 @@
   <a href="build_icons/icons/fluentui-system-icons/slide-text-sparkle-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/slide-text-sparkle-regular-symbolic.svg" width="16" alt="slide-text-sparkle-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/small-x-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/small-x-symbolic.svg" width="16" alt="small-x">
-  </a>
   <a href="build_icons/icons/icon-development-kit/smartcard-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/smartcard-symbolic.svg" width="16" alt="smartcard">
   </a>
@@ -10000,6 +10168,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/sonar-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/sonar-symbolic.svg" width="16" alt="sonar">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/sound-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/sound-symbolic.svg" width="16" alt="sound">
   </a>
   <a href="build_icons/icons/icon-development-kit/sound-wave-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/sound-wave-symbolic.svg" width="16" alt="sound-wave">
@@ -10055,11 +10226,17 @@
   <a href="build_icons/icons/icon-development-kit/speaker-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/speaker-symbolic.svg" width="16" alt="speaker">
   </a>
+  <a href="build_icons/icons/icon-development-kit/speaker-0-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/speaker-0-symbolic.svg" width="16" alt="speaker-0">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/speaker-0-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/speaker-0-filled-symbolic.svg" width="16" alt="speaker-0-filled">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/speaker-0-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/speaker-0-regular-symbolic.svg" width="16" alt="speaker-0-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/speaker-1-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/speaker-1-symbolic.svg" width="16" alt="speaker-1">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/speaker-1-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/speaker-1-filled-symbolic.svg" width="16" alt="speaker-1-filled">
@@ -10067,11 +10244,20 @@
   <a href="build_icons/icons/fluentui-system-icons/speaker-1-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/speaker-1-regular-symbolic.svg" width="16" alt="speaker-1-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/speaker-2-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/speaker-2-symbolic.svg" width="16" alt="speaker-2">
+  </a>
   <a href="build_icons/icons/fluentui-system-icons/speaker-2-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/speaker-2-filled-symbolic.svg" width="16" alt="speaker-2-filled">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/speaker-2-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/speaker-2-regular-symbolic.svg" width="16" alt="speaker-2-regular">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/speaker-3-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/speaker-3-symbolic.svg" width="16" alt="speaker-3">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/speaker-4-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/speaker-4-symbolic.svg" width="16" alt="speaker-4">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/speaker-box-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/speaker-box-filled-symbolic.svg" width="16" alt="speaker-box-filled">
@@ -10105,6 +10291,15 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/speedometer-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/speedometer-symbolic.svg" width="16" alt="speedometer">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/speedometer-high-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/speedometer-high-symbolic.svg" width="16" alt="speedometer-high">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/speedometer-low-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/speedometer-low-symbolic.svg" width="16" alt="speedometer-low">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/speedometer-medium-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/speedometer-medium-symbolic.svg" width="16" alt="speedometer-medium">
   </a>
   <a href="build_icons/icons/icon-development-kit/speedometer2-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/speedometer2-symbolic.svg" width="16" alt="speedometer2">
@@ -10412,9 +10607,6 @@
   <a href="build_icons/icons/fluentui-system-icons/stop-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/stop-regular-symbolic.svg" width="16" alt="stop-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/stop-sign-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/stop-sign-symbolic.svg" width="16" alt="stop-sign">
-  </a>
   <a href="build_icons/icons/icon-development-kit/stop-sign-large-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/stop-sign-large-symbolic.svg" width="16" alt="stop-sign-large">
   </a>
@@ -10442,11 +10634,38 @@
   <a href="build_icons/icons/fluentui-system-icons/store-microsoft-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/store-microsoft-regular-symbolic.svg" width="16" alt="store-microsoft-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/storm-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/storm-symbolic.svg" width="16" alt="storm">
-  </a>
   <a href="build_icons/icons/icon-development-kit/storm-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/storm-outline-symbolic.svg" width="16" alt="storm-outline">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-bars-1-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-bars-1-symbolic.svg" width="16" alt="strength-bars-1">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-bars-3-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-bars-3-symbolic.svg" width="16" alt="strength-bars-3">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-bars-4-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-bars-4-symbolic.svg" width="16" alt="strength-bars-4">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-bars-5-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-bars-5-symbolic.svg" width="16" alt="strength-bars-5">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-bars-6-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-bars-6-symbolic.svg" width="16" alt="strength-bars-6">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-bars-7-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-bars-7-symbolic.svg" width="16" alt="strength-bars-7">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-bars-dots-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-bars-dots-symbolic.svg" width="16" alt="strength-bars-dots">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-bars-none-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-bars-none-symbolic.svg" width="16" alt="strength-bars-none">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-bars-question-mark-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-bars-question-mark-symbolic.svg" width="16" alt="strength-bars-question-mark">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/strength-nars-2-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/strength-nars-2-symbolic.svg" width="16" alt="strength-nars-2">
   </a>
   <a href="build_icons/icons/icon-development-kit/strong-language-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/strong-language-symbolic.svg" width="16" alt="strong-language">
@@ -10456,6 +10675,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/subtitles-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/subtitles-symbolic.svg" width="16" alt="subtitles">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/subtitles-alt-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/subtitles-alt-symbolic.svg" width="16" alt="subtitles-alt">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/subtitles-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/subtitles-filled-symbolic.svg" width="16" alt="subtitles-filled">
@@ -10514,20 +10736,17 @@
   <a href="build_icons/icons/icon-development-kit/subway-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/subway-symbolic.svg" width="16" alt="subway">
   </a>
-  <a href="build_icons/icons/icon-development-kit/success-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/success-symbolic.svg" width="16" alt="success">
-  </a>
   <a href="build_icons/icons/icon-development-kit/success-small-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/success-small-symbolic.svg" width="16" alt="success-small">
   </a>
-  <a href="build_icons/icons/icon-development-kit/sun-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/sun-symbolic.svg" width="16" alt="sun">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/sun-alt-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/sun-alt-symbolic.svg" width="16" alt="sun-alt">
-  </a>
   <a href="build_icons/icons/icon-development-kit/sun-outline-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/sun-outline-symbolic.svg" width="16" alt="sun-outline">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/sun-with-moon-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/sun-with-moon-symbolic.svg" width="16" alt="sun-with-moon">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/sun-with-moon-none-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/sun-with-moon-none-symbolic.svg" width="16" alt="sun-with-moon-none">
   </a>
   <a href="build_icons/icons/icon-development-kit/symbolic-link-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/symbolic-link-symbolic.svg" width="16" alt="symbolic-link">
@@ -10946,6 +11165,9 @@
   <a href="build_icons/icons/icon-development-kit/task-recurring-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/task-recurring-symbolic.svg" width="16" alt="task-recurring">
   </a>
+  <a href="build_icons/icons/icon-development-kit/taxi-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/taxi-symbolic.svg" width="16" alt="taxi">
+  </a>
   <a href="build_icons/icons/icon-development-kit/tea-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/tea-symbolic.svg" width="16" alt="tea">
   </a>
@@ -10990,9 +11212,6 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/tetris-app-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/tetris-app-regular-symbolic.svg" width="16" alt="tetris-app-regular">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/text-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/text-symbolic.svg" width="16" alt="text">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/text-align-center-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/text-align-center-filled-symbolic.svg" width="16" alt="text-align-center-filled">
@@ -11047,9 +11266,6 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/text-align-right-rotate-90-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/text-align-right-rotate-90-regular-symbolic.svg" width="16" alt="text-align-right-rotate-90-regular">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/text-alt-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/text-alt-symbolic.svg" width="16" alt="text-alt">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/text-arrow-down-right-column-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/text-arrow-down-right-column-filled-symbolic.svg" width="16" alt="text-arrow-down-right-column-filled">
@@ -11161,9 +11377,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/text-direction-ltr-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/text-direction-ltr-symbolic.svg" width="16" alt="text-direction-ltr">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/text-direction-rtl-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/text-direction-rtl-symbolic.svg" width="16" alt="text-direction-rtl">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/text-edit-style-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/text-edit-style-filled-symbolic.svg" width="16" alt="text-edit-style-filled">
@@ -11417,12 +11630,6 @@
   <a href="build_icons/icons/fluentui-system-icons/text-wrap-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/text-wrap-regular-symbolic.svg" width="16" alt="text-wrap-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/text2-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/text2-symbolic.svg" width="16" alt="text2">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/text3-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/text3-symbolic.svg" width="16" alt="text3">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/textbox-align-bottom-center-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/textbox-align-bottom-center-filled-symbolic.svg" width="16" alt="textbox-align-bottom-center-filled">
   </a>
@@ -11522,8 +11729,14 @@
   <a href="build_icons/icons/icon-development-kit/thumbs-down-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/thumbs-down-symbolic.svg" width="16" alt="thumbs-down">
   </a>
+  <a href="build_icons/icons/icon-development-kit/thumbs-down-outline-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/thumbs-down-outline-symbolic.svg" width="16" alt="thumbs-down-outline">
+  </a>
   <a href="build_icons/icons/icon-development-kit/thumbs-up-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/thumbs-up-symbolic.svg" width="16" alt="thumbs-up">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/thumbs-up-outline-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/thumbs-up-outline-symbolic.svg" width="16" alt="thumbs-up-outline">
   </a>
   <a href="build_icons/icons/icon-development-kit/thunderbolt-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/thunderbolt-symbolic.svg" width="16" alt="thunderbolt">
@@ -11561,11 +11774,20 @@
   <a href="build_icons/icons/icon-development-kit/timer-sand-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/timer-sand-symbolic.svg" width="16" alt="timer-sand">
   </a>
+  <a href="build_icons/icons/icon-development-kit/tip-pressure-firm-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/tip-pressure-firm-symbolic.svg" width="16" alt="tip-pressure-firm">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/tip-pressure-soft-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/tip-pressure-soft-symbolic.svg" width="16" alt="tip-pressure-soft">
+  </a>
   <a href="build_icons/icons/icon-development-kit/today-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/today-symbolic.svg" width="16" alt="today">
   </a>
   <a href="build_icons/icons/icon-development-kit/today-alt-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/today-alt-symbolic.svg" width="16" alt="today-alt">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/toggle-group-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/toggle-group-symbolic.svg" width="16" alt="toggle-group">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/toggle-left-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/toggle-left-filled-symbolic.svg" width="16" alt="toggle-left-filled">
@@ -11669,9 +11891,6 @@
   <a href="build_icons/icons/icon-development-kit/transparent-background-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/transparent-background-symbolic.svg" width="16" alt="transparent-background">
   </a>
-  <a href="build_icons/icons/icon-development-kit/tree-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/tree-symbolic.svg" width="16" alt="tree">
-  </a>
   <a href="build_icons/icons/icon-development-kit/tree-circle-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/tree-circle-symbolic.svg" width="16" alt="tree-circle">
   </a>
@@ -11680,9 +11899,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/tree-triangle-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/tree-triangle-symbolic.svg" width="16" alt="tree-triangle">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/tree2-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/tree2-symbolic.svg" width="16" alt="tree2">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/triangle-down-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/triangle-down-filled-symbolic.svg" width="16" alt="triangle-down-filled">
@@ -11708,6 +11924,12 @@
   <a href="build_icons/icons/fluentui-system-icons/triangle-right-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/triangle-right-regular-symbolic.svg" width="16" alt="triangle-right-regular">
   </a>
+  <a href="build_icons/icons/icon-development-kit/triangular-antenna-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/triangular-antenna-symbolic.svg" width="16" alt="triangular-antenna">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/trolley-bus-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/trolley-bus-symbolic.svg" width="16" alt="trolley-bus">
+  </a>
   <a href="build_icons/icons/icon-development-kit/trophy-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/trophy-symbolic.svg" width="16" alt="trophy">
   </a>
@@ -11731,6 +11953,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/tty-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/tty-symbolic.svg" width="16" alt="tty">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/turn-off-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/turn-off-symbolic.svg" width="16" alt="turn-off">
   </a>
   <a href="build_icons/icons/icon-development-kit/tv-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/tv-symbolic.svg" width="16" alt="tv">
@@ -11761,6 +11986,9 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/up-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/up-symbolic.svg" width="16" alt="up">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/up-arrow-in-a-star-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/up-arrow-in-a-star-symbolic.svg" width="16" alt="up-arrow-in-a-star">
   </a>
   <a href="build_icons/icons/icon-development-kit/up-large-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/up-large-symbolic.svg" width="16" alt="up-large">
@@ -12038,6 +12266,9 @@
   <a href="build_icons/icons/icon-development-kit/view-switcher-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/view-switcher-symbolic.svg" width="16" alt="view-switcher">
   </a>
+  <a href="build_icons/icons/icon-development-kit/view-wrapped-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/view-wrapped-symbolic.svg" width="16" alt="view-wrapped">
+  </a>
   <a href="build_icons/icons/icon-development-kit/violence-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/violence-symbolic.svg" width="16" alt="violence">
   </a>
@@ -12131,9 +12362,6 @@
   <a href="build_icons/icons/fluentui-system-icons/wand-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/wand-regular-symbolic.svg" width="16" alt="wand-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/warning-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/warning-symbolic.svg" width="16" alt="warning">
-  </a>
   <a href="build_icons/icons/fluentui-system-icons/warning-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/warning-filled-symbolic.svg" width="16" alt="warning-filled">
   </a>
@@ -12155,8 +12383,11 @@
   <a href="build_icons/icons/fluentui-system-icons/water-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/water-regular-symbolic.svg" width="16" alt="water-regular">
   </a>
-  <a href="build_icons/icons/icon-development-kit/weather-alert-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/weather-alert-symbolic.svg" width="16" alt="weather-alert">
+  <a href="build_icons/icons/icon-development-kit/waves-7-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/waves-7-symbolic.svg" width="16" alt="waves-7">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/waves-and-screen-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/waves-and-screen-symbolic.svg" width="16" alt="waves-and-screen">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/weather-moon-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/weather-moon-filled-symbolic.svg" width="16" alt="weather-moon-filled">
@@ -12175,9 +12406,6 @@
   </a>
   <a href="build_icons/icons/fluentui-system-icons/weather-partly-cloudy-day-regular-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/weather-partly-cloudy-day-regular-symbolic.svg" width="16" alt="weather-partly-cloudy-day-regular">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/weather-showers-scattered-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/weather-showers-scattered-symbolic.svg" width="16" alt="weather-showers-scattered">
   </a>
   <a href="build_icons/icons/fluentui-system-icons/weather-sunny-filled-symbolic.svg">
     <img src="build_icons/icons/fluentui-system-icons/weather-sunny-filled-symbolic.svg" width="16" alt="weather-sunny-filled">
@@ -12320,6 +12548,21 @@
   <a href="build_icons/icons/icon-development-kit/wine-glasses-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/wine-glasses-symbolic.svg" width="16" alt="wine-glasses">
   </a>
+  <a href="build_icons/icons/icon-development-kit/wired-lock-closed-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/wired-lock-closed-symbolic.svg" width="16" alt="wired-lock-closed">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/wired-lock-dots-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/wired-lock-dots-symbolic.svg" width="16" alt="wired-lock-dots">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/wired-lock-none-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/wired-lock-none-symbolic.svg" width="16" alt="wired-lock-none">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/wired-lock-open-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/wired-lock-open-symbolic.svg" width="16" alt="wired-lock-open">
+  </a>
+  <a href="build_icons/icons/icon-development-kit/wired-lock-question-mark-symbolic.svg">
+    <img src="build_icons/icons/icon-development-kit/wired-lock-question-mark-symbolic.svg" width="16" alt="wired-lock-question-mark">
+  </a>
   <a href="build_icons/icons/icon-development-kit/work-week-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/work-week-symbolic.svg" width="16" alt="work-week">
   </a>
@@ -12331,9 +12574,6 @@
   </a>
   <a href="build_icons/icons/icon-development-kit/wrench-wide-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/wrench-wide-symbolic.svg" width="16" alt="wrench-wide">
-  </a>
-  <a href="build_icons/icons/icon-development-kit/x-circular-symbolic.svg">
-    <img src="build_icons/icons/icon-development-kit/x-circular-symbolic.svg" width="16" alt="x-circular">
   </a>
   <a href="build_icons/icons/icon-development-kit/xbox-controller-symbolic.svg">
     <img src="build_icons/icons/icon-development-kit/xbox-controller-symbolic.svg" width="16" alt="xbox-controller">

@@ -59,18 +59,9 @@ impl IconFilter for FluentFilter {
 }
 
 fn main() {
-    // TODO: Automate once https://gitlab.gnome.org/Teams/Design/icon-development-kit/-/issues/126
-    //  if resolved
-    {
-        let path = "../source/icon-development-kit/export";
-        if Path::new(path).exists() {
-            let mut list = HashMap::new();
-            analyze_dir::<DevKitFilter>(path, &mut list);
-            copy_files("../build_icons/icons/icon-development-kit", list);
-        } else {
-            eprintln!("{path} not found, ignoring");
-        }
-    }
+    let mut list = HashMap::new();
+    analyze_dir::<DevKitFilter>("../source/icon-development-kit-www/img/symbolic", &mut list);
+    copy_files("../build_icons/icons/icon-development-kit", list);
 
     let mut list = HashMap::new();
     analyze_dir::<FluentFilter>("../source/fluentui-system-icons/assets", &mut list);

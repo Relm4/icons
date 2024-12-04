@@ -89,7 +89,7 @@ pub fn bundle_icons<P, I, S>(
                 let icon_path = dir.join(icon_file_name);
                 icon_path.exists().then_some(icon_path)
             })
-            .unwrap_or_else(|| panic!("Icon with name `{icon}` exists twice"));
+            .unwrap_or_else(|| panic!("Icon with name `{icon}` does not exist"));
 
         if icons.insert(icon.to_string(), icon_path).is_some() {
             panic!("Icon with name `{icon}` exists twice");
