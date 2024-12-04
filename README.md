@@ -127,12 +127,6 @@ Existing icon sets can be updated as submodules with following commands:
 git submodule update --remote --checkout
 rm -rf build_icons/icons/fluentui-system-icons
 rm -rf build_icons/icons/icon-development-kit
-```
-
-Now use <https://flathub.org/apps/org.gnome.design.SymbolicPreview> to dump all icons under `source/icon-development-kit/export`.
-
-Finally copy the and re-generate necessary files:
-```sh
 cd update_icons
 cargo run --bin fetch_icons
 cargo run
