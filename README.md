@@ -9,6 +9,22 @@
 
 More than 3000 icons, ready for use in your app!
 
+## Installing librsvg
+
+The `relm4-icons` crate relies on `librsvg` for rendering SVG icons. Ensure that `librsvg` is installed on your system before using this crate. The installation process varies depending on your operating system.
+
+```bash
+# Linux (Debian/Ubuntu)
+sudo apt update
+sudo apt install librsvg2-dev
+
+# Macos
+brew install librsvg
+
+# Windows
+gvsbuild build librsvg
+```
+
 ## Usage
 
 ### 1. Find your icons 🔍
