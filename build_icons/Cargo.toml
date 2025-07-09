@@ -12,4 +12,4 @@ repository = "https://github.com/Relm4/icons"
 [dependencies]
 gvdb = { version = "0.8.0", features = ["gresource"] }
 serde = { version = "1.0.214", features = ["derive"] }
-toml = { version = "0.8.19" }
+toml = { version = "0.9.0" }
