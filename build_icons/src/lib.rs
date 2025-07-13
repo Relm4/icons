@@ -46,6 +46,7 @@ pub fn bundle_icons<P, I, S>(
     base_resource_path: Option<&str>,
     icons_folder: Option<P>,
     icon_names: I,
+    bundled_icon_prefix: Option<&str>,
 ) where
     P: AsRef<Path>,
     I: IntoIterator<Item = S>,
@@ -53,7 +54,9 @@ pub fn bundle_icons<P, I, S>(
 {
     let out_dir = env::var("OUT_DIR").unwrap();
     let out_dir = Path::new(&out_dir);
-    let mut icons: HashMap<String, PathBuf> = HashMap::new();
+    // key: icon identifier, with prefix if any
+    // value: (path to icon, const name)
+    let mut icons: HashMap<String, (PathBuf, String)> = HashMap::new();
 
     if let Some(folder) = &icons_folder {
         println!("cargo:rerun-if-changed={}", folder.as_ref().display());
@@ -62,7 +65,13 @@ pub fn bundle_icons<P, I, S>(
         for entry in read_dir {
             let entry = entry.unwrap();
             if let Some(icon) = path_to_icon_name(&entry.file_name()) {
-                if icons.insert(icon.clone(), entry.path()).is_some() {
+                let ident = if let Some(prefix) = bundled_icon_prefix {
+                    String::from(prefix) + &icon
+                } else {
+                    icon.clone()
+                };
+                let const_name = icon.to_uppercase().replace("-", "_");
+                if icons.insert(ident, (entry.path(), const_name)).is_some() {
                     panic!("Icon with name `{icon}` exists twice");
                 }
             }
@@ -91,13 +100,19 @@ pub fn bundle_icons<P, I, S>(
             })
             .unwrap_or_else(|| panic!("Icon with name `{icon}` does not exist"));
 
-        if icons.insert(icon.to_string(), icon_path).is_some() {
+        let ident = if let Some(prefix) = bundled_icon_prefix {
+            String::from(prefix) + icon
+        } else {
+            icon.to_string()
+        };
+        let const_name = icon.to_uppercase().replace("-", "_");
+        if icons.insert(ident, (icon_path, const_name)).is_some() {
             panic!("Icon with name `{icon}` exists twice");
         }
     }
 
     let prefix = if let Some(base_resource_path) = &base_resource_path {
-        format!("{}/icons", base_resource_path)
+        format!("{base_resource_path}/icons")
     } else if let Some(app_id) = app_id {
         format!("/{}/icons", app_id.replace('.', "/"))
     } else {
@@ -109,7 +124,7 @@ pub fn bundle_icons<P, I, S>(
     {
         let resources = icons
             .iter()
-            .map(|(icon, path)| {
+            .map(|(icon, (path, _))| {
                 GResourceFileData::from_file(
                     format!("{prefix}/scalable/actions/{icon}-symbolic.svg"),
                     path,
@@ -131,8 +146,7 @@ pub fn bundle_icons<P, I, S>(
     {
         let mut out_file = BufWriter::new(File::create(out_dir.join(out_file_name)).unwrap());
 
-        for (icon, icon_path) in icons {
-            let const_name = icon.to_uppercase().replace('-', "_");
+        for (icon, (icon_path, const_name)) in icons {
             let path = icon_path.display();
             write!(
                 out_file,

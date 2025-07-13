@@ -76,6 +76,8 @@ fn main() {
             "size-horizontally",
             "cross",
         ],
+        // prefix for the bundled icons' identifiers
+        None::<&str>,
     );
 }
 ```
