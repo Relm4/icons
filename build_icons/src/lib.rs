@@ -9,7 +9,7 @@ use std::io::BufWriter;
 use std::io::Write;
 use std::path::{Path, PathBuf};
 
-use gvdb::gresource::{GResourceBuilder, GResourceFileData, PreprocessOptions};
+use gvdb::gresource::{BundleBuilder, FileData, PreprocessOptions};
 
 /// Constants file with paths to icons.
 pub mod constants {
@@ -110,7 +110,7 @@ pub fn bundle_icons<P, I, S>(
         let resources = icons
             .iter()
             .map(|(icon, path)| {
-                GResourceFileData::from_file(
+                FileData::from_file(
                     format!("{prefix}/scalable/actions/{icon}-symbolic.svg"),
                     path,
                     true,
@@ -120,7 +120,7 @@ pub fn bundle_icons<P, I, S>(
             })
             .collect();
 
-        let data = GResourceBuilder::from_file_data(resources)
+        let data = BundleBuilder::from_file_data(resources)
             .build()
             .expect("Failed to build resource bundle");
 
