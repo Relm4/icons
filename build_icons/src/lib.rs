@@ -15,6 +15,7 @@ use gvdb::gresource::{BundleBuilder, FileData, PreprocessOptions};
 pub mod constants {
     pub const SHIPPED_ICONS_PATH: &str =
         include_str!(concat!(env!("OUT_DIR"), "/shipped_icons.txt"));
+    pub const CUSTOM_ICONS_POSTFIX: &str = "8d627ac0b83820db9fdbef63c2f7ce5a6ff9f435";
 }
 
 const GENERAL_PREFIX: &str = "/org/relm4/icons";
@@ -26,9 +27,10 @@ pub fn path_to_icon_name(string: &OsStr) -> Option<String> {
             if string.ends_with(".svg") {
                 Some(
                     string
-                        .trim_end_matches("-symbolic.svg")
+                        .trim_end_matches("bolic.svg")
                         .trim_end_matches(".svg")
-                        .to_owned(),
+                        .to_owned()
+                        + constants::CUSTOM_ICONS_POSTFIX,
                 )
             } else {
                 println!("Found non-icon file `{string}`, ignoring");
@@ -111,7 +113,16 @@ pub fn bundle_icons<P, I, S>(
             .iter()
             .map(|(icon, path)| {
                 FileData::from_file(
-                    format!("{prefix}/scalable/actions/{icon}-symbolic.svg"),
+                    match icon.ends_with(constants::CUSTOM_ICONS_POSTFIX) {
+                        true => {
+                            let icon = icon.trim_end_matches(constants::CUSTOM_ICONS_POSTFIX);
+                            match icon.ends_with("-sym") {
+                                true => format!("{prefix}/scalable/actions/{icon}bolic.svg"),
+                                false => format!("{prefix}/scalable/actions/{icon}.svg"),
+                            }
+                        }
+                        false => format!("{prefix}/scalable/actions/{icon}-symbolic.svg"),
+                    },
                     path,
                     true,
                     &PreprocessOptions::xml_stripblanks(),
@@ -132,7 +143,20 @@ pub fn bundle_icons<P, I, S>(
         let mut out_file = BufWriter::new(File::create(out_dir.join(out_file_name)).unwrap());
 
         for (icon, icon_path) in icons {
-            let const_name = icon.to_uppercase().replace('-', "_");
+            let const_name = icon
+                .trim_end_matches(constants::CUSTOM_ICONS_POSTFIX)
+                .to_uppercase()
+                .replace('-', "_");
+            let icon = match icon.ends_with(constants::CUSTOM_ICONS_POSTFIX) {
+                true => {
+                    let icon = icon.trim_end_matches(constants::CUSTOM_ICONS_POSTFIX);
+                    match icon.ends_with("-sym") {
+                        true => format!("{icon}bolic"),
+                        false => format!("{icon}"),
+                    }
+                }
+                false => icon,
+            };
             let path = icon_path.display();
             write!(
                 out_file,
