@@ -7,14 +7,12 @@ use std::fs;
 use std::fs::File;
 use std::io::BufWriter;
 use std::io::Write;
-use std::panic;
 use std::path::{Path, PathBuf};
 
 use gvdb::gresource::{BundleBuilder, FileData, PreprocessOptions};
 
 /// Stores data for each icon:
 /// - `path`: actual location on disk
-/// - `is_symbolic`: true if this should be treated as a symbolic icon
 /// - `is_shipped`: true if this icon is part of the shipped set
 struct IconData {
     path: PathBuf,
