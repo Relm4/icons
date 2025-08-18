@@ -12,10 +12,10 @@ use std::path::{Path, PathBuf};
 use gvdb::gresource::{BundleBuilder, FileData, PreprocessOptions};
 
 /// Stores data for each icon:
-/// - `path`: actual location on disk
-/// - `is_shipped`: true if this icon is part of the shipped set
 struct IconData {
+    /// actual location on disk
     path: PathBuf,
+    /// whether the icon is part of the shipped set
     is_shipped: bool,
 }
 
@@ -66,6 +66,7 @@ pub fn bundle_icons<P, I, S>(
     // Package custom icons
     if let Some(folder) = &icons_folder {
         println!("cargo:rerun-if-changed={}", folder.as_ref().display());
+
         let read_dir = fs::read_dir(folder)
             .expect("Couldn't open icon path specified in config (relative to the manifest)");
         for entry in read_dir {
