@@ -167,7 +167,7 @@ pub fn bundle_icons<P, I, S>(
             write!(
                 out_file,
                 "/// Icon name of the icon `{icon}`, found at `{path}`\n\
-                pub const {const_name}: &str = \"{icon}\";\n"
+                pub const {const_name}: &str = \"{icon}-symbolic\";\n"
             )
             .unwrap();
         }
