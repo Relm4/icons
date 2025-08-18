@@ -1,9 +1,5 @@
 //! Utilities for build scripts using `relm4-icons`.
 
-use anyhow::Context as _;
-use anyhow::Error;
-use anyhow::Result;
-
 use std::collections::HashMap;
 use std::env;
 use std::ffi::OsStr;
@@ -25,20 +21,23 @@ pub mod constants {
 const GENERAL_PREFIX: &str = "/org/relm4/icons";
 
 /// Convert file name to icon name
-pub fn path_to_icon_name(string: &OsStr) -> Result<Option<String>> {
-    let path = string
-        .to_str()
-        .with_context(|| format!("Failed to convert file name `{string:?}` to string"))?;
-    if path.ends_with(".svg") {
-        Ok(Some(
-            path.trim_end_matches("bolic.svg")
-                .trim_end_matches(".svg")
-                .to_owned()
-                + constants::CUSTOM_ICONS_POSTFIX,
-        ))
-    } else {
-        println!("Found non-icon file `{path}`, ignoring");
-        Ok(None)
+pub fn path_to_icon_name(string: &OsStr) -> Option<String> {
+    match string.to_str() {
+        Some(string) => {
+            if string.ends_with(".svg") {
+                Some(
+                    string
+                        .trim_end_matches("bolic.svg")
+                        .trim_end_matches(".svg")
+                        .to_owned()
+                        + constants::CUSTOM_ICONS_POSTFIX,
+                )
+            } else {
+                println!("Found non-icon file `{string}`, ignoring");
+                None
+            }
+        }
+        None => panic!("Failed to convert file name `{string:?}` to string"),
     }
 }
 
@@ -49,8 +48,7 @@ pub fn bundle_icons<P, I, S>(
     base_resource_path: Option<&str>,
     icons_folder: Option<P>,
     icon_names: I,
-) -> Result<(), Box<dyn std::error::Error>>
-where
+) where
     P: AsRef<Path>,
     I: IntoIterator<Item = S>,
     S: AsRef<str>,
@@ -62,12 +60,12 @@ where
     if let Some(folder) = &icons_folder {
         println!("cargo:rerun-if-changed={}", folder.as_ref().display());
         let read_dir = fs::read_dir(folder)
-            .context("Couldn't open icon path specified in config (relative to the manifest)")?;
+            .expect("Couldn't open icon path specified in config (relative to the manifest)");
         for entry in read_dir {
             let entry = entry.unwrap();
-            if let Some(icon) = path_to_icon_name(&entry.file_name())? {
+            if let Some(icon) = path_to_icon_name(&entry.file_name()) {
                 if icons.insert(icon.clone(), entry.path()).is_some() {
-                    return Err(format!("Icon with name `{icon}` exists twice").into());
+                    panic!("Icon with name `{icon}` exists twice");
                 }
             }
         }
@@ -75,14 +73,14 @@ where
 
     let shipped_icons_folder = constants::SHIPPED_ICONS_PATH;
 
-    let dirs: Vec<PathBuf> = fs::read_dir(shipped_icons_folder)
-        .with_context(|| format!("Couldn't open folder of shipped icons: {shipped_icons_folder}"))?
+    let dirs = fs::read_dir(shipped_icons_folder)
+        .expect("Couldn't open folder of shipped icons")
         .map(|entry| {
-            // I'm not sure about sanity of this code
-            let entry = entry.context("Couldn't open directories in shipped icon folder")?;
-            Ok::<PathBuf, Error>(entry.path())
+            entry
+                .expect("Couldn't open directories in shipped icon folder")
+                .path()
         })
-        .collect::<Result<Vec<_>, _>>()?;
+        .collect::<Vec<_>>();
 
     for icon in icon_names {
         let icon = icon.as_ref();
@@ -93,10 +91,10 @@ where
                 let icon_path = dir.join(icon_file_name);
                 icon_path.exists().then_some(icon_path)
             })
-            .with_context(|| format!("Icon with name `{icon}` does not exist"))?;
+            .unwrap_or_else(|| panic!("Icon with name `{icon}` does not exist"));
 
         if icons.insert(icon.to_string(), icon_path).is_some() {
-            return Err(format!("Icon with name `{icon}` exists twice").into());
+            panic!("Icon with name `{icon}` exists twice");
         }
     }
 
@@ -135,7 +133,7 @@ where
 
         let data = BundleBuilder::from_file_data(resources)
             .build()
-            .context("Failed to build resource bundle")?;
+            .expect("Failed to build resource bundle");
 
         fs::write(out_dir.join(&gresource_file_name), data).unwrap();
     }
@@ -164,7 +162,8 @@ where
                 out_file,
                 "/// Icon name of the icon `{icon}`, found at `{path}`\n\
                 pub const {const_name}: &str = \"{icon}\";\n"
-            )?;
+            )
+            .unwrap();
         }
 
         write!(
@@ -173,7 +172,7 @@ where
             pub const GRESOURCE_BYTES: &[u8] = include_bytes!(\"{gresource_file_name}\");\n\
             /// Resource prefix used in generated `.gresource` file\n\
             pub const RESOURCE_PREFIX: &str = \"{prefix}\";"
-        )?;
-        Ok(())
+        )
+        .unwrap();
     }
 }
