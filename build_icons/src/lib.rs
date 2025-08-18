@@ -11,6 +11,14 @@ use std::path::{Path, PathBuf};
 
 use gvdb::gresource::{BundleBuilder, FileData, PreprocessOptions};
 
+/// Stores data for each icon:
+/// - `path`: actual location on disk
+/// - `is_shipped`: true if this icon is part of the shipped set
+struct IconData {
+    path: PathBuf,
+    is_shipped: bool,
+}
+
 /// Constants file with paths to icons.
 pub mod constants {
     pub const SHIPPED_ICONS_PATH: &str =
@@ -20,18 +28,13 @@ pub mod constants {
 
 const GENERAL_PREFIX: &str = "/org/relm4/icons";
 
-/// Convert file name to icon name
+/// Parse a filename into icon name.
+/// - Strips `.svg`
 pub fn path_to_icon_name(string: &OsStr) -> Option<String> {
     match string.to_str() {
         Some(string) => {
             if string.ends_with(".svg") {
-                Some(
-                    string
-                        .trim_end_matches("bolic.svg")
-                        .trim_end_matches(".svg")
-                        .to_owned()
-                        + constants::CUSTOM_ICONS_POSTFIX,
-                )
+                Some(string.trim_end_matches(".svg").to_owned())
             } else {
                 println!("Found non-icon file `{string}`, ignoring");
                 None
@@ -41,7 +44,10 @@ pub fn path_to_icon_name(string: &OsStr) -> Option<String> {
     }
 }
 
-/// Bundles icons into a GResource file and generates constants for icon names.
+/// Bundles icons into a `.gresource` file and generates Rust constants for icon names.
+///
+/// - Custom icons keep their original symbolic state based on the filename.
+/// - Shipped icons are always treated as symbolic internally, but their constant names do **not** get `_SYMBOLIC`.
 pub fn bundle_icons<P, I, S>(
     out_file_name: &str,
     app_id: Option<&str>,
@@ -55,8 +61,9 @@ pub fn bundle_icons<P, I, S>(
 {
     let out_dir = env::var("OUT_DIR").unwrap();
     let out_dir = Path::new(&out_dir);
-    let mut icons: HashMap<String, PathBuf> = HashMap::new();
+    let mut icons: HashMap<String, IconData> = HashMap::new();
 
+    // Package custom icons
     if let Some(folder) = &icons_folder {
         println!("cargo:rerun-if-changed={}", folder.as_ref().display());
         let read_dir = fs::read_dir(folder)
@@ -64,7 +71,16 @@ pub fn bundle_icons<P, I, S>(
         for entry in read_dir {
             let entry = entry.unwrap();
             if let Some(icon) = path_to_icon_name(&entry.file_name()) {
-                if icons.insert(icon.clone(), entry.path()).is_some() {
+                if icons
+                    .insert(
+                        icon.clone(),
+                        IconData {
+                            path: entry.path(),
+                            is_shipped: false,
+                        },
+                    )
+                    .is_some()
+                {
                     panic!("Icon with name `{icon}` exists twice");
                 }
             }
@@ -93,7 +109,16 @@ pub fn bundle_icons<P, I, S>(
             })
             .unwrap_or_else(|| panic!("Icon with name `{icon}` does not exist"));
 
-        if icons.insert(icon.to_string(), icon_path).is_some() {
+        if icons
+            .insert(
+                icon.to_string(),
+                IconData {
+                    path: icon_path,
+                    is_shipped: true,
+                },
+            )
+            .is_some()
+        {
             panic!("Icon with name `{icon}` exists twice");
         }
     }
@@ -111,17 +136,12 @@ pub fn bundle_icons<P, I, S>(
     {
         let resources = icons
             .iter()
-            .map(|(icon, path)| {
+            .map(|(icon, IconData { path, is_shipped })| {
                 FileData::from_file(
-                    match icon.ends_with(constants::CUSTOM_ICONS_POSTFIX) {
-                        true => {
-                            let icon = icon.trim_end_matches(constants::CUSTOM_ICONS_POSTFIX);
-                            match icon.ends_with("-sym") {
-                                true => format!("{prefix}/scalable/actions/{icon}bolic.svg"),
-                                false => format!("{prefix}/scalable/actions/{icon}.svg"),
-                            }
-                        }
-                        false => format!("{prefix}/scalable/actions/{icon}-symbolic.svg"),
+                    if *is_shipped {
+                        format!("{prefix}/scalable/actions/{icon}-symbolic.svg")
+                    } else {
+                        format!("{prefix}/scalable/actions/{icon}.svg")
                     },
                     path,
                     true,
@@ -142,22 +162,9 @@ pub fn bundle_icons<P, I, S>(
     {
         let mut out_file = BufWriter::new(File::create(out_dir.join(out_file_name)).unwrap());
 
-        for (icon, icon_path) in icons {
-            let const_name = icon
-                .trim_end_matches(constants::CUSTOM_ICONS_POSTFIX)
-                .to_uppercase()
-                .replace('-', "_");
-            let icon = match icon.ends_with(constants::CUSTOM_ICONS_POSTFIX) {
-                true => {
-                    let icon = icon.trim_end_matches(constants::CUSTOM_ICONS_POSTFIX);
-                    match icon.ends_with("-sym") {
-                        true => format!("{icon}bolic"),
-                        false => format!("{icon}"),
-                    }
-                }
-                false => icon,
-            };
-            let path = icon_path.display();
+        for (icon, IconData { path, .. }) in icons {
+            let const_name = icon.to_uppercase().replace('-', "_");
+            let path = path.display();
             write!(
                 out_file,
                 "/// Icon name of the icon `{icon}`, found at `{path}`\n\
