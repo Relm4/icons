@@ -2,7 +2,6 @@
 
 use std::collections::HashMap;
 use std::env;
-use std::ffi::OsStr;
 use std::fs;
 use std::fs::File;
 use std::io::BufWriter;
@@ -10,6 +9,7 @@ use std::io::Write;
 use std::path::{Path, PathBuf};
 
 use gvdb::gresource::{BundleBuilder, FileData, PreprocessOptions};
+use walkdir::WalkDir;
 
 /// Stores data for each icon:
 struct IconData {
@@ -23,24 +23,27 @@ struct IconData {
 pub mod constants {
     pub const SHIPPED_ICONS_PATH: &str =
         include_str!(concat!(env!("OUT_DIR"), "/shipped_icons.txt"));
-    pub const CUSTOM_ICONS_POSTFIX: &str = "8d627ac0b83820db9fdbef63c2f7ce5a6ff9f435";
 }
 
 const GENERAL_PREFIX: &str = "/org/relm4/icons";
 
 /// Parse a filename into icon name.
 /// - Strips `.svg`
-pub fn path_to_icon_name(string: &OsStr) -> Option<String> {
-    match string.to_str() {
-        Some(string) => {
-            if string.ends_with(".svg") {
-                Some(string.trim_end_matches(".svg").to_owned())
+pub fn path_to_icon_alias(path: impl AsRef<Path>) -> Option<String> {
+    match path.as_ref().to_str() {
+        Some(path) => {
+            if path.ends_with(".svg") {
+                println!("{path}");
+                Some(path.trim_end_matches(".svg").to_owned())
             } else {
-                println!("Found non-icon file `{string}`, ignoring");
+                println!("Found non-icon file `{path}`, ignoring");
                 None
             }
         }
-        None => panic!("Failed to convert file name `{string:?}` to string"),
+        None => panic!(
+            "Failed to convert file path `{:?}` to string",
+            path.as_ref()
+        ),
     }
 }
 
@@ -67,16 +70,16 @@ pub fn bundle_icons<P, I, S>(
     if let Some(folder) = &icons_folder {
         println!("cargo:rerun-if-changed={}", folder.as_ref().display());
 
-        let read_dir = fs::read_dir(folder)
-            .expect("Couldn't open icon path specified in config (relative to the manifest)");
+        let read_dir = WalkDir::new(folder);
         for entry in read_dir {
-            let entry = entry.unwrap();
-            if let Some(icon) = path_to_icon_name(&entry.file_name()) {
+            let entry = entry
+                .expect("Couldn't open icon path specified in config (relative to the manifest)");
+            if let Some(icon) = path_to_icon_alias(&entry.path()) {
                 if icons
                     .insert(
-                        icon.clone(),
+                        icon.replace("/", "-").clone(),
                         IconData {
-                            path: entry.path(),
+                            path: entry.path().to_path_buf(),
                             is_shipped: false,
                         },
                     )
@@ -163,17 +166,83 @@ pub fn bundle_icons<P, I, S>(
     {
         let mut out_file = BufWriter::new(File::create(out_dir.join(out_file_name)).unwrap());
 
-        for (icon, IconData { path, .. }) in icons {
-            let const_name = icon.to_uppercase().replace('-', "_");
-            let path = path.display();
-            write!(
-                out_file,
-                "/// Icon name of the icon `{icon}`, found at `{path}`\n\
-                pub const {const_name}: &str = \"{icon}\";\n"
-            )
-            .unwrap();
+        writeln!(
+            out_file,
+            "pub mod shipped {{\n\
+            //! module contains shipped icons\n"
+        )
+        .unwrap();
+        for (icon, IconData { path, is_shipped }) in &icons {
+            if *is_shipped {
+                let const_name = icon.to_uppercase().replace('-', "_");
+                let path = path.display();
+                writeln!(
+                    out_file,
+                    "/// Icon name of the icon `{icon}`, found at `{path}`\n\
+                    pub const {const_name}: &str = \"{icon}\";"
+                )
+                .unwrap();
+            }
         }
+        writeln!(out_file, "}}\n").unwrap();
 
+        writeln!(
+            out_file,
+            "pub mod custom {{\n\
+            //! module contains user's custom icons\n"
+        )
+        .unwrap();
+        let mut modules: std::collections::BTreeMap<String, Vec<(String, String)>> =
+            std::collections::BTreeMap::new();
+        for (icon, IconData { path, is_shipped }) in &icons {
+            if !*is_shipped {
+                let path_vec = path
+                    .strip_prefix(&icons_folder.as_ref().unwrap())
+                    .unwrap()
+                    .to_str()
+                    .unwrap()
+                    .split('/')
+                    .collect::<Vec<_>>();
+
+                let file_name = path_vec.last().unwrap().trim_end_matches(".svg");
+                let dir_components = &path_vec[..path_vec.len() - 1];
+
+                let const_name = file_name.to_uppercase().replace('-', "_");
+                modules
+                    .entry(dir_components.join("-"))
+                    .or_default()
+                    .push((const_name, icon.to_string()));
+            }
+        }
+        for (module_path, constants) in &modules {
+            if module_path.is_empty() {
+                for (const_name, const_value) in constants {
+                    writeln!(
+                        out_file,
+                        "pub const {}: &str = \"{}\";",
+                        const_name, const_value
+                    )
+                    .unwrap();
+                }
+            } else {
+                let mod_parts: Vec<&str> = module_path.split('-').collect();
+                for part in mod_parts.iter() {
+                    writeln!(out_file, "pub mod {} {{", part.replace('-', "_")).unwrap();
+                }
+                for (const_name, const_value) in constants {
+                    writeln!(
+                        out_file,
+                        "pub const {}: &str = \"{}\";",
+                        const_name, const_value
+                    )
+                    .unwrap();
+                }
+                for _ in (0..mod_parts.len()).rev() {
+                    writeln!(out_file, "}}").unwrap();
+                }
+            }
+        }
+        write!(out_file, "}}\n").unwrap();
         write!(
             out_file,
             "/// GResource file contents\n\
