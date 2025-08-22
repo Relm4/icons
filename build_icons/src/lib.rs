@@ -1,6 +1,6 @@
 //! Utilities for build scripts using `relm4-icons`.
 
-use std::collections::HashMap;
+use std::collections::{BTreeMap, HashMap};
 use std::env;
 use std::fs;
 use std::fs::File;
@@ -9,6 +9,8 @@ use std::io::Write;
 use std::path::{Path, PathBuf};
 
 use gvdb::gresource::{BundleBuilder, FileData, PreprocessOptions};
+use serde::Deserialize;
+use serde::Serialize;
 use walkdir::WalkDir;
 
 /// Stores data for each icon:
@@ -18,6 +20,9 @@ struct IconData {
     /// whether the icon is part of the shipped set
     is_shipped: bool,
 }
+
+#[derive(Serialize, Deserialize)]
+struct Config {}
 
 /// Constants file with paths to icons.
 pub mod constants {
@@ -193,11 +198,10 @@ pub fn bundle_icons<P, I, S>(
             //! module contains user's custom icons\n"
         )
         .unwrap();
-        let mut modules: std::collections::BTreeMap<String, Vec<(String, String)>> =
-            std::collections::BTreeMap::new();
+        let mut modules = BTreeMap::<Vec<&str>, Vec<(String, String)>>::new();
         for (icon, IconData { path, is_shipped }) in &icons {
             if !*is_shipped {
-                let path_vec = path
+                let mut path_vec = path
                     .strip_prefix(&icons_folder.as_ref().unwrap())
                     .unwrap()
                     .to_str()
@@ -205,12 +209,12 @@ pub fn bundle_icons<P, I, S>(
                     .split('/')
                     .collect::<Vec<_>>();
 
-                let file_name = path_vec.last().unwrap().trim_end_matches(".svg");
-                let dir_components = &path_vec[..path_vec.len() - 1];
+                let file_name = path_vec.pop().unwrap().trim_end_matches(".svg");
+                let dir_components = path_vec;
 
                 let const_name = file_name.to_uppercase().replace('-', "_");
                 modules
-                    .entry(dir_components.join("-"))
+                    .entry(dir_components)
                     .or_default()
                     .push((const_name, icon.to_string()));
             }
@@ -226,8 +230,7 @@ pub fn bundle_icons<P, I, S>(
                     .unwrap();
                 }
             } else {
-                let mod_parts: Vec<&str> = module_path.split('-').collect();
-                for part in mod_parts.iter() {
+                for part in module_path.iter() {
                     writeln!(out_file, "pub mod {} {{", part.replace('-', "_")).unwrap();
                 }
                 for (const_name, const_value) in constants {
@@ -238,7 +241,7 @@ pub fn bundle_icons<P, I, S>(
                     )
                     .unwrap();
                 }
-                for _ in (0..mod_parts.len()).rev() {
+                for _ in (0..module_path.len()).rev() {
                     writeln!(out_file, "}}").unwrap();
                 }
             }
