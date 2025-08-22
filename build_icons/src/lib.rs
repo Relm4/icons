@@ -79,7 +79,7 @@ pub fn bundle_icons<P, I, S>(
         for entry in read_dir {
             let entry = entry
                 .expect("Couldn't open icon path specified in config (relative to the manifest)");
-            if let Some(icon) = path_to_icon_alias(&entry.path()) {
+            if let Some(icon) = path_to_icon_alias(entry.path()) {
                 if icons
                     .insert(
                         icon.replace("/", "-").clone(),
@@ -133,7 +133,7 @@ pub fn bundle_icons<P, I, S>(
     }
 
     let prefix = if let Some(base_resource_path) = &base_resource_path {
-        format!("{}/icons", base_resource_path)
+        format!("{base_resource_path}/icons")
     } else if let Some(app_id) = app_id {
         format!("/{}/icons", app_id.replace('.', "/"))
     } else {
@@ -202,7 +202,7 @@ pub fn bundle_icons<P, I, S>(
         for (icon, IconData { path, is_shipped }) in &icons {
             if !*is_shipped {
                 let mut path_vec = path
-                    .strip_prefix(&icons_folder.as_ref().unwrap())
+                    .strip_prefix(icons_folder.as_ref().unwrap())
                     .unwrap()
                     .to_str()
                     .unwrap()
@@ -224,8 +224,7 @@ pub fn bundle_icons<P, I, S>(
                 for (const_name, const_value) in constants {
                     writeln!(
                         out_file,
-                        "pub const {}: &str = \"{}\";",
-                        const_name, const_value
+                        "pub const {const_name}: &str = \"{const_value}\";"
                     )
                     .unwrap();
                 }
@@ -236,8 +235,7 @@ pub fn bundle_icons<P, I, S>(
                 for (const_name, const_value) in constants {
                     writeln!(
                         out_file,
-                        "pub const {}: &str = \"{}\";",
-                        const_name, const_value
+                        "pub const {const_name}: &str = \"{const_value}\";"
                     )
                     .unwrap();
                 }
@@ -246,7 +244,7 @@ pub fn bundle_icons<P, I, S>(
                 }
             }
         }
-        write!(out_file, "}}\n").unwrap();
+        writeln!(out_file, "}}").unwrap();
         write!(
             out_file,
             "/// GResource file contents\n\
