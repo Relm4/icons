@@ -171,7 +171,7 @@ pub fn bundle_icons<P, I, S>(
     {
         let mut out_file = BufWriter::new(File::create(out_dir.join(out_file_name)).unwrap());
 
-        writeln!(out_file, "#![rustfmt::skip]").unwrap();
+        writeln!(out_file, "#[rustfmt::skip]").unwrap();
         writeln!(
             out_file,
             "pub mod shipped {{\n\

@@ -74,7 +74,7 @@ fn main() {
         [
             "ssd",
             "size-horizontally",
-            "cross",
+            "cross-small",
         ],
     );
 }
@@ -86,6 +86,7 @@ Add this to your initialization code:
 
 ```rust
 mod icon_names {
+    pub use shipped::*; // Include all shipped icons by default
     include!(concat!(env!("OUT_DIR"), "/icon_names.rs"));
 }
 

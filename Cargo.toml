@@ -4,7 +4,7 @@ members = ["update_icons", "build_icons"]
 
 [workspace.package]
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
-version = "0.10.0-beta.3"
+version = "0.10.0-beta.4"
 edition = "2021"
 rust-version = "1.75"
 license = "(Apache-2.0 OR MIT) AND CC0-1.0 AND MIT"
@@ -32,6 +32,9 @@ repository.workspace = true
 
 keywords.workspace = true
 categories.workspace = true
+
+# Don't ship submodules
+exclude = ["source/"]
 
 [dependencies]
 gtk = { version = "0.10", package = "gtk4" }
