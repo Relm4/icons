@@ -4,7 +4,7 @@
 [![Matrix](https://img.shields.io/matrix/relm4:matrix.org?label=matrix%20chat)](https://matrix.to/#/#relm4:matrix.org)
 [![Relm4 icons on crates.io](https://img.shields.io/crates/v/relm4-icons.svg)](https://crates.io/crates/relm4-icons)
 [![Relm4 icons docs](https://img.shields.io/badge/rust-documentation-blue)](https://docs.rs/relm4_icons/)
-![Minimum Rust version 1.75](https://img.shields.io/badge/rustc-1.65+-06a096.svg)
+![Minimum Rust version 1.85](https://img.shields.io/badge/rustc-1.85+-06a096.svg)
 [![dependency status](https://deps.rs/repo/github/Relm4/icons/status.svg)](https://deps.rs/repo/github/Relm4/icons)
 
 More than 3000 icons, ready for use in your app!
