@@ -239,7 +239,7 @@ pub fn bundle_icons<P, I, S>(
                     )
                     .unwrap();
                 }
-                for _ in (0..module_path.len()).rev() {
+                for _ in 0..module_path.len() {
                     writeln!(out_file, "}}").unwrap();
                 }
             }
