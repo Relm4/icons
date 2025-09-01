@@ -47,10 +47,10 @@ For browsing all shipped icons:
 ### 2. Add Relm4 icons ✍
 
 ```toml
-relm4-icons = "0.10.0-beta.1"
+relm4-icons = "0.10"
 
 [build-dependencies]
-relm4-icons-build = "0.10.0-beta.1"
+relm4-icons-build = "0.10"
 ```
 
 ### 3. Add the icons to your project 📦
