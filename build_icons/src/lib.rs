@@ -247,7 +247,7 @@ pub fn bundle_icons<P, I, S>(
         writeln!(out_file, "}}").unwrap();
         write!(
             out_file,
-            "/// GResource file contents\n\
+            "/// `GResource` file contents\n\
             pub const GRESOURCE_BYTES: &[u8] = include_bytes!(\"{gresource_file_name}\");\n\
             /// Resource prefix used in generated `.gresource` file\n\
             pub const RESOURCE_PREFIX: &str = \"{prefix}\";"
