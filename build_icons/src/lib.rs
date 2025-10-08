@@ -185,7 +185,7 @@ pub fn bundle_icons<P, I, S>(
                 writeln!(
                     out_file,
                     "/// Icon name of the icon `{icon}`, found at `{path}`\n\
-                    pub const {const_name}: &str = \"{icon}\";"
+                    pub const {const_name}: &str = r\"{icon}\";"
                 )
                 .unwrap();
             }
@@ -224,7 +224,7 @@ pub fn bundle_icons<P, I, S>(
                 for (const_name, const_value) in constants {
                     writeln!(
                         out_file,
-                        "pub const {const_name}: &str = \"{const_value}\";"
+                        "pub const {const_name}: &str = r\"{const_value}\";"
                     )
                     .unwrap();
                 }
@@ -235,7 +235,7 @@ pub fn bundle_icons<P, I, S>(
                 for (const_name, const_value) in constants {
                     writeln!(
                         out_file,
-                        "pub const {const_name}: &str = \"{const_value}\";"
+                        "pub const {const_name}: &str = r\"{const_value}\";"
                     )
                     .unwrap();
                 }
