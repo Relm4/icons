@@ -6,7 +6,7 @@ use std::fs;
 use std::fs::File;
 use std::io::BufWriter;
 use std::io::Write;
-use std::path::{Path, PathBuf};
+use std::path::{Path, PathBuf, MAIN_SEPARATOR};
 
 use gvdb::gresource::{BundleBuilder, FileData, PreprocessOptions};
 use serde::Deserialize;
@@ -82,7 +82,7 @@ pub fn bundle_icons<P, I, S>(
             if let Some(icon) = path_to_icon_alias(entry.path()) {
                 if icons
                     .insert(
-                        icon.replace("/", "-").clone(),
+                        icon.replace(MAIN_SEPARATOR, "-").clone(),
                         IconData {
                             path: entry.path().to_path_buf(),
                             is_shipped: false,
@@ -185,7 +185,7 @@ pub fn bundle_icons<P, I, S>(
                 writeln!(
                     out_file,
                     "/// Icon name of the icon `{icon}`, found at `{path}`\n\
-                    pub const {const_name}: &str = r\"{icon}\";"
+                    pub const {const_name}: &str = \"{icon}\";"
                 )
                 .unwrap();
             }
@@ -206,7 +206,7 @@ pub fn bundle_icons<P, I, S>(
                     .unwrap()
                     .to_str()
                     .unwrap()
-                    .split('/')
+                    .split(MAIN_SEPARATOR)
                     .collect::<Vec<_>>();
 
                 let file_name = path_vec.pop().unwrap().trim_end_matches(".svg");
@@ -224,7 +224,7 @@ pub fn bundle_icons<P, I, S>(
                 for (const_name, const_value) in constants {
                     writeln!(
                         out_file,
-                        "pub const {const_name}: &str = r\"{const_value}\";"
+                        "pub const {const_name}: &str = \"{const_value}\";"
                     )
                     .unwrap();
                 }
@@ -235,7 +235,7 @@ pub fn bundle_icons<P, I, S>(
                 for (const_name, const_value) in constants {
                     writeln!(
                         out_file,
-                        "pub const {const_name}: &str = r\"{const_value}\";"
+                        "pub const {const_name}: &str = \"{const_value}\";"
                     )
                     .unwrap();
                 }
