@@ -6,7 +6,7 @@ use std::fs;
 use std::fs::File;
 use std::io::BufWriter;
 use std::io::Write;
-use std::path::{Path, PathBuf, MAIN_SEPARATOR};
+use std::path::{Path, PathBuf};
 
 use gvdb::gresource::{BundleBuilder, FileData, PreprocessOptions};
 use serde::Deserialize;
@@ -82,7 +82,7 @@ pub fn bundle_icons<P, I, S>(
             if let Some(icon) = path_to_icon_alias(entry.path()) {
                 if icons
                     .insert(
-                        icon.replace(MAIN_SEPARATOR, "-").clone(),
+                        icon.replace('/', "-").replace('\\', "-").clone(),
                         IconData {
                             path: entry.path().to_path_buf(),
                             is_shipped: false,
@@ -206,7 +206,7 @@ pub fn bundle_icons<P, I, S>(
                     .unwrap()
                     .to_str()
                     .unwrap()
-                    .split(MAIN_SEPARATOR)
+                    .split(&['/', '\\'])
                     .collect::<Vec<_>>();
 
                 let file_name = path_vec.pop().unwrap().trim_end_matches(".svg");
