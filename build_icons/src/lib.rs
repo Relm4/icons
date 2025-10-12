@@ -82,7 +82,7 @@ pub fn bundle_icons<P, I, S>(
             if let Some(icon) = path_to_icon_alias(entry.path()) {
                 if icons
                     .insert(
-                        icon.replace("/", "-").clone(),
+                        icon.replace('/', "-").replace('\\', "-").clone(),
                         IconData {
                             path: entry.path().to_path_buf(),
                             is_shipped: false,
@@ -206,7 +206,7 @@ pub fn bundle_icons<P, I, S>(
                     .unwrap()
                     .to_str()
                     .unwrap()
-                    .split('/')
+                    .split(&['/', '\\'])
                     .collect::<Vec<_>>();
 
                 let file_name = path_vec.pop().unwrap().trim_end_matches(".svg");
