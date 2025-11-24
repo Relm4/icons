@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='media-playlist-shuffle'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 13 6 L 15 4 L 13 2 M 13 14 L 15 12 L 13 10'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 15 4 L 9.3779974 4 C 8.5334692 3.99999976, 7.76142502 4.47714949, 7.3837409 5.2325182 L 4.6162591 10.7674818 C 4.23857498 11.52285, 3.46653056 12, 2.62200284 12 L 0 12 M 15 12 L 9.3779974 12 C 8.5334692 12, 7.76142502 11.522851, 7.3837409 10.7674818 L 4.6162591 5.2325182 C 4.23857498 4.47714949, 3.46653056 4, 2.62200284 4 L 0 4'
+        id='path7'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

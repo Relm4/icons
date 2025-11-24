@@ -19,14 +19,31 @@ struct DevKitFilter;
 
 impl IconFilter for DevKitFilter {
     fn icon_name(path: &Path) -> Option<String> {
-        let file_name = path.file_name().unwrap().to_str().unwrap();
-        file_name
-            .ends_with("-symbolic.svg")
-            .then(|| file_name.into())
+        let stem = path.file_stem().unwrap().to_str().unwrap();
+        Some(if stem.ends_with("-symbolic") {
+            format!("{stem}.svg")
+        } else {
+            format!("{stem}-symbolic.svg")
+        })
     }
 
     fn alt_icon_name2(name: &str) -> String {
         name.replace("-symbolic.svg", "-devkit-alt-symbolic.svg")
+    }
+}
+
+struct DevKitWwwFilter;
+
+impl IconFilter for DevKitWwwFilter {
+    fn icon_name(path: &Path) -> Option<String> {
+        let file_name = path.file_name().unwrap().to_str().unwrap();
+        file_name
+          .ends_with("-symbolic.svg")
+          .then(|| file_name.into())
+    }
+
+    fn alt_icon_name2(name: &str) -> String {
+        name.replace("-symbolic.svg", "-devkit-www-alt-symbolic.svg")
     }
 }
 
@@ -60,7 +77,11 @@ impl IconFilter for FluentFilter {
 
 fn main() {
     let mut list = HashMap::new();
-    analyze_dir::<DevKitFilter>("../source/icon-development-kit-www/img/symbolic", &mut list);
+    analyze_dir::<DevKitWwwFilter>("../source/icon-development-kit-www/img/symbolic", &mut list);
+    copy_files("../build_icons/icons/icon-development-kit-www", list);
+
+    let mut list = HashMap::new();
+    analyze_dir::<DevKitFilter>("../source/icon-development-kit/icons", &mut list);
     copy_files("../build_icons/icons/icon-development-kit", list);
 
     let mut list = HashMap::new();

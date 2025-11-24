@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="15.976562px" viewBox="0 0 16 15.976562" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 5 1.976562 v 3 h 3 v -3 z m 3 3 v 3 h 3 v -3 z m 3 0 h 3 v -3 h -3 z m 0 3 v 3 h 3 v -3 z m 0 3 h -3 v 3 h 3 z m -3 0 v -3 h -3 v 3 z m -3 0 h -3 v 3 h 3 z m 0 -3 v -3 h -3 v 3 z m 0 0" fill="#222222"/>
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='transparent transparency grid checkerboard'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 0 12 L 4 12 L 4 16 L 0 16 Z M 0 12 L 4 12 L 4 16 L 0 16 Z M 8 12 L 12 12 L 12 16 L 8 16 Z M 12 8 L 16 8 L 16 12 L 12 12 Z M 4 8 L 8 8 L 8 12 L 4 12 Z M 0 4 L 4 4 L 4 8 L 0 8 Z M 8 4 L 12 4 L 12 8 L 8 8 Z M 12 0 L 16 0 L 16 4 L 12 4 Z M 4 0 L 8 0 L 8 4 L 4 4 Z'
+        id='rect9'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+  <path d='M 0 4 L 16 4 M 0 8 L 16 8 M 0 12 L 16 12 M 12 0 L 12 16 M 8 0 L 8 16 M 4 0 L 4 16'
+        id='path6'
+        gpa:states='0'
+        stroke-width='1'
+        stroke-linecap='butt'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+  <path d='M 0 12 L 4 12 L 4 16 L 0 16 Z M 0 12 L 4 12 L 4 16 L 0 16 Z M 8 12 L 12 12 L 12 16 L 8 16 Z M 12 8 L 16 8 L 16 12 L 12 12 Z M 4 8 L 8 8 L 8 12 L 4 12 Z M 0 4 L 4 4 L 4 8 L 0 8 Z M 8 4 L 12 4 L 12 8 L 8 8 Z M 12 0 L 16 0 L 16 4 L 12 4 Z M 4 0 L 8 0 L 8 4 L 4 4 Z'
+        id='path7'
+        gpa:states='0'
+        stroke='none'
+        fill-rule='nonzero'
+        fill-opacity='0.35'
+        fill='rgb(0,0,0)'
+        class='foreground-fill not-initial-state'
+        gpa:fill='foreground'/>
 </svg>

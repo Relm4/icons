@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 7 0 v 5.175781 c -1.160156 0.414063 -2 1.527344 -2 2.824219 s 0.839844 2.410156 2 2.824219 v 5.175781 h 2 v -5.175781 c 1.160156 -0.414063 2 -1.527344 2 -2.824219 s -0.839844 -2.410156 -2 -2.824219 v -5.175781 z m 1 6.5 c 0.828125 0 1.5 0.671875 1.5 1.5 s -0.671875 1.5 -1.5 1.5 s -1.5 -0.671875 -1.5 -1.5 s 0.671875 -1.5 1.5 -1.5 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='version control git svn commit'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 0 L 8 5.75 M 8 10.25 L 8 16'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 10.25 8 C 10.25 9.2426405, 9.2426405 10.25, 8 10.25 C 6.7573595 10.25, 5.75 9.2426405, 5.75 8 C 5.75 6.7573595, 6.7573595 5.75, 8 5.75 C 9.2426405 5.75, 10.25 6.7573595, 10.25 8 Z'
+        id='circle2'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

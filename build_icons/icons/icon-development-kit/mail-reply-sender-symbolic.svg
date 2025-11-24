@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='mail-reply-sender arrow bent left'>
+  <path d='M 1 7 L 12 7 C 13.6568537 7, 15 8.34314537, 15 10 L 15 13 M 5 3 L 1 7 L 5 11'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

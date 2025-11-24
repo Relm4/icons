@@ -1,0 +1,31 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='proxy arrow wall firewall settings-proxy'>
+  <path d='M 8 1 L 8 15'
+        id='path0'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.5 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 3 5 L 6 8 L 3 11 M 1 8 L 6 8'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 12 5 L 15 8 L 12 11 M 10 8 L 15 8'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

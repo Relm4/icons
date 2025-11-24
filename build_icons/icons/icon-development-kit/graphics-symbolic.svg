@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='applications-graphics colors color-palette controller gamepad'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 1 C 4.13400698 1, 1 4.13400698, 1 8 Q 1 8.15926456, 1.00699067 8.31682301 C 1.04864526 9.25845814, 2.05507541 10, 3 10 L 4 10 C 5.1079998 10, 6 10.8920002, 6 12 L 6 13.1885328 C 6 14.0293341, 6.65793753 14.9228783, 7.49496603 14.9821835 Q 7.74516106 14.9999104, 8 15 C 11.8659925 15, 15 11.8659925, 15 8 C 15 4.13400698, 11.8659925 1, 8 1 Z'
+        id='border'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 12.5 9.5 C 12.5 10.0522852, 12.0522852 10.5, 11.5 10.5 C 10.9477148 10.5, 10.5 10.0522852, 10.5 9.5 C 10.5 8.94771481, 10.9477148 8.5, 11.5 8.5 C 12.0522852 8.5, 12.5 8.94771481, 12.5 9.5 Z M 11.5 5.5 C 11.5 6.05228472, 11.0522852 6.5, 10.5 6.5 C 9.94771481 6.5, 9.5 6.05228472, 9.5 5.5 C 9.5 4.94771528, 9.94771481 4.5, 10.5 4.5 C 11.0522852 4.5, 11.5 4.94771528, 11.5 5.5 Z M 7.5 4.5 C 7.5 5.05228472, 7.05228472 5.5, 6.5 5.5 C 5.94771528 5.5, 5.5 5.05228472, 5.5 4.5 C 5.5 3.94771528, 5.94771528 3.5, 6.5 3.5 C 7.05228472 3.5, 7.5 3.94771528, 7.5 4.5 Z'
+        id='holes'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

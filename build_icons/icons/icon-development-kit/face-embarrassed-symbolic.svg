@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='face-embarrassed person smile :)'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 8 C 1 11.8659935, 4.13400698 15, 8 15 C 11.8659935 15, 15 11.8659935, 15 8 C 15 4.13400698, 11.8659935 1, 8 1 C 4.13400698 1, 1 4.13400698, 1 8 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 13 9 C 13 9.55228519, 12.5522852 10, 12 10 C 11.4477148 10, 11 9.55228519, 11 9 C 11 8.44771481, 11.4477148 8, 12 8 C 12.5522852 8, 13 8.44771481, 13 9 Z M 5 9 C 5 9.55228519, 4.55228472 10, 4 10 C 3.44771528 10, 3 9.55228519, 3 9 C 3 8.44771481, 3.44771528 8, 4 8 C 4.55228472 8, 5 8.44771481, 5 9 Z M 6 10.5 L 10 10.5 M 10.999999 6.49655151 L 9.99310303 6.49655151 C 9.71505642 6.49655151, 10.2185049 5.99310303, 10.4965534 5.99310303 C 10.7745981 5.99310303, 11.2780457 6.49655151, 10.999999 6.49655151 Z M 6.03448296 6.49655151 L 5.02758598 6.49655151 C 4.74953938 6.49655151, 5.25298786 5.99310303, 5.53103447 5.99310303 C 5.80908108 5.99310303, 6.31252956 6.49655151, 6.03448296 6.49655151 Z'
+        id='circle3'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

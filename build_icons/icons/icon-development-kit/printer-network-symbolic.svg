@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 3.992188 0 c -1.089844 0 -2 0.910156 -2 2 v 3 c -1.109376 0 -2.0000005 0.890625 -2.0000005 2 v 1.988281 c 0 1.109375 0.8906245 2 2.0000005 2 h 4.988281 v 1.28125 c -0.289063 0.171875 -0.535157 0.414063 -0.710938 0.703125 h -3.28125 c -0.554687 0 -1 0.449219 -1 1 c 0 0.550782 0.445313 1 1 1 h 3.246094 c 0.351563 0.640625 1.023437 1.035156 1.753906 1.039063 c 0.726563 -0.003907 1.398438 -0.398438 1.75 -1.039063 h 3.261719 c 0.550781 0 1 -0.449218 1 -1 c 0 -0.550781 -0.449219 -1 -1 -1 h -3.292969 c -0.175781 -0.289062 -0.421875 -0.53125 -0.714843 -0.703125 v -1.28125 h 5 c 1.109374 0 2 -0.890625 2 -2 v -1.988281 c 0 -1.109375 -0.890626 -2 -2 -2 v -0.722656 c 0 -0.570313 -0.210938 -1.121094 -0.589844 -1.546875 l -1.816406 -2.050781 c -0.382813 -0.429688 -0.9375 -0.679688 -1.515626 -0.679688 z m 0 2 h 6.066406 l 1.933594 2 v 2.019531 h -8 z m 3.988281 11 h 0.011719 c 0.554687 0.003906 1 0.453125 1 1.007812 c 0 0.554688 -0.449219 1.003907 -1.003907 1.003907 c -0.558593 0 -1.007812 -0.449219 -1.007812 -1.003907 c 0 -0.554687 0.445312 -1.003906 1 -1.007812 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='printer printing paper sheet lpt document-print printer-network'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 5 4 L 5 2 C 5 1.44771528, 5.44771528 1, 6 1 L 10 1 C 10.5522852 1, 11 1.44771528, 11 2 L 11 4 M 1 6 L 1 9 C 1 9.55228519, 1.44771528 10, 2 10 L 14 10 C 14.5522852 10, 15 9.55228519, 15 9 L 15 6 C 15 4.89543056, 14.1045694 4, 13 4 L 3 4 C 1.89543045 4, 1 4.89543056, 1 6 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <circle cx='8' cy='14' r='1.5'
+        id='path1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 8 12.5 L 8 10 M 6.5 14 L 1 14 M 9.5 14 L 15 14'
+        id='path4'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

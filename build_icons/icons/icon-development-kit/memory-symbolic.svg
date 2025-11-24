@@ -1,11 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 3 2 c -1.660156 0 -3 1.339844 -3 3 v 4 c 0 1.308594 0.832031 2.417969 2 2.828125 v 2.171875 h 12 v -2.171875 c 1.167969 -0.410156 2 -1.519531 2 -2.828125 v -4 c 0 -1.660156 -1.339844 -3 -3 -3 z m 0 2 h 10 c 0.554688 0 1 0.445312 1 1 v 4 c 0 0.554688 -0.445312 1 -1 1 h -10 c -0.554688 0 -1 -0.445312 -1 -1 v -4 c 0 -0.554688 0.445312 -1 1 -1 z m 0 0"/>
-        <g fill-opacity="0.501961">
-            <path d="m 4 5 h 2 v 4 h -2 z m 0 0"/>
-            <path d="m 7 5 h 2 v 4 h -2 z m 0 0"/>
-            <path d="m 10 5 h 2 v 4 h -2 z m 0 0"/>
-        </g>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='ram chip computer component silicon memory isa slot'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 3 1 C 1.89199996 1, 1 1.89199996, 1 3 L 1 9 C 1 9.7432127, 1.40133905 10.3895502, 2 10.734375 L 2 14 L 7 14 C 7 12.8954306, 7.89543056 12, 9 12 C 10.1045694 12, 11 12.8954306, 11 14 L 14 14 L 14 10.734375 C 14.5986614 10.3895502, 15 9.7432127, 15 9 L 15 3 C 15 1.89199996, 14.1079998 1, 13 1 L 3 1 Z'
+        id='border'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 10.5 4.5 L 10.5 7.5 L 11.5 7.5 L 11.5 4.5 Z M 7.5 4.5 L 7.5 7.5 L 8.5 7.5 L 8.5 4.5 Z M 4.5 4.5 L 4.5 7.5 L 5.5 7.5 L 5.5 4.5 Z'
+        id='pseudofill'
+        gpa:states='1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 10.5 4.5 L 10.5 7.5 L 11.5 7.5 L 11.5 4.5 Z M 7.5 4.5 L 7.5 7.5 L 8.5 7.5 L 8.5 4.5 Z M 4.5 4.5 L 4.5 7.5 L 5.5 7.5 L 5.5 4.5 Z'
+        id='outline'
+        gpa:states='0'
+        stroke-width='0.5'
+        stroke-linecap='round'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 0.5 1'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
 </svg>

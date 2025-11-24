@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='face-kiss person smile :)'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 8 C 1 11.8659935, 4.13400698 15, 8 15 C 11.8659935 15, 15 11.8659935, 15 8 C 15 4.13400698, 11.8659935 1, 8 1 C 4.13400698 1, 1 4.13400698, 1 8 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 9.49642658 6.57334566 L 9.49642658 6.49892664 C 9.49642658 5.94723463, 9.94366074 5.50000048, 10.4953527 5.50000048 L 10.5010529 5.50000048 C 11.0527449 5.50000048, 11.49998 5.94723511, 11.49998 6.49892712 L 11.49998 6.61627913 M 8 8 L 9.00178909 8.98747826 L 8 9.96064472 L 9.05903435 10.9624338 L 7.97137737 11.9642229 M 4.49642658 6.57334566 L 4.49642658 6.49892664 C 4.49642658 5.9472332, 4.94366407 5.49999809, 5.49535751 5.50000048 L 5.50107765 5.50000048 C 6.05277348 5.5, 6.50000858 5.94723511, 6.50000858 6.49892712 L 6.50000858 6.61627913'
+        id='kiss'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

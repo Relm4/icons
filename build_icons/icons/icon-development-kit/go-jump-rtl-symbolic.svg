@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='go-jump-rtl arrow bent'>
+  <path d='M 8 8 L 5 11 L 2 8 M 13 15 L 13 5 C 13 2.79086089, 11.2091389 1, 9 1 C 6.79086113 1, 5 2.79086089, 5 5 L 5 11'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

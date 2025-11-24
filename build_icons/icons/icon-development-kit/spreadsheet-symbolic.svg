@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='sheet x-office-spreadsheet'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <rect x='1' y='1' width='14' height='14' rx='2' ry='2'
+        id='rect1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 10.5 1 L 10.5 15 M 1 12.5 L 15 12.5 M 1 10.5 L 15 10.5 M 1 8.5 L 15 8.5 M 1 6.5 L 15 6.5 M 6.49731684 1 L 6.49731684 15 M 1 4.48124456 L 15 4.48124456'
+        id='path7'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

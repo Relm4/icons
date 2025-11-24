@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='face emote smiley face-confused'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <circle cx='8' cy='8' r='7'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 9 5 L 11 5 M 5 5 L 7 4 M 10.5 7.5 C 10.5 7.7761426, 10.2761421 8, 10 8 C 9.72385788 8, 9.5 7.7761426, 9.5 7.5 C 9.5 7.2238574, 9.72385788 7, 10 7 C 10.2761421 7, 10.5 7.2238574, 10.5 7.5 Z M 6.5 7.5 C 6.5 7.7761426, 6.2761426 8, 6 8 C 5.7238574 8, 5.5 7.7761426, 5.5 7.5 C 5.5 7.2238574, 5.7238574 7, 6 7 C 6.2761426 7, 6.5 7.2238574, 6.5 7.5 Z M 6 11 L 10 11'
+        id='path3'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

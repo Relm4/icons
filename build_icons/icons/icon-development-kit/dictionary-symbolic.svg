@@ -1,7 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 4.273438 1.0625 c -0.859376 0.003906 -2.359376 0.914062 -2.359376 2.523438 v 9.851562 c 0 0.855469 0.707032 1.5625 1.5625 1.5625 h 9.4375 c 1.125 0.03125 0.933594 -0.988281 0.933594 -0.988281 l -9.335937 0.023437 c -2.28125 0.007813 -2.082031 -2.988281 -0.035157 -2.992187 l 9.40625 -0.011719 l 0.03125 -10 z m 0.636718 1.875 h 2.6875 c 3.316406 0 4.273438 1.261719 4.25 3.03125 c -0.027344 2.46875 -2.191406 3.011719 -4.8125 3.101562 c -0.621094 0.023438 -1.507812 0.023438 -2.125 0.023438 z m 2.03125 1.0625 v 4.03125 c 1.945313 0.023438 3 -0.683594 3 -2.0625 c 0.003906 -1.769531 -1.238281 -1.9375 -3 -1.96875 z m 0 0"/>
-        <path d="m 2.402344 11.0625 h 10.449218 c -1.183593 0.492188 -1.292968 2.457031 0 3 h -10.449218 z m 0 0" fill-opacity="0.34902"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='accessories-dictionary book-open'
+     gpa:state='5'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 15 L 8 5 M 8 15 C 8 13.8954306, 7.10456944 13, 6 13 L 3 13 C 1.89543045 13, 1 12.1045694, 1 11 L 1 4 C 1 2.89543056, 1.89543045 2, 3 2 L 5 2 C 6.65685415 2, 8 3.34314585, 8 5 C 8 3.34314585, 9.34314537 2, 11 2 L 13 2 C 14.1045694 2, 15 2.89543056, 15 4 L 15 11 C 15 12.1045694, 14.1045694 13, 13 13 L 10 13 C 8.89543056 13, 8 13.8954306, 8 15 Z'
+        id='path11'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 3 8.5 L 6 8.5 M 3 6.5 L 6 6.5 M 3 4.5 L 6 4.5 M 10 8.5 L 12 8.5 M 10 6.5 L 13 6.5 M 10 4.5 L 13 4.5'
+        id='path15'
+        stroke-width='1'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

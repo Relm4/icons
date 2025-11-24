@@ -1,0 +1,47 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='battery gnome-power-manager'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9 3 L 9 1.33793104 C 9 1.15129697, 8.84870338 1.00000024, 8.66206932 1 L 7.33793116 1 C 7.15129709 0.99999994, 7 1.15129685, 7 1.33793104 L 7 3 M 13 5 C 13 3.89543056, 12.1045694 3, 11 3 L 5 3 C 3.89543056 3, 3 3.89543056, 3 5 L 3 13 C 3 14.1045694, 3.89543056 15, 5 15 L 9 15'
+        id='battery'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 15.499999 10.5 L 13.5 10.5 M 13.5208902 13.499999 L 15.5 13.499999'
+        id='pins'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 13.5 10 L 12.5 9.99999905 C 11.9477139 9.99999905, 11.499999 10.4477139, 11.5 10.999999 L 11.5 13 C 11.499999 13.5522861, 11.9477148 14, 12.4999981 14 L 13.5 14 Z'
+        id='plug'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill-opacity='0.25'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'/>
+  <path d='M 11.5 12 L 7.51034498 12 C 6.67620468 12, 6 11.3237963, 6 10.4896545 C 6.00571299 9.66122818, 6.68191767 8.99428654, 7.51034498 9 L 9 9 C 9.55228519 9, 10 8.55228424, 10 8 L 10 6'
+        id='cord'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

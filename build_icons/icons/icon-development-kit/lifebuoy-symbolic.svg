@@ -1,0 +1,54 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='help-contents help life buoy guard swim help-browser'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 15 8 C 15 11.8659935, 11.8659935 15, 8 15 C 4.13400698 15, 1 11.8659935, 1 8 C 1 4.13400698, 4.13400698 1, 8 1 C 11.8659935 1, 15 4.13400698, 15 8 Z'
+        id='border'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <circle cx='8' cy='8' r='2.57143'
+        id='inner'
+        gpa:states='0 1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 1.74043739 4.85746288 L 5.69896317 6.84281778 Q 6.08184624 6.08221769, 6.85964441 5.6853528 M 6.85964441 5.6853528 L 4.89514351 1.71649599 Q 2.87472582 2.70289755, 1.74043739 4.85746288 M 4.8578186 14.2494822 L 6.84317303 10.2909555 Q 6.08257294 9.90807343, 5.68570852 9.13027477 M 5.68570852 9.13027477 L 1.71685135 11.0947762 Q 2.70325279 13.1151934, 4.8578186 14.2494822 M 14.2498369 11.1321011 L 10.2913113 9.14674664 Q 9.90842819 9.90734673, 9.13063049 10.3042107 M 9.13063049 10.3042107 L 11.0951309 14.2730684 Q 13.1155481 13.2866669, 14.2498369 11.1321011 M 11.1324558 1.74008214 L 9.1471014 5.6986084 Q 9.90770149 6.08149147, 10.3045664 6.85928869 M 10.3045664 6.85928869 L 14.2734232 4.89478874 Q 13.2870216 2.87437057, 11.1324558 1.74008214'
+        id='fill'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+  <path d='M 1.74043739 4.85746288 L 5.69896317 6.84281778 Q 6.08184624 6.08221769, 6.85964441 5.6853528 M 6.85964441 5.6853528 L 4.89514351 1.71649599 Q 2.87472582 2.70289755, 1.74043739 4.85746288 M 4.8578186 14.2494822 L 6.84317303 10.2909555 Q 6.08257294 9.90807343, 5.68570852 9.13027477 M 5.68570852 9.13027477 L 1.71685135 11.0947762 Q 2.70325279 13.1151934, 4.8578186 14.2494822 M 14.2498369 11.1321011 L 10.2913113 9.14674664 Q 9.90842819 9.90734673, 9.13063049 10.3042107 M 9.13063049 10.3042107 L 11.0951309 14.2730684 Q 13.1155481 13.2866669, 14.2498369 11.1321011 M 11.1324558 1.74008214 L 9.1471014 5.6986084 Q 9.90770149 6.08149147, 10.3045664 6.85928869 M 10.3045664 6.85928869 L 14.2734232 4.89478874 Q 13.2870216 2.87437057, 11.1324558 1.74008214'
+        id='outline'
+        gpa:states='0'
+        stroke-width='1'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill-rule='nonzero'
+        fill-opacity='0.25'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill not-initial-state'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+</svg>

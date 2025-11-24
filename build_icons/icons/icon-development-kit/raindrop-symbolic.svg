@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='rain raindrop waterdrop filter'>
+  <path d='M 8 2 C 10.0632782 4.18640661, 13 6, 13 9 C 13 11.7614241, 10.7614241 14, 8 14 C 5.23857641 14, 3 11.7614241, 3 9 C 3 6, 5.96300697 4.03699303, 8 2 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

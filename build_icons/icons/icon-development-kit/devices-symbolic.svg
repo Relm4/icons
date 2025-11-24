@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='devices printer monitor preferences-system-devices'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 7 10 L 7 13 C 7 13.5522852, 7.44771528 14, 8 14 L 14 14 C 14.5522852 14, 15 13.5522852, 15 13 L 15 10 C 15 9.44771481, 14.5522852 9, 14 9 L 8 9 C 7.44771528 9, 7 9.44771481, 7 10 Z M 4 9 L 4 11 L 6 11 M 5 4 L 5 2 C 5 1.44771528, 5.44771528 1, 6 1 L 7 1 C 7.55228519 1, 8 1.44771528, 8 2 L 8 4 M 1 6 L 1 8 C 1 8.55228519, 1.44771528 9, 2 9 L 4 9 L 4 8 C 4 7.44771576, 4.44771528 7, 5 7 L 12 7 L 12 6 C 12 4.89543056, 11.1045694 4, 10 4 L 3 4 C 1.89543045 4, 1 4.89543056, 1 6 Z'
+        id='devices'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 9.48465729 15.4954643 L 12.5153427 15.4954643'
+        id='stand'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

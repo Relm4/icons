@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='phone phone-old dumb-phone keys'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 3 7 L 3 1 M 4.98965216 5.01034784 L 11.0103483 5.01034784 C 12.1126146 5.01034784, 13 5.89773273, 13 7 L 13 13.0103483 C 13 14.1126146, 12.1126146 15, 11.0103483 15 L 4.98965216 15 C 3.88738489 15, 3 14.1126146, 3 13.0103483 L 3 7 C 3 5.89773273, 3.88738489 5.01034784, 4.98965216 5.01034784 Z'
+        id='outline'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 9.465518 10.5 L 10.5 10.5 M 5.50716639 10.5 L 6.50026989 10.5 M 9.465518 12.5231047 L 10.5 12.5231047 M 5.50716639 12.5231047 L 6.50026989 12.5231047'
+        id='path4'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

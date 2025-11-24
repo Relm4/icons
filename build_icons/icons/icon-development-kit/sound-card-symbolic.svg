@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='sound-card audio-card note music isa slot pcb'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 3 4 L 2 4 C 1.44771528 4, 1 4.44771528, 1 5 L 1 12 C 1 12.5522852, 1.44771528 13, 2 13 L 3 13 L 3 15 L 11 15 L 11 13 L 14 13 M 14 15 L 14 2 C 14 1.44771528, 14.4477148 1, 15 1'
+        id='path4'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6.54137945 11 C 7.92209101 10.9771471, 9.0228529 9.83933258, 9 8.45862103 C 8.9771471 7.07790899, 7.83933258 5.97714663, 6.45862055 6 C 5.07790899 6.0228529, 3.97714686 7.16066742, 4 8.54137897 C 4.0228529 9.92209148, 5.16066742 11.0228529, 6.54137945 11 Z M 11 4.99965763 L 9 1.99965763 L 9 7.99965763'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

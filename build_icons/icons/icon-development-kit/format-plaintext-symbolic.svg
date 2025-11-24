@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='format-text-plaintext email no-formatting ascii monospaced'>
+  <path d='M 5 11 L 11 11 M 5 14 L 5 7 L 7 2 L 9 2 L 11 7 L 11 14'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

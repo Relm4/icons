@@ -1,0 +1,21 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='selection-start'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 10.4570312 13.9226837 L 6.08203077 10.2781534 C 5.39843798 9.70783997, 5 8.86018372, 5 7.96565247 L 5 4.37580872 C 5 3.27033973, 5.89453077 2.37580872, 7 2.37580872 L 9 2.37580872 C 10.1054688 2.37580872, 11 3.27033973, 11 4.37580872 L 11 13.6726837 C 11 13.7976837, 10.9257803 13.9148712, 10.8085938 13.9695587 C 10.6953115 14.0242491, 10.5585938 14.0047188, 10.4570312 13.9226894 Z M 10.4570312 13.9226837'
+        id='path1'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

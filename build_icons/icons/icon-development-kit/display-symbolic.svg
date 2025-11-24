@@ -1,7 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 3 1 c -1.660156 0 -3 1.339844 -3 3 v 7 c 0 1.660156 1.339844 3 3 3 h 10 c 1.664062 0 3 -1.339844 3 -3 v -7 c 0 -1.660156 -1.335938 -3 -3 -3 z m 0 2 h 10 c 0.554688 0 1 0.445312 1 1 v 7 c 0 0.554688 -0.445312 1 -1 1 h -10 c -0.554688 0 -1 -0.445312 -1 -1 v -7 c 0 -0.554688 0.445312 -1 1 -1 z m 0 0"/>
-        <path d="m 8 16 c 3 0 4 -1 4 -1 h -8 s 1 1 4 1 z m 0 0"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='preferences-desktop-display monitor video-display'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 4 15 L 12 15 M 3 2 L 13 2 C 14.1079998 2, 15 2.89199996, 15 4 L 15 10 C 15 11.1079998, 14.1079998 12, 13 12 L 3 12 C 1.89199996 12, 1 11.1079998, 1 10 L 1 4 C 1 2.89199996, 1.89199996 2, 3 2 Z'
+        id='display'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

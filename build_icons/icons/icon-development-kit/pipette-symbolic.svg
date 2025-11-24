@@ -1,8 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 10.613281 5.40625 l -4.222656 5.660156 l -1.691406 1.496094 l -0.699219 -0.5625 l 0.996094 -2.054688 l 4.21875 -5.660156 z m 0 0"/>
-        <path d="m 4 12.574219 s -1.476562 0.667969 -1.464844 2.078125 c 0.015625 1.761718 2.660156 1.84375 2.742188 0.285156 c 0.046875 -0.890625 -1.277344 -2.363281 -1.277344 -2.363281 z m 0 0"/>
-        <path d="m 6.644531 4.429688 l 4.652344 3.527343 l 0.703125 -0.925781 l -1.394531 -1.058594 c 2.804687 -0.792968 4.71875 -4.171875 2.859375 -5.585937 c -1.859375 -1.410157 -4.707032 1.265625 -4.71875 4.175781 l -1.394532 -1.058594 z m 0 0"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='pipette color picker color-select'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 15 L 2 14 L 2 12 L 8 6 L 10 8 L 4 14 L 2 14'
+        id='path0'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 6 4 L 6.84399986 3.1559999 C 7.48247957 2.5176518, 8.51751995 2.5176518, 9.15600014 3.1559999 L 10 4 L 11.71 2.27699995 C 11.9777927 2.00716686, 12.3420086 1.85507154, 12.7221699 1.85432088 C 13.1023302 1.85357034, 13.467144 2.00422645, 13.7360001 2.273 C 14.2809105 2.83392143, 14.2697344 3.72984624, 13.7110004 4.27699995 L 12 6 L 12.8439999 6.84399986 C 13.4823475 7.48247957, 13.4823475 8.51751995, 12.8439999 9.15600014 L 12 10 Z'
+        id='path1'
+        gpa:states='1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+  <path d='M 6 4 L 6.84399986 3.1559999 C 7.48247957 2.5176518, 8.51751995 2.5176518, 9.15600014 3.1559999 L 10 4 L 11.71 2.27699995 C 11.9777927 2.00716686, 12.3420086 1.85507154, 12.7221699 1.85432088 C 13.1023302 1.85357034, 13.467144 2.00422645, 13.7360001 2.273 C 14.2809105 2.83392143, 14.2697344 3.72984624, 13.7110004 4.27699995 L 12 6 L 12.8439999 6.84399986 C 13.4823475 7.48247957, 13.4823475 8.51751995, 12.8439999 9.15600014 L 12 10 Z'
+        id='path2'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill-opacity='0.25'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill not-initial-state'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
 </svg>

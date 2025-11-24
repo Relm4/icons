@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='weather overcast clouds cold ice snow'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 3.80384779 3.2679491 L 3.66987324 5.5 L 1.80384755 6.7320509 M 14.1961517 9.2679491 L 12.3301268 10.5 L 12.1961517 12.7320499 M 14.4951906 11.75 L 1.50480974 4.25 M 1.80384755 9.2679491 L 3.669873 10.5 L 3.80384755 12.7320509 M 12.1961517 3.2679491 L 12.3301268 5.5 L 14.1961517 6.7320509 M 14.4951906 4.25 L 1.5048095 11.75 M 6 14 L 8 13 L 10 14 M 6 2 L 8 3 L 10 2 M 8 0.5 L 8 15.5'
+        id='path19'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

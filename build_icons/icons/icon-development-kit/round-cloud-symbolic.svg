@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='cloud weather-overcast cloudy'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 15 9.61379337 C 15 11.270647, 13.6568537 13, 12 13 L 6 13 C 3.23857594 13, 1 10.7614241, 1 8 C 1 5.23857641, 3.23857594 3, 6 3 C 7.86001492 3.05173993, 9.59004974 4, 10.5653811 6.16383219 C 13.6584587 5.57042074, 15 8, 15 9.61379337 Z'
+        id='cloud'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

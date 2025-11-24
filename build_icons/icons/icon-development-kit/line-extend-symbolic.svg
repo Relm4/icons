@@ -1,8 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 7.730469 9 c 0.171875 0.292969 0.269531 0.636719 0.269531 1 s -0.097656 0.707031 -0.269531 1 h 2.539062 c -0.171875 -0.292969 -0.269531 -0.636719 -0.269531 -1 s 0.097656 -0.707031 0.269531 -1 z m 0 0" fill-opacity="0.34902"/>
-        <path d="m 11 0 v 8.269531 c -0.597656 0.347657 -1 0.996094 -1 1.730469 s 0.402344 1.382812 1 1.730469 v 4.269531 h 2 v -4.269531 c 0.300781 -0.175781 0.554688 -0.429688 0.726562 -0.730469 h 2.273438 v -2 h -2.273438 c -0.171874 -0.300781 -0.425781 -0.554688 -0.726562 -0.730469 v -8.269531 z m -5 8 c -0.734375 0 -1.382812 0.402344 -1.730469 1 h -4.269531 v 2 h 4.269531 c 0.347657 0.597656 0.996094 1 1.730469 1 c 1.097656 0 2 -0.902344 2 -2 s -0.902344 -2 -2 -2 z m 0 1 c 0.558594 0 1 0.441406 1 1 s -0.441406 1 -1 1 s -1 -0.441406 -1 -1 s 0.441406 -1 1 -1 z m 6 0 c 0.558594 0 1 0.441406 1 1 s -0.441406 1 -1 1 s -1 -0.441406 -1 -1 s 0.441406 -1 1 -1 z m 0 0"/>
-        <path d="m 9 3.78125 l -3 -3.03125 v 2.25 h -2 v 2 h 2 v 2.25 l 3 -3.03125 z m 0 0"/>
-    </g>
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='lines nodes shape join combine cut line-extend'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 13.5 10 C 13.5 10.8284273, 12.8284273 11.5, 12 11.5 C 11.1715727 11.5, 10.5 10.8284273, 10.5 10 C 10.5 9.17157269, 11.1715727 8.5, 12 8.5 C 12.8284273 8.5, 13.5 9.17157269, 13.5 10 Z M 7.5 10 C 7.5 10.8284273, 6.82842731 11.5, 6 11.5 C 5.17157269 11.5, 4.5 10.8284273, 4.5 10 C 4.5 9.17157269, 5.17157269 8.5, 6 8.5 C 6.82842731 8.5, 7.5 9.17157269, 7.5 10 Z'
+        id='path2'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='1'
+        stroke-linecap='butt'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 7.5 10 L 10.5 10'
+        id='path4'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='miter'
+        stroke-opacity='0.35'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 12 11.5 L 12 16 M 12 0 L 12 8.5 M 13.5 10 L 16 10 M 0 10 L 4.5 10'
+        id='path7'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 6 2 L 8 4 L 6 6 M 3.99981999 4 L 8 4'
+        id='path9'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

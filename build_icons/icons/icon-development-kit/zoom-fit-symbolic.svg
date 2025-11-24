@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='zoom-fit-best'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 4 L 1 12 C 1 13.6568546, 2.34314585 15, 4 15 L 12 15 C 13.6568546 15, 15 13.6568546, 15 12 L 15 4 C 15 2.34314585, 13.6568546 1, 12 1 L 4 1 C 2.34314585 1, 1 2.34314585, 1 4 Z'
+        id='border'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 7 12 L 4 12 L 4 9 M 12 9 L 12 12 L 9 12 M 9 4 L 12 4 L 12 7 M 7.0117178 4 L 4 4 L 4 7'
+        id='fit'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

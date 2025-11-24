@@ -1,0 +1,23 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='ai slop generative bullshit caught stealing'>
+  <path d='M 13 8 L 8.19310379 9.19310379 L 7 14 L 5.80689669 9.19310379 L 1 8 L 5.80689669 6.80689669 L 7 2 L 8.19310379 6.80689669 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 15.0004091 2.99791908 L 13.351882 3.3276248 L 13.0221748 4.97615385 L 12.6924696 3.3276248 L 11.0439405 2.99791908 L 12.6924696 2.66821337 L 13.0221748 1.01968431 L 13.351882 2.66821337 Z'
+        id='path1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

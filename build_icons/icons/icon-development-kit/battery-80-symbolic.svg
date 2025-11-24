@@ -1,0 +1,25 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='battery battery-level-50'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9 3 L 9 1.33793104 C 9 1.15129697, 8.84870338 1.00000024, 8.66206932 1 L 7.33793116 1 C 7.15129709 0.99999994, 7 1.15129685, 7 1.33793104 L 7 3 M 11 3 L 5 3 C 3.89543056 3, 3 3.89543056, 3 5 L 3 13 C 3 14.1045694, 3.89543056 15, 5 15 L 11 15 C 12.1045694 15, 13 14.1045694, 13 13 L 13 5 C 13 3.89543056, 12.1045694 3, 11 3 Z'
+        id='battery'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <rect x='5' y='6.68276' width='6' height='6.31724'
+        id='80'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'/>
+</svg>

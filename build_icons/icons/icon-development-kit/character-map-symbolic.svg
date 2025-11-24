@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='key accent accessories-character-map'
+     gpa:state='2'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 15 11 L 15 3 C 15 1.89543056, 14.1045694 1, 13 1 L 8 1 L 3 1 C 1.89543045 1, 1 1.89543056, 1 3 L 1 11 C 1 13.2091389, 2.79086089 15, 5 15 L 11 15 C 13.2091389 15, 15 13.2091389, 15 11 Z'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 9 4.5 L 12 3.5 M 7.5 6.5 L 10.5 6.5 C 11.6045694 6.5, 12.5 7.39543056, 12.5 8.5 L 12.5 10.9636927 C 12.5 11.8121719, 11.8121719 12.5, 10.9636927 12.5 L 8.03630733 12.5 C 7.18782806 12.5, 6.5 11.8121719, 6.5 10.9636927 C 6.52005196 10.1352654, 7.20788002 9.47994804, 8.03630733 9.5 L 12.5 9.5'
+        id='path3'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

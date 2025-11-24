@@ -1,0 +1,44 @@
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='network-cellular-disabled-rtl'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 1 L 15 15'
+        id='no'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 5.14648438 8.63867283 C 5.05422544 8.73094845, 4.99788189 8.85922337, 5 9.00000095 L 5 13.4921885 C 5 13.7724857, 5.22751522 14, 5.5078125 14 C 5.78395462 13.9958458, 6.00415421 13.7683306, 6 13.4921885 L 6 9.49218845 Z M 9 12.4921885 L 9 13.4921885 C 9 13.7724857, 9.22751617 14, 9.5078125 14 C 9.78395557 13.9958448, 10.0041552 13.7683306, 10 13.4921885 Z M 1 4.49218798 L 1 13.4921885 C 1 13.7724857, 1.22751606 14, 1.50781298 14 C 1.78395605 13.9958448, 2.00415492 13.7683306, 2 13.4921885 L 2 5.49218798 Z'
+        id='fill'
+        gpa:states='1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+  <path d='M 5.14648438 8.63867283 C 5.05422544 8.73094845, 4.99788189 8.85922337, 5 9.00000095 L 5 13.4921885 C 5 13.7724857, 5.22751522 14, 5.5078125 14 C 5.78395462 13.9958458, 6.00415421 13.7683306, 6 13.4921885 L 6 9.49218845 Z M 9 12.4921885 L 9 13.4921885 C 9 13.7724857, 9.22751617 14, 9.5078125 14 C 9.78395557 13.9958448, 10.0041552 13.7683306, 10 13.4921885 Z M 1 4.49218798 L 1 13.4921885 C 1 13.7724857, 1.22751606 14, 1.50781298 14 C 1.78395605 13.9958448, 2.00415492 13.7683306, 2 13.4921885 L 2 5.49218798 Z'
+        id='stroke'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+</svg>

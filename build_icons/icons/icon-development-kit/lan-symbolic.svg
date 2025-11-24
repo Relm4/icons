@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 12.242188 0 l -8.5 0.00390625 c -0.953126 0.00390625 -1.75 0.80078175 -1.75 1.74999975 v 5.496094 c 0 0.953125 0.796874 1.75 1.75 1.75 h 0.75 s 0.5 0.007812 0.5 0.507812 c 0 0.492188 -0.5 0.492188 -0.5 0.492188 h -0.5 v 1.992188 h 2.984374 l 0.015626 2.007812 h -5.5 c -0.277344 0 -0.5 0.222656 -0.5 0.5 v 1 c 0 0.277344 0.222656 0.5 0.5 0.5 h 13 c 0.277343 0 0.5 -0.222656 0.5 -0.5 v -1 c 0 -0.277344 -0.222657 -0.5 -0.5 -0.5 h -5.5 v -2.007812 h 3 v -2 h -0.5 s -0.5 0.007812 -0.5 -0.492188 s 0.5 -0.507812 0.5 -0.507812 h 0.75 c 0.953124 0 1.75 -0.796876 1.75 -1.75 v -5.492188 c 0 -0.953125 -0.796876 -1.75 -1.75 -1.75 z m -0.25 2 v 4.992188 l -8 0.007812 v -4.996094 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='network-wired lan'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 13 8 L 13 12 M 3 8 L 3 12 M 8 8 L 8 4 M 16 8 L 0 8'
+        id='cables'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 1 13 L 1 14 C 1 14.5522852, 1.44771528 15, 2 15 L 4 15 C 4.55228472 15, 5 14.5522852, 5 14 L 5 13 C 5 12.4477148, 4.55228472 12, 4 12 L 2 12 C 1.44771528 12, 1 12.4477148, 1 13 Z M 6 2 L 6 3 C 6 3.55228472, 6.44771528 4, 7 4 L 9 4 C 9.55228519 4, 10 3.55228472, 10 3 L 10 2 C 10 1.44771528, 9.55228519 1, 9 1 L 7 1 C 6.44771528 1, 6 1.44771528, 6 2 Z M 11 13 L 11 14 C 11 14.5522852, 11.4477148 15, 12 15 L 14 15 C 14.5522852 15, 15 14.5522852, 15 14 L 15 13 C 15 12.4477148, 14.5522852 12, 14 12 L 12 12 C 11.4477148 12, 11 12.4477148, 11 13 Z'
+        id='outline'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+  <path d='M 1 13 L 1 14 C 1 14.5522852, 1.44771528 15, 2 15 L 4 15 C 4.55228472 15, 5 14.5522852, 5 14 L 5 13 C 5 12.4477148, 4.55228472 12, 4 12 L 2 12 C 1.44771528 12, 1 12.4477148, 1 13 Z M 6 2 L 6 3 C 6 3.55228472, 6.44771528 4, 7 4 L 9 4 C 9.55228519 4, 10 3.55228472, 10 3 L 10 2 C 10 1.44771528, 9.55228519 1, 9 1 L 7 1 C 6.44771528 1, 6 1.44771528, 6 2 Z M 11 13 L 11 14 C 11 14.5522852, 11.4477148 15, 12 15 L 14 15 C 14.5522852 15, 15 14.5522852, 15 14 L 15 13 C 15 12.4477148, 14.5522852 12, 14 12 L 12 12 C 11.4477148 12, 11 12.4477148, 11 13 Z'
+        id='fill'
+        gpa:states='1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
 </svg>

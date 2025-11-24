@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 4 0 c -2.199219 0 -4 1.800781 -4 4 v 5 c 0 2.199219 1.800781 4 4 4 h 3 v 2 c 0 0.550781 0.449219 1 1 1 s 1 -0.449219 1 -1 v -2 h 3 c 2.199219 0 4 -1.800781 4 -4 v -5 c 0 -2.199219 -1.800781 -4 -4 -4 z m 0 2 h 8 c 1.125 0 2 0.875 2 2 v 5 c 0 1.125 -0.875 2 -2 2 h -3 v -1.300781 l 1.820312 -1.84375 c 0.195313 -0.195313 0.195313 -0.515625 0 -0.710938 c -0.089843 -0.09375 -0.21875 -0.144531 -0.351562 -0.144531 s -0.261719 0.050781 -0.355469 0.144531 l -1.113281 1.132813 v -2.277344 c 0 -0.550781 -0.449219 -1 -1 -1 s -1 0.449219 -1 1 v 5 h -3 c -1.125 0 -2 -0.875 -2 -2 v -5 c 0 -1.125 0.875 -2 2 -2 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='nature tree forest tree-rectangle'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 6 L 8 15 M 4 1 L 12 1 C 13.6619997 1, 15 2.33800006, 15 4 L 15 9 C 15 10.6619997, 13.6619997 12, 12 12 L 4 12 C 2.33800006 12, 1 10.6619997, 1 9 L 1 4 C 1 2.33800006, 2.33800006 1, 4 1 Z'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 10.5 7.5 L 8 10'
+        id='path3'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='loop circle arrow view-wrapped-rtl'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 7 6 L 5 8 L 3 6 M 5 8 L 5 5 C 5 2.79086089, 6.79086113 1, 9 1 C 11.2091389 1, 13 2.79086089, 13 5 L 13 11 C 13 13.2091389, 11.2091389 15, 9 15 C 6.79086113 15, 5 13.2091389, 5 11'
+        id='loop'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

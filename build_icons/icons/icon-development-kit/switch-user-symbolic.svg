@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='system-switch-user user switch person arrow'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 10 11 L 12 9 L 14 11 M 4 13 C 4 14.1045694, 4.89543056 15, 6 15 L 10 15 C 11.1045694 15, 12 14.1045694, 12 13 L 12 9'
+        id='path6'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 9 8 C 9 6.89543056, 9.89543056 6, 11 6 L 13 6 C 14.1045694 6, 15 6.89543056, 15 8 M 1 10 L 1 9 C 1 7.89543056, 1.89543056 7, 3 7 L 5 7 C 6.10456944 7, 7 7.89543056, 7 9 L 7 10 M 10 3 C 10 4.10456944, 10.8954306 5, 12 5 C 13.1045694 5, 14 4.10456944, 14 3 C 14 1.89543056, 13.1045694 1, 12 1 C 10.8954306 1, 10 1.89543056, 10 3 Z M 2 4 C 2 5.10456944, 2.89543056 6, 4 6 C 5.10456944 6, 6 5.10456944, 6 4 C 6 2.89543056, 5.10456944 2, 4 2 C 2.89543056 2, 2 2.89543056, 2 4 Z'
+        id='path7'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

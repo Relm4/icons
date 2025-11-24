@@ -1,9 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 5 0 c -1.644531 0 -3 1.355469 -3 3 v 10 c 0 1.644531 1.355469 3 3 3 h 6 c 1.644531 0 3 -1.355469 3 -3 v -10 c 0 -1.644531 -1.355469 -3 -3 -3 z m 0 2 h 6 c 0.570312 0 1 0.429688 1 1 v 10 c 0 0.570312 -0.429688 1 -1 1 h -6 c -0.570312 0 -1 -0.429688 -1 -1 v -10 c 0 -0.570312 0.429688 -1 1 -1 z m 0 0"/>
-    <path d="m 8 7 c -1.652344 0 -3 1.347656 -3 3 s 1.347656 3 3 3 s 3 -1.347656 3 -3 s -1.347656 -3 -3 -3 z m 0 1 c 1.109375 0 2 0.890625 2 2 s -0.890625 2 -2 2 s -2 -0.890625 -2 -2 s 0.890625 -2 2 -2 z m 0 0"/>
-    <g fill="#241f31">
-        <path d="m 9 10 c 0 0.550781 -0.449219 1 -1 1 s -1 -0.449219 -1 -1 s 0.449219 -1 1 -1 s 1 0.449219 1 1 z m 0 0"/>
-        <path d="m 9 4 c 0 0.550781 -0.449219 1 -1 1 s -1 -0.449219 -1 -1 s 0.449219 -1 1 -1 s 1 0.449219 1 1 z m 0 0"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='audio-speakers sound audio volume high loud'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6 3 L 6 13 L 3 10 L 1 10 L 1 6 L 3 6 Z'
+        id='outline'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+  <path d='M 10.1852732 11.0406027 L 13.5790482 13 M 10.1852732 4.95939684 L 13.5790482 2.99999976 M 11 8 L 14.9187937 8'
+        id='waves'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 6 3 L 6 13 L 3 10 L 1 10 L 1 6 L 3 6 Z'
+        id='fill'
+        gpa:states='1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
 </svg>

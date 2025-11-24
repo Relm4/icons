@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='network-wireless-disabled radiowaves-no unavailable'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8.6418047 12.7410612 C 8.45738125 12.9135647, 8.24471951 13, 8 13 C 7.4460001 13, 7 12.5539999, 7 12 C 7 11.7325268, 7.12556553 11.4901876, 7.30372095 11.3111429 Z M 1 6 C 1 6, 1.17714334 5.78742838, 1.52199888 5.47545338 M 3.90372825 3.90372825 C 4.98784161 3.39782119, 6.36131382 3, 8 3 C 12.5 3, 15 6, 15 6 M 4 9 C 4 9, 4.17041922 8.7727747, 4.49211025 8.47150326 M 7.08996296 7.08996296 C 7.37621593 7.03278589, 7.67991161 7, 8 7 C 10.5 7, 12 9, 12 9 M 1 1 L 3.90372825 3.90372825 L 7.08996296 7.08996296 L 15 15'
+        id='rect2'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

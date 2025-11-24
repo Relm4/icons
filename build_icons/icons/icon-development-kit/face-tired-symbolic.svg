@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='emoji smile face-yawn face-tired'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 1 C 11.8659935 1, 15 4.13400698, 15 8 C 15 11.8659935, 11.8659935 15, 8 15 C 4.13400698 15, 1 11.8659935, 1 8 C 1 4.13400698, 4.13400698 1, 8 1 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 5.8249445 11.2674685 C 6.26901436 10.4838152, 7.10030699 9.99962711, 8.00103474 10 C 8.90176201 10.0003729, 9.73265362 10.4852486, 10.176075 11.269269 M 10.5 10 C 10.5 11.3807116, 9.38071156 12.5, 8 12.5 C 6.61928797 12.5, 5.5 11.3807116, 5.5 10 C 5.5 8.61928844, 6.61928797 7.5, 8 7.5 C 9.38071156 7.5, 10.5 8.61928844, 10.5 10 Z M 9 6 L 11 6.43448257 M 5 6.43448257 L 7 6'
+        id='tired'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

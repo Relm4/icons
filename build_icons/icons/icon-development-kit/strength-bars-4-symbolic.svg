@@ -1,7 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#2e3436">
-        <path d="m 1 10 c -0.554688 0 -1 0.445312 -1 1 v 3 c 0 0.554688 0.445312 1 1 1 h 1 c 0.554688 0 1 -0.445312 1 -1 v -3 c 0 -0.554688 -0.445312 -1 -1 -1 z m 0 0"/>
-        <path d="m 13 1 c -0.554688 0 -1 0.445312 -1 1 v 12 c 0 0.554688 0.445312 1 1 1 h 1 c 0.554688 0 1 -0.445312 1 -1 v -12 c 0 -0.554688 -0.445312 -1 -1 -1 z m -4 3 c -0.554688 0 -1 0.445312 -1 1 v 9 c 0 0.554688 0.445312 1 1 1 h 1 c 0.554688 0 1 -0.445312 1 -1 v -9 c 0 -0.554688 -0.445312 -1 -1 -1 z m -4 3 c -0.554688 0 -1 0.445312 -1 1 v 6 c 0 0.554688 0.445312 1 1 1 h 1 c 0.554688 0 1 -0.445312 1 -1 v -6 c 0 -0.554688 -0.445312 -1 -1 -1 z m 0 0" fill-opacity="0.34902"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='strength-bars-4 network-cellular-signal-weak'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 5.49247646 14 C 5.21633434 13.9958448, 4.99584484 13.7686195, 5 13.4924774 L 5 8.50752258 C 5 8.2272253, 5.22722626 8, 5.50752354 8 C 5.78366566 8.00415516, 6.00415516 8.23138142, 6 8.50752258 L 6 13.4924774 C 6 13.7727747, 5.77277374 14, 5.49247646 14 Z M 9.49247742 14 C 9.21633434 13.9958458, 8.99584579 13.7686195, 9 13.4924774 L 9 5.50752306 C 9 5.22722578, 9.2272253 5, 9.50752354 5 C 9.78366566 5.00415468, 10.0041552 5.23138046, 10 5.50752306 L 10 13.4924774 C 10 13.7727747, 9.77277565 14, 9.49247742 14 Z M 14 13.4924774 L 14 2.50752306 C 14 2.22722602, 13.7727747 2.00000024, 13.4924774 2 C 13.2163353 2.00415468, 12.9958448 2.23138046, 13 2.50752306 L 13 13.4924774 C 13 13.7727747, 13.2272253 14, 13.5075226 14 C 13.7836647 13.9958458, 14.0041542 13.7686195, 14 13.4924774 Z'
+        id='empty'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 1.50752294 14 C 1.78366494 13.9958448, 2.00415492 13.7686195, 2 13.4924774 L 2 11.5075226 C 2 11.2272253, 1.77277398 11, 1.49247706 11 C 1.21633506 11.0041552, 0.99584502 11.2313814, 1 11.5075226 L 1 13.4924774 C 1 13.7727747, 1.22722602 14, 1.50752294 14 Z'
+        id='fill'
+        gpa:states='1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+  <path d='M 1.50752294 14 C 1.78366494 13.9958448, 2.00415492 13.7686195, 2 13.4924774 L 2 11.5075226 C 2 11.2272253, 1.77277398 11, 1.49247706 11 C 1.21633506 11.0041552, 0.99584502 11.2313814, 1 11.5075226 L 1 13.4924774 C 1 13.7727747, 1.22722602 14, 1.50752294 14 Z'
+        id='stroke'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill-opacity='0.25'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill not-initial-state'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
 </svg>

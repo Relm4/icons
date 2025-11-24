@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='dots list-drag-handle draggable list'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9.99999046 4.01379824 L 9.99999905 3.98620534 M 9.99999905 8.0137949 L 10 7.98620892 M 10 12.0137959 L 9.99999905 11.9862061 M 5.99999094 4.01379824 L 6 3.98620534 M 6 8.0137949 L 6 7.98620892 M 6.00000048 12.0137959 L 5.99999952 11.9862061'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

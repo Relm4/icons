@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='auth-fingerprint touch auth fingerprint2 fingerprint-no'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 1 L 15 15 M 8 7 L 8 8.00013447 M 8 11.5006027 L 8 11.6041327 C 8 12.8565359, 8.35996819 14.0248642, 8.98208714 15.0112972 M 5 14 L 5 11 M 5.43813276 5.43813276 C 5.96507359 4.5756588, 6.91531086 4, 8 4 C 9.65685463 4, 11 5.34314585, 11 7 L 11 11 M 2 12 L 2 7 C 2 6.53652143, 2.05255127 6.08531713, 2.15202045 5.65202045 M 4.91241789 1.85435271 C 5.8144393 1.31194174, 6.87079048 1, 8 1 C 11.3137083 1, 14 3.68629146, 14 7 L 14 8 M 14 10.993103 L 14 11'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

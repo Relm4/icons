@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='view-app-grid dots apps launcher input-dialpad'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 11.9896898 12 L 12 12 M 7.98968983 12 L 8 12 M 4 12 L 4.01030588 12 M 11.9896898 7.75650501 L 12 7.75650501 M 7.98968983 7.75650501 L 8 7.75650501 M 4 7.75650501 L 4.01030588 7.75650501 M 11.9896898 4 L 12 4 M 7.98968983 4 L 8 4 M 4 4 L 4.01030588 4'
+        id='grid'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

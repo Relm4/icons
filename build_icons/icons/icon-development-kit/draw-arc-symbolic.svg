@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 11 1 v 1.1875 c -4.527344 0.835938 -8.085938 4.425781 -8.847656 9 c -0.679688 0.324219 -1.152344 1.015625 -1.152344 1.8125 c 0 1.097656 0.902344 2 2 2 s 2 -0.902344 2 -2 c 0 -0.671875 -0.335938 -1.265625 -0.851562 -1.632812 c 0.65625 -3.554688 3.363281 -6.347657 6.851562 -7.140626 v 0.773438 h 4 v -4 z m 1 1 h 2 v 2 h -2 z m -9 10 c 0.558594 0 1 0.441406 1 1 s -0.441406 1 -1 1 s -1 -0.441406 -1 -1 s 0.441406 -1 1 -1 z m 0 0" fill="#222222"/>
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='draw shape object curve arc draw-arc'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 4.5 13 C 4.5 13.8284273, 3.82842708 14.5, 3 14.5 C 2.17157292 14.5, 1.5 13.8284273, 1.5 13 C 1.5 12.1715727, 2.17157292 11.5, 3 11.5 C 3.82842708 11.5, 4.5 12.1715727, 4.5 13 Z M 11.5 1.5 h 3 v 3 h -3 z'
+        id='path3'
+        gpa:states='0'
+        stroke-width='1'
+        stroke-linecap='butt'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 3.11251044 11.5041561 C 3.76796794 7.17159891, 7.16771793 3.77041912, 11.499999 3.11314011'
+        id='path5'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

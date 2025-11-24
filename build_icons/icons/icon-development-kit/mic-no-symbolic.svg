@@ -1,0 +1,47 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='audio-input-microphone microphone audio-headset over-ear headphones audio sound mic-1 microphone-sensitivity-high '
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 15 L 8 13 M 3 7 L 3 8 C 3 10.7614241, 5.23857641 13, 8 13 M 11.5355339 11.5355339 C 12.4403563 10.6307116, 13 9.38071251, 13 8 L 13 6'
+        id='holder'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 8 0 C 9.6619997 0, 11 1.33800006, 11 3 L 11 8 C 11 8.83100033, 10.6646919 9.58180714, 10.12325 10.12325 L 5 5 L 5 3 C 5 1.33800006, 6.33799982 0, 8 0 Z'
+        id='mic'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+  <path d='M 9.41421318 9.41421318 C 9.77501106 9.05341625, 10 8.55228424, 10 8 L 10 3 C 10 1.89543045, 9.10456944 1, 8 1 C 6.89543056 1, 6 1.89543045, 6 3 L 6 6 Z'
+        id='outline'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+  <path d='M 1 1 L 15 15'
+        id='no'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

@@ -1,0 +1,30 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='revert reload refresh state document-revert-rtl'
+     gpa:state='8'>
+  <path d='M 2 6.02068949 L 2 3 C 2 1.89543045, 2.89543056 1, 4 1 L 9 1 C 9.64028931 1.00000012, 10.2543535 1.254354, 10.7071066 1.70710683 L 13.2928934 4.29289341 C 13.7456465 4.74564648, 14 5.35971069, 14 6 L 14 13 C 14 14.1045694, 13.1045694 15, 12 15 L 6 15'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 2 16 L 2 12 C 2 10.3431463, 3.34314632 9, 5 9 L 10 9'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6.99999952 12 L 10 9 L 6.99999952 6'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

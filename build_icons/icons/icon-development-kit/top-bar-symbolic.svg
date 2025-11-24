@@ -1,0 +1,38 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='focus-top-bar'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <rect x='1' y='2' width='14' height='12' rx='2' ry='2'
+        id='border'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 3 2 L 13 2 C 14.1079998 2, 15 2.89199996, 15 4 L 15 5 L 1 5 L 1 4 C 1 2.89199996, 1.89199996 2, 3 2 Z'
+        id='outline'
+        gpa:states='0'
+        stroke='none'
+        fill-rule='nonzero'
+        fill-opacity='0.25'
+        fill='rgb(0,0,0)'
+        class='foreground-fill not-initial-state'
+        gpa:fill='foreground'/>
+  <path d='M 3 2 L 13 2 C 14.1079998 2, 15 2.89199996, 15 4 L 15 5 L 1 5 L 1 4 C 1 2.89199996, 1.89199996 2, 3 2 Z'
+        id='fill'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+</svg>

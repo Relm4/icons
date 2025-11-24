@@ -1,0 +1,32 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='cellylar-no-rtl network-cellular-offline-rtl'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 2.50775909 2 C 2.78390145 2.00414991, 3.00410295 2.2316699, 2.99994779 2.5078125 L 2.99994779 8 L 1.99994767 8 L 1.99994767 2.5078125 C 1.99994767 2.22751546, 2.22746205 2.00000024, 2.50775909 2 Z M 6.49213505 5 C 6.77243233 5, 6.99994755 5.22751522, 6.99994755 5.5078125 L 6.99994755 8 L 5.99994755 8 L 5.99994755 5.5078125 C 5.99579239 5.2316699, 6.21599293 5.00415468, 6.49213505 5 Z M 10.492135 8 C 10.7724323 8, 10.9999475 8.22751522, 10.9999475 8.5078125 L 10.9999475 13.4921885 C 11.0041018 13.7683306, 10.7839022 13.9958448, 10.50776 14 C 10.2274628 14, 9.99994755 13.7724857, 9.99994755 13.4921885 L 9.99994755 8.5078125 C 9.99579334 8.23167038, 10.2159929 8.00415516, 10.492135 8 Z M 14.492135 11 C 14.7724323 11, 14.9999466 11.2275143, 14.9999475 11.5078115 L 14.9999475 13.4921885 C 15.0041018 13.7683306, 14.7839031 13.9958448, 14.50776 14 C 14.2274628 14, 13.9999475 13.7724848, 13.9999475 13.4921885 L 13.9999475 11.5078115 C 13.9957933 11.2316704, 14.2159929 11.0041552, 14.492135 11 Z'
+        id='bars'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 0.999947667 11 L 4.99994755 15 M 0.999947667 15 L 4.99994755 11'
+        id='x'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

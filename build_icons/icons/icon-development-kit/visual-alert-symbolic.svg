@@ -1,0 +1,62 @@
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='visual alert accessibility sound a11y'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6 10 C 6 11.1045694, 6.89543056 12, 8 12 C 9.10456944 12, 10 11.1045694, 10 10 C 10 8.89543056, 9.10456944 8, 8 8 C 6.89543056 8, 6 8.89543056, 6 10 Z'
+        id='outline'
+        gpa:states='0'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+  <path d='M 1 10 L 3.57399988 7.05900002 C 4.69090891 5.78296852, 6.30419874 5.05107355, 8 5.05107355 C 9.69580078 5.05107355, 11.3090906 5.78296852, 12.4259996 7.05900002 L 15 10 L 12.4259996 12.941 C 11.3090906 14.2170305, 9.69580078 14.948926, 8 14.948926 C 6.30419874 14.948926, 4.69090891 14.2170305, 3.57399964 12.941 Z'
+        id='border'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 2.3858819 4.98022318 C 3.83070898 3.36432862, 5.90174055 2.44934249, 8.06928349 2.4692843 C 10.2368269 2.48922586, 12.2906733 3.44216156, 13.7055254 5.08436584'
+        id='wave1'
+        gpa:states='0 1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 1.00317633 3.57392359 C 2.80613542 1.61083043, 5.35085201 0.495453149, 8.01625538 0.500013888 C 10.6816587 0.504574776, 13.2225437 1.62865424, 15.018774 3.59790611'
+        id='wave2'
+        gpa:states='0 1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 6 10 C 6 11.1045694, 6.89543056 12, 8 12 C 9.10456944 12, 10 11.1045694, 10 10 C 10 8.89543056, 9.10456944 8, 8 8 C 6.89543056 8, 6 8.89543056, 6 10 Z'
+        id='fill'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+</svg>

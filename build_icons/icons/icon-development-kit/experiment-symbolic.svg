@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='flower testtube green experiment settings-experimental'>
+  <path d='M 11 3 L 14 3 L 14 4 C 14 5.65685415, 12.6568546 7, 11 7 L 8 7 L 8 6 C 8 4.34314585, 9.34314537 3, 11 3 Z M 8 10 L 8 5 C 8 3.34314585, 6.65685415 2, 5 2 L 2 2 L 2 3 C 2 4.65685415, 3.34314585 6, 5 6 L 8 6 M 4 10 L 12 10 M 6 10 L 6 14 C 6 15.1045694, 6.89543056 16, 8 16 C 9.10456944 16, 10 15.1045694, 10 14 L 10 10'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

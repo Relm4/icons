@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 5 0 v 2 c -1.644531 0 -3 1.355469 -3 3 v 1 h -2 v 1 h 2 v 1 h -2 v 1 h 2 v 1 h -2 v 1 h 2 c 0 1.644531 1.355469 3 3 3 h 1 v 2 h 1 v -2 h 1 v 2 h 1 v -2 h 1 v 2 h 1 v -2 c 1.644531 0 3 -1.355469 3 -3 v -1 h 2 v -1 h -2 v -1 h 2 v -1 h -2 v -1 h 2 v -1 h -2 c 0 -1.644531 -1.355469 -3 -3 -3 h -1 v -2 h -1 v 2 h -1 v -2 h -1 v 2 h -1 v -2 z m 0 4 h 6 c 0.570312 0 1 0.429688 1 1 v 6 c 0 0.570312 -0.429688 1 -1 1 h -6 c -0.570312 0 -1 -0.429688 -1 -1 v -6 c 0 -0.570312 0.429688 -1 1 -1 z m 0 1 v 6 h 6 v -6 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='cpu chip computer component silicon processor'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 5 3 L 11 3 C 12.1079998 3, 13 3.89199996, 13 5 L 13 11 C 13 12.1079998, 12.1079998 13, 11 13 L 5 13 C 3.89199996 13, 3 12.1079998, 3 11 L 3 5 C 3 3.89199996, 3.89199996 3, 5 3 Z'
+        id='border'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 5.5 5.5 h 5 v 5 h -5 z'
+        id='center'
+        gpa:states='1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+  <path d='M 13 9.5 L 16 9.5 M 13 7.5 L 16 7.5 M 13 5.5 L 16 5.5 M 5.5 0 L 5.5 3 M 7.5 0 L 7.5 3 M 9.5 0 L 9.5 3 M 10.5 13 L 10.5 16 M 8.5 13 L 8.5 16 M 6.5 13 L 6.5 16 M 0 10.5 L 3 10.5 M 0 8.5 L 3 8.5 M 0 6.5 L 3 6.5'
+        id='pins'
+        gpa:states='0 1'
+        stroke-width='1'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 5.5 5.5 h 5 v 5 h -5 z'
+        id='middle'
+        gpa:states='0 1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

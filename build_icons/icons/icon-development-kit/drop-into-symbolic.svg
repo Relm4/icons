@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='rectangle arrow-into-box drop drag-and-drop dnd'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 10 2.99999976 L 13 3 C 14.1045704 2.99999976, 14.999999 3.89542985, 15 5 L 14.999999 13 C 15 14.1045694, 14.1045694 15, 13.000001 14.999999 L 2.99999952 15 C 1.89542937 15.000001, 0.999998927 14.1045704, 0.999999583 13 L 0.999999881 4.99999952 C 1 3.89543009, 1.89543045 2.99999952, 2.99999976 2.99999976 L 6 2.99999976'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 11 9 L 8 12 L 5 9 M 7.99999952 0.999999583 L 8 12'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

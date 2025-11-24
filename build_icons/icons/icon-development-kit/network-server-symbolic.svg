@@ -1,8 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 4.007812 0 c -2.222656 0 -4.007812 1.785156 -4.007812 4.007812 v 2.972657 c 0 2.21875 1.785156 4.003906 4.007812 4.003906 h 2.980469 v 1.285156 c -0.289062 0.171875 -0.535156 0.414063 -0.710937 0.703125 h -3.28125 c -0.554688 0 -1 0.449219 -1 1 c 0 0.550782 0.445312 1 1 1 h 3.246094 c 0.351562 0.640625 1.023437 1.035156 1.753906 1.039063 c 0.726562 -0.003907 1.398437 -0.398438 1.75 -1.039063 h 3.261718 c 0.550782 0 1 -0.449218 1 -1 c 0 -0.550781 -0.449218 -1 -1 -1 h -3.292968 c -0.175782 -0.289062 -0.421875 -0.53125 -0.714844 -0.703125 v -1.285156 h 2.996094 c 2.21875 0 4.003906 -1.785156 4.003906 -4.003906 v -2.972657 c 0 -2.222656 -1.785156 -4.007812 -4.003906 -4.007812 z m 0 2 h 7.988282 c 1.125 0 2.003906 0.878906 2.003906 2.007812 v 2.972657 c 0 1.125 -0.878906 2.003906 -2.003906 2.003906 h -7.988282 c -1.128906 0 -2.007812 -0.878906 -2.007812 -2.003906 v -2.972657 c 0 -1.128906 0.878906 -2.007812 2.007812 -2.007812 z m 3.988282 11 c 0.554687 0 1.003906 0.449219 1.003906 1.007812 c 0 0.554688 -0.449219 1.003907 -1.003906 1.003907 c -0.558594 0 -1.007813 -0.449219 -1.007813 -1.003907 c 0 -0.558593 0.449219 -1.007812 1.007813 -1.007812 z m 0 0"/>
-        <path d="m 5 4 c 0.550781 0 1 0.449219 1 1 s -0.449219 1 -1 1 s -1 -0.449219 -1 -1 s 0.449219 -1 1 -1 z m 0 0"/>
-        <path d="m 8 4 c 0.550781 0 1 0.449219 1 1 s -0.449219 1 -1 1 s -1 -0.449219 -1 -1 s 0.449219 -1 1 -1 z m 0 0"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='remote server network LAN'>
+  <path d='M 10 14 L 13 14'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6 14 L 3 14'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 7.99609423 12 L 7.99609423 10'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6.51191902 14 C 6.51191902 14.8218431, 7.1781559 15.488081, 8 15.488081 C 8.82184315 15.488081, 9.48808193 14.8218431, 9.48808193 14 C 9.48808193 13.1781569, 8.82184315 12.51192, 8 12.51192 C 7.1781559 12.51192, 6.51191902 13.1781569, 6.51191902 14 Z'
+        id='path3'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.5 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 1 4.04164886 L 1 6.95835114 C 1.00000012 8.63820744, 2.36179256 10, 4.04164886 10 L 11.9583511 10 C 13.6382074 10, 15 8.63820744, 15 6.95835114 L 15 4.04164886 C 15 2.36179256, 13.6382074 1.00000012, 11.9583511 1.00000012 L 4.04164886 1 C 2.36179256 1.00000012, 1.00000012 2.36179256, 1.00000012 4.04164886 Z'
+        id='path4'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 8 5 L 8.07653904 5 M 5 5 L 5.07653904 5'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

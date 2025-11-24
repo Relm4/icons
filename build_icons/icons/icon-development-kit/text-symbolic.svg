@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='text font a'>
+  <path d='M 4.32291126 10.9405546 L 11.6884079 10.9405546 M 12.5002937 14.0145597 L 9.67946625 3.27363181 C 9.23004723 1.56237113, 6.80368328 1.55994344, 6.35012293 3.27011085 L 3.50307441 14.005024'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

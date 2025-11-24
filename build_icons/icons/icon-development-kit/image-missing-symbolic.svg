@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 4.015625 1.03125 c -1.644531 0 -3 1.355469 -3 3 v 1 h 1 v -1 c 0 -1.109375 0.890625 -2 2 -2 h 1 v -1 z m 2 0 v 1 h 4 v -1 z m 5 0 v 1 h 1 c 1.109375 0 2 0.890625 2 2 v 1 h 1 v -1 c 0 -1.644531 -1.355469 -3 -3 -3 z m -5 4 c -0.550781 0 -1 0.449219 -1 1 s 0.449219 1 1 1 s 1 -0.449219 1 -1 s -0.449219 -1 -1 -1 z m -5 1 v 4 h 1 v -4 z m 13 0 v 4 h 1 v -4 z m -4.5 2 l -2 2 l -1.5 -1 l -2 2 v 0.5 c 0 0.5 0.5 0.5 0.5 0.5 h 7 s 0.472656 -0.035156 0.5 -0.5 v -1 z m -8.5 3 v 1 c 0 1.644531 1.355469 3 3 3 h 1 v -1 h -1 c -1.109375 0 -2 -0.890625 -2 -2 v -1 z m 13 0 v 1 c 0 1.109375 -0.890625 2 -2 2 h -1 v 1 h 1 c 1.644531 0 3 -1.355469 3 -3 v -1 z m -8 3 v 1 h 4 v -1 z m 0 0" fill="#222222" fill-opacity="0.34902"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='image-missing broken'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 14.5 6 L 14.5 10 M 1.5 6 L 1.5 10 M 6 14.5 L 10 14.5 M 6 1.5 L 10 1.5 M 11 1.5 L 12 1.5 C 13.3807116 1.5, 14.5 2.61928821, 14.5 4 L 14.5 5 M 11 14.5 L 12 14.5 C 13.3807116 14.5, 14.5 13.3807116, 14.5 12 L 14.5 11 M 5 14.5 L 4 14.5 C 2.61928821 14.5, 1.5 13.3807116, 1.5 12 L 1.5 11 M 5 1.5 L 3.96297956 1.5 C 2.58226752 1.5, 1.46297956 2.61928821, 1.46297956 4 L 1.46297956 5'
+        id='outline'
+        stroke-width='1'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 7 6 C 7 6.55228472, 6.55228472 7, 6 7 C 5.44771528 7, 5 6.55228472, 5 6 C 5 5.44771528, 5.44771528 5, 6 5 C 6.55228472 5, 7 5.44771528, 7 6 Z M 4 11 L 6 9 L 7.5 10 L 9.5 8 L 12 10.5'
+        id='hills'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

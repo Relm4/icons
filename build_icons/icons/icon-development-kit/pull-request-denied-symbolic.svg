@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 4 0 c -1.648438 0 -3 1.351562 -3 3 c 0 1.296875 0.839844 2.410156 2 2.824219 v 9.175781 h 2 v -9.175781 c 1.160156 -0.414063 2 -1.527344 2 -2.824219 c 0 -1.648438 -1.351562 -3 -3 -3 z m 7 0 c -0.265625 0 -0.519531 0.105469 -0.707031 0.292969 c -0.390625 0.390625 -0.390625 1.023437 0 1.414062 l 1.292969 1.292969 l -1.292969 1.292969 c -0.390625 0.390625 -0.390625 1.023437 0 1.414062 s 1.023437 0.390625 1.414062 0 l 1.292969 -1.292969 l 1.292969 1.292969 c 0.390625 0.390625 1.023437 0.390625 1.414062 0 s 0.390625 -1.023437 0 -1.414062 l -1.292969 -1.292969 l 1.292969 -1.292969 c 0.390625 -0.390625 0.390625 -1.023437 0 -1.414062 c -0.1875 -0.1875 -0.441406 -0.292969 -0.707031 -0.292969 s -0.519531 0.105469 -0.707031 0.292969 l -1.292969 1.292969 l -1.292969 -1.292969 c -0.1875 -0.1875 -0.441406 -0.292969 -0.707031 -0.292969 z m -7 1.5 c 0.828125 0 1.5 0.671875 1.5 1.5 s -0.671875 1.5 -1.5 1.5 s -1.5 -0.671875 -1.5 -1.5 s 0.671875 -1.5 1.5 -1.5 z m 9 4.5 c -0.550781 0 -1 0.449219 -1 1 v 3 c 0 0.054688 0.007812 0.113281 0.015625 0.167969 c -1.167969 0.410156 -2.015625 1.527343 -2.015625 2.832031 c 0 1.648438 1.351562 3 3 3 s 3 -1.351562 3 -3 c 0 -1.304688 -0.847656 -2.421875 -2.019531 -2.832031 c 0.011719 -0.054688 0.019531 -0.113281 0.019531 -0.167969 v -3 c 0 -0.550781 -0.449219 -1 -1 -1 z m 0 5.5 c 0.828125 0 1.5 0.671875 1.5 1.5 s -0.671875 1.5 -1.5 1.5 s -1.5 -0.671875 -1.5 -1.5 s 0.671875 -1.5 1.5 -1.5 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='pull-request merge-request cancelled denied version control git svn pull-request-denied'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 15.25 13 C 15.25 14.2426414, 14.2426414 15.25, 13 15.25 C 11.7573614 15.25, 10.75 14.2426414, 10.75 13 C 10.75 11.7573614, 11.7573614 10.75, 13 10.75 C 14.2426414 10.75, 15.25 11.7573614, 15.25 13 Z M 6.25000048 3 C 6.25000048 4.24264097, 5.24264145 5.25, 4 5.25 C 2.75736022 5.25, 1.75 4.24264097, 1.75 3 C 1.75 1.7573595, 2.75736022 0.75, 4 0.75 C 5.24264145 0.75, 6.25000048 1.7573595, 6.25000048 3 Z'
+        id='path2'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 4 14 L 4 9'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 13 10.75 L 13 9 M 4 5.25 L 4 9'
+        id='path6'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 11 5 L 15 1 M 11 1 L 15 5 M 13 7 L 13 9'
+        id='path8'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

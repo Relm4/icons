@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 7 0 c -1 0 -1 1 -1 1 v 1 h -1 s -0.707031 -0.015625 -1.449219 0.355469 c -0.738281 0.371093 -1.550781 1.3125 -1.550781 2.644531 v 8 s -0.015625 0.707031 0.355469 1.449219 c 0.371093 0.738281 1.3125 1.550781 2.644531 1.550781 h 6 s 0.707031 0.015625 1.445312 -0.355469 c 0.738282 -0.371093 1.554688 -1.3125 1.554688 -2.644531 v -8 c 0 -1.332031 -0.8125 -2.273438 -1.554688 -2.644531 c -0.738281 -0.371094 -1.445312 -0.355469 -1.445312 -0.355469 h -1 v -1 c 0 -1 -1 -1 -1 -1 z m -2 4 h 6 c 0.554688 0 1 0.445312 1 1 v 8 c 0 0.554688 -0.445312 1 -1 1 h -6 c -0.554688 0 -1 -0.445312 -1 -1 v -8 c 0 -0.554688 0.445312 -1 1 -1 z m 0 1 v 2 h 6 v -2 z m 0 3 v 2 h 6 v -2 z m 0 3 v 2 h 6 v -2 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='battery battery-full'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9 3 L 9 1.33793104 C 9 1.15129697, 8.84870338 1.00000024, 8.66206932 1 L 7.33793116 1 C 7.15129709 0.99999994, 7 1.15129685, 7 1.33793104 L 7 3 M 11 3 L 5 3 C 3.89543056 3, 3 3.89543056, 3 5 L 3 13 C 3 14.1045694, 3.89543056 15, 5 15 L 11 15 C 12.1045694 15, 13 14.1045694, 13 13 L 13 5 C 13 3.89543056, 12.1045694 3, 11 3 Z'
+        id='battery'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6 12 L 10 12 M 10 9 L 6 9 M 6 6 L 10 6'
+        id='bars'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

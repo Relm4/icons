@@ -1,0 +1,38 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='system-log-out-rtl arrow circle'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6.00000048 13.1961527 C 8.5216608 14.6520338, 11.7246237 14.0872641, 13.5962677 11.8567247 C 15.4679108 9.62618542, 15.4679108 6.37381315, 13.5962667 4.14327431 C 11.7246227 1.91273546, 8.5216608 1.34796691, 6.00000048 2.80384779'
+        id='path3'
+        gpa:transition-type='animate'
+        gpa:transition-duration='200ms'
+        gpa:transition-easing='ease-out'
+        gpa:origin='0.5'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 4.00000048 6 L 2.00000072 8 L 4.00000048 10 M 10.000001 8 L 2.00000072 8'
+        id='path5'
+        gpa:transition-type='fade'
+        gpa:transition-duration='200ms'
+        gpa:transition-delay='200ms'
+        gpa:transition-easing='ease-out'
+        gpa:origin='0.208589'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

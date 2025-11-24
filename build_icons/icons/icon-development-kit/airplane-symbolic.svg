@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='airplane-mode'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6 1 L 7 1 C 7.61286592 1.00000024, 8.17313099 1.34626329, 8.44721317 1.89442718 L 11 7 L 13.4812498 7 C 14.3200321 7, 15 7.6799674, 15 8.51875019 C 14.9896441 9.34717751, 14.3096771 10.010355, 13.4812498 10 L 11 10 L 8.51449585 14.1425066 C 8.19530392 14.6744928, 7.62039709 15, 7 15 L 6 15 L 7 10 L 3 10 L 2.24236369 11.5152731 C 2.09382701 11.8123455, 1.79019594 12, 1.45805836 12 L 1 12 L 1 5 L 1.4107548 5 C 1.77188313 5, 2.10201669 5.20403385, 2.26351833 5.52703667 L 3 7 L 7 7 Z'
+        id='plane'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+  <path d='M 6 1 L 7 1 C 7.61286592 1.00000024, 8.17313099 1.34626329, 8.44721317 1.89442718 L 11 7 L 13.4812498 7 C 14.3200321 7, 15 7.6799674, 15 8.51875019 C 14.9896441 9.34717751, 14.3096771 10.010355, 13.4812498 10 L 11 10 L 8.51449585 14.1425066 C 8.19530392 14.6744928, 7.62039709 15, 7 15 L 6 15 L 7 10 L 3 10 L 2.24236369 11.5152731 C 2.09382701 11.8123455, 1.79019594 12, 1.45805836 12 L 1 12 L 1 5 L 1.4107548 5 C 1.77188313 5, 2.10201669 5.20403385, 2.26351833 5.52703667 L 3 7 L 7 7 Z'
+        id='outline'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+</svg>

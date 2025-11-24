@@ -1,0 +1,51 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='applications-graphics colors color-multimedia image film video media'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6 5 L 6 2.22758627 C 6 1.54750335, 6.54750347 1, 7.22758627 1 L 13.7724142 1 C 14.4524965 1, 15 1.54750335, 15 2.22758627 L 15 8.77241421 C 15 9.45249653, 14.4524965 10, 13.7724142 10 L 10 10 M 2.22758627 5 L 8.77241421 5 C 9.45249653 5, 10 5.54750347, 10 6.22758627 L 10 12.7724142 C 10 13.4524965, 9.45249653 14, 8.77241421 14 L 2.22758627 14 C 1.54750335 14, 1 13.4524965, 1 12.7724142 L 1 6.22758627 C 1 5.54750347, 1.54750335 5, 2.22758627 5 Z'
+        id='rectangles'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 12 7 h 1 v 1 h -1 z M 12 5 h 1 v 1 h -1 z M 12 3 h 1 v 1 h -1 z'
+        id='holes'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+  <path d='M 5 8 C 5 8.55228519, 4.55228472 9, 4 9 C 3.44771528 9, 3 8.55228519, 3 8 C 3 7.44771528, 3.44771528 7, 4 7 C 4.55228472 7, 5 7.44771528, 5 8 Z M 1 12.7724142 L 7 10 L 10 12'
+        id='mountains'
+        gpa:states='0 1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 12.2620687 7 L 12.7379313 7 C 12.8831167 7, 13 7.1168828, 13 7.26206923 L 13 7.73793077 C 13 7.8831172, 12.8831167 8, 12.7379313 8 L 12.2620687 8 C 12.1168833 8, 12 7.8831172, 12 7.73793077 L 12 7.26206923 C 12 7.1168828, 12.1168833 7, 12.2620687 7 Z M 12.2620687 5 L 12.7379313 5 C 12.8831167 5, 13 5.1168828, 13 5.26206923 L 13 5.73793077 C 13 5.8831172, 12.8831167 6, 12.7379313 6 L 12.2620687 6 C 12.1168833 6, 12 5.8831172, 12 5.73793077 L 12 5.26206923 C 12 5.1168828, 12.1168833 5, 12.2620687 5 Z M 12.2620687 3 L 12.7379313 3 C 12.8831167 3, 13 3.1168828, 13 3.26206899 L 13 3.73793101 C 13 3.8831172, 12.8831167 4, 12.7379313 4 L 12.2620687 4 C 12.1168833 4, 12 3.8831172, 12 3.73793101 L 12 3.26206899 C 12 3.1168828, 12.1168833 3, 12.2620687 3 Z'
+        id='wireholes'
+        gpa:states='0'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+</svg>

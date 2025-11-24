@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 3.96875 1 s -2.96875 0 -2.96875 2.96875 v 8.03125 s 0 0.5 0.3125 0.71875 l 1.6875 1.6875 v -10.40625 c 0 -1 1 -1 1 -1 h 8 s 1 0 1 1 v 8 c 0 1 -1 1 -1 1 h -1 v 2 h 1 s 3 0 3 -2.96875 v -8.0625 s 0 -2.96875 -2.96875 -2.96875 z m 1.03125 8 c -0.554688 0 -1 0.445312 -1 1 v 4 c 0 0.554688 0.445312 1 1 1 h 4 c 0.554688 0 1 -0.445312 1 -1 v -4 c 0 -0.554688 -0.445312 -1 -1 -1 z m 0 1 h 2 v 4 h -2 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='media-floppy'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 2 15 L 1 14 L 1 4.01034498 C 1.00000012 2.34777737, 2.34777737 1.00000012, 4.01034498 1.00000012 L 11.9896545 1 C 13.6522226 0.999999821, 15 2.34777713, 15 4.01034498 L 15 13 C 15 14.1045694, 14.1045694 15, 13 15 Z'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 5.5 15 L 5.5 11.5 L 7.46875 11.5 L 7.46875 15 M 3.5 15 L 3.5 9.5 L 11.5 9.5 L 11.5 15 M 3.4483366 1.05292666 L 3.4483366 7.53125 L 12.453125 7.53125 L 12.453125 1.03589165'
+        id='path5'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

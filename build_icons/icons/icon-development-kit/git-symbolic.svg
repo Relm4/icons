@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 8 0 c -0.257812 0 -0.511719 0.0976562 -0.707031 0.292969 l -1.585938 1.582031 l 5.234375 5.234375 c 0.179688 -0.070313 0.367188 -0.109375 0.558594 -0.109375 c 0.828125 0 1.5 0.671875 1.5 1.5 s -0.671875 1.5 -1.5 1.5 s -1.5 -0.671875 -1.5 -1.5 c 0 -0.183594 0.035156 -0.363281 0.101562 -0.535156 l -2.050781 -2.050782 v 4.191407 c 0.574219 0.226562 0.949219 0.777343 0.949219 1.394531 c 0 0.828125 -0.671875 1.5 -1.5 1.5 s -1.5 -0.671875 -1.5 -1.5 c 0 -0.65625 0.425781 -1.234375 1.050781 -1.429688 v -5.15625 l -2.191406 -2.1875 l -4.566406 4.566407 c -0.3906252 0.390625 -0.3906252 1.023437 0 1.414062 l 7 7 c 0.390625 0.390625 1.023437 0.390625 1.414062 0 l 6.996094 -7 c 0.390625 -0.390625 0.390625 -1.023437 0 -1.414062 l -6.996094 -7 c -0.195312 -0.1953128 -0.453125 -0.292969 -0.707031 -0.292969 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='version control svn git'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1.49928784 6.95557499 L 6.95557499 1.49928784 C 7.53239489 0.92246753, 8.46760559 0.92246753, 9.04442596 1.49928784 L 14.5007153 6.95557499 C 15.0775318 7.53239489, 15.0775318 8.46760559, 14.5007153 9.04442596 L 9.04442596 14.5007153 C 8.46760559 15.0775318, 7.53239489 15.0775318, 6.95557499 14.5007153 L 1.49928784 9.04442596 C 0.92246753 8.46760559, 0.92246753 7.53239489, 1.49928784 6.95557499 Z'
+        id='path2'
+        gpa:states='0 1'
+        stroke-width='1.84182'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.460455 1.84182 2.76273'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 7.50917435 4.50917435 L 7.5 9.5 M 5.69939756 2.69939733 L 9.7965517 6.7965517'
+        id='path9'
+        gpa:states='0 1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+  <path d='M 8.5 10.5 C 8.5 11.0522852, 8.05228519 11.5, 7.5 11.5 C 6.94771528 11.5, 6.5 11.0522852, 6.5 10.5 C 6.5 9.94771481, 6.94771528 9.5, 7.5 9.5 C 8.05228519 9.5, 8.5 9.94771481, 8.5 10.5 Z M 11.5 7.5 C 11.5 8.05228519, 11.0522852 8.5, 10.5 8.5 C 9.94771481 8.5, 9.5 8.05228519, 9.5 7.5 C 9.5 6.94771528, 9.94771481 6.5, 10.5 6.5 C 11.0522852 6.5, 11.5 6.94771528, 11.5 7.5 Z'
+        id='circles'
+        gpa:states='1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+  <path d='M 8.5 10.5 C 8.5 11.0522852, 8.05228519 11.5, 7.5 11.5 C 6.94771528 11.5, 6.5 11.0522852, 6.5 10.5 C 6.5 9.94771481, 6.94771528 9.5, 7.5 9.5 C 8.05228519 9.5, 8.5 9.94771481, 8.5 10.5 Z M 11.5 7.5 C 11.5 8.05228519, 11.0522852 8.5, 10.5 8.5 C 9.94771481 8.5, 9.5 8.05228519, 9.5 7.5 C 9.5 6.94771528, 9.94771481 6.5, 10.5 6.5 C 11.0522852 6.5, 11.5 6.94771528, 11.5 7.5 Z'
+        id='circles-force-outline'
+        gpa:states='0'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
 </svg>

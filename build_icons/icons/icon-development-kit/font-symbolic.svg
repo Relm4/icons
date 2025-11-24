@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='text type font typography preferences-desktop-font font-x-generic'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 10 4 L 10 11 L 12.1488848 11 C 13.2534542 11, 14.1488848 10.1045694, 14.1488848 9 C 14.1488848 7.89543056, 13.2534542 7, 12.1488848 7 L 10 7 M 4 5 L 5 5 C 6.10456944 5, 7 5.89543056, 7 7 L 7 11 L 4.23407698 11 C 3.37755084 11, 2.68319964 10.3056488, 2.68319941 9.44912243 C 2.71129799 8.62069607, 3.40564942 7.97190094, 4.23407698 8 L 7 8'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

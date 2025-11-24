@@ -28,7 +28,11 @@ impl IconInfo {
 }
 
 fn main() {
-    let icon_list = icon_list::get_icons(&["icon-development-kit", "fluentui-system-icons"]);
+    let icon_list = icon_list::get_icons(&[
+        "icon-development-kit-www",
+        "icon-development-kit",
+        "fluentui-system-icons"
+    ]);
 
     let icons16_generator = Generator {
         path: ICONS16,

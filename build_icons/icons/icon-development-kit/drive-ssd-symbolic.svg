@@ -1,0 +1,39 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='drive-harddisk-solidstate ssd'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 2 13 L 2 3 C 2 1.89999998, 2.9000001 1, 4 1 L 12 1 C 13.1045694 1, 14 1.89543045, 14 3 L 14 13 C 14 14.1045694, 13.1045694 15, 12 15 L 4 15 C 2.89543056 15, 2 14.1045694, 2 13 Z'
+        id='border'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 14 10.75 C 14 11.8545694, 13.1045694 12.75, 12 12.75 L 4 12.75 C 2.89543056 12.75, 2 11.8545694, 2 10.75'
+        id='edge'
+        stroke-width='0.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 0.5 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 6.5 3 L 6.5 4.5 M 8.50344849 3 L 8.50344849 4.5 M 7.49827528 9.49310017 L 7.49827623 10.9930992 M 9.50172424 9.49310017 L 9.50172424 10.9931002 M 4 8.49482441 L 5.5 8.49482441 M 4 6.49137592 L 5.5 6.49137592 M 10.5 7.5 L 12 7.5 M 10.5 5.49655151 L 12 5.49655151 M 6.48566723 4.49999809 L 9.5 4.49999809 C 10.0522842 4.49999809, 10.5 4.9477129, 10.5 5.49999762 L 10.5 8.49482441 C 10.5 9.0471096, 10.0522852 9.49482441, 9.5 9.49482441 L 6.48566723 9.49482441 C 5.93338251 9.49482441, 5.48566771 9.04710865, 5.48566771 8.49482441 L 5.48566771 5.49999762 C 5.48566771 4.94771338, 5.93338299 4.49999809, 6.48566723 4.49999809 Z'
+        id='chip'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

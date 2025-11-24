@@ -1,0 +1,33 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='person human figure silhouette accessibility-menu'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 14 L 8 11 M 10 10 L 10 8.5 M 6 10 L 6 8.5 M 4 9 L 4 10 C 4 10.5522852, 4.44771528 11, 5 11 C 5.55228472 11, 6 10.5522852, 6 10 L 6 11 L 6 14 C 6 14.5539999, 6.4460001 15, 7 15 C 7.5539999 15, 8 14.5539999, 8 14 C 8 14.5539999, 8.4460001 15, 9 15 C 9.5539999 15, 10 14.5539999, 10 14 L 10 12 L 10 10 C 10 10.5522852, 10.4477148 11, 11 11 C 11.5522852 11, 12 10.5522852, 12 10 L 12 9 C 12 7.34314585, 10.6568546 6, 9 6 L 7 6 C 5.34314585 6, 4 7.34314585, 4 9 Z M 6 3 C 6 4.10456944, 6.89543056 5, 8 5 C 9.10456944 5, 10 4.10456944, 10 3 C 10 1.89543045, 9.10456944 1, 8 1 C 6.89543056 1, 6 1.89543045, 6 3 Z'
+        id='filled'
+        gpa:states='1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+  <path d='M 8 14 L 8 11 M 10 10 L 10 8.5 M 6 10 L 6 8.5 M 4 9 L 4 10 C 4 10.5522852, 4.44771528 11, 5 11 C 5.55228472 11, 6 10.5522852, 6 10 L 6 11 L 6 14 C 6 14.5539999, 6.4460001 15, 7 15 C 7.5539999 15, 8 14.5539999, 8 14 C 8 14.5539999, 8.4460001 15, 9 15 C 9.5539999 15, 10 14.5539999, 10 14 L 10 12 L 10 10 C 10 10.5522852, 10.4477148 11, 11 11 C 11.5522852 11, 12 10.5522852, 12 10 L 12 9 C 12 7.34314585, 10.6568546 6, 9 6 L 7 6 C 5.34314585 6, 4 7.34314585, 4 9 Z M 6 3 C 6 4.10456944, 6.89543056 5, 8 5 C 9.10456944 5, 10 4.10456944, 10 3 C 10 1.89543045, 9.10456944 1, 8 1 C 6.89543056 1, 6 1.89543045, 6 3 Z'
+        id='outline'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+</svg>

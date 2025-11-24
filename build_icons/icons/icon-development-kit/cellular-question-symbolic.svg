@@ -1,0 +1,32 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='network-cellular-no-route'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 12 12 L 13.456172 12 C 14.3088055 12, 15 11.3088055, 15 10.456172 C 14.9757948 9.62774467, 14.2845993 8.97579479, 13.456172 9 L 11 9 M 12 15 L 12 14.9815998'
+        id='question'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 13.4921885 2 C 13.2160463 2.00415468, 12.9958448 2.2316699, 13 2.5078125 L 13 6 L 14 6 L 14 2.5078125 C 14 2.22751546, 13.7724857 2.00000024, 13.4921885 2 Z M 9.5078125 5 C 9.22751522 5, 9 5.22751522, 9 5.5078125 L 9 6 L 10 6 L 10 5.5078125 C 10.0041552 5.2316699, 9.78395462 5.00415468, 9.5078125 5 Z M 5.5078125 8 C 5.22751522 8, 5 8.22751522, 5 8.5078125 L 5 13.4921885 C 4.99584532 13.7683306, 5.21604538 13.9958448, 5.4921875 14 C 5.77248478 14, 6 13.7724857, 6 13.4921885 L 6 8.5078125 C 6.00415468 8.23167038, 5.78395462 8.00415516, 5.5078125 8 Z M 1.5078125 11 C 1.22751546 11, 1.00000024 11.2275143, 1 11.5078115 L 1 13.4921885 C 0.995845377 13.7683306, 1.21604514 13.9958448, 1.4921875 14 C 1.77248454 14, 1.99999976 13.7724848, 2 13.4921885 L 2 11.5078115 C 2.00415468 11.2316704, 1.78395486 11.0041552, 1.5078125 11 Z'
+        id='bars'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

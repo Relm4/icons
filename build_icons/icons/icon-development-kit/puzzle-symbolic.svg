@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='puzzle piece application-x-appliance'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 7.5 1 C 6.66796923 1, 6 1.66796899, 6 2.5 L 6 3 L 2 3 C 1.44531202 3, 1 3.44531202, 1 4 L 1 7 L 1.5 7 C 2.33203101 7, 3 7.66796923, 3 8.5 C 3 9.33203125, 2.33203101 10, 1.5 10 L 1 10 L 1 14 C 1 14.5546885, 1.44531202 15, 2 15 L 6 15 L 6 14.5 C 6 13.6679688, 6.66796923 13, 7.5 13 C 8.33203125 13, 9 13.6679688, 9 14.5 L 9 15 L 12 15 C 12.5546885 15, 13 14.5546885, 13 14 L 13 10 L 13.5 10 C 14.3320312 10, 15 9.33203125, 15 8.5 C 15 7.66796923, 14.3320312 7, 13.5 7 L 13 7 L 13 4 C 13 3.44531202, 12.5546885 3, 12 3 L 9 3 L 9 2.5 C 9 1.66796899, 8.33203125 1, 7.5 1 Z'
+        id='fill'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+  <path d='M 7.5 1 C 6.66796923 1, 6 1.66796899, 6 2.5 L 6 3 L 2 3 C 1.44531202 3, 1 3.44531202, 1 4 L 1 7 L 1.5 7 C 2.33203101 7, 3 7.66796923, 3 8.5 C 3 9.33203125, 2.33203101 10, 1.5 10 L 1 10 L 1 14 C 1 14.5546885, 1.44531202 15, 2 15 L 6 15 L 6 14.5 C 6 13.6679688, 6.66796923 13, 7.5 13 C 8.33203125 13, 9 13.6679688, 9 14.5 L 9 15 L 12 15 C 12.5546885 15, 13 14.5546885, 13 14 L 13 10 L 13.5 10 C 14.3320312 10, 15 9.33203125, 15 8.5 C 15 7.66796923, 14.3320312 7, 13.5 7 L 13 7 L 13 4 C 13 3.44531202, 12.5546885 3, 12 3 L 9 3 L 9 2.5 C 9 1.66796899, 8.33203125 1, 7.5 1 Z'
+        id='outlien'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+</svg>

@@ -1,0 +1,45 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='face emote smiley face-angel'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 3.05025268 3.05025268 C 0.316582739 5.7839222, 0.31658271 10.2160778, 3.05025268 12.9497471 C 5.78392267 15.6834173, 10.2160769 15.6834173, 12.949748 12.949748 C 15.6834173 10.2160769, 15.6834183 5.78392267, 12.949748 3.05025244'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 10.999999 6.49655151 C 10.999999 6.77459812, 10.7745981 7, 10.4965525 7 C 10.2185049 7, 9.99310303 6.77459812, 9.99310303 6.49655151 C 9.99310303 6.21850491, 10.2185049 5.99310303, 10.4965525 5.99310303 C 10.7745981 5.99310303, 10.999999 6.21850491, 10.999999 6.49655151 Z M 6.03448296 6.49655151 C 6.03448296 6.77459812, 5.80908108 7, 5.53103447 7 C 5.25298786 7, 5.02758598 6.77459812, 5.02758598 6.49655151 C 5.02758598 6.21850491, 5.25298786 5.99310303, 5.53103447 5.99310303 C 5.80908108 5.99310303, 6.03448296 6.21850491, 6.03448296 6.49655151 Z'
+        id='path1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 11.0310888 9.48407745 C 10.4058743 10.5669813, 9.25042915 11.2340775, 8 11.2340775 C 6.74957037 11.2340775, 5.59412575 10.5669813, 4.96891117 9.48407745'
+        id='path2'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <rect x='5.49655' y='0.5' width='4.97931' height='2' rx='1' ry='1'
+        id='rect1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='tag category label add plus tag-add'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 4.5 4.5 L 4.5 4.50099993'
+        id='path2'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='3'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 1 13 L 5 13 M 3 15 L 3 11 M 1.52252972 8.5 C 1.18582356 8.07539463, 1.00000012 7.54727697, 1 7 L 1 4 C 1 2.34314585, 2.34314585 1, 4 1 L 7 1 C 7.64028931 1.00000012, 8.25435352 1.254354, 8.70710659 1.70710683 L 14 7 C 14.5522852 7.55228472, 14.5522852 8.44771481, 14 9 L 9 14 C 8.59445 14.40555, 8.00387001 14.5132999, 7.5 14.3232479'
+        id='path4'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

@@ -1,0 +1,26 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='shield full secure security-medium-rtl'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 14 1 L 14 10 C 14 12.8479338, 8 15, 8 15 C 8 15, 2 13.0062637, 2 10 L 2 1 Z'
+        id='outer'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 12 3 L 12 10 C 12 10.0862904, 11.9459896 10.3094654, 11.5917969 10.6933594 C 11.2376032 11.0772543, 10.6344767 11.5241041, 9.9921875 11.8984385 C 9.02621746 12.4614162, 8.45455074 12.6407623, 8.01953125 12.8027344 L 8 3 Z'
+        id='inner'
+        stroke='none'
+        fill-rule='nonzero'
+        fill-opacity='0.25'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'/>
+</svg>

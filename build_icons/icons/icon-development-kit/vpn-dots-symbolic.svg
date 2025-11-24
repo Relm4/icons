@@ -1,0 +1,52 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='network-vpn-acquiring dots'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 13.613287 8.00000286 C 13.613287 8.55228901, 13.1655703 9.00000572, 12.6132841 9.00000572 C 12.060998 9.00000572, 11.6132822 8.55228901, 11.6132822 8.00000286 C 11.6132822 7.44771719, 12.060998 7.00000095, 12.6132841 7.00000048 C 13.1655703 7.00000048, 13.613287 7.44771671, 13.613287 8.00000286 Z M 8.60000038 8.00000286 C 8.60000038 8.55228901, 8.15228367 9.00000572, 7.59999752 9.00000572 C 7.04771137 9.00000572, 6.59999514 8.55228901, 6.59999514 8.00000286 C 6.59999514 7.44771671, 7.04771137 7.00000048, 7.59999752 7.00000048 C 8.15228367 7.00000048, 8.60000038 7.44771671, 8.60000038 8.00000286 Z M 3.61328149 8.00000286 C 3.61328173 8.55228901, 3.16556525 9.00000572, 2.6132791 9.00000572 C 2.06099272 9.00000572, 1.61327636 8.55228901, 1.6132766 8.00000286 C 1.61327672 7.44771671, 2.06099296 7.00000048, 2.6132791 7.00000048 C 3.16556525 7.00000048, 3.61328149 7.44771671, 3.61328149 8.00000286 Z'
+        id='dots'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+  <path d='M 6 13.9999828 L 3 13.9999828 M 10 13.9999828 L 13 13.9999828'
+        id='path1-5'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6.48275805 13.9999828 L 6.48275805 14.0344629 C 6.482759 14.8533678, 7.14661312 15.5172224, 7.96551704 15.5172224 L 8 15.5172224 C 8.81890392 15.5172224, 9.48275661 14.8533697, 9.48275757 14.0344658 L 9.48275757 13.9999857 C 9.48275948 13.181078, 8.81890488 12.5172243, 8 12.5172243 L 7.96551991 12.5172243 C 7.14661503 12.5172243, 6.48276091 13.181078, 6.48276091 13.9999828 Z'
+        id='path5'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 7.39311981 11.6358719 L 8 12 L 8.60688019 11.6358719 M 13 4 L 13 2 L 8 1 L 3 2 L 3 4'
+        id='path3'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

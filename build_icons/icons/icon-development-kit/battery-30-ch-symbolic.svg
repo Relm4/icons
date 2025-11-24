@@ -1,0 +1,33 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='battery battery-level-30-charging'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9 3 L 9 1.33793104 C 9 1.15129697, 8.84870338 1.00000024, 8.66206932 1 L 7.33793116 1 C 7.15129709 0.99999994, 7 1.15129685, 7 1.33793104 L 7 3 M 13 6 L 13 5 C 13 3.89543056, 12.1045694 3, 11 3 L 5 3 C 3.89543056 3, 3 3.89543056, 3 5 L 3 13 C 3 14.1045694, 3.89543056 15, 5 15 L 9 15'
+        id='battery'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 5 10.3930998 L 9 10.3930998 L 8.45386028 11 C 8.1268158 11.36343, 8 11.6902027, 8 12 C 8 12.5702143, 8.23891163 12.811285, 8.42758656 12.9999599 L 5 12.9999599 Z'
+        id='30'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,255,0)'
+        class='success-fill'/>
+  <path d='M 13 9 L 10 12 L 15 12 L 12 15'
+        id='bolt'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

@@ -6,3 +6,7 @@
 	path = source/icon-development-kit-www
 	url = https://gitlab.gnome.org/Teams/Design/icon-development-kit-www.git
 	update = none
+[submodule "source/icon-development-kit"]
+	path = source/icon-development-kit
+	url = https://gitlab.gnome.org/Teams/Design/icon-development-kit.git
+	update = none

@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='cloud exclamation weather-severe-alert'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9 13 L 6 13 C 3.23857594 13, 1 10.7614241, 1 8 C 1 5.23857641, 3.23857594 3, 6 3 C 7.86001492 3.05173993, 9.59004974 4, 10.5653811 6.16383219 C 12 5.68642855, 13 6, 14 6.64221144'
+        id='cloud'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 12 15 L 12 15.0149298 M 12 9.00000095 L 12 12'
+        id='excl'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(255,255,0)'
+        fill='none'
+        class='warning-stroke transparent-fill'/>
+</svg>

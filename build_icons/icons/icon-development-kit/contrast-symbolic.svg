@@ -1,0 +1,38 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='contrast dark-mode display'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 8 C 1 11.8659935, 4.13400698 15, 8 15 C 11.8659935 15, 15 11.8659935, 15 8 C 15 4.13400698, 11.8659935 1, 8 1 C 4.13400698 1, 1 4.13400698, 1 8 Z'
+        id='path0'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 1 8 C 1 11.8659945, 4.13400698 15, 8 15 L 8 1 C 4.13400698 1, 1 4.13400698, 1 8 Z'
+        id='path1'
+        gpa:states='0'
+        stroke='none'
+        fill-rule='nonzero'
+        fill-opacity='0.25'
+        fill='rgb(0,0,0)'
+        class='foreground-fill not-initial-state'
+        gpa:fill='foreground'/>
+  <path d='M 1 8 C 1 11.8659945, 4.13400698 15, 8 15 L 8 1 C 4.13400698 1, 1 4.13400698, 1 8 Z'
+        id='path2'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+</svg>

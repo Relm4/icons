@@ -1,0 +1,35 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='input-touchpad touchpad-disabled'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 2.16789722 2.16789722 C 2.42284513 2.0504899, 2.69994521 2, 3 2 L 12 2 C 13.1079998 2, 14 2.89199996, 14 4 L 14 12 C 14 12.5469799, 13.7826157 13.0413198, 13.4291754 13.4016914 M 10.6482763 14 L 3 14 C 1.89199996 14, 1 13.1079998, 1 12 L 1 4.3034482'
+        id='rect1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 7.5 14 L 7.5 10.5 M 1 10.5 L 8.015625 10.5 M 10.484375 10.5 L 14 10.5'
+        id='path3'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 1 1 L 15 15'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

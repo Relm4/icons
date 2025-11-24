@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='round crosshair target x settings-troubleshooting'>
+  <path d='M 11 8 L 5 8 M 8 5 L 8 11 M 2 8 L 1 8 M 8 14 L 8 15 M 14 8 L 15 8 M 8 1 L 8 2 M 2 8 C 2 11.3137093, 4.68629169 14, 8 14 C 11.3137093 14, 14 11.3137093, 14 8 C 14 4.68629169, 11.3137093 2, 8 2 C 4.68629169 2, 2 4.68629169, 2 8 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='fridge freezer kitchen refrigerator'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 4 1 L 12 1 C 13.1079998 1, 14 1.89199996, 14 3 L 14 13 C 14 14.1079998, 13.1079998 15, 12 15 L 4 15 C 2.89199996 15, 2 14.1079998, 2 13 L 2 3 C 2 1.89199996, 2.89199996 1, 4 1 Z'
+        id='rect1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 5 9.5 C 4.72385788 9.5, 4.5 9.72385788, 4.5 10 L 4.5 11 C 4.5 11.2761421, 4.72385788 11.5, 5 11.5 M 5 3.5 C 4.72385788 3.5, 4.5 3.72385764, 4.5 4 L 4.5 5 C 4.5 5.2761426, 4.72385788 5.5, 5 5.5 M 2 7.5 L 14 7.5'
+        id='path6'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

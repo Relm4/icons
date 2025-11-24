@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='ampersand at email addressbook contacts goa-panel x-office-address-book'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 12 8 L 12 13.4974127 C 12 14.3272686, 12.6727314 15, 13.5025873 15 C 14.3310146 14.9985714, 15.0014286 14.32584, 15 13.4974127 L 15 8 C 15 4.13400698, 11.8659935 1, 8 1 C 4.13400698 1, 1 4.13400698, 1 8 C 1 11.8659935, 4.13400698 15, 8 15 L 9 15 M 12 8 C 12 10.2091389, 10.2091389 12, 8 12 C 5.79086113 12, 4 10.2091389, 4 8 C 4 5.79086113, 5.79086113 4, 8 4 C 10.2091389 4, 12 5.79086113, 12 8 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

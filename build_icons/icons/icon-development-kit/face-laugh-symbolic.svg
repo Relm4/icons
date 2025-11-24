@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='face-laugh emoji smile'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 1 C 11.8659935 1, 15 4.13400698, 15 8 C 15 11.8659935, 11.8659935 15, 8 15 C 4.13400698 15, 1 11.8659935, 1 8 C 1 4.13400698, 4.13400698 1, 8 1 Z'
+        id='outline'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 9.5 5.52666903 C 9.5 4.97438431, 9.94771481 4.52666903, 10.5 4.52666903 C 11.0522852 4.52666903, 11.5 4.97438431, 11.5 5.52666903 M 4.5 5.52666903 C 4.5 4.97438431, 4.94771528 4.52666903, 5.5 4.52666903 C 6.05228472 4.52666903, 6.5 4.97438431, 6.5 5.52666903 M 11.0310888 7.51074648 L 4.96891117 7.51074648 C 4.98903418 9.1695385, 6.34097099 10.5028658, 7.9998827 10.4999952 L 8.0001173 10.4999952 C 9.65902901 10.5028954, 11.0109663 9.1695385, 11.0310888 7.51074648 Z'
+        id='laugh'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>
