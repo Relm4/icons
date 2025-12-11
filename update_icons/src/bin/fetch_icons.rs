@@ -38,8 +38,8 @@ impl IconFilter for DevKitWwwFilter {
     fn icon_name(path: &Path) -> Option<String> {
         let file_name = path.file_name().unwrap().to_str().unwrap();
         file_name
-          .ends_with("-symbolic.svg")
-          .then(|| file_name.into())
+            .ends_with("-symbolic.svg")
+            .then(|| file_name.into())
     }
 
     fn alt_icon_name2(name: &str) -> String {
