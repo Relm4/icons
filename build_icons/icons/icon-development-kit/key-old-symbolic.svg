@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='key password unlock lock safe dialog-password settings-auth'>
+  <path d='M 5 11 L 7 13 M 8.17555714 7.82444239 L 3 13 L 5 15 M 15 5 C 15 7.20913887, 13.2091389 9, 11 9 C 8.79086113 9, 7 7.20913887, 7 5 C 7 2.79086089, 8.79086113 1, 11 1 C 13.2091389 1, 15 2.79086089, 15 5 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

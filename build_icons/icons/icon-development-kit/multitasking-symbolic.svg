@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 6 0 c -1.644531 0 -3 1.355469 -3 3 v 10 c 0 1.644531 1.355469 3 3 3 h 4 c 1.644531 0 3 -1.355469 3 -3 v -10 c 0 -1.644531 -1.355469 -3 -3 -3 z m 0 2 h 4 c 0.570312 0 1 0.429688 1 1 v 10 c 0 0.570312 -0.429688 1 -1 1 h -4 c -0.570312 0 -1 -0.429688 -1 -1 v -10 c 0 -0.570312 0.429688 -1 1 -1 z m -5 1 c -0.554688 0 -1 0.445312 -1 1 v 8 c 0 0.554688 0.445312 1 1 1 s 1 -0.445312 1 -1 v -8 c 0 -0.554688 -0.445312 -1 -1 -1 z m 14 0 c -0.554688 0 -1 0.445312 -1 1 v 8 c 0 0.554688 0.445312 1 1 1 s 1 -0.445312 1 -1 v -8 c 0 -0.554688 -0.445312 -1 -1 -1 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='preferences-desktop-multitasking switching window'
+     gpa:state='5'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6 1 L 10 1 C 11.1045694 1, 12 1.89543045, 12 3 L 12 13 C 12 14.1045694, 11.1045694 15, 10 15 L 6 15 C 4.89543056 15, 4 14.1045694, 4 13 L 4 3 C 4 1.89543045, 4.89543056 1, 6 1 Z M 15 4 L 15 12 M 1 4 L 1 12'
+        id='rects'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

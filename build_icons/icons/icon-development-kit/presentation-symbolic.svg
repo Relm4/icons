@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='slildes podium talk x-office-presentation'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 3 4 L 3 11 L 13 11 L 13 4 M 2.5 1 L 13.5 1 C 14.3310003 1, 15 1.66900003, 15 2.5 C 15 3.33100009, 14.3310003 4, 13.5 4 L 2.5 4 C 1.66900003 4, 1 3.33100009, 1 2.5 C 1 1.66900003, 1.66900003 1, 2.5 1 Z'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 8.51058006 8.50263023 L 8.51058006 6 M 6.50690031 8.50263023 L 6.50690031 7 M 5.50598001 8.50263023 L 10.5243788 8.50263023 M 7.99999952 13.545022 L 7.99999952 11 M 8.99999905 14.545022 C 8.99999905 15.0973063, 8.55228424 15.545022, 7.99999952 15.545022 C 7.44771481 15.545022, 6.99999952 15.0973072, 6.99999952 14.545022 C 6.99999952 13.9927368, 7.44771481 13.545022, 7.99999952 13.545022 C 8.55228424 13.545022, 8.99999905 13.9927378, 8.99999905 14.545022 Z'
+        id='path6'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

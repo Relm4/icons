@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 3 1.988281 v 3 h -2 v 2 h 2 v 2 h -2 v 2 h 2 v 3 h 2 v -3 h 2 v 3 h 2 v -3 h 2 v -2 h -2 v -2 h 2 v -2 h -2 v -3 h -2 v 3 h -2 v -3 z m 9 0 v 9 h 2 v -9 z m -7 5 h 2 v 2 h -2 z m 8 5 c -0.828125 0 -1.5 0.671875 -1.5 1.5 s 0.671875 1.5 1.5 1.5 s 1.5 -0.671875 1.5 -1.5 s -0.671875 -1.5 -1.5 -1.5 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='language curse foul swear bad-language rating strong-language'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 13 3 L 13 10 M 2 10 L 10 10 M 2 6 L 10 6 M 8 3 L 8 13 M 4 3 L 4 13'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 13 13.5 L 13 13.5010004'
+        id='path6'
+        stroke-width='3'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

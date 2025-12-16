@@ -1,0 +1,21 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='terminal console term vte settings-cli cli'>
+  <path d='M 11.0559969 13.9956779 L 4.94291592 14.0045004 L 1.38847589 9.968997 L 2.43627191 3.85886908 L 8.00468731 0.999992669 L 13.5118752 3.84273243 L 14.5562487 9.94984436 Z'
+        id='path0'
+        stroke-width='2.00001'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 10 6 L 9.42814541 6.59985733 M 6.58578634 9.41421318 L 6 10 M 9.40093517 9.42736816 L 10 10 M 6.55833387 6.61378241 L 6 6 M 6 8 L 5 8 M 10 8 L 11 8 M 8 10 L 8 11 M 10 8 C 10 9.10456944, 9.10456944 10, 8 10 C 6.89543056 10, 6 9.10456944, 6 8 C 6 6.89543056, 6.89543056 6, 8 6 C 9.10456944 6, 10 6.89543056, 10 8 Z M 8 5 L 8 6'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

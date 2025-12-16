@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='mail-mark-junk spam email'>
+  <path d='M 8 11 L 8 11.0149298 M 8 5 L 8 8 M 15 5 L 15 11 L 11 15 L 5 15 L 1 11 L 1 5 L 5 1 L 11 1 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

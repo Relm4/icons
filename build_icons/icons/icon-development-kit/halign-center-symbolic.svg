@@ -1,7 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#241f31">
-        <path d="m 8.5 0 c -0.277344 0 -0.5 0.222656 -0.5 0.5 v 15 c 0 0.277344 0.222656 0.5 0.5 0.5 s 0.5 -0.222656 0.5 -0.5 v -15 c 0 -0.277344 -0.222656 -0.5 -0.5 -0.5 z m 0 0"/>
-        <path d="m 5.832031 1 c -1.011719 0 -1.832031 0.820312 -1.832031 1.832031 v 2.335938 c 0 1.011719 0.820312 1.832031 1.832031 1.832031 h 1.167969 v -2 h -1 v -2 h 1 v -2 z m 4.167969 0 v 2 h 1 v 2 h -1 v 2 h 1.164062 c 1.015626 0 1.835938 -0.820312 1.835938 -1.832031 v -2.335938 c 0 -1.011719 -0.820312 -1.832031 -1.835938 -1.832031 z m -6.167969 7 c -1.011719 0 -1.832031 0.820312 -1.832031 1.832031 v 2.335938 c 0 1.011719 0.820312 1.832031 1.832031 1.832031 h 3.167969 v -2 h -3 v -2 h 3 v -2 z m 6.167969 0 v 2 h 3 v 2 h -3 v 2 h 3.164062 c 1.015626 0 1.835938 -0.820312 1.835938 -1.832031 v -2.335938 c 0 -1.011719 -0.820312 -1.832031 -1.835938 -1.832031 z m 0 0"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='gtk align horizontal center halign-center'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8.5 0.5 L 8.5 15.5'
+        id='path1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 11 9 L 13 9 C 13.5522852 9, 14 9.44771481, 14 10 L 14 12 C 14 12.5522852, 13.5522852 13, 13 13 L 11 13 M 6 9 L 4 9 C 3.44771528 9, 3 9.44771481, 3 10 L 3 12 C 3 12.5522852, 3.44771528 13, 4 13 L 6 13 M 11 2 C 11.5522852 2, 12 2.44771528, 12 3 L 12 5 C 12 5.55228472, 11.5522852 6, 11 6 M 6 2 C 5.44771528 2, 5 2.44771528, 5 3 L 5 5 C 5 5.55228472, 5.44771528 6, 6 6'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='resource podman settings-resource'>
+  <path d='M 8.02701473 9.64864254 L 10.7297297 12.3513556 L 8.02701473 15.0540714 L 5.32430077 12.3513556 Z M 3.70267248 5.32430029 L 6.40538645 8.02701473 L 3.70267272 10.7297287 L 0.999958575 8.02701473 Z M 12.3513575 5.32430077 L 15.0540724 8.02701473 L 12.3513556 10.7297287 L 9.64864349 8.02701473 Z M 8.02701473 0.999958277 L 10.7297297 3.70267224 L 8.02701473 6.40538597 L 5.32430077 3.70267224 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

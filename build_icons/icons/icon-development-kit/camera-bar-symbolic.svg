@@ -1,0 +1,34 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='camera-photo dslr'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6.26200867 11.44557 C 6.75236702 11.7946815, 7.35220623 12, 8 12 C 8.67492104 12, 9.29778671 11.7771263, 9.79901314 11.40096 M 1 11.6000004 L 1 13 C 1 14.1045694, 1.89543045 15, 3 15 L 13 15 C 14.1045694 15, 15 14.1045694, 15 13 L 15 11.4689655 M 14.4620895 4.63533163 C 14.0970488 4.24439716, 13.5770655 4, 13 4 L 12 4 L 10.7103453 2.71034479 C 10.2555189 2.25551844, 9.63864231 1.99999988, 8.99542046 2 L 7.00457907 2 C 6.36135769 2, 5.74448109 2.25551867, 5.28965521 2.71034479 L 4 4 L 3 4 C 2.49294496 4, 2.02996159 4.18869305, 1.67743862 4.49969053'
+        id='camera'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <rect x='1' y='7' width='14' height='2'
+        id='hwd'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+</svg>

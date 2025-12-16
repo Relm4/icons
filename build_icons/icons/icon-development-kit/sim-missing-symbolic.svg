@@ -1,0 +1,39 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='auth-sim card gsm cellular e-sim auth-sim-missing'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 15 5.94480133 L 15 4 L 12 1 L 2 1 C 1.44771528 1, 1 1.44771528, 1 2 L 1 14 C 1 14.5522852, 1.44771528 15, 2 15 L 5 15'
+        id='border'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6.5 9.5 L 6.5 12.5 Z M 3.5 9.5 L 6.5 9.5 L 6.5 12.5 L 5 12.5 C 4.17157269 12.5, 3.5 11.8284273, 3.5 11 Z M 9.5 3.5 L 11 3.5 C 11.8284273 3.5, 12.5 4.17157269, 12.5 5 L 12.5 6.5 L 9.5 6.5 Z M 6.5 3.5 h 3 v 3 h -3 z M 12.5 6.5 L 6.5 6.5 L 6.5 3.5 L 5 3.5 C 4.17157269 3.5, 3.5 4.17157269, 3.5 5 L 3.5 9.5 L 8 9.5'
+        id='pins'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 12 12 L 13.456172 12 C 14.3088045 12, 15 11.3088045, 15 10.456172 C 14.9757948 9.62774467, 14.2845993 8.97579479, 13.456172 9 L 11 9 M 12 15 L 12 14.9815998'
+        id='question'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

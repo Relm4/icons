@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='drive-removable-media drive-harddisk-system drive-harddisk-ieee1394 hdd ssd nvme media cd dvd bluray disc'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 3 9.50689697 L 13 9.50689697'
+        id='path6'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 15 12.006897 L 1 12.006897 M 3 2.0068965 L 13 2.0068965 C 14.1045694 2.0068965, 15 2.90232706, 15 4.0068965 L 15 12.006897 C 15 13.1114664, 14.1045694 14.006897, 13 14.006897 L 3 14.006897 C 1.89543045 14.006897, 1 13.1114664, 1 12.006897 L 1 4.0068965 C 1 2.90232706, 1.89543045 2.0068965, 3 2.0068965 Z'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

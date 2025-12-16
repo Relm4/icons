@@ -1,7 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 6 0 v 3.269531 c -0.597656 0.347657 -1 0.996094 -1 1.730469 c 0 1.097656 0.902344 2 2 2 s 2 -0.902344 2 -2 c 0 -0.734375 -0.402344 -1.382812 -1 -1.730469 v -3.269531 z m 1 4 c 0.558594 0 1 0.441406 1 1 s -0.441406 1 -1 1 s -1 -0.441406 -1 -1 s 0.441406 -1 1 -1 z m 0 7 c -0.734375 0 -1.382812 0.402344 -1.730469 1 h -5.269531 v 2 h 5.269531 c 0.347657 0.597656 0.996094 1 1.730469 1 s 1.382812 -0.402344 1.726562 -1 h 7.273438 v -2 h -7.273438 c -0.34375 -0.597656 -0.992187 -1 -1.726562 -1 z m 0 1 c 0.558594 0 1 0.441406 1 1 s -0.441406 1 -1 1 s -1 -0.441406 -1 -1 s 0.441406 -1 1 -1 z m 0 0"/>
-        <path d="m 6 6.730469 v 4.539062 c 0.296875 -0.171875 0.636719 -0.269531 1 -0.269531 s 0.707031 0.097656 1 0.269531 v -4.539062 c -0.292969 0.171875 -0.636719 0.269531 -1 0.269531 s -0.707031 -0.101562 -1 -0.269531 z m 0 0" fill-opacity="0.34902"/>
-    </g>
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='lines nodes shape join combine segment line-join'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8.5 5 C 8.5 5.82842684, 7.82842731 6.5, 7 6.5 C 6.17157269 6.5, 5.5 5.82842684, 5.5 5 C 5.5 4.17157316, 6.17157269 3.5, 7 3.5 C 7.82842731 3.5, 8.5 4.17157316, 8.5 5 Z M 8.5 13 C 8.5 13.8284273, 7.82842731 14.5, 7 14.5 C 6.17157269 14.5, 5.5 13.8284273, 5.5 13 C 5.5 12.1715727, 6.17157269 11.5, 7 11.5 C 7.82842731 11.5, 8.5 12.1715727, 8.5 13 Z'
+        id='path2'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='1'
+        stroke-linecap='butt'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 7 6.5 L 7 11.5'
+        id='path5'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke-opacity='0.35'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 7 0 L 7 3.5 M 8.5 13 L 16 13 M 0 13 L 5.5 13'
+        id='path6'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

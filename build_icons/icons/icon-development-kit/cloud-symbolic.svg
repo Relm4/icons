@@ -1,0 +1,13 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='cloud weather'>
+  <path d='M 7.5 3 C 5.19039631 3.00029039, 3.25600171 4.74901009, 3.0234375 7.046875 C 1.84880233 7.27497244, 1.00049412 8.30342293, 1 9.5 C 1 10.8807116, 2.11928821 12, 3.5 12 C 4.12006569 12.0000229, 11.2639608 12.0001869, 12 12 C 13.6568537 12, 15 10.6568537, 15 9 C 15 7.34314585, 13.6568537 6, 12 6 Q 11.8728905 5.99950218, 11.7460938 6.00976992 C 11.1132984 4.20675802, 9.41082859 2.99999452, 7.5 3 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

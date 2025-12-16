@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 2 0 c -0.265625 0 -0.519531 0.105469 -0.707031 0.292969 c -0.390625 0.390625 -0.390625 1.023437 0 1.414062 l 1.292969 1.292969 l -1.292969 1.292969 c -0.390625 0.390625 -0.390625 1.023437 0 1.414062 s 1.023437 0.390625 1.414062 0 l 1.292969 -1.292969 l 1.292969 1.292969 c 0.390625 0.390625 1.023437 0.390625 1.414062 0 s 0.390625 -1.023437 0 -1.414062 l -1.292969 -1.292969 l 1.292969 -1.292969 c 0.390625 -0.390625 0.390625 -1.023437 0 -1.414062 c -0.1875 -0.1875 -0.441406 -0.292969 -0.707031 -0.292969 s -0.519531 0.105469 -0.707031 0.292969 l -1.292969 1.292969 l -1.292969 -1.292969 c -0.1875 -0.1875 -0.441406 -0.292969 -0.707031 -0.292969 z m 6 2 l -1 1 l 1 1 h 1 c 1.117188 0 2 0.882812 2 2 v 4.175781 c -1.160156 0.414063 -2 1.527344 -2 2.824219 c 0 1.648438 1.351562 3 3 3 s 3 -1.351562 3 -3 c 0 -1.296875 -0.839844 -2.410156 -2 -2.824219 v -4.175781 c 0 -2.199219 -1.804688 -4 -4 -4 z m -4 4 l -1 1 v 8 h 2 v -8 z m 8 5.5 c 0.828125 0 1.5 0.671875 1.5 1.5 s -0.671875 1.5 -1.5 1.5 s -1.5 -0.671875 -1.5 -1.5 s 0.671875 -1.5 1.5 -1.5 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='pull-request merge-request closed version control git svn pull-request-closed'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 14.25 13 C 14.25 14.2426414, 13.2426414 15.25, 12 15.25 C 10.7573614 15.25, 9.75 14.2426414, 9.75 13 C 9.75 11.7573614, 10.7573614 10.75, 12 10.75 C 13.2426414 10.75, 14.25 11.7573614, 14.25 13 Z'
+        id='path2'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 4 14 L 4 10'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 12 10.75 L 12 9'
+        id='path4'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 2 5 L 6 1 M 2 1 L 6 5 M 4 7 L 4 10 M 12 9 L 12 6 C 12 4.34314585, 10.6568546 3, 9 3 L 8 3'
+        id='path8'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

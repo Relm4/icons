@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 4 0 c -2 0 -2 2 -2 2 v 12 c 0 2 2 2 2 2 h 8 s 2 0 2 -2 v -12 c 0 -2 -2 -2 -2 -2 z m 1.507812 2.976562 c 0.28125 -0.003906 0.511719 0.226563 0.507813 0.507813 v 3.53125 h 1 v -4.03125 h 3 v 4.03125 h 0.511719 c 0.675781 -0.011719 0.675781 1.007813 0 1 h -1.511719 v -4.03125 h -1 v 4.03125 h -3 v -4.53125 c -0.003906 -0.277344 0.214844 -0.503906 0.492187 -0.507813 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='auth-smartcard card nfc'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 10 L 13 10 M 3 7 L 11 7 C 12.1079998 7, 13 7.8920002, 13 9 L 13 13 C 13 14.1079998, 12.1079998 15, 11 15 L 3 15 C 1.89199996 15, 1 14.1079998, 1 13 L 1 9 C 1 7.8920002, 1.89199996 7, 3 7 Z'
+        id='card'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 10.5851851 3.58508825 C 11.4479151 3.35392022, 12.3684378 3.6005733, 13 4.23213577 M 8.98223305 2.10278845 C 11.1345501 0.860148072, 13.8867064 1.59758604, 15.1293468 3.74990249'
+        id='waves'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

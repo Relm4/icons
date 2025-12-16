@@ -1,0 +1,23 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='camera multicam switch camera-switch video'>
+  <path d='M 6.51034498 7.54482746 L 6.51034498 6.48275852 L 7.48965502 6.48275852 M 9.50344849 8.44137955 L 9.50344849 9.51724148 L 8.48275852 9.51724148 M 6.53793097 6.55172396 L 9.50344849 9.51724148'
+        id='path0'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 11.7239189 12 L 11.7239189 13.2778091 C 11.7239189 14.2035294, 10.9274483 15, 10.0017281 15 L 6.72391891 15 C 5.79819918 15, 5.00172806 14.2035294, 5.00172806 13.2778091 L 5.00172806 11 M 11.7239189 12 L 15 14 L 15 7 L 12.5626087 8.40722847 M 4.27780914 4 L 4.27780914 2.72219086 C 4.27780914 1.79647064, 5.07427979 1, 6 1 L 9.27780914 1 C 10.2035294 1, 11 1.79647064, 11 2.72219086 L 11 5 M 4.27780914 4 L 1.00172806 2 L 1.00172806 9 L 3.43911886 7.59277201'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

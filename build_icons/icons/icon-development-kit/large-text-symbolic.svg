@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 6.820312 1 c -0.679687 0 -1.269531 0.457031 -1.449218 1.109375 l -3.789063 12.890625 h 3.109375 l 0.960938 -3 h 4.722656 l 0.9375 3 h 3.109375 l -3.75 -12.890625 c -0.175781 -0.65625 -0.769531 -1.109375 -1.449219 -1.109375 z m 1.179688 3 c 0.195312 0.003906 0.359375 0.035156 0.449219 0.363281 l 1.25 4.636719 h -3.394531 l 1.261718 -4.6875 c 0.078125 -0.289062 0.253906 -0.316406 0.433594 -0.3125 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='accessibility-large-text font type a'>
+  <path d='M 4.32291126 9.99444389 L 11.6884079 9.99444389 M 13 15 L 9.67946625 2.32751942 C 9.48126411 1.57109785, 8.79810905 1.04330838, 8.01615143 1.04248142 C 7.23419428 1.04165459, 6.54992485 1.56799793, 6.35012293 2.32399869 L 3 15'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

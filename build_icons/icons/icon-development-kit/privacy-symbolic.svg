@@ -1,0 +1,33 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='preferences-system-privacy hand stop'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 11 3 L 11 7.45862055 M 8 1 L 8 7.45862055 M 5 2 L 5 7.45862055 M 2 5 L 2 8.5 M 11 15 L 15 11 M 2 8.5 C 2 9.32842731, 2.67157292 10, 3.5 10 C 4.32842731 10, 5 9.32842731, 5 8.5 L 5 7.45862055 C 5 8.30990124, 5.69009924 9, 6.54137945 9 C 7.36980677 8.9771471, 8.0228529 8.28704739, 8 7.45862055 C 8 8.30990124, 8.69009876 9, 9.54137897 9 C 10.3698063 8.9771471, 11.0228529 8.28704739, 11 7.45862055 L 11 13 C 11 13.5532742, 11.5277996 14, 12 14 L 11 15 L 4 15 C 2.89543056 15, 2 14.1045694, 2 13 L 2 8.5'
+        id='outline'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+  <path d='M 11 3 L 11 7.45862055 M 8 1 L 8 7.45862055 M 5 2 L 5 7.45862055 M 2 5 L 2 8.5 M 11 15 L 15 11 M 2 8.5 C 2 9.32842731, 2.67157292 10, 3.5 10 C 4.32842731 10, 5 9.32842731, 5 8.5 L 5 7.45862055 C 5 8.30990124, 5.69009924 9, 6.54137945 9 C 7.36980677 8.9771471, 8.0228529 8.28704739, 8 7.45862055 C 8 8.30990124, 8.69009876 9, 9.54137897 9 C 10.3698063 8.9771471, 11.0228529 8.28704739, 11 7.45862055 L 11 13 C 11 13.5532742, 11.5277996 14, 12 14 L 11 15 L 4 15 C 2.89543056 15, 2 14.1045694, 2 13 L 2 8.5'
+        id='fill'
+        gpa:states='1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+</svg>

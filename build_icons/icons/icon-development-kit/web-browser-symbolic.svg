@@ -1,0 +1,43 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='globe www web web-browser firefox epiphany'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9.13269424 6.59022236 C 8.78962803 6.75990295, 8.57253551 7.10946035, 8.57256603 7.49212742 L 8.57256603 13.5284061 C 8.57291889 14.4244289, 9.65635014 14.8730745, 10.2902908 14.2397118 L 11.4341307 13.0961208 L 12.7666464 15.092495 C 13.3213062 16.0529842, 15.1267309 15.1636448, 14.4411345 13.9764118 L 13.2697783 12.2197599 L 14.3841381 12.0055819 C 15.2382383 11.8416376, 15.4962244 10.7448282, 14.8047256 10.2174931 L 10.1900568 6.69239902 C 9.88575268 6.45998669, 9.47588634 6.42037964, 9.13269424 6.59022236 Z'
+        id='cursor'
+        gpa:states='0'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 6.18826675 14.7614813 C 2.90696287 13.8822584, 0.730563879 10.7740383, 1.02663708 7.38990974 C 1.32271004 4.00578117, 4.00578117 1.32271004, 7.38990974 1.02663708 C 10.7740383 0.730563879, 13.8822584 2.90696287, 14.7614813 6.18826675'
+        id='path3'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 6.27480602 14.0653429 C 4.84286404 12.3942318, 4.1954298 8.9034481, 4.72994995 5.73590994 C 5.26446962 2.5683713, 6.83132648 0.610699832, 8.46866035 1.06466854 C 10.1059942 1.51863635, 11.3555012 4.25717497, 11.4501352 7.59915304 M 8.56952477 10.1415567 C 6.1094842 10.0370417, 3.70597219 10.6137991, 2.05547833 11.7046976 M 13.7902737 4.0481348 C 12.286911 4.98681784, 10.2054319 5.51990986, 8.02674103 5.52424479 C 5.84804964 5.52858019, 3.76063061 5.0037837, 2.24675941 4.07110405'
+        id='path6'
+        gpa:states='0'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

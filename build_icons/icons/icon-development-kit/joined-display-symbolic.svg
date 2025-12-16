@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='monitor video-display'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 10 15 L 13 15 M 10 1 L 13 1 C 14.1079998 1, 15 1.89199996, 15 3 L 15 10 C 15 11.1079998, 14.1079998 12, 13 12 L 10 12 C 8.8920002 12, 8 11.1079998, 8 10 L 8 3 C 8 1.89199996, 8.8920002 1, 10 1 Z M 2 15 L 5 15 M 3 6 L 4 6 C 5.1079998 6, 6 6.8920002, 6 8 L 6 10 C 6 11.1079998, 5.1079998 12, 4 12 L 3 12 C 1.89199996 12, 1 11.1079998, 1 10 L 1 8 C 1 6.8920002, 1.89199996 6, 3 6 Z'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

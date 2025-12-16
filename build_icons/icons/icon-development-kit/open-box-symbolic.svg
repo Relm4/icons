@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='open box system-software-install package-x-generic'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6 2 L 3.5999999 5.19999981 C 3.21053362 5.71928835, 3 6.35088921, 3 7 L 3 12 C 3 13.1045694, 3.89543056 14, 5 14 L 11 14 C 12.1045694 14, 13 13.1045694, 13 12 L 13 7.02276897 C 13 6.42807245, 12.5802402 5.91604805, 11.9970922 5.79941845 L 8 5'
+        id='box'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

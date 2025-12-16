@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 3.996094 -0.03125 c -0.550782 0 -0.996094 0.03125 -0.996094 0.03125 v 2 h 2 v -1.03125 c 0 -0.554688 -0.445312 -1 -1 -1 z m -3.996094 3.03125 v 0.988281 c 0 0.554688 0.445312 0.996094 0.996094 1 l 10.003906 0.011719 v 5 h 2 v -6.003906 c 0 -0.550782 -0.445312 -0.996094 -1 -0.996094 h -0.003906 z m 3 3 v 6.003906 c 0 0.550782 0.445312 0.996094 0.996094 0.996094 c 4.023437 0.007812 12.003906 0 12.003906 0 v -0.988281 c 0 -0.550781 -1 -0.996094 -1 -0.996094 l -10 -0.015625 v -5 z m 8 8 v 1.03125 c 0 0.554688 0.445312 1 0.996094 1 h 0.003906 c 0.554688 0 1 -0.03125 1 -0.03125 v -2 z m 0 0" fill="#222222"/>
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='cut clip crop'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 4 1 L 4 1.00100005 M 12 15 L 12 15.0100002 M 4 7 L 4 12 L 15 12 M 1 4 L 12 4 L 12 9'
+        id='path4'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 12 9 L 12 10 M 4 6 L 4 7 M 12 14 L 12 15 M 4 1 L 4 2'
+        id='path8'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

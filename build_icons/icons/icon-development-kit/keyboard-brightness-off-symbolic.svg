@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 8 4 c -0.550781 0 -1 0.449219 -1 1 s 0.449219 1 1 1 s 1 -0.449219 1 -1 s -0.449219 -1 -1 -1 z m 4.601562 1.601562 c -0.554687 0 -1 0.445313 -1 1 c 0 0.550782 0.445313 1 1 1 c 0.550782 0 1 -0.449218 1 -1 c 0 -0.554687 -0.449218 -1 -1 -1 z m -9.730468 0.316407 c -0.371094 0.394531 -0.363282 1.007812 0.019531 1.390625 c 0.378906 0.378906 0.992187 0.394531 1.386719 0.027344 z m -0.871094 4.082031 c -0.550781 0 -1 0.449219 -1 1 s 0.449219 1 1 1 s 1 -0.449219 1 -1 s -0.449219 -1 -1 -1 z m 12 0 c -0.550781 0 -1 0.449219 -1 1 s 0.449219 1 1 1 s 1 -0.449219 1 -1 s -0.449219 -1 -1 -1 z m 0 0"/>
-        <path d="m 5.5 10 c -0.277344 0 -0.5 0.222656 -0.5 0.5 v 1.5 h 3.9375 l -2 -2 z m 0 0" fill-opacity="0.34902"/>
-        <path d="m 1.53125 0.46875 l -1.0625 1.0625 l 14 14 l 1.0625 -1.0625 z m 0 0"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='key keyboard-brightness keyboard-brightness-off'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 1 L 15 15 M 13 7 L 14 5 M 3 7 L 2.21490359 5.42980719 M 8 6 L 8 3 M 10 13 L 4.5 13 C 3.66899991 13, 3 12.3310003, 3 11.5 C 3 10.6689997, 3.66899991 10, 4.5 10 L 7 10 M 10 10 L 11.5 10 C 12.3310003 10, 13 10.6689997, 13 11.5 C 13 11.9154997, 12.8327503 12.2904997, 12.5616245 12.5616245'
+        id='path3'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

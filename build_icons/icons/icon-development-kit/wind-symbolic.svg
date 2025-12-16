@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='wind weather-windy'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 11 L 10 11 C 11.1045694 11, 12 11.8954306, 12 13 C 12 14.1045694, 11.1045694 15, 10 15 C 9.38567448 15, 8.8360405 14.7230244, 8.46916389 14.287137 M 1 8 L 12.4713354 8 C 13.867878 8, 15 6.86787796, 15 5.47133493 C 14.984169 4.0906229, 13.852047 2.98416877, 12.4713354 3 C 11.2366104 2.86984444, 10.1301556 3.765275, 10 5 M 1 5 L 5.49060345 5 C 6.32422018 5, 7 4.32422018, 7 3.49060369 C 6.99481058 2.66217661, 6.34724951 2, 5.49060345 2 C 5.03593159 2, 4.60698462 2.15738964, 4.31762648 2.4665916'
+        id='wind'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

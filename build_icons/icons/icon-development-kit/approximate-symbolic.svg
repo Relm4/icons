@@ -1,7 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 2 9 c -0.550781 0 -1 0.449219 -1 1 s 0.449219 1 1 1 h 12 c 0.550781 0 1 -0.449219 1 -1 s -0.449219 -1 -1 -1 z m 0 0"/>
-        <path d="m 4.949219 4.042969 c -1.21875 0.015625 -2.414063 0.40625 -3.5 1.121093 c -0.460938 0.304688 -0.589844 0.921876 -0.285157 1.386719 c 0.300782 0.460938 0.921876 0.589844 1.382813 0.285157 c 1.695313 -1.109376 3.105469 -1.222657 4.945313 -0.003907 l -0.015626 -0.007812 c 2.253907 1.550781 4.839844 1.46875 7.070313 0.011719 c 0.460937 -0.300782 0.589844 -0.921876 0.289063 -1.382813 c -0.300782 -0.460937 -0.921876 -0.59375 -1.382813 -0.289063 c -1.746094 1.140626 -3.125 1.191407 -4.839844 0.011719 l -0.007812 -0.003906 l -0.007813 -0.007813 c -1.1875 -0.785156 -2.429687 -1.140624 -3.648437 -1.125 z m 0 0"/>
-    </g>
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='fuzzy nearly almost translation approximate'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 2 6 C 2 6, 3 5, 5 5 C 7 5, 9 7, 11 7 C 13 7, 14 6, 14 6 M 2 10 L 14 10'
+        id='path2'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

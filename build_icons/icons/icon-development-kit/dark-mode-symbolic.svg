@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 7.941406 0 c -4.40625 0 -7.9999998 3.59375 -7.9999998 8 s 3.5937498 8 7.9999998 8 s 8 -3.59375 8 -8 s -3.59375 -8 -8 -8 z m 0 1.941406 c 3.359375 0 6.058594 2.699219 6.058594 6.058594 s -2.699219 6.058594 -6.058594 6.058594 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='dark-mode display prefer'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 8 C 1 11.8659935, 4.13400698 15, 8 15 C 11.8659935 15, 15 11.8659935, 15 8 C 15 4.13400698, 11.8659935 1, 8 1 C 4.13400698 1, 1 4.13400698, 1 8 Z'
+        id='path0'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 8 7 L 9.93674088 5.70883942 M 8 9 L 10.8604603 7.09302664 M 8 13 L 5.62161636 14.5855894 M 10.7704048 9.15306377 L 3.94266415 13.7048912 M 6.06325865 10.2911606 L 2.67836809 12.5477552 M 5.1395402 8.90697289 L 1.75414205 11.1639051 M 5.22959518 6.84693623 L 1.17256594 9.55162239 M 8 3 L 1.00805044 7.66129971 M 8 1 L 1.53572249 5.30951834 M 11 8 C 11 9.65685463, 9.65685463 11, 8 11 L 8 8 L 8 5 C 9.65685463 5, 11 6.34314585, 11 8 Z M 8 1 C 4.13400698 1, 1 4.13400698, 1 8 C 1 11.8659945, 4.13400698 15, 8 15 L 8 11 C 6.34314585 11, 5 9.65685463, 5 8 C 5 6.34314585, 6.34314585 5, 8 5 Z'
+        id='path1'
+        gpa:states='0'
+        stroke-width='0.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.1 0.5 1'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+  <path d='M 11 8 C 11 9.65685463, 9.65685463 11, 8 11 L 8 8 L 8 5 C 9.65685463 5, 11 6.34314585, 11 8 Z M 8 1 C 4.13400698 1, 1 4.13400698, 1 8 C 1 11.8659945, 4.13400698 15, 8 15 L 8 11 C 6.34314585 11, 5 9.65685463, 5 8 C 5 6.34314585, 6.34314585 5, 8 5 Z'
+        id='path2'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
 </svg>

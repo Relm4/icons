@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='star arrow up software-update-urgent'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 11.006897 L 8 11 M 8 5 L 8 8 M 3 3 L 6 3 L 8 1 L 10 3 L 13 3 L 13 6 L 15 8 L 13 10 L 13 13 L 10 13 L 8 15 L 6 13 L 3 13 L 3 10 L 1 8 L 3 6 Z'
+        id='excl'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='applications-utilities knife'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 7 11 L 10 8 L 10 7 L 12 7 L 12 5 L 14 5 L 14 4 M 3 11 L 3 6 C 3 3.79086089, 4.79086113 2, 7 2 L 7 11 M 15 15 L 3 15 C 1.89543045 15, 1 14.1045694, 1 13 C 1 11.8954306, 1.89543045 11, 3 11 L 15 11'
+        id='knife'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

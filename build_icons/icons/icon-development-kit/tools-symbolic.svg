@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='applications-engineering wrench angle measure'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 10 15 L 10 13.6241503 L 10 13 C 10 11.4732237, 8.51760387 10, 6.50000048 10 C 4.44338417 10, 3 11.4732237, 3 13 L 3 13.6241503 L 3 15 M 12 15 L 1 15'
+        id='path4'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 12.5 4 L 12.47369 8.22100067 M 10 1 L 10 2 C 10 3.10456944, 10.8954306 4, 12 4 L 13 4 C 14.1045694 4, 15 3.10456944, 15 2 L 15 1'
+        id='path6'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

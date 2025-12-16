@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='butt naked rating nudity nudity-no'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 1 L 15 15 M 11 14.5 L 11 15 M 3 13 L 3 6.5 M 6.5 14 L 6.5 12 C 6.5 12, 7.12693596 11.8432655, 7.67878771 11.1787882 M 8.5 8.5 C 8.5 5.5, 6 5, 6 5'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 3 13 L 3 16 M 11 15 L 11 16 M 6.5 14 L 6.5 16 M 10.5 0 L 10.5 5 C 10.5 5, 13 5.5, 13 8.5 C 13 10.3434992, 12.2447796 11.2429733, 11.6625051 11.6625051 M 3 2.99999976 L 3 0'
+        id='path26'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

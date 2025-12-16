@@ -1,0 +1,37 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='moon sun night-light-disabled'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9.76953125 9.76953125 C 10.7468271 8.79223728, 10.7468271 7.20776272, 9.76953125 6.23046875 C 9.27856445 5.73950148, 8.63372231 5.49571514, 7.99023438 5.49804688 C 7.77573824 5.49882412, 7.56214714 5.526443, 7.35351562 5.58203077 C 7.59413671 5.66170597, 7.82027149 5.79683352, 8.01171875 5.98828077 C 8.6675539 6.64411545, 8.6675539 7.70744705, 8.01171875 8.36328125 M 5.63671875 8.36328125 Q 5.56696415 8.29352665, 5.5078125 8.21875 C 5.55707741 8.78460026, 5.79741096 9.33647346, 6.23046875 9.76953125'
+        id='moon'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 8 15 L 8 14.9862099 M 15 8.01379013 L 15 8 M 13 13.0137901 L 13 13 M 8 1.01379001 L 8 1 M 13 3.01378989 L 13 3 M 1 8.01379013 L 1 8 M 3 3.01378989 L 3 3 M 3 13.0137901 L 3 13 M 3.09659505 7.01922846 C 2.78145766 8.60233307, 3.23741484 10.3084812, 4.46446562 11.535533 C 5.78302383 12.8540916, 7.65479994 13.2822599, 9.33264446 12.8200359 M 11.535533 11.535533 C 13.4881535 9.58291054, 13.4881544 6.41708708, 11.535533 4.46446609 C 9.58291245 2.51184464, 6.41708708 2.51184487, 4.46446562 4.46446609'
+        id='sun'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 1 1 L 15 15'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

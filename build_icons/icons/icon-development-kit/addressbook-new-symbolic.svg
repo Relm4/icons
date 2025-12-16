@@ -1,0 +1,21 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='contacts new addressbook addressbook-new create ampersand email'>
+  <path d='M 12 8 L 12 13.4974127 C 12 14.3272686, 12.6727314 15, 13.5025873 15 C 14.3310137 14.9985714, 15.0014286 14.32584, 15 13.4974127 L 15 8 C 15 4.13400698, 11.8659925 1, 8 1 M 1 8 C 1 11.8659925, 4.13400698 15, 8 15 L 9 15 M 10.13972 4.61980867 C 11.2578497 5.32908678, 12 6.57787418, 12 8 C 12 10.2091389, 10.2091389 12, 8 12 C 6.6711297 12, 5.49360991 11.3519907, 4.7661972 10.3547297'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 1 4 L 7 4 M 4 1 L 4 7'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

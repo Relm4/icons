@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 2.96875 -0.0117188 v 16.0117188 h 4 v -4.449219 l 0.363281 -0.105469 c 0.839844 -0.234374 1.636719 -1.421874 1.636719 -2.945312 c 0 -0.871094 -0.253906 -1.648438 -0.636719 -2.183594 c -0.382812 -0.539062 -0.859375 -0.816406 -1.363281 -0.816406 c -0.273438 0 -0.5 -0.222656 -0.5 -0.5 s 0.226562 -0.5 0.5 -0.5 c 0.882812 0 1.652344 0.503906 2.175781 1.234375 c 0.523438 0.730469 0.824219 1.703125 0.824219 2.765625 c 0 1.667969 -0.808594 3.023438 -2 3.613281 v 3.886719 h 3 v -4 c 1.382812 0 2.5 -1.566406 2.5 -3.5 s -1.117188 -3.5 -2.5 -3.5 v -5.0117188 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='butt naked rating nudity'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6.5 14 L 6.5 12 C 6.5 12, 8.5 11.5, 8.5 8.5 C 8.5 5.5, 6 5, 6 5'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6.5 14 L 6.5 16 M 10.5 0 L 10.5 5 C 10.5 5, 13 5.5, 13 8.5 C 13 11.5, 11 12, 11 12 L 11 16 M 3 16 L 3 0'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

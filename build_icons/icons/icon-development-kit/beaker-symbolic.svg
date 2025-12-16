@@ -1,0 +1,41 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='applications-science chemistry glass beaker'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 6 1 L 6 5 L 2.05798292 11.5700283 C 1.63819015 12.2696829, 1.62719655 13.1410618, 2.02920437 13.8510838 C 2.43121243 14.5611067, 3.18406963 15, 4 15 L 12 15 C 12.8159304 15, 13.5687876 14.5611057, 13.9707956 13.8510838 C 14.3728027 13.1410618, 14.3618097 12.2696829, 13.9420166 11.5700283 L 10 5 L 10 1 M 5 1 L 11 1'
+        id='beaker'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 6 10 L 5 12 L 11 12 L 10 10 Z'
+        id='liquid'
+        gpa:states='0'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+  <path d='M 6 10 L 5 12 L 11 12 L 10 10 Z'
+        id='fill'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill-opacity='0.25'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+</svg>

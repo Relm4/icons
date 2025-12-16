@@ -1,7 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 3.734375 5.476562 l -2.371094 -2.699218 h -0.363281 v 5.445312 h 0.339844 z m 1.265625 -3.476562 c -0.554688 0 -1 0.445312 -1 1 v 4.777344 c 0 -0.550782 0.449219 -1 1 -1 h 0.363281 c 0.289063 0 0.5625 0.125 0.75 0.339844 l 0.886719 1.007812 v -0.125 c 0 -1.089844 0.910156 -2 2 -2 h 2 v -3 c 0 -0.554688 -0.445312 -1 -1 -1 z m 0 0" fill-opacity="0.34902"/>
-        <path d="m 7.734375 10.476562 l -2.371094 -2.699218 h -0.363281 v 5.445312 h 0.339844 z m 6.265625 -3.476562 h -5 c -0.554688 0 -1 0.445312 -1 1 v 5 c 0 0.554688 0.445312 1 1 1 h 5 c 0.554688 0 1 -0.445312 1 -1 v -5 c 0 -0.554688 -0.445312 -1 -1 -1 z m 0 0"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='camera multicam switch camera-switch video'>
+  <path d='M 12.0549526 12.4413786 L 12.0549526 13.2778091 C 12.0549526 14.2035294, 11.258482 15, 10.3327618 15 L 5.72219086 15 C 4.79647112 15, 4 14.2035294, 4 13.2778091 L 4 11 L 4 9 C 4 7.89543056, 4.89543056 7, 6 7 L 10.027586 7 C 11.1321554 7, 12.027586 7.89543056, 12.027586 9 M 12.0549564 12.4413786 L 15.0017281 14 L 15.0017281 8.33793068 L 12.027586 9.77931023 L 12.027586 9'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 4 4 L 4 2.72219086 C 4 1.79647064, 4.79841757 1, 5.72413778 1 L 9.27780914 1 C 10.2035294 1, 11 1.79647064, 11 2.72219086 L 11 4 M 4 4 L 1.00172806 2 L 1.00172806 5'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

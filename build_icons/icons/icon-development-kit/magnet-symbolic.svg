@@ -1,8 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 8 2 c 3.324219 0 6 2.675781 6 6 s -2.675781 6 -6 6 h -7 l 1 1 v -4 l -1 1 h 7 c 2.207031 0 4 -1.792969 4 -4 s -1.796875 -4 -4.003906 -3.996094 l -7 0.015625 l 1.003906 1 v -4.019531 l -1 1 z m -8 3.019531 c 0 0.265625 0.105469 0.519531 0.292969 0.707031 s 0.441406 0.292969 0.707031 0.292969 l 7 -0.015625 c 1.117188 0 2 0.882813 2 1.996094 c 0 1.117188 -0.882812 2 -2 2 h -7 c -0.550781 0 -1 0.449219 -1 1 v 4 c 0 0.550781 0.449219 1 1 1 h 7 c 4.414062 0 8 -3.585938 8 -8 s -3.585938 -8 -8 -8 h -7 c -0.550781 0 -1 0.449219 -1 1 z m 0 0"/>
-        <path d="m 4 2 h 1 v 2.011719 h -1 z m 0 0"/>
-        <path d="m 4 12 h 1 v 3 h -1 z m 0 0"/>
-    </g>
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='snap magnetism grid magnet'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 1 L 1 5 L 8 5 C 9.65685463 5, 11 6.34314585, 11 8 C 11 9.65685463, 9.65685463 11, 8 11 L 1 11 L 1 15 L 8 15 C 11.8659935 15, 15 11.8659935, 15 8 C 15 4.13400698, 11.8659935 1, 8 1 Z'
+        id='path1'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 4.5 11 L 4.5 15 M 4.5 1 L 4.5 5'
+        id='path3'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

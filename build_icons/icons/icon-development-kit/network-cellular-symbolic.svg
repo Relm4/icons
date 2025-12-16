@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='network-cellular strength signal gsm network-cellular-connected'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9 7 C 9 7.55228472, 8.55228519 8, 8 8 C 7.44771528 8, 7 7.55228472, 7 7 C 7 6.44771528, 7.44771528 6, 8 6 C 8.55228519 6, 9 6.44771528, 9 7 Z M 8 15 L 8 8'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 3.04679203 11.9497509 C 0.313120782 9.21607876, 0.313120782 4.78392124, 3.04679203 2.05024934 M 5.16811562 9.82842731 C 3.60601807 8.26632977, 3.60601807 5.73367023, 5.16811562 4.17157269 M 12.9497471 11.9497509 C 15.6834183 9.21607876, 15.6834183 4.78392124, 12.9497461 2.05024934 M 10.8284225 9.82842731 C 12.3905201 8.26632977, 12.3905201 5.73367023, 10.8284225 4.17157269'
+        id='path4'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

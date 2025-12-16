@@ -1,0 +1,35 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='body brain head iq think thinking mind augmented ai brain-augmented'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 10.5 L 6 10.5 C 5.17157269 10.5, 4.5 11.1715727, 4.5 12 L 4.5 12.5 M 1 8.5 L 3 8.5 C 3.82842708 8.5, 4.5 7.82842731, 4.5 7 L 4.5 6.5 M 8 4.5 L 4.5 4.5'
+        id='path27'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 10 1 C 8.89543056 1, 8 1.89543045, 8 3 L 8 13 C 8 14.1045694, 8.89543056 15, 10 15 M 5 15 C 2.79086089 15, 1 13.2091389, 1 11 L 1 5 C 1 2.79086089, 2.79086089 1, 5 1 L 6 1 C 7.10456944 1, 8 1.89543045, 8 3 L 8 13 C 8 14.1045694, 7.10456944 15, 6 15 Z'
+        id='path22'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 15.5 13.5 C 15.5 14.0522852, 15.0522852 14.5, 14.5 14.5 C 13.9477148 14.5, 13.5 14.0522852, 13.5 13.5 C 13.5 12.9477148, 13.9477148 12.5, 14.5 12.5 C 15.0522852 12.5, 15.5 12.9477148, 15.5 13.5 Z M 10.5 10.5 L 12 10.5 L 13.8159304 12.7699118 M 15.5 7.5 C 15.5 8.05228519, 15.0522852 8.5, 14.5 8.5 C 13.9477148 8.5, 13.5 8.05228519, 13.5 7.5 C 13.5 6.94771528, 13.9477148 6.5, 14.5 6.5 C 15.0522852 6.5, 15.5 6.94771528, 15.5 7.5 Z M 10.5 7.5 L 13.5 7.5 M 15.5 1.5 C 15.5 2.05228472, 15.0522852 2.5, 14.5 2.5 C 13.9477148 2.5, 13.5 2.05228472, 13.5 1.5 C 13.5 0.947715223, 13.9477148 0.5, 14.5 0.5 C 15.0522852 0.5, 15.5 0.947715223, 15.5 1.5 Z M 10.5 4.5 L 12 4.5 L 13.8159304 2.23008752'
+        id='circle40'
+        stroke-width='1'
+        stroke-linecap='square'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

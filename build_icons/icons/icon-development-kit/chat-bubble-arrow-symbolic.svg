@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='chat bubble user-away'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 4 L 11 7 L 8 10 M 5 7 L 11 7 M 1 5 L 1 9 C 1 11.2091389, 2.79086089 13, 5 13 L 7.9931035 13 L 9.99310303 15 L 9.99310303 13 L 11 13 C 13.2091389 13, 15 11.2091389, 15 9 L 15 5 C 15 2.79086089, 13.2091389 1, 11 1 L 5 1 C 2.79086089 1, 1 2.79086089, 1 5 Z'
+        id='away'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

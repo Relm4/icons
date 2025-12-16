@@ -1,10 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 3 7 h 9 v 1 h -9 z m 0 0" fill-rule="evenodd"/>
-        <path d="m 3 3 h 9 v 1 h -9 z m 0 0" fill-rule="evenodd"/>
-        <path d="m 6 12 c -0.554688 0 -1 0.445312 -1 1 s 0.445312 1 1 1 v 2 h 3 v -2 c 0.554688 0 1 -0.445312 1 -1 s -0.445312 -1 -1 -1 z m 0 0"/>
-        <path d="m 4 12 c -0.570312 0 -1 -0.429688 -1 -1 v -8 c 0 -0.570312 0.429688 -1 1 -1 h 7 c 0.570312 0 1 0.429688 1 1 v 8 c 0 0.570312 -0.429688 1 -1 1 v 2 c 1.65625 0 3 -1.34375 3 -3 v -8 c 0 -1.65625 -1.34375 -3 -3 -3 h -7 c -1.65625 0 -3 1.34375 -3 3 v 8 c 0 1.65625 1.34375 3 3 3 z m 0 0"/>
-        <path d="m 6.46875 9.019531 h 2.039062 c 0.273438 0 0.492188 0.21875 0.492188 0.492188 c 0 0.269531 -0.21875 0.488281 -0.492188 0.488281 h -2.039062 c -0.273438 0 -0.492188 -0.21875 -0.492188 -0.488281 c 0 -0.273438 0.21875 -0.492188 0.492188 -0.492188 z m 0 0"/>
-    </g>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='transport transit train mono rail monorail'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 4 13 C 2.89199996 13, 2 12.1079998, 2 11 L 2 3 C 2 1.89199996, 2.89199996 1, 4 1 L 11 1 C 12.1079998 1, 13 1.89199996, 13 3 L 13 11 C 13 12.1079998, 12.1079998 13, 11 13'
+        id='rect1'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6 13 L 9 13'
+        id='path2'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6.5 9.5 L 8.5 9.5 M 2 7.5 L 13 7.5 M 2 3.5 L 13 3.5'
+        id='path1'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 7.5 13 L 7.49922419 16'
+        id='path3'
+        stroke-width='3'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

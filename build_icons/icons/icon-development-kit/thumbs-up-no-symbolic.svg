@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='category hand thumbs thumbsup body finger like emoji-body chat uncontrolled unmonitored uncesored rating social-network-none thumbs-up-no'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 1 L 15 15 M 5.66660881 5.66609812 L 6.73000002 1.94299996 C 6.88940573 1.38484669, 7.39952993 1.00000906, 7.98000002 0.99999994 L 8.02000046 1 C 8.56123924 1.00000024, 9 1.43876112, 9 1.98000002 L 9 5 L 12 5 C 13.1045694 5, 14 5.89543056, 14 7 L 13.283 12.0200014 C 13.2348099 12.3574429, 13.1151009 12.6691055, 12.9405346 12.9405346 M 10.5 14 L 2 14 L 2 8 L 4.5 8'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

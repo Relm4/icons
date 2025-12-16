@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='alternating current power socket wall power'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 12 7.5068965 C 12 8.33532429, 11.3284273 9.00689697, 10.5 9.00689697 C 9.67157269 9.00689697, 9 8.33532429, 9 7.5068965 C 9 6.67846918, 9.67157269 6.0068965, 10.5 6.0068965 C 11.3284273 6.0068965, 12 6.67846918, 12 7.5068965 Z M 7 7.5068965 C 7 8.33532429, 6.32842731 9.00689697, 5.5 9.00689697 C 4.67157269 9.00689697, 4 8.33532429, 4 7.5068965 C 4 6.67846918, 4.67157269 6.0068965, 5.5 6.0068965 C 6.32842731 6.0068965, 7 6.67846918, 7 7.5068965 Z M 8 15 L 8 11 M 8 1 C 11.8780003 1, 15 4.12200022, 15 8 C 15 11.8780003, 11.8780003 15, 8 15 C 4.12200022 15, 1 11.8780003, 1 8 C 1 4.12200022, 4.12200022 1, 8 1 Z'
+        id='ac'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

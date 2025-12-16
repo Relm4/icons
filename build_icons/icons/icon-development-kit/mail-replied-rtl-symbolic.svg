@@ -1,0 +1,39 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='mail-replied-rtl envelope open mail-replied status arrow'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1.18844414 6.42169809 C 1.06549168 6.73778629, 1 7.07782888, 1 7.42621899 L 1 13 C 1 14.1045694, 1.89543056 15, 3 15 L 13 15 C 14.1045704 15, 15 14.1045694, 15 13 L 15 7.36438227 C 15 7.07147741, 14.9516096 6.78473997, 14.8600435 6.51430511'
+        id='enve'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 5.43078232 9.03424644 L 6.84989357 10.2269688 C 7.54699039 10.6955128, 8.45683575 10.7012787, 9.15981483 10.2416086 L 14.8868437 6.49678087'
+        id='open'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 14 3 L 6 3 C 4.89543056 3, 4 3.89543056, 4 5 L 4 8 M 12 1 L 14 3 L 12 5'
+        id='arrow'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

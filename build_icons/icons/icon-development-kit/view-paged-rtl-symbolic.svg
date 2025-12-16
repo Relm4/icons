@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='view-paged-rtl pages non-continuous'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 12 8 L 8.00000381 8 M 12 5 L 8.00000381 5'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 2.00000405 5 L 2.00000405 10 C 2.00000405 12.7614241, 4.23857975 15, 7.00000381 15 L 11 15 M 13 1 L 7.00000381 1 C 5.89543438 1, 5.00000381 1.89543045, 5.00000381 3 L 5.00000381 10 C 5.00000381 11.1045694, 5.89543438 12, 7.00000381 12 L 13 12 C 14.1045704 12, 15 11.1045694, 15 10 L 15 3 C 15 1.89543045, 14.1045704 1, 13 1 Z'
+        id='path7'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

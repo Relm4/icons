@@ -50,5 +50,6 @@ default = []
 
 all = []
 # Enable entire icon kits
-icon-development-kit = []
+icon-development-kit-www = []
 fluent-system-icons = []
+icon-development-kit = []

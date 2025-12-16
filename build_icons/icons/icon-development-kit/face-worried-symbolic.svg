@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='emoji smile face-worried'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 8 1 C 11.8659935 1, 15 4.13400698, 15 8 C 15 11.8659935, 11.8659935 15, 8 15 C 4.13400698 15, 1 11.8659935, 1 8 C 1 4.13400698, 4.13400698 1, 8 1 Z'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6 5 Q 4.99999952 5.91379261, 4 6 M 10 5 Q 11 5.91379261, 12 6 M 9.76573944 11.5 Q 8 10.5, 6.23426056 11.5 M 10.999999 8.49655151 C 10.999999 8.77459812, 10.7745981 9, 10.4965534 9 C 10.2185049 9, 9.99310303 8.77459812, 9.99310303 8.49655151 C 9.99310303 8.21850491, 10.2185049 7.99310303, 10.4965534 7.99310303 C 10.7745981 7.99310303, 10.999999 8.21850491, 10.999999 8.49655151 Z M 6.03448296 8.49655151 C 6.03448296 8.77459812, 5.80908108 9, 5.53103447 9 C 5.25298786 9, 5.02758598 8.77459812, 5.02758598 8.49655151 C 5.02758598 8.21850491, 5.25298786 7.99310303, 5.53103447 7.99310303 C 5.80908108 7.99310303, 6.03448296 8.21850491, 6.03448296 8.49655151 Z'
+        id='worried'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

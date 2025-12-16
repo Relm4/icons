@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 4 0 c -1.648438 0 -3 1.351562 -3 3 c 0 1.296875 0.839844 2.410156 2 2.824219 v 9.175781 h 2 v -9.175781 c 0.847656 -0.300781 1.523438 -0.976563 1.824219 -1.824219 h 2.175781 c 1.117188 0 2 0.882812 2 2 v 4.175781 c -1.160156 0.414063 -2 1.527344 -2 2.824219 c 0 1.648438 1.351562 3 3 3 s 3 -1.351562 3 -3 c 0 -1.296875 -0.839844 -2.410156 -2 -2.824219 v -4.175781 c 0 -2.199219 -1.804688 -4 -4 -4 h -2.175781 c -0.414063 -1.160156 -1.527344 -2 -2.824219 -2 z m 0 1.5 c 0.828125 0 1.5 0.671875 1.5 1.5 s -0.671875 1.5 -1.5 1.5 s -1.5 -0.671875 -1.5 -1.5 s 0.671875 -1.5 1.5 -1.5 z m 8 10 c 0.828125 0 1.5 0.671875 1.5 1.5 s -0.671875 1.5 -1.5 1.5 s -1.5 -0.671875 -1.5 -1.5 s 0.671875 -1.5 1.5 -1.5 z m 0 0" fill="#222222"/>
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='pull-request merge-request version control git svn pull-request-merged'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 14.25 13 C 14.25 14.2426414, 13.2426414 15.25, 12 15.25 C 10.7573614 15.25, 9.75 14.2426414, 9.75 13 C 9.75 11.7573614, 10.7573614 10.75, 12 10.75 C 13.2426414 10.75, 14.25 11.7573614, 14.25 13 Z M 6.25000048 3 C 6.25000048 4.24264097, 5.24264145 5.25, 4 5.25 C 2.75736022 5.25, 1.75 4.24264097, 1.75 3 C 1.75 1.7573595, 2.75736022 0.75, 4 0.75 C 5.24264145 0.75, 6.25000048 1.7573595, 6.25000048 3 Z'
+        id='path2'
+        stroke-width='1.5'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 4 14 L 4 9'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 6.25 3 L 9 3 C 10.6568546 3, 12 4.34314585, 12 6 L 12 10.75 M 4 5.25 L 4 9'
+        id='path8'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
 </svg>

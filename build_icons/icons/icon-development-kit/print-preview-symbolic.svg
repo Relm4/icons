@@ -1,0 +1,21 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='printer print-preview pdf print proof document-print-preview'>
+  <path d='M 4 11 L 4 15 L 6 15 M 5 5 L 5 3 C 5 2.44771528, 5.44771528 2, 6 2 L 10 2 C 10.5522852 2, 11 2.44771528, 11 3 L 11 5 M 15 7 C 15 5.89543056, 14.1045694 5, 13 5 L 3 5 C 1.89543045 5, 1 5.89543056, 1 7 L 1 10 C 1 10.5522852, 1.44771528 11, 2 11 L 4 11 L 4 10 C 4 9.44771576, 4.44771528 9, 5 9'
+        id='path0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 13 13 L 15 15 M 13.7790289 11 C 13.7790289 12.6568546, 12.4358835 14, 10.7790289 14 C 9.12217426 14, 7.77902889 12.6568546, 7.77902889 11 C 7.77902889 9.34314537, 9.12217426 8, 10.7790289 8 C 12.4358835 8, 13.7790289 9.34314537, 13.7790289 11 Z'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

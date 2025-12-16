@@ -1,9 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="16px" viewBox="0 0 16 16" width="16px" xmlns="http://www.w3.org/2000/svg">
-    <g fill="#222222">
-        <path d="m 4 9.976562 l -4 3 l 4 3 v -1.976562 h 8 v 1.976562 l 4 -3 l -4 -3 v 2.023438 h -8 z m 0 0"/>
-        <path d="m 3 3 h 1 v 5 h 1 v 1 h -2 z m 0 0"/>
-        <path d="m 7.5 3 c -0.824219 0 -1.5 0.675781 -1.5 1.5 v 3 c 0 0.824219 0.675781 1.5 1.5 1.5 c 0.820312 0 1.5 -0.675781 1.5 -1.5 v -3 c 0 -0.824219 -0.679688 -1.5 -1.5 -1.5 z m 0 1 c 0.285156 0 0.5 0.214844 0.5 0.5 v 3 c 0 0.285156 -0.214844 0.5 -0.5 0.5 s -0.5 -0.214844 -0.5 -0.5 v -3 c 0 -0.285156 0.214844 -0.5 0.5 -0.5 z m 0 0"/>
-        <path d="m 11.5 3 c -0.824219 0 -1.5 0.675781 -1.5 1.5 v 3 c 0 0.824219 0.675781 1.5 1.5 1.5 s 1.5 -0.675781 1.5 -1.5 v -1.5 h -1.5 v 1 h 0.5 v 0.5 c 0 0.285156 -0.214844 0.5 -0.5 0.5 s -0.5 -0.214844 -0.5 -0.5 v -3 c 0 -0.285156 0.214844 -0.5 0.5 -0.5 s 0.5 0.214844 0.5 0.5 v 0.5 h 1 v -0.5 c 0 -0.824219 -0.675781 -1.5 -1.5 -1.5 z m 0 0"/>
-    </g>
+<svg xmlns='http://www.w3.org/2000/svg'
+     width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='graph function coordinates dataviz science logarithm axis-log-horizontal'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 12.5 4 C 12.5 3.44771528, 12.0522852 3, 11.5 3 C 10.9477148 3, 10.5 3.44771528, 10.5 4 L 10.5 7 C 10.5 7.55228472, 10.9477148 8, 11.5 8 C 12.0522852 8, 12.5 7.55228472, 12.5 7 L 12.5 6 L 12 6 M 6.5 4 L 6.5 7 C 6.5 7.55228472, 6.94771528 8, 7.5 8 L 7.50048542 8 C 8.0527544 8, 8.50044155 7.55226898, 8.50038815 7 L 8.50009727 4 C 8.50004387 3.44769955, 8.05230045 3, 7.5 3 C 6.94771528 3, 6.5 3.44771528, 6.5 4 Z M 3.5 3 L 3.5 8 L 4.5 8'
+        id='path3'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='1'
+        stroke-linecap='square'
+        stroke-linejoin='miter'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 13 11 L 15 13 L 13 15 M 3 11 L 1 13 L 3 15 M 1 13 L 15 13'
+        id='path6'
+        gpa:states='0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
 </svg>

@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='bluetooth-disabled device radio wireless bluetooth-active'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 1 L 15 15 M 9.5 13 L 7 15 L 7 10.4740191 M 7 7 L 7 3 L 7 1 L 12 5 L 10.0471697 6.08490562 L 7.5 7.5 M 4.95283031 8.91509438 L 3 10'
+        id='bt'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

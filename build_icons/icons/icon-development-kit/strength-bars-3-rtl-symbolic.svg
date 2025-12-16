@@ -1,0 +1,47 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='strength-bars-3-rtl network-cellular-signal-ok-rtl'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 5.50752306 14 C 5.78366518 13.9958458, 6.00415421 13.7686195, 6 13.4924774 L 6 5.50752306 C 6 5.22722578, 5.77277517 5, 5.49247694 5 C 5.21633482 5.00415468, 4.99584484 5.23138046, 5 5.50752306 L 5 13.4924774 C 5 13.7727747, 5.22722483 14, 5.50752306 14 Z M 1 13.4924774 L 1 2.50752306 C 1 2.22722602, 1.2272253 2.00000024, 1.50752258 2 C 1.7836647 2.00415468, 2.00415492 2.23138046, 2 2.50752306 L 2 13.4924774 C 2 13.7727747, 1.7727747 14, 1.49247742 14 C 1.2163353 13.9958458, 0.995845795 13.7686195, 1 13.4924774 Z'
+        id='empty'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 13.5075226 14 C 13.7836647 13.9958448, 14.0041552 13.7686195, 14 13.4924774 L 14 11.5075226 C 14 11.2272253, 13.7727737 11, 13.4924774 11 C 13.2163353 11.0041552, 12.9958448 11.2313814, 13 11.5075226 L 13 13.4924774 C 13 13.7727747, 13.2272263 14, 13.5075226 14 Z M 9.50752354 14 C 9.78366566 13.9958448, 10.0041552 13.7686195, 10 13.4924774 L 10 8.50752258 C 10 8.2272253, 9.77277374 8, 9.49247646 8 C 9.21633434 8.00415516, 8.99584484 8.23138046, 9 8.50752258 L 9 13.4924774 C 9 13.7727747, 9.22722626 14, 9.50752354 14 Z'
+        id='fill'
+        gpa:states='1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+  <path d='M 13.5075226 14 C 13.7836647 13.9958448, 14.0041552 13.7686195, 14 13.4924774 L 14 11.5075226 C 14 11.2272253, 13.7727737 11, 13.4924774 11 C 13.2163353 11.0041552, 12.9958448 11.2313814, 13 11.5075226 L 13 13.4924774 C 13 13.7727747, 13.2272263 14, 13.5075226 14 Z M 9.50752354 14 C 9.78366566 13.9958448, 10.0041552 13.7686195, 10 13.4924774 L 10 8.50752258 C 10 8.2272253, 9.77277374 8, 9.49247646 8 C 9.21633434 8.00415516, 8.99584484 8.23138046, 9 8.50752258 L 9 13.4924774 C 9 13.7727747, 9.22722626 14, 9.50752354 14 Z'
+        id='stroke'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill-rule='nonzero'
+        fill-opacity='0.25'
+        fill='rgb(0,0,0)'
+        class='foreground-stroke foreground-fill not-initial-state'
+        gpa:stroke='foreground'
+        gpa:fill='foreground'/>
+</svg>

@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='input-gaming applications-games controller gamepad'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 5.51034498 L 1 11 C 1 12.6568546, 2.34314585 14, 4 14 C 4.55172396 14, 5 13.6643639, 5 13 C 5 11.8954306, 5.89543056 11, 7 11 L 9 11 C 10.1045694 11, 11 11.8954306, 11 13 C 11 13.7172413, 11.5302238 14, 12 14 C 13.6568546 14, 15 12.6568546, 15 11 L 15 5.51034498 C 15 3.01935005, 12.980649 0.999999881, 10.4896545 1.00000012 L 5.51034498 1 C 3.01935029 1.00000012, 1.00000012 3.01935029, 1.00000012 5.51034498 Z'
+        id='path1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 12.0246801 6 L 12.0493603 6 M 10 4 L 10.0246801 4 M 4 6 L 8 6 M 6 4 L 6 8'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

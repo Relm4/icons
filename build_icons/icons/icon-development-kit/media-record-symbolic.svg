@@ -1,0 +1,37 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='media-record rec playback redmeansrecording'
+     gpa:state='1'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 2 8 C 2 11.3137083, 4.68629169 14, 8 14 C 11.3137083 14, 14 11.3137083, 14 8 C 14 4.68629169, 11.3137083 2, 8 2 C 4.68629169 2, 2 4.68629169, 2 8 Z'
+        id='path0'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill not-initial-state'
+        gpa:stroke='foreground'/>
+  <path d='M 2 8 C 2 11.3137083, 4.68629169 14, 8 14 C 11.3137083 14, 14 11.3137083, 14 8 C 14 4.68629169, 11.3137083 2, 8 2 C 4.68629169 2, 2 4.68629169, 2 8 Z'
+        id='path1'
+        gpa:states='1'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(0,0,0)'
+        class='foreground-fill'
+        gpa:fill='foreground'/>
+  <path d='M 2 8 C 2 11.3137083, 4.68629169 14, 8 14 C 11.3137083 14, 14 11.3137083, 14 8 C 14 4.68629169, 11.3137083 2, 8 2 C 4.68629169 2, 2 4.68629169, 2 8 Z'
+        id='path1'
+        gpa:states='2'
+        stroke='none'
+        fill-rule='nonzero'
+        fill='rgb(255,0,0)'
+        class='error-fill not-initial-state'
+        gpa:fill='error'/>
+</svg>

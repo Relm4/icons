@@ -1,0 +1,43 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='question lan network-wired-no-route'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 3 8 L 3 12 M 8 8 L 8 4 M 9 8 L 0 8'
+        id='cables'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='butt'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 1 13 L 1 14 C 1 14.5522852, 1.44771528 15, 2 15 L 4 15 C 4.55228472 15, 5 14.5522852, 5 14 L 5 13 C 5 12.4477148, 4.55228472 12, 4 12 L 2 12 C 1.44771528 12, 1 12.4477148, 1 13 Z M 6 2 L 6 3 C 6 3.55228472, 6.44771528 4, 7 4 L 9 4 C 9.55228519 4, 10 3.55228472, 10 3 L 10 2 C 10 1.44771528, 9.55228519 1, 9 1 L 7 1 C 6.44771528 1, 6 1.44771528, 6 2 Z'
+        id='outline'
+        gpa:states='0'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke-opacity='0.25'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+  <path d='M 12 12 L 13.456172 12 C 14.3088064 12, 15 11.3088064, 15 10.456172 C 14.9757948 9.62774467, 14.2845993 8.97579479, 13.456172 9 L 11 9 M 12 15 L 12 14.9815998'
+        id='question'
+        gpa:states='0 1'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

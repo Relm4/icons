@@ -1,0 +1,27 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='audio speakers sound noise boom speaker'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 10.5 10 C 10.5 11.3807116, 9.38071156 12.5, 8 12.5 C 6.61928797 12.5, 5.5 11.3807116, 5.5 10 C 5.5 8.61928844, 6.61928797 7.5, 8 7.5 C 9.38071156 7.5, 10.5 8.61928844, 10.5 10 Z'
+        id='path5'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 8 10 L 8 10.0010004 M 8 4 L 8 4.00099993 M 5 1 L 11 1 C 12.1079998 1, 13 1.89199996, 13 3 L 13 13 C 13 14.1079998, 12.1079998 15, 11 15 L 5 15 C 3.89199996 15, 3 14.1079998, 3 13 L 3 3 C 3 1.89199996, 3.89199996 1, 5 1 Z'
+        id='path4'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

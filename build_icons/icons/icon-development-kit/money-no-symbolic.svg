@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='ad advertizing rating cash dollar bills usd money-none money-no'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 1 L 15 15 M 8 11.5 L 8 14 M 8 2 L 8 8 M 12 4 L 5 4 C 4.70653057 4, 4.4278245 4.0632081, 4.17675257 4.17675257 M 3.08775902 6.58775949 C 3.28174949 7.21965265, 3.78034711 7.71825027, 4.41224051 7.91224051 M 8 8 L 11 8 C 12.1045694 8, 13 8.89543056, 13 10 C 13 10.8111, 12.517169 11.509429, 11.8232479 11.823247 M 8.5 12 L 4 12'
+        id='path55'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

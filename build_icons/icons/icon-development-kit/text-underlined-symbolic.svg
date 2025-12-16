@@ -1,0 +1,29 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='text ab underline squiggly line tools-check-spelling'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 9 2 L 9 9 L 11 9 C 12.1045694 9, 13 8.10456944, 13 7 C 13 5.89543056, 12.1045694 5, 11 5 L 9 5 M 3 3 L 4 3 C 5.10456944 3, 6 3.89543056, 6 5 L 6 9 L 3.55087733 9 C 2.69435143 9, 2.00000024 8.3056488, 2 7.44912291 C 2.02809858 6.62069559, 2.72245002 5.97190094, 3.55087733 6 L 6 6'
+        id='path5'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+  <path d='M 1 13 L 3 11 L 5 13 L 7 11 L 9 13 L 11 11 L 13 13 L 15 11'
+        id='path6'
+        stroke-width='1'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        gpa:stroke-width='0.25 1 2'
+        fill='none'
+        class='foreground-stroke transparent-fill'
+        gpa:stroke='foreground'/>
+</svg>

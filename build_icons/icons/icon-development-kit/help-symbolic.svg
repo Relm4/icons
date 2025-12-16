@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='system-help dialog-question ask prompt questionmark'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 15 8 C 15 11.8659925, 11.8659925 15, 8 15 C 4.13400698 15, 1 11.8659925, 1 8 C 1 4.13400698, 4.13400698 1, 8 1 C 11.8659925 1, 15 4.13400698, 15 8 Z M 8 11.965517 L 8 12 M 6 6 C 6 4.89543056, 6.89543056 4, 8 4 C 9.10456944 4, 10 4.89543056, 10 6 C 10 7.59709549, 8 7.69847298, 8 9'
+        id='help'
+        stroke-width='2'
+        stroke-linecap='square'
+        stroke-linejoin='bevel'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>

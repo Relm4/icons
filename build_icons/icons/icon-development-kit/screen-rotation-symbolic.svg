@@ -1,0 +1,19 @@
+<svg width='16' height='16'
+     xmlns:gpa='https://www.gtk.org/grappa'
+     gpa:version='1'
+     gpa:keywords='screen rotation lock angled-arrows'
+     gpa:state='0'>
+  <style type='text/css'>
+    .not-initial-state {
+      display: none;
+    }
+  </style>
+  <path d='M 1 2.99384093 L 1 5.99384117 L 4 5.99384117 M 1 5.99384117 L 5.29310322 1.70073843 C 6.23579597 0.758045077, 7.76420403 0.758045077, 8.70689678 1.70073831 L 14 6.99384117 M 15 13 L 15 10 L 12 10 M 15 10 L 10.7068968 14.2931032 C 9.76420403 15.2357969, 8.23579597 15.2357969, 7.29310322 14.2931032 L 2 9'
+        id='rotation'
+        stroke-width='2'
+        stroke-linecap='round'
+        stroke-linejoin='round'
+        stroke='rgb(0,0,0)'
+        fill='none'
+        class='foreground-stroke transparent-fill'/>
+</svg>
