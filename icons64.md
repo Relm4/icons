@@ -10523,9 +10523,6 @@
   <a href="build_icons/icons/material-symbols/egg-symbolic.svg">
     <img src="build_icons/icons/material-symbols/egg-symbolic.svg" width="64" alt="egg-alt">
   </a>
-  <a href="build_icons/icons/material-symbols/egg-alt-symbolic.svg">
-    <img src="build_icons/icons/material-symbols/egg-alt-symbolic.svg" width="64" alt="egg-alt-alt">
-  </a>
   <a href="build_icons/icons/material-symbols/egg-alt-fill-symbolic.svg">
     <img src="build_icons/icons/material-symbols/egg-alt-fill-symbolic.svg" width="64" alt="egg-alt-fill">
   </a>
@@ -24302,9 +24299,6 @@
   <a href="build_icons/icons/material-symbols/screen-rotation-symbolic.svg">
     <img src="build_icons/icons/material-symbols/screen-rotation-symbolic.svg" width="64" alt="screen-rotation-alt">
   </a>
-  <a href="build_icons/icons/material-symbols/screen-rotation-alt-symbolic.svg">
-    <img src="build_icons/icons/material-symbols/screen-rotation-alt-symbolic.svg" width="64" alt="screen-rotation-alt-alt">
-  </a>
   <a href="build_icons/icons/material-symbols/screen-rotation-alt-fill-symbolic.svg">
     <img src="build_icons/icons/material-symbols/screen-rotation-alt-fill-symbolic.svg" width="64" alt="screen-rotation-alt-fill">
   </a>
@@ -28378,9 +28372,6 @@
   </a>
   <a href="build_icons/icons/material-symbols/task-symbolic.svg">
     <img src="build_icons/icons/material-symbols/task-symbolic.svg" width="64" alt="task-alt">
-  </a>
-  <a href="build_icons/icons/material-symbols/task-alt-symbolic.svg">
-    <img src="build_icons/icons/material-symbols/task-alt-symbolic.svg" width="64" alt="task-alt-alt">
   </a>
   <a href="build_icons/icons/material-symbols/task-alt-fill-symbolic.svg">
     <img src="build_icons/icons/material-symbols/task-alt-fill-symbolic.svg" width="64" alt="task-alt-fill">
