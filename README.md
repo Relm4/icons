@@ -7,7 +7,7 @@
 ![Minimum Rust version 1.85](https://img.shields.io/badge/rustc-1.85+-06a096.svg)
 [![dependency status](https://deps.rs/repo/github/Relm4/icons/status.svg)](https://deps.rs/repo/github/Relm4/icons)
 
-More than 3000 icons, ready for use in your app!
+More than 10,000 icons, ready for use in your app!
 
 ## Installing librsvg
 
@@ -29,7 +29,7 @@ gvsbuild build librsvg
 
 ### 1. Find your icons 🔍
 
-You can either use the of the over 3000 shipped icons or your own icons.
+You can use any of the over 10,000 shipped icons or your own icons.
 You can browse the shipped icons using one of the following methods:
 
 For icons from the GNOME [icon-development-kit](https://gitlab.gnome.org/Teams/Design/icon-development-kit):

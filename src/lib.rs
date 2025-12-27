@@ -1,4 +1,4 @@
-//! More than 3000 icons, ready for use in your app!
+//! More than 10,000 icons, ready for use in your app!
 //!
 //! # Sources
 //!
