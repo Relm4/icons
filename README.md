@@ -39,6 +39,9 @@ For icons from the GNOME [icon-development-kit](https://gitlab.gnome.org/Teams/D
 For icons from [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons):
 + Browse the [fluent icon library catalog](https://aka.ms/fluentui-system-icons)
 
+For icons from [Material Symbols](https://github.com/marella/material-symbols/):
++ Browse the [Google Fonts Material Symbols resource](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Outlined) website
+
 For icons from [the previous version of the GNOME development kit](https://gitlab.gnome.org/Teams/Design/icon-development-kit-www/):
 + Browse the [archived GNOME icon resource](https://web.archive.org/web/20250718142224/https://teams.pages.gitlab.gnome.org/Design/icon-development-kit-www/).
 
@@ -151,6 +154,7 @@ git submodule update --remote --checkout
 rm -rf build_icons/icons/fluentui-system-icons
 rm -rf build_icons/icons/icon-development-kit-www
 rm -rf build_icons/icons/icon-development-kit
+rm -rf build_icons/icons/material-design-icons
 cd update_icons
 cargo run --bin fetch_icons
 cargo run
@@ -170,5 +174,6 @@ The source code of Relm4 icons is licensed under the terms of both the MIT licen
 
 + The icons in the `icons/icon-development-kit` and `icons/icon-development-kit-www` folders are licensed under the terms of the [CC0 license](https://creativecommons.org/share-your-work/public-domain/cc0/) and therefore public domain.
 + The icons in the `icons/fluentui-system-icons` folder are licensed under the terms of the [MIT license](https://opensource.org/license/MIT/).
++ The icons in the `icons/material-design-icons` folder are licensed under the terms of the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
 
-Both licenses should work for both open source and proprietary applications (without warranty).
+These licenses should work for both open source and proprietary applications (without warranty).

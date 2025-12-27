@@ -6,6 +6,7 @@
 //!
 //! + [icon-development-kit](https://gitlab.gnome.org/Teams/Design/icon-development-kit) ([CC0 license](https://gitlab.gnome.org/Teams/Design/icon-development-kit/-/blob/main/COPYING.md))
 //! + [fluentui-system-icons](https://github.com/microsoft/fluentui-system-icons) ([MIT license](https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE))
+//! + [material-symbols](https://github.com/marella/material-symbols) ([Apache 2.0 License](https://github.com/marella/material-symbols/blob/main/LICENSE))
 
 #![warn(
     missing_debug_implementations,
