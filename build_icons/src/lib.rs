@@ -180,7 +180,10 @@ pub fn bundle_icons<P, I, S>(
         .unwrap();
         for (icon, IconData { path, is_shipped }) in &icons {
             if *is_shipped {
-                let const_name = icon.to_uppercase().replace('-', "_");
+                let mut const_name = icon.to_uppercase().replace('-', "_");
+                if const_name.starts_with(|c: char| c.is_ascii_digit()) {
+                    const_name = format!("ICON_{const_name}");
+                }
                 let path = path.display();
                 writeln!(
                     out_file,

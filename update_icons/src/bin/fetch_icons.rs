@@ -75,6 +75,20 @@ impl IconFilter for FluentFilter {
     }
 }
 
+struct MaterialFilter;
+
+impl IconFilter for MaterialFilter {
+    fn icon_name(path: &Path) -> Option<String> {
+        path.file_stem()
+            .and_then(|s| s.to_str())
+            .map(|s| format!("{}-symbolic.svg", s.replace('_', "-")))
+    }
+
+    fn alt_icon_name2(name: &str) -> String {
+        name.replace("-symbolic.svg", "-material-alt-symbolic.svg")
+    }
+}
+
 fn main() {
     let mut list = HashMap::new();
     analyze_dir::<DevKitWwwFilter>("../source/icon-development-kit-www/img/symbolic", &mut list);
@@ -87,6 +101,10 @@ fn main() {
     let mut list = HashMap::new();
     analyze_dir::<FluentFilter>("../source/fluentui-system-icons/assets", &mut list);
     copy_files("../build_icons/icons/fluentui-system-icons", list);
+
+    let mut list = HashMap::new();
+    analyze_dir::<MaterialFilter>("../source/material-symbols/svg/400/outlined", &mut list);
+    copy_files("../build_icons/icons/material-symbols", list);
 }
 
 fn copy_files(path: &str, list: HashMap<String, PathBuf>) {
