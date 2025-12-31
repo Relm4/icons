@@ -32,6 +32,7 @@ fn main() {
         "icon-development-kit-www",
         "icon-development-kit",
         "fluentui-system-icons",
+        "material-symbols",
     ]);
 
     let icons16_generator = Generator {
