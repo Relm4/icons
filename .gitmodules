@@ -10,3 +10,6 @@
 	path = source/icon-development-kit
 	url = https://gitlab.gnome.org/Teams/Design/icon-development-kit.git
 	update = none
+[submodule "source/material-symbols"]
+	path = source/material-symbols
+	url = https://github.com/marella/material-symbols.git
