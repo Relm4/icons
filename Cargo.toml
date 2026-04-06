@@ -37,7 +37,7 @@ categories.workspace = true
 exclude = ["source/"]
 
 [dependencies]
-gtk = { version = "0.10", package = "gtk4" }
+gtk = { version = "0.11", package = "gtk4" }
 
 [package.metadata.docs.rs]
 all-features = true
