@@ -16,7 +16,7 @@ keywords.workspace = true
 categories.workspace = true
 
 [dependencies]
-gvdb = { version = "0.9.0", features = ["gresource"] }
+gvdb = { version = "0.10.0", features = ["gresource"] }
 serde = { version = "1.0.219", features = ["derive"] }
 toml = { version = "1.0.3" }
 walkdir = "2.5.0"
