@@ -4,9 +4,9 @@ members = ["update_icons", "build_icons"]
 
 [workspace.package]
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
-version = "0.10.1"
-edition = "2021"
-rust-version = "1.75"
+version = "0.11.0"
+edition = "2024"
+rust-version = "1.92"
 license = "(Apache-2.0 OR MIT) AND CC0-1.0 AND MIT"
 description = "Icons for gtk-rs and Relm4 applications"
 
