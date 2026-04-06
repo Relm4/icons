@@ -21,7 +21,7 @@
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
 use gtk::{
-    gio::{resources_register, Resource},
+    gio::{Resource, resources_register},
     glib,
 };
 
